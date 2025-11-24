@@ -26,7 +26,7 @@ ipython_config.py
 /.quarto/
 pages/*_cache/
 pages/*_files/
-/notes/
+# /notes/
 /_do-not-build/**
 
 # Spelling
