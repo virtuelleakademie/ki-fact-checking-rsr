@@ -1,0 +1,211 @@
+---
+title: "Teil 3: Lateral Reading"
+subtitle: "Die Technik in drei Runden üben"
+---
+
+**Dauer:** 19 Minuten
+
+---
+
+## Kurze Zusammenfassung (30 Sek)
+
+> Lateral Reading bedeutet: Weg von der KI, hin zu unabhängigen Quellen. Nicht die KI nochmal fragen. Nicht eine andere KI fragen. Sondern: **Originale Quellen suchen.**
+>
+> Ihr habt das gerade bei mir gesehen. Jetzt übt ihr.
+
+---
+
+## Runde 1: Gemeinsam (6 Min) {#runde-1}
+
+**Guided Practice – alle arbeiten am selben Beispiel**
+
+::: {.scenario}
+## Das Szenario
+
+Die KI sagt dir:
+
+> "Das durchschnittliche Gehalt für Verwaltungsmitarbeitende an Schweizer Universitäten liegt bei CHF 78'000 brutto pro Jahr."
+
+Du willst das für einen Budgetantrag verwenden. **Wie überprüfst du das?**
+:::
+
+### Schritt für Schritt gemeinsam
+
+::: {.source-check}
+## Schritt 1: Suchbegriffe formulieren (1 Min)
+
+```
+Nicht: "Stimmt das?"
+Nicht: "Ist 78000 korrekt?"
+Sondern: "Schweiz Universität Verwaltung Gehalt Statistik"
+```
+:::
+
+::: {.source-check}
+## Schritt 2: Suchergebnisse filtern (1 Min)
+
+| Was du siehst | Bewertung |
+|---------------|-----------|
+| jobs.ch, indeed.ch | Stellenanzeigen – nützlich, aber nicht offiziell |
+| KI-generierte Zusammenfassung | Überspringen |
+| Wikipedia | Sekundärquelle – als Einstieg OK, aber nicht zitierbar |
+| BFS, swissuniversities | Primärquellen – das suchen wir |
+| Blog, News-Artikel | Können auf Primärquelle verweisen – Link folgen |
+:::
+
+::: {.source-check}
+## Schritt 3: Zur Quelle gehen (2 Min)
+
+> Klicke niemals nur auf die Google-Zusammenfassung. Geh zur echten Website.
+
+**Demonstriere:**
+
+- BFS-Website öffnen
+- Navigation zur richtigen Statistik
+- Die Zahl finden (oder feststellen, dass es diese spezifische Zahl nicht gibt)
+:::
+
+### Ergebnis (2 Min)
+
+> Wir haben jetzt gelernt: Die genaue Zahl gibt es in dieser Form nicht. Das bedeutet:
+>
+> - Die KI hat wahrscheinlich kombiniert oder geschätzt
+> - Für einen Budgetantrag: **Nicht verwendbar**
+> - Du müsstest andere Kennzahlen nutzen oder direkt bei HR anfragen
+>
+> **Wichtiger als die Zahl zu finden: Du weisst jetzt, DASS die KI-Zahl nicht verifizierbar ist.**
+
+---
+
+## Runde 2: Scaffolded Practice (7 Min) {#runde-2}
+
+::: {.individual}
+## Wähle ein Szenario
+
+Wähle das Szenario, das deinem Arbeitsbereich am nächsten kommt.
+
+{{< timer 4 >}}
+:::
+
+### Die 6 Szenarien
+
+::: {.scenario}
+### Szenario A: Rechtliches
+
+KI sagt: "Personaldossiers müssen in der Schweiz 10 Jahre nach Austritt aufbewahrt werden."
+
+**Deine Aufgabe:** Finde die offizielle rechtliche Grundlage.
+
+**Tipp:** EDÖB, admin.ch, OR
+:::
+
+::: {.scenario}
+### Szenario B: Statistik
+
+KI sagt: "Die Universität Bern hatte im HS 2023 genau 18'734 Studierende."
+
+**Deine Aufgabe:** Finde die offizielle Statistik.
+
+**Tipp:** Uni Bern Website, BFS
+:::
+
+::: {.scenario}
+### Szenario C: Budget
+
+KI sagt: "Ein Team-Event mit 20 Personen in Bern kostet durchschnittlich CHF 90 pro Person."
+
+**Deine Aufgabe:** Wie würdest du das überprüfen?
+
+**Tipp:** Lokale Anbieter, frühere Events, Vergleichsangebote
+:::
+
+::: {.scenario}
+### Szenario D: Prozess
+
+KI sagt: "Reisekostenabrechnungen müssen innerhalb von 30 Tagen nach Reiseende eingereicht werden."
+
+**Deine Aufgabe:** Finde die offizielle Uni-Regelung.
+
+**Tipp:** Uni-Intranet, HR-Richtlinien
+:::
+
+::: {.scenario}
+### Szenario E: Weiterbildung
+
+KI sagt: "Mitarbeitende haben Anspruch auf 5 Tage bezahlte Weiterbildung pro Jahr."
+
+**Deine Aufgabe:** Stimmt das für deine Institution?
+
+**Tipp:** Personalreglement, GAV
+:::
+
+::: {.scenario}
+### Szenario F: Technisches
+
+KI sagt: "Microsoft 365 Lizenzen kosten Schweizer Unis durchschnittlich CHF 45 pro Nutzer/Jahr."
+
+**Deine Aufgabe:** Wie würdest du das verifizieren?
+
+**Tipp:** IT-Services, swissuniversities Rahmenverträge
+:::
+
+---
+
+### Auswertung (3 Min)
+
+::: {.group}
+## Ergebnisse teilen
+
+> Wer hat etwas Interessantes gefunden?
+
+2–3 Teilnehmende teilen kurz:
+
+- Welches Szenario?
+- Welche Quelle gefunden?
+- War die KI richtig, falsch, oder unklar?
+:::
+
+---
+
+## Runde 3: Eigenes Beispiel (5 Min) {#runde-3}
+
+::: {.individual}
+## Dein eigener Anwendungsfall
+
+Denk an deine eigene Arbeit. Was könntest du diese Woche von einer KI erfragen?
+
+**3 Minuten:**
+
+1. Überleg dir eine konkrete Frage
+2. Frag die KI
+3. Entscheide: Braucht das Verifikation?
+4. Wenn ja: Wo würdest du nachschauen?
+
+{{< timer 3 >}}
+:::
+
+---
+
+### Quick Share (2 Min)
+
+::: {.group}
+## Freiwillige teilen
+
+> Wer möchte sein Beispiel teilen?
+
+2 Freiwillige:
+
+- Was war die Frage?
+- Braucht es Verifikation?
+- Welche Quelle würdest du nutzen?
+:::
+
+---
+
+## Troubleshooting
+
+### Teilnehmende finden keine Quelle
+
+**Das ist selbst lehrreich:**
+
+> Perfekt – du hast entdeckt: Es gibt keine offizielle Quelle dafür. Das bedeutet: Die KI-Antwort ist spekulativ. **Verwende das nicht für wichtige Entscheidungen.**

@@ -1,0 +1,78 @@
+---
+title: "Teil 4: Die Entscheidungsregel"
+subtitle: "Wann verifizieren?"
+---
+
+**Dauer:** 3 Minuten
+
+---
+
+## Die Eine Frage (1 Min)
+
+::: {.key-point}
+## Die Entscheidungsregel
+
+**Würdest du diese Information in einem formellen Dokument zitieren?**
+
+| Antwort | Konsequenz |
+|---------|------------|
+| **JA** | Extern verifizieren |
+| **NEIN** | KI-Antwort reicht |
+:::
+
+> Eine einfache Frage hilft dir entscheiden:
+>
+> Würdest du diese Info in einem Bericht zitieren? In einem Antrag verwenden? Als Grundlage für eine Entscheidung nutzen?
+
+### Beispiele
+
+| Situation | Entscheidung |
+|-----------|--------------|
+| Brainstorming für Meeting-Agenda | KI reicht |
+| Teilnehmerzahl für Budget-Rechnung | Verifizieren |
+| Ideen für Email-Formulierung | KI reicht |
+| Rechtliche Grundlage für Entscheidung | Verifizieren |
+
+---
+
+## Quellen-Shortcuts (1 Min)
+
+| Kategorie | Quellen |
+|-----------|---------|
+| Zahlen, Statistiken | BFS (bfs.admin.ch), SECO, Uni-Statistiken |
+| Rechtliches | admin.ch, EDÖB, Rechtsdienst |
+| Uni-interne Prozesse | Intranet, HR-Richtlinien, Fachabteilung direkt |
+| Ideen, Brainstorming | KI allein ist OK |
+
+---
+
+## Abschluss (1 Min)
+
+> **Drei Dinge zum Mitnehmen:**
+>
+> **Erstens:** KI generiert plausible Antworten – nicht geprüfte Fakten. Beide Modi (Training und Web-Suche) können versagen.
+>
+> **Zweitens:** KI bestätigt deine Annahmen. Je sicherer du bist, desto skeptischer solltest du sein.
+>
+> **Drittens:** Lateral Reading – raus aus der KI, eigene Suche, Primärquellen – dauert 2–5 Minuten und lohnt sich bei jeder wichtigen Entscheidung.
+
+::: {.pro-tip}
+## Tipp für Fortgeschrittene
+
+Wenn du lange mit einer KI an einem Thema gearbeitet hast, starte eine frische Konversation für eine Realitätsprüfung. Der Kontext-Aufbau beeinflusst die Antworten.
+:::
+
+> Viel Erfolg.
+
+---
+
+## Erfolgskriterien
+
+**Minimal-Erfolg:**
+Teilnehmende verstehen, warum KI-Antworten nicht selbst-verifizierend sind, und kennen eine vertrauenswürdige Quelle für ihren Bereich.
+
+**Guter Erfolg:**
+Teilnehmende haben erlebt, wie Framing die Antwort beeinflusst, und können Lateral Reading anwenden.
+
+**Optimaler Erfolg:**
+Teilnehmende sind überzeugt, dass sie bei wichtiger KI-Nutzung externe Quellen konsultieren werden – und wissen, dass sie besonders skeptisch sein sollten, wenn die KI ihre bestehende Meinung bestätigt.

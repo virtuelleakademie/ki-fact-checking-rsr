@@ -1,0 +1,42 @@
+---
+title: "Framing"
+subtitle: "Warum KI-Antworten problematisch sind"
+---
+
+**Dauer:** 2 Minuten
+
+---
+
+## Moderationstext
+
+> Bevor wir anfangen, eine wichtige Unterscheidung.
+>
+> KI-Chatbots wie ChatGPT arbeiten auf zwei Arten: Manchmal durchsuchen sie das Web und fassen Ergebnisse zusammen. Manchmal generieren sie Antworten aus dem, was sie im Training gelernt haben. Als Nutzer kannst du oft nicht sehen, welcher Modus gerade aktiv ist.
+>
+> Beide Modi haben Probleme:
+
+::: {.callout-warning appearance="minimal"}
+## Wenn die KI aus dem Training generiert
+
+Sie kann spezifische, falsche Antworten erfinden – und sie klingen genauso überzeugend wie richtige.
+:::
+
+::: {.callout-warning appearance="minimal"}
+## Wenn die KI das Web durchsucht
+
+Sie kann Quellen falsch interpretieren, Zitate aus dem Kontext reissen, oder – das passiert tatsächlich – Quellen zitieren, die gar nicht existieren.
+:::
+
+> In beiden Fällen: Wenn du die KI fragst "Stimmt das?", bekommst du keine echte Prüfung. Du bekommst die nächste plausible Antwort.
+>
+> Deshalb die Technik, die wir heute üben: **Lateral Reading**. Raus aus der KI, eigene Suche, Primärquellen finden.
+>
+> Los geht's.
+
+---
+
+::: {.key-point}
+## Kernbotschaft
+
+KI produziert plausible Antworten, keine geprüften Fakten. Die Lösung: Externe Verifikation durch Lateral Reading.
+:::

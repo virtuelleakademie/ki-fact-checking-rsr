@@ -1,0 +1,96 @@
+---
+title: "Quick Reference Card"
+subtitle: "KI-Antworten verifizieren"
+format:
+  html:
+    toc: true
+---
+
+## Warum Verifikation nötig ist
+
+- KI generiert plausible Antworten, keine geprüften Fakten
+- Selbst mit Web-Suche: kann Quellen falsch interpretieren
+- KI kann ihre eigenen Fehler nicht zuverlässig erkennen
+- KI ist trainiert, dir zuzustimmen – nicht zu korrigieren
+
+---
+
+## Die Eine Frage
+
+::: {.callout-important appearance="minimal"}
+**Würde ich diese Information in einem formellen Dokument zitieren?**
+
+- **JA** = Extern verifizieren (Lateral Reading)
+- **NEIN** = KI-Antwort reicht
+:::
+
+---
+
+## Lateral Reading in 3 Schritten
+
+### 1. Suchbegriffe formulieren
+
+| | |
+|---|---|
+| Nicht | "Stimmt das?" oder KI nochmal fragen |
+| Sondern | "[Thema] Schweiz Statistik/Gesetz" |
+
+### 2. Suchergebnisse filtern
+
+| Quelle | Bewertung |
+|--------|-----------|
+| .gov, .ch, .edu, offizielle Berichte | Klicken |
+| Wikipedia | Nur als Einstieg |
+| KI-Zusammenfassungen, Blogs, Foren | Überspringen |
+
+### 3. Zur Original-Quelle gehen
+
+- Nicht nur Google-Zusammenfassung lesen
+- Website öffnen, echte Daten finden
+
+---
+
+## Deine Quellen-Shortcuts
+
+### Zahlen & Statistiken
+
+- [bfs.admin.ch](https://www.bfs.admin.ch) (Bundesamt für Statistik)
+- [seco.admin.ch](https://www.seco.admin.ch) (Arbeitsmarkt, Wirtschaft)
+- Uni-eigene Zahlen & Fakten
+
+### Recht & Regulierung
+
+- [admin.ch](https://www.admin.ch) (Bundesgesetze)
+- [edoeb.admin.ch](https://www.edoeb.admin.ch) (Datenschutz)
+- Rechtsdienst deiner Institution
+
+### Interne Prozesse
+
+- Intranet
+- HR-Richtlinien & Reglemente
+- Direkt bei Fachabteilung nachfragen
+
+---
+
+## Wann besonders skeptisch sein
+
+::: {.callout-warning appearance="minimal"}
+### Rote Flaggen
+
+- Die KI bestätigt, was du ohnehin dachtest
+- Du hast die Frage mit einer Annahme formuliert
+- KI gibt sehr spezifische Zahlen ohne Quelle
+- Du hast lange an einem Thema mit der KI gearbeitet (starte eine frische Konversation für Realitätscheck)
+:::
+
+---
+
+## KI-Stärken und -Schwächen
+
+| KI ist gut für | KI ist nicht zuverlässig für |
+|----------------|------------------------------|
+| Erste Ideen sammeln | Spezifische Fakten |
+| Text umformulieren | Rechtliche Verbindlichkeit |
+| Konzepte erklären | Aktuelle Zahlen |
+| Strukturen vorschlagen | Interne Regelungen |
+| Brainstorming | Quellenangaben (oft erfunden!) |

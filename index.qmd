@@ -1,11 +1,11 @@
 ---
-# title: "KI in der Lehre: Intermediate"
+title: "KI-Antworten kritisch prüfen"
+subtitle: "Lateral Reading Workshop"
 format:
   html:
     toc: false
 about:
-  template: marquee #trestles
-#   image: "assets/logo.png"
+  template: marquee
   links:
     - icon: inbox-fill
       text: Email
@@ -16,32 +16,27 @@ about:
     - icon: lightbulb-fill
       text: Knowledge Base
       href: https://virtuelleakademie.ch/knowledge-base/
-    - icon: mortarboard-fill
-      text: Weiterbildungsangebote
-      href: https://www.bfh.ch/de/ueber-die-bfh/service-beratung/virtuelle-akademie/
 ---
 
+## Workshop: KI-Antworten im Büroalltag kritisch prüfen
 
-{{< bi calendar-event >}} 12. November 2025
+KI-Chatbots wie ChatGPT liefern überzeugende Antworten – aber nicht immer korrekte. In diesem 40-minütigen Workshop lernst du **Lateral Reading**: eine praktische Technik, um KI-Antworten schnell und zuverlässig zu verifizieren.
 
-{{< bi clock >}} 9:00–12:00 Uhr
+### Für wen?
 
-<br>
+Mitarbeitende in Verwaltung und Services, die KI-Tools im Arbeitsalltag nutzen möchten – ohne Vorkenntnisse.
 
-{{< bi calendar-event >}} 21. November 2025
+### Was du lernst
 
-{{< bi clock >}} 13:00–16:00 Uhr
+- Warum KI-Antworten externe Verifikation brauchen
+- Wie deine Fragestellung die KI-Antwort beeinflusst
+- Wie du in 2–5 Minuten Fakten unabhängig prüfst
+- Welche Quellen für deinen Arbeitsbereich relevant sind
 
-<br>
+[Zum Workshop](workshop/index.qmd){.btn .btn-primary}
 
-{{< bi map >}} B.2.61, HAFL Zollikofen
-
-<br>
+---
 
 ## Dozent
 
 [Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) ist Kognitionspsychologe und Wissenschaftlicher Mitarbeiter an der [Virtuellen Akademie](https://virtuelleakademie.ch/) der Berner Fachhochschule. Er erforscht, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann.
-
-## Website
-
-{{< bi link >}} [virtuelleakademie.github.io/ki-weiterbildung-ub-hafl/](https://virtuelleakademie.github.io/ki-weiterbildung-ub-hafl/)

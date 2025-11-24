@@ -1,33 +1,79 @@
 ---
-title: "Ablauf"
+title: "KI-Antworten im Büroalltag kritisch prüfen"
+subtitle: "Ein 40-Minuten Workshop zu Lateral Reading"
 ---
 
-## Workshop-Ablauf: KI für Unterricht & Beratung (3 Stunden)
+## Überblick
 
-| {{< bi clock-fill >}} Zeit | {{< bi collection-fill >}} Thema                                       | {{< bi hourglass-split >}} Dauer |
-|----------------------------|------------------------------------------------------------------------|----------------------------------|
-| **09:00 - 09:10**          | {{< bi collection-play >}} **Einstieg**                                |                                  |
-|                            | [Begrüssung](einstieg/index.qmd)                          | 10 min                           |
-| **09:10 - 09:40**          | {{< bi collection-play >}} **Teil 1: KI verstehen**                    |                                  |
-|                            | [Grundlagen: KI, Chatbots & Agents](../01-ki-verstehen/index.qmd)                | 30 min                           |
-| **09:40 - 09:55**          | {{< bi collection-play >}} **Teil 2: Lernen verstehen**                |                                  |
-|                            | [Wie Menschen lernen](../02-wie-menschen-lernen/index.qmd)             | 15 min                           |
-| **09:55 - 10:10**          | {{< bi cup-hot-fill >}} **Pause**                                      |                                  |
-|                            | Kaffee                                                                 | 15 min                           |
-| **10:10 - 11:00**          | {{< bi collection-play >}} **Teil 3: KI im Unterricht**               |                                  |
-|                            | [KI-gestützte Lehrplanung](../03-lernumgebungen/index.qmd)             | 50 min                           |
-| **11:00 - 11:30**          | {{< bi collection-play >}} **Teil 4: KI in der Beratung**             |                                  |
-|                            | [Beratungsgespräche simulieren](../04-ki-in-beratung/index.qmd)        | 30 min                           |
-| **11:30 - 12:00**          | {{< bi collection-play >}} **Abschlussdiskussion & Transfer**          |                                  |
-|                            | [KI in der Praxis: Chancen, Grenzen & Ethik](diskussion/index.qmd)     | 30 min                           |
+Dieser Workshop vermittelt eine praktische Technik zur Verifikation von KI-Antworten: **Lateral Reading**.
 
+Teilnehmende lernen, warum KI-Chatbots systematisch problematische Antworten liefern können – und wie sie in wenigen Minuten Fakten unabhängig prüfen können.
 
 ## Lernziele
 
-Am Ende des Workshops können die Teilnehmer:
+Nach diesem Workshop können Teilnehmende:
 
-1. **Sprachmodelle verstehen**: Grundlegende Funktionsweise und Grenzen von LLMs und Chatbots erklären
-2. **KI im Unterricht einsetzen**: Sprachmodelle gezielt zur Planung, Gestaltung und Reflexion von Lehrsituationen nutzen
-3. **KI in der Beratung einsetzen**: Beratungsgespräche mit Chatbot-Unterstützung vorbereiten und reflektieren
-4. **Verantwortungsvoll handeln**: Chancen, Grenzen und ethische Implikationen des Sprachmodell-Einsatzes reflektieren und in der Praxis berücksichtigen
-5. **Transfer leisten**: Konkrete Anwendungsideen für den eigenen Unterrichts- oder Beratungskontext entwickeln
+1. **Verstehen**, warum KI-Antworten externe Verifikation brauchen (nicht nur "manchmal falsch", sondern systemisch)
+2. **Erkennen**, wie die eigene Fragestellung die KI-Antwort beeinflusst
+3. **Lateral Reading anwenden**, um Fakten zu überprüfen
+4. **Vertrauenswürdige Quellen** für ihren Arbeitsbereich identifizieren
+
+## Zeitplan
+
+| Zeit | Phase | Inhalt |
+|------|-------|--------|
+| 0:00–2:00 | [Framing](framing/index.qmd) | Warum KI-Antworten problematisch sind |
+| 2:00–10:00 | [Teil 1](experiment-1/index.qmd) | KI liegt falsch: Gemeinsames Experiment |
+| 10:00–18:00 | [Teil 2](experiment-2/index.qmd) | Warum KI dir zustimmt: Sycophancy |
+| 18:00–37:00 | [Teil 3](lateral-reading/index.qmd) | Lateral Reading in drei Runden |
+| 37:00–40:00 | [Teil 4](entscheidungsregel/index.qmd) | Die Entscheidungsregel |
+
+**Gesamtdauer:** 40 Minuten
+
+## Zielgruppe
+
+Mitarbeitende in Verwaltung und Services ohne spezifische KI-Vorkenntnisse.
+
+## Benötigte Materialien
+
+### Technisch
+
+- Alle Teilnehmenden haben Laptops/Tablets mit Internet
+- Projektor für Demonstrationen
+- Zugang zu mindestens einer KI (ChatGPT, Claude, oder Gemini)
+
+### Vorbereitet
+
+- Teil 1 Beispiel: 24 Stunden vorher testen und final auswählen
+- Teil 3 Szenarien: 6 arbeitsbezogene Szenarien (siehe [Lateral Reading](lateral-reading/index.qmd))
+- [Handout: Quick-Reference-Karte](../handout.qmd)
+- Backup: Screenshots von 2–3 klaren KI-Fehlern
+
+## Vorbereitung: Checkliste
+
+### 24 Stunden vorher
+
+**Teil 1 – Beispiel testen:**
+
+- [ ] Prompt bei ChatGPT, Claude, Gemini testen
+- [ ] Antworten notieren
+- [ ] Echte Quelle finden und Screenshot machen
+- [ ] Backup-Beispiel vorbereiten
+
+**Teil 2 – Sycophancy-Experiment testen:**
+
+- [ ] Drei Framings mit verschiedenen KIs testen
+- [ ] Prüfen ob Unterschiede sichtbar sind
+- [ ] Alternative Themen bereit haben
+
+**Teil 3 – Szenarien:**
+
+- [ ] 6 Szenarien ausdrucken oder Projektion vorbereiten
+- [ ] 2–3 Szenarien selbst durchspielen
+- [ ] Quellen-URLs notieren
+
+### 10 Minuten vor Workshop
+
+- [ ] Projektor testen
+- [ ] Tabs geöffnet: KI, BFS, admin.ch, Uni-Statistiken
+- [ ] Handouts bereit
