@@ -22,7 +22,7 @@ Je überzeugter du von etwas bist, desto stärker suchst du nach Bestätigung. U
 
 ## KI-Chatbots verstärken den Effekt
 
-KI-Chatbots wie ChatGPT oder Gemini haben eine eingebaute Tendenz, Nutzern zuzustimmen. Fachleute nennen das **Sycophancy** (Schmeichelei).
+KI-Chatbots wie ChatGPT oder Gemini haben eine eingebaute Tendenz, Nutzern zuzustimmen. Fachleute nennen das **Sycophancy**  [@sharmaUnderstandingSycophancyLanguage2023]. Einge passende deutsche Übersetzung wäre **Schmeichelei** oder **Anbiederung**.
 
 ### Warum Chatbots zustimmen
 
@@ -49,7 +49,7 @@ Daraus entsteht ein **Chamber Effect**: eine Filterblase, die du dir selbst ersc
 ::: {.key-point}
 ### Der Kern des Problems
 
-Klassische Echo Chambers entstehen durch Algorithmen, die dir ähnliche Inhalte zeigen. Bei Chatbots erzeugst du die Echo Chamber selbst: durch die Art, wie du fragst, und durch ein System, das darauf trainiert ist, zuzustimmen.
+Klassische [Echo Chambers](https://en.wikipedia.org/wiki/Echo_chamber_(media)) entstehen durch Algorithmen, die dir ähnliche Inhalte zeigen. Bei Chatbots erzeugst du die Echo Chamber selbst: durch die Art, wie du fragst, und durch ein System, das darauf trainiert ist, zuzustimmen.
 :::
 
 ## Ein extremes Beispiel
@@ -104,6 +104,3 @@ Du kannst Chatbots explizit bitten, kritisch zu sein:
 - Die Lösung: Aktiv nach Widerspruch suchen, bei der KI und bei dir selbst
 :::
 
-## Weiterführend
-
-- @sharmaUnderstandingSycophancyLanguage2023: Forschung zum Thema Sycophancy.

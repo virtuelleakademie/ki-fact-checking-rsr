@@ -75,6 +75,8 @@ page-footer:
     - icon: github
       href: https://github.com/virtuelleakademie/ki-fact-checking-rsr/
 
+lang: de
+
 format:
   html:
     theme:
