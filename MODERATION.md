@@ -39,7 +39,6 @@ Dieser Leitfaden enthält alle Anweisungen für die Durchführung des Workshops.
 
 - [ ] 6 Szenarien ausdrucken oder Projektion vorbereiten
 - [ ] 2--3 Szenarien selbst durchspielen
-- [ ] Quellen-URLs notieren
 
 **Backup:**
 
@@ -326,11 +325,7 @@ Kürze Runde 3 (eigenes Beispiel). Der Kern ist Runde 1 (gemeinsam) und Runde 2 
 
 Die Entscheidungsregel zeigen (siehe Teilnehmenden-Material).
 
-### Quellen-Shortcuts (1 Min)
-
-Quellen-Tabelle zeigen (siehe Teilnehmenden-Material).
-
-### Abschluss (1.5 Min)
+### Abschluss (2.5 Min)
 
 > Du hast heute drei Dinge erlebt:
 >
@@ -340,7 +335,7 @@ Quellen-Tabelle zeigen (siehe Teilnehmenden-Material).
 >
 > **Drittens** -- Lateral Reading funktioniert: Raus aus dem Sprachmodell, eigene Suche, Primärquellen.
 >
-> Das Handout hat die wichtigsten Quellen für deinen Bereich. Probiere es diese Woche einmal aus.
+> Das Handout fasst die wichtigsten Punkte zusammen. Probiere es diese Woche einmal aus.
 
 Handout verteilen (oder auf Link verweisen).
 

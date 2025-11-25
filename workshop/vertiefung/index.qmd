@@ -14,8 +14,6 @@ Diese Materialien ergänzen den Workshop um zwei Aspekte, die im 40-Minuten-Form
 **[Vertical vs. Lateral Reading](vertical-lateral/index.qmd)** --- Warum wir die Quelle verlassen müssen: Die theoretische Grundlage der Workshop-Methode.
 :::
 
----
-
 ## 1. Wenn keine Quelle existiert
 
 Nicht jede Behauptung lässt sich verifizieren. Das ist keine Schwäche deiner Recherche --- manchmal gibt es schlicht keine öffentlich zugängliche Quelle.
@@ -40,8 +38,6 @@ Wenn du nach 5 Minuten Recherche keine verlässliche Quelle findest:
 2. **Verzichte auf die Behauptung** --- wenn Genauigkeit wichtig ist
 3. **Frage intern nach** --- bei institutionsspezifischen Fragen
 :::
-
----
 
 ## 2. Zeitliche Gültigkeit prüfen
 
@@ -70,8 +66,6 @@ Eine Information kann faktisch korrekt, aber veraltet sein. Das ist besonders re
 3. **Google-Zeitfilter nutzen** --- Suche auf "Letztes Jahr" einschränken
 :::
 
----
-
 ## Die Kernbotschaft
 
 ::: {.key-point}
@@ -84,8 +78,6 @@ Das Wichtigste aus diesem Workshop:
 - **Externe Verifikation ist der einzige Weg** --- verlasse das Sprachmodell und suche selbst
 - **Keine Quelle = nicht verwendbar** --- wenn du es nicht verifizieren kannst, zitiere es nicht
 :::
-
----
 
 ## Weiterführende Ressourcen
 

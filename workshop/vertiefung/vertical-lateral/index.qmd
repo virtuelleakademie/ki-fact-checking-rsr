@@ -14,8 +14,6 @@ Wenn wir eine Information prüfen wollen, gibt es zwei grundsätzlich verschiede
 | Design und Aufmachung bewerten | Unabhängige Einschätzungen finden |
 | Quellenangaben der Quelle prüfen | Quellenangaben extern verifizieren |
 
----
-
 ## Vertical Reading: Das Problem
 
 Bei **Vertical Reading** bleiben wir innerhalb der Quelle und versuchen, ihre Glaubwürdigkeit anhand dessen zu beurteilen, was sie selbst über sich sagt.
@@ -40,8 +38,6 @@ Bei **Vertical Reading** bleiben wir innerhalb der Quelle und versuchen, ihre Gl
 
 **Das Problem:** All diese Informationen werden von der Quelle selbst kontrolliert.
 
----
-
 ## Lateral Reading: Die Lösung
 
 Bei **Lateral Reading** verlassen wir die Quelle und suchen extern nach Informationen über sie.
@@ -61,8 +57,6 @@ Bei **Lateral Reading** verlassen wir die Quelle und suchen extern nach Informat
 | Welche Perspektive oder Motivation hat die Quelle? | Mögliche Interessenkonflikte |
 | Welche Expertise hat die Quelle? | Fachliche Kompetenz zum Thema |
 | Was sagen unabhängige Dritte? | Externe Einschätzung der Glaubwürdigkeit |
-
----
 
 ## Bei Sprachmodellen: Eine spezielle Situation
 
@@ -89,8 +83,6 @@ Das ist, was wir in Teil 3 des Workshops geübt haben:
 
 **Ergebnis:** Funktioniert. Nur externe Quellen können die Richtigkeit bestätigen.
 
----
-
 ## Wann eine Quelle vertrauenswürdig ist
 
 Wenn du bei deiner Recherche auf eine Quelle stösst, prüfe:
@@ -114,8 +106,6 @@ Wenn du bei deiner Recherche auf eine Quelle stösst, prüfe:
 | Niedrig | Blogs, Foren, Social Media |
 | Sehr niedrig | Anonyme Quellen, AI-generierte Zusammenfassungen |
 
----
-
 ## Zusammenfassung
 
 ::: {.key-point}
@@ -130,8 +120,6 @@ Verlasse die Quelle und prüfe extern:
 3. Was sagen unabhängige Dritte?
 4. Steht in der Quelle wirklich das, was behauptet wird?
 :::
-
----
 
 ## Weiterführend
 

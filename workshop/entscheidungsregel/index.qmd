@@ -25,18 +25,7 @@ subtitle: "Wann verifizieren?"
 | Ideen für Email-Formulierung | Sprachmodell reicht |
 | Rechtliche Grundlage für Entscheidung | Verifizieren |
 
----
 
-## Deine Quellen-Shortcuts
-
-| Kategorie | Quellen |
-|-----------|---------|
-| Zahlen, Statistiken | BFS (bfs.admin.ch), SECO, Uni-Statistiken |
-| Rechtliches | admin.ch, EDÖB, Rechtsdienst |
-| Uni-interne Prozesse | Intranet, HR-Richtlinien, Fachabteilung direkt |
-| Ideen, Brainstorming | Sprachmodell allein ist OK |
-
----
 
 ## Zusammenfassung
 
@@ -53,5 +42,5 @@ Du hast heute drei Dinge erlebt:
 
 Probiere es diese Woche einmal aus: Wenn du eine Antwort vom Sprachmodell in einem formellen Dokument verwenden willst, verifiziere sie extern.
 
-Das [Handout](/handout.qmd) hat die wichtigsten Quellen für deinen Bereich.
+Das [Handout](/handout.qmd) fasst die wichtigsten Punkte zusammen.
 :::

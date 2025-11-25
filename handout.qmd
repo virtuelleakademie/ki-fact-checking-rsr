@@ -13,8 +13,6 @@ format:
 - Sprachmodelle tendieren dazu, deine Annahmen zu bestätigen
 - Überzeugend formuliert ≠ korrekt
 
----
-
 ## Die Eine Frage
 
 ::: {.callout-important appearance="minimal"}
@@ -23,8 +21,6 @@ format:
 - **JA** = Extern verifizieren (Lateral Reading)
 - **NEIN** = Antwort vom Sprachmodell reicht
 :::
-
----
 
 ## Lateral Reading in 4 Schritten
 
@@ -58,30 +54,6 @@ format:
 
 Sprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch.
 
----
-
-## Deine Quellen-Shortcuts
-
-### Zahlen & Statistiken
-
-- [bfs.admin.ch](https://www.bfs.admin.ch) (Bundesamt für Statistik)
-- [seco.admin.ch](https://www.seco.admin.ch) (Arbeitsmarkt, Wirtschaft)
-- Uni-eigene Zahlen & Fakten
-
-### Recht & Regulierung
-
-- [admin.ch](https://www.admin.ch) (Bundesgesetze)
-- [edoeb.admin.ch](https://www.edoeb.admin.ch) (Datenschutz)
-- Rechtsdienst deiner Institution
-
-### Interne Prozesse
-
-- Intranet
-- HR-Richtlinien & Reglemente
-- Direkt bei Fachabteilung nachfragen
-
----
-
 ## Wann besonders skeptisch sein
 
 ::: {.callout-warning appearance="minimal"}
@@ -92,8 +64,6 @@ Sprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch.
 - Du hast eine Annahme in die Frage eingebaut
 - Es geht um rechtliche oder finanzielle Entscheidungen
 :::
-
----
 
 ## Stärken und Schwächen von Sprachmodellen
 

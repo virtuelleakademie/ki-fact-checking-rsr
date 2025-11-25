@@ -21,8 +21,6 @@ Wie hoch ist der Anteil der Studierenden an Schweizer Universitäten, die ihr Ba
 :::{.timer #EXP-1 seconds=300 starton=interaction}
 :::
 
----
-
 ## Antworten teilen
 
 ::: {.group}
@@ -31,8 +29,6 @@ Wie hoch ist der Anteil der Studierenden an Schweizer Universitäten, die ihr Ba
 - Vergleicht die Zahlen: Sind sie gleich oder unterschiedlich?
 
 :::
-
----
 
 ## Auswertung: Die offizielle Quelle
 
@@ -47,8 +43,6 @@ Wir prüfen jetzt gemeinsam die offizielle Quelle:
 
 :::
 
----
-
 ## Beobachtung
 
 ::: {.reflect}
@@ -58,8 +52,6 @@ Wir prüfen jetzt gemeinsam die offizielle Quelle:
 - Wie sicher klang die Antwort?
 
 :::
-
----
 
 ::: {.key-point}
 

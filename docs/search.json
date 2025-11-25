@@ -249,7 +249,7 @@
     "href": "workshop/experiment-2/index.html#auswertung",
     "title": "Teil 2: Warum Nachfragen nicht hilft",
     "section": "Auswertung",
-    "text": "Auswertung\n\n\n\n\n\n\nGroupGruppenarbeit\n\n\n\nTeile deine Beobachtungen:\n\nWas hat das Modell bei “Bist du sicher?” gemacht?\nHat es deine Annahme bei der zweiten Frage bestätigt?\n\n\n\n\n\n\n\n\n\n\nKey-pointKernaussage\n\n\n\nNachfragen beim Sprachmodell ist keine echte Prüfung.\n\nEs kann sich nicht selbst verifizieren — es generiert nur neue Antworten\nEs bestätigt tendenziell deine Annahmen — deine Frage beeinflusst die Antwort\n\nBeide Wege sind blockiert. Bleibt: Externe Quellen.",
+    "text": "Auswertung\n\n\n\n\n\n\nGroupGruppenarbeit\n\n\n\nTeile deine Beobachtungen:\n\nWas hat das Modell bei “Bist du sicher?” gemacht?\nHat es deine Annahme bei der zweiten Frage bestätigt?\n\n\n\n\n\n\n\n\n\nKey-pointKernaussage\n\n\n\nNachfragen beim Sprachmodell ist keine echte Prüfung.\n\nEs kann sich nicht selbst verifizieren — es generiert nur neue Antworten\nEs bestätigt tendenziell deine Annahmen — deine Frage beeinflusst die Antwort\n\nBeide Wege sind blockiert. Bleibt: Externe Quellen.",
     "crumbs": [
       "Workshop",
       "Teil 2: Warum Nachfragen nicht hilft"
@@ -293,7 +293,7 @@
     "href": "workshop/entscheidungsregel/index.html#zusammenfassung",
     "title": "Teil 4: Die Entscheidungsregel",
     "section": "Zusammenfassung",
-    "text": "Zusammenfassung\nDu hast heute drei Dinge erlebt:\n\nSprachmodelle können überzeugend falsch liegen — spezifische Zahlen, selbstbewusster Ton, trotzdem falsch\nNachfragen beim Sprachmodell ist keine echte Prüfung — es kann sich nicht selbst verifizieren und bestätigt tendenziell deine Annahmen\nLateral Reading funktioniert — raus aus dem Sprachmodell, eigene Suche, Primärquellen finden\n\n\n\n\n\n\n\nKey-pointNächster Schritt\n\n\n\nProbiere es diese Woche einmal aus: Wenn du eine Antwort vom Sprachmodell in einem formellen Dokument verwenden willst, verifiziere sie extern.\nDas Handout hat die wichtigsten Quellen für deinen Bereich.",
+    "text": "Zusammenfassung\nDu hast heute drei Dinge erlebt:\n\nSprachmodelle können überzeugend falsch liegen — spezifische Zahlen, selbstbewusster Ton, trotzdem falsch\nNachfragen beim Sprachmodell ist keine echte Prüfung — es kann sich nicht selbst verifizieren und bestätigt tendenziell deine Annahmen\nLateral Reading funktioniert — raus aus dem Sprachmodell, eigene Suche, Primärquellen finden\n\n\n\n\n\n\n\nKey-pointNächster Schritt\n\n\n\nProbiere es diese Woche einmal aus: Wenn du eine Antwort vom Sprachmodell in einem formellen Dokument verwenden willst, verifiziere sie extern.\nDas Handout fasst die wichtigsten Punkte zusammen.",
     "crumbs": [
       "Workshop",
       "Teil 4: Die Entscheidungsregel"
@@ -304,21 +304,21 @@
     "href": "index.html",
     "title": "KI in unserer Alltagsarbeit",
     "section": "",
-    "text": "26. November 2025\n15:00–18:00 Uhr"
+    "text": "26. November 2025\n15:00–18:00 Uhr\nMarzili Campus, Berner Fachhochschule"
   },
   {
     "objectID": "index.html#workshop-ki-antworten-kritisch-prüfen",
     "href": "index.html#workshop-ki-antworten-kritisch-prüfen",
     "title": "KI in unserer Alltagsarbeit",
     "section": "Workshop: KI-Antworten kritisch prüfen",
-    "text": "Workshop: KI-Antworten kritisch prüfen\nKI-Chatbots wie ChatGPT liefern Antworten die überzeugend sind, aber nicht immer korrekt. In diesem 40-minütigen Workshop lernst du Lateral Reading: eine praktische Technik, um KI-Antworten schnell und zuverlässig zu verifizieren.\n\nWas du lernst\n\nWarum KI-Antworten externe Verifikation brauchen\nWie deine Fragestellung die KI-Antwort beeinflusst\nWie du in 2–5 Minuten Fakten unabhängig prüfst \n\nZum Workshop"
+    "text": "Workshop: KI-Antworten kritisch prüfen\n virtuelleakademie.github.io/ki-fact-checking-rsrn/\n\n\n\n\n\n\nKI-Chatbots wie ChatGPT liefern Antworten die überzeugend sind, aber nicht immer korrekt. In diesem 40-minütigen Workshop lernst du Lateral Reading: eine praktische Technik, um KI-Antworten schnell und zuverlässig zu verifizieren.\n\nWas du lernst\n\nWarum KI-Antworten externe Verifikation brauchen\nWie deine Fragestellung die KI-Antwort beeinflusst\nWie du in 2–5 Minuten Fakten unabhängig prüfst \n\nZum Workshop"
   },
   {
     "objectID": "index.html#dozent",
     "href": "index.html#dozent",
     "title": "KI in unserer Alltagsarbeit",
     "section": "Dozent",
-    "text": "Dozent\nDr. Andrew Ellis ist Kognitionspsychologe und Wissenschaftlicher Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule. Er erforscht, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann."
+    "text": "Dozent\nDr. Andrew Ellis ist Kognitionspsychologe und Wissenschaftlicher Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule. Er erforscht, wie künstliche Intelligenz in Bildungssystemen sinnvoll eingesetzt werden kann."
   },
   {
     "objectID": "workshop/experiment-1/index.html",
@@ -369,7 +369,7 @@
     "href": "workshop/experiment-1/index.html#beobachtung",
     "title": "Teil 1: Das Sprachmodell liegt falsch",
     "section": "Beobachtung",
-    "text": "Beobachtung\n\n\n\n\n\n\nReflectReflexion\n\n\n\n\nStimmen die Zahlen der Sprachmodelle mit der offiziellen Quelle überein?\nHat das Modell eine Quelle genannt?\nWie sicher klang die Antwort?\n\n\n\n\n\n\n\n\n\n\nKey-pointKernaussage\n\n\n\nAntworten von Sprachmodellen können sehr spezifisch und selbstbewusst klingen — und trotzdem falsch sein.\nÜberzeugend heisst nicht korrekt.\n\n\n\n\n\n\n\n\nWarningDie Spezifitätsfalle\n\n\n\nJe spezifischer eine Antwort klingt — genaue Zahlen, Daten, Namen — desto vertrauenswürdiger wirkt sie. Aber Spezifität ist kein Beweis für Richtigkeit. Sprachmodelle generieren oft sehr präzise klingende Details, die frei erfunden sind.",
+    "text": "Beobachtung\n\n\n\n\n\n\nReflectReflexion\n\n\n\n\nStimmen die Zahlen der Sprachmodelle mit der offiziellen Quelle überein?\nHat das Modell eine Quelle genannt?\nWie sicher klang die Antwort?\n\n\n\n\n\n\n\n\n\nKey-pointKernaussage\n\n\n\nAntworten von Sprachmodellen können sehr spezifisch und selbstbewusst klingen — und trotzdem falsch sein.\nÜberzeugend heisst nicht korrekt.\n\n\n\n\n\n\n\n\nWarningDie Spezifitätsfalle\n\n\n\nJe spezifischer eine Antwort klingt — genaue Zahlen, Daten, Namen — desto vertrauenswürdiger wirkt sie. Aber Spezifität ist kein Beweis für Richtigkeit. Sprachmodelle generieren oft sehr präzise klingende Details, die frei erfunden sind.",
     "crumbs": [
       "Workshop",
       "Teil 1: Das Sprachmodell liegt falsch"
@@ -413,7 +413,7 @@
     "href": "workshop/lateral-reading/index.html#runde-2",
     "title": "Teil 3: Lateral Reading",
     "section": "Runde 2: In Kleingruppen",
-    "text": "Runde 2: In Kleingruppen\n\n\n\n\n\n\nExperimentDeine Aufgabe\n\n\n\n\nWähle ein Szenario aus der Liste unten\nVersuche, die Behauptung mit den vier Schritten zu verifizieren\nNotiere: Ist die Behauptung richtig, falsch, oder nicht prüfbar?\n\n\n\n                    \n                    \n                \n\n\n\n\n\n\nScenarioSzenario A: Rechtliches\n\n\n\n\n\n\n“Personaldossiers müssen in der Schweiz 10 Jahre nach Austritt aufbewahrt werden.”\n\nFinde die offizielle rechtliche Grundlage. Tipp: EDÖB, admin.ch, OR\n\n\n\n\n\n\n\n\n\nScenarioSzenario B: Statistik\n\n\n\n\n\n\n“Die Universität Bern hatte im HS 2023 genau 18’734 Studierende.”\n\nFinde die offizielle Statistik. Tipp: Uni Bern Website, BFS\n\n\n\n\n\n\n\n\n\nScenarioSzenario C: Budget\n\n\n\n\n\n\n“Ein Team-Event mit 20 Personen in Bern kostet durchschnittlich CHF 90 pro Person.”\n\nWie würdest du das überprüfen? Tipp: Lokale Anbieter, frühere Events\n\n\n\n\n\n\n\n\n\nScenarioSzenario D: Prozess\n\n\n\n\n\n\n“Reisekostenabrechnungen müssen innerhalb von 30 Tagen nach Reiseende eingereicht werden.”\n\nFinde die offizielle Uni-Regelung. Tipp: Uni-Intranet, HR-Richtlinien\n\n\n\n\n\n\n\n\n\nScenarioSzenario E: Weiterbildung\n\n\n\n\n\n\n“Mitarbeitende haben Anspruch auf 5 Tage bezahlte Weiterbildung pro Jahr.”\n\nStimmt das für deine Institution? Tipp: Personalreglement, GAV\n\n\n\n\n\n\n\n\n\nScenarioSzenario F: Technisches\n\n\n\n\n\n\n“Microsoft 365 Lizenzen kosten Schweizer Unis durchschnittlich CHF 45 pro Nutzer/Jahr.”\n\nWie würdest du das verifizieren? Tipp: IT-Services, swissuniversities Rahmenverträge\n\n\n\n\n\nAuswertung\n\n\n\n\n\n\nGroupGruppenarbeit\n\n\n\n\nWelches Szenario hast du gewählt?\nWas hast du gefunden?\nWar das Modell richtig, falsch, oder nicht prüfbar?",
+    "text": "Runde 2: In Kleingruppen\n\n\n\n\n\n\nExperimentDeine Aufgabe\n\n\n\n\nWähle ein Szenario aus der Liste unten\nVersuche, die Behauptung mit den vier Schritten zu verifizieren\nNotiere: Ist die Behauptung richtig, falsch, oder nicht prüfbar?\n\n\n\n                    \n                    \n                \n\n\n\n\n\n\nScenarioSzenario A: Rechtliches\n\n\n\n\n\n\n“Personaldossiers müssen in der Schweiz 10 Jahre nach Austritt aufbewahrt werden.”\n\nFinde die offizielle rechtliche Grundlage. Tipp: EDÖB, admin.ch, OR\n\n\n\n\n\n\n\n\n\nScenarioSzenario B: Statistik\n\n\n\n\n\n\n“Die Universität Bern hatte im HS 2023 genau 18’734 Studierende.”\n\nFinde die offizielle Statistik. Tipp: Uni Bern Website, BFS\n\n\n\n\n\n\n\n\n\nScenarioSzenario C: Budget\n\n\n\n\n\n\n“Ein Team-Event mit 20 Personen in Bern kostet durchschnittlich CHF 90 pro Person.”\n\nWie würdest du das überprüfen? Tipp: Lokale Anbieter, frühere Events\n\n\n\n\n\n\n\n\n\nScenarioSzenario D: Prozess\n\n\n\n\n\n\n“Reisekostenabrechnungen müssen innerhalb von 30 Tagen nach Reiseende eingereicht werden.”\n\nFinde die offizielle Uni-Regelung. Tipp: Uni-Intranet, HR-Richtlinien\n\n\n\n\n\n\n\n\n\nScenarioSzenario E: Weiterbildung\n\n\n\n\n\n\n“Mitarbeitende haben Anspruch auf 5 Tage bezahlte Weiterbildung pro Jahr.”\n\nStimmt das für deine Institution? Tipp: Personalreglement, GAV\n\n\n\n\n\n\n\n\n\nScenarioSzenario F: Technisches\n\n\n\n\n\n\n“Microsoft 365 Lizenzen kosten Schweizer Unis durchschnittlich CHF 45 pro Nutzer/Jahr.”\n\nWie würdest du das verifizieren? Tipp: IT-Services, swissuniversities Rahmenverträge\n\n\n\n\nAuswertung\n\n\n\n\n\n\nGroupGruppenarbeit\n\n\n\n\nWelches Szenario hast du gewählt?\nWas hast du gefunden?\nWar das Modell richtig, falsch, oder nicht prüfbar?",
     "crumbs": [
       "Workshop",
       "Teil 3: Lateral Reading"
@@ -424,7 +424,7 @@
     "href": "workshop/lateral-reading/index.html#runde-3",
     "title": "Teil 3: Lateral Reading",
     "section": "Runde 3: Eigenes Beispiel",
-    "text": "Runde 3: Eigenes Beispiel\n\n\n\n\n\n\nIndividualEinzelarbeit\n\n\n\nDenk an etwas, das du diese Woche ein Sprachmodell fragen könntest — oder schon gefragt hast.\n\nFormuliere eine konkrete Frage\nFrag das Sprachmodell\nEntscheide: Braucht das Verifikation?\nWenn ja: Welche Quelle würdest du nutzen?\n\n\n\n                    \n                    \n                \n\n\n\n\n\n\n\nGroupGruppenarbeit\n\n\n\n\nWas war deine Frage?\nWürdest du diese Information in einem formellen Dokument verwenden?",
+    "text": "Runde 3: Eigenes Beispiel\n\n\n\n\n\n\nIndividualEinzelarbeit\n\n\n\nDenk an etwas, das du diese Woche ein Sprachmodell fragen könntest — oder schon gefragt hast.\n\nFormuliere eine konkrete Frage\nFrag das Sprachmodell\nEntscheide: Braucht das Verifikation?\nWenn ja: Welche Quelle würdest du nutzen?\n\n\n\n                    \n                    \n                \n\n\n\n\n\n\nGroupGruppenarbeit\n\n\n\n\nWas war deine Frage?\nWürdest du diese Information in einem formellen Dokument verwenden?",
     "crumbs": [
       "Workshop",
       "Teil 3: Lateral Reading"

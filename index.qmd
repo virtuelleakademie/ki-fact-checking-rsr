@@ -23,8 +23,20 @@ about:
 
 {{< bi clock >}} 15:00–18:00 Uhr
 
+{{< bi map >}} Marzili Campus, Berner Fachhochschule
+
 
 ## Workshop: KI-Antworten kritisch prüfen
+
+{{< bi link >}} [virtuelleakademie.github.io/ki-fact-checking-rsrn/](https://virtuelleakademie.github.io/ki-fact-checking-rsrn/)
+
+<!-- <br> -->
+
+::: {.column-margin}
+{{< qrcode https://virtuelleakademie.github.io/ki-fact-checking-rsrn/ width=100 height=100 colorDark='#000000' >}}
+:::
+
+<br>
 
 KI-Chatbots wie ChatGPT liefern Antworten die überzeugend sind, aber nicht immer korrekt. In diesem 40-minütigen Workshop lernst du **Lateral Reading**: eine praktische Technik, um KI-Antworten schnell und zuverlässig zu verifizieren.
 
@@ -41,4 +53,4 @@ KI-Chatbots wie ChatGPT liefern Antworten die überzeugend sind, aber nicht imme
 
 ## Dozent
 
-[Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) ist Kognitionspsychologe und Wissenschaftlicher Mitarbeiter an der [Virtuellen Akademie](https://virtuelleakademie.ch/) der Berner Fachhochschule. Er erforscht, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann.
+[Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) ist Kognitionspsychologe und Wissenschaftlicher Mitarbeiter an der [Virtuellen Akademie](https://virtuelleakademie.ch/) der Berner Fachhochschule. Er erforscht, wie künstliche Intelligenz in Bildungssystemen sinnvoll eingesetzt werden kann.

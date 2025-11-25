@@ -5,16 +5,12 @@ subtitle: "Die Technik in vier Schritten üben"
 
 Lateral Reading heisst: Raus aus dem Sprachmodell, eigene Suche, Primärquellen finden.
 
----
-
 ## Die vier Schritte
 
 1. **Suchbegriffe formulieren** --- Was tippst du bei Google ein?
 2. **Suchergebnisse filtern** --- Welche Quellen sind vertrauenswürdig?
 3. **Zur Quelle gehen** --- Nicht die Google-Zusammenfassung, sondern die echte Seite
 4. **Zwei Prüffragen stellen** --- Ist die Quelle zuverlässig? Steht da wirklich das, was behauptet wird?
-
----
 
 ## Runde 1: Gemeinsam {#runde-1}
 
@@ -78,8 +74,6 @@ Sprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch oder
 Oft: Die exakte Zahl existiert nicht in dieser Form. Das ist selbst eine wichtige Information --- die Zahl vom Sprachmodell ist nicht verifizierbar und somit nicht verwendbar für einen Budgetantrag.
 
 :::
-
----
 
 ## Runde 2: In Kleingruppen {#runde-2}
 
@@ -148,8 +142,6 @@ Wie würdest du das verifizieren? *Tipp: IT-Services, swissuniversities Rahmenve
 
 :::
 
----
-
 ### Auswertung
 
 ::: {.group}
@@ -159,8 +151,6 @@ Wie würdest du das verifizieren? *Tipp: IT-Services, swissuniversities Rahmenve
 - War das Modell richtig, falsch, oder nicht prüfbar?
 
 :::
-
----
 
 ## Runde 3: Eigenes Beispiel {#runde-3}
 
@@ -177,8 +167,6 @@ Denk an etwas, das du diese Woche ein Sprachmodell fragen könntest --- oder sch
 
 :::{.timer #LR-R3 seconds=240 starton=interaction}
 :::
-
----
 
 ::: {.group}
 

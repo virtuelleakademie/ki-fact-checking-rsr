@@ -26,8 +26,6 @@ Hat das Modell seine Antwort wirklich überprüft --- oder einfach eine neue Ant
 
 :::
 
----
-
 ## Experiment B: Annahme einbauen
 
 ::: {.experiment}
@@ -51,8 +49,6 @@ Bestätigt das Modell deine eingebaute Annahme --- obwohl sie falsch ist?
 
 :::
 
----
-
 ## Auswertung
 
 ::: {.group}
@@ -63,8 +59,6 @@ Teile deine Beobachtungen:
 - Hat es deine Annahme bei der zweiten Frage bestätigt?
 
 :::
-
----
 
 ::: {.key-point}
 

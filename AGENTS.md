@@ -28,6 +28,7 @@ quarto render           # Build site to /docs/
 - Address readers with informal "du" form, not formal "Sie"
 - No emojis in content
 - Use em-dashes for parenthetical phrases: "---" not "—"
+- Do not use dividing lines ("---" on its own line) except in YAML headers
 - Ensure blank line above all markdown lists
 
 ## Custom Callouts
