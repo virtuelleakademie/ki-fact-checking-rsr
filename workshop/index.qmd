@@ -18,6 +18,13 @@ Nach diesem Workshop kannst du:
 3. **Lateral Reading anwenden**, um Fakten zu überprüfen
 4. **Vertrauenswürdige Quellen** für deinen Arbeitsbereich identifizieren
 
+## Kurz-Check-in (1 Min)
+
+- Wie stark stimmst du zu: "Antworten von Sprachmodellen kann ich ohne weitere Prüfung verwenden"?
+- Wie sicher fühlst du dich darin, falsche Angaben von Sprachmodellen zu erkennen? (0--10)
+
+Notiere deine beiden Antworten kurz (Zettel oder Notiz-App). Du brauchst sie beim Check-out. Keine Abgabe.
+
 ## Ablauf
 
 | Phase | Dauer | Inhalt |

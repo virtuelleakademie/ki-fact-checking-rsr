@@ -76,6 +76,13 @@ Dieser Leitfaden enthält alle Anweisungen für die Durchführung des Workshops.
 
 Keine weitere Einleitung. Direkt zu Teil 1.
 
+### Kurz-Check-in (1 Min)
+
+- Zwei Fragen laut vorlesen; alle notieren nur für sich (Zettel/Notiz-App). Nichts einsammeln.
+  - "Antworten von Sprachmodellen kann ich ohne weitere Prüfung verwenden." (Zustimmung?)
+  - "Wie sicher fühlst du dich, falsche Angaben von Sprachmodellen zu erkennen?" (0--10)
+- Keine Diskussion, keine Mittelwerte. Brücke zu Teil 1.
+
 ---
 
 ## Teil 1: Das Sprachmodell liegt falsch (8 Min)
@@ -324,6 +331,11 @@ Kürze Runde 3 (eigenes Beispiel). Der Kern ist Runde 1 (gemeinsam) und Runde 2 
 > Würdest du diese Info in einem Bericht zitieren? In einem Antrag verwenden? Als Grundlage für eine Entscheidung nutzen?
 
 Die Entscheidungsregel zeigen (siehe Teilnehmenden-Material).
+
+### Kurz-Check-out (1 Min)
+
+- Gleiche zwei Fragen wie zu Beginn; alle schauen auf ihre Notiz und vergleichen nur für sich.
+- Nur wenn Zeit: Freiwillige dürfen teilen, ob sich ihre Antworten geändert haben. Kein Einsammeln, keine Mittelwerte.
 
 ### Abschluss (2.5 Min)
 

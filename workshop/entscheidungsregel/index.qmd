@@ -25,7 +25,12 @@ subtitle: "Wann verifizieren?"
 | Ideen für Email-Formulierung | Sprachmodell reicht |
 | Rechtliche Grundlage für Entscheidung | Verifizieren |
 
+## Kurz-Check-out (1 Min)
 
+- Wie stark stimmst du jetzt zu: "Antworten von Sprachmodellen kann ich ohne weitere Prüfung verwenden"?
+- Wie sicher fühlst du dich jetzt, falsche Angaben von Sprachmodellen zu erkennen? (0--10)
+
+Hol deine Check-in-Notiz hervor und vergleiche deine eigenen Antworten. Kein Einsammeln; Teilen nur auf freiwilliger Basis.
 
 ## Zusammenfassung
 
