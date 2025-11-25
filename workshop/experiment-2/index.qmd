@@ -22,7 +22,7 @@ Bist du sicher? Kannst du deine Antwort überprüfen?
 
 ::: {.reflect}
 
-Hat das Modell seine Antwort wirklich überprüft --- oder einfach eine neue Antwort generiert?
+Hat das Modell seine Antwort wirklich überprüft? Oder einfach eine neue Antwort generiert?
 
 :::
 
@@ -45,7 +45,7 @@ Ich habe gelesen dass etwa 60% der Studierenden in Regelzeit abschliessen. Stimm
 
 ::: {.reflect}
 
-Bestätigt das Modell deine eingebaute Annahme --- obwohl sie falsch ist?
+Bestätigt das Modell deine eingebaute Annahme, obwohl sie falsch ist?
 
 :::
 
@@ -64,8 +64,8 @@ Teile deine Beobachtungen:
 
 Nachfragen beim Sprachmodell ist keine echte Prüfung.
 
-- Es kann sich **nicht selbst verifizieren** --- es generiert nur neue Antworten
-- Es **bestätigt tendenziell deine Annahmen** --- deine Frage beeinflusst die Antwort
+- Es kann sich **nicht selbst verifizieren**: es generiert nur neue Antworten
+- Es **bestätigt tendenziell deine Annahmen**: deine Frage beeinflusst die Antwort
 
 Beide Wege sind blockiert. Bleibt: **Externe Quellen.**
 

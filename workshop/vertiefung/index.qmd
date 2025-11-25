@@ -1,6 +1,5 @@
 ---
-title: "Vertiefung"
-subtitle: "Ergänzende Materialien"
+title: "Ergänzende Materialien"
 ---
 
 Diese Materialien ergänzen den Workshop um zwei Aspekte, die im 40-Minuten-Format nicht vollständig behandelt werden:

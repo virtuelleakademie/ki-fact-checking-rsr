@@ -67,7 +67,7 @@ Sprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch oder
 
 :::
 
-### Schritt 5: Ergebnis
+### Ergebnis
 
 ::: {.reflect}
 

@@ -7,7 +7,7 @@ subtitle: "Gemeinsames Experiment"
 
 ::: {.experiment}
 
-1. Öffne dein Sprachmodell (ChatGPT, Claude, Copilot, etc.)
+1. Öffne dein Sprachmodell (ChatGPT, Copilot, Claude, oder Gemini)
 2. Kopiere den Prompt unten und füge ihn ein
 3. Sende die Anfrage ab
 4. Notiere dir die Zahl, die das Modell nennt

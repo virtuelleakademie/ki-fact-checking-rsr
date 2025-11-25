@@ -28,12 +28,12 @@ about:
 
 ## Workshop: KI-Antworten kritisch prüfen
 
-{{< bi link >}} [virtuelleakademie.github.io/ki-fact-checking-rsrn/](https://virtuelleakademie.github.io/ki-fact-checking-rsrn/)
+{{< bi link >}} [virtuelleakademie.github.io/ki-fact-checking-rsr/](https://virtuelleakademie.github.io/ki-fact-checking-rsr/)
 
 <!-- <br> -->
 
 ::: {.column-margin}
-{{< qrcode https://virtuelleakademie.github.io/ki-fact-checking-rsrn/ width=100 height=100 colorDark='#000000' >}}
+{{< qrcode https://virtuelleakademie.github.io/ki-fact-checking-rsr/ width=100 height=100 colorDark='#000000' >}}
 :::
 
 <br>
