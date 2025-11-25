@@ -663,7 +663,7 @@
     "href": "workshop/vertiefung/confirmation-bias/index.html#weiterführend",
     "title": "Confirmation Bias und KI",
     "section": "Weiterführend",
-    "text": "Weiterführend\n\nSharma, M. et al. (2023): Towards Understanding Sycophancy in Language Models. Anthropic-Forschung zum Thema.\nRathje, S. et al. (2025): AI chatbot interactions and attitude polarization. Studie zu Meinungsverstärkung."
+    "text": "Weiterführend\n\nSharma et al. (2023): Forschung zum Thema Sycophancy."
   },
   {
     "objectID": "workshop/vertiefung/confirmation-bias/index.html#die-echo-chamber-für-eine-person",
@@ -671,5 +671,35 @@
     "title": "Confirmation Bias und KI",
     "section": "Die Echo Chamber für eine Person",
     "text": "Die Echo Chamber für eine Person\nWenn Confirmation Bias und KI-Schmeichelei zusammentreffen, entsteht ein Teufelskreis:\n\nDu stellst eine Frage, die deine Meinung andeutet\nDer Chatbot bestätigt deine Meinung\nDu fühlst dich bestärkt und fragst weiter\nDer Chatbot verstärkt weiter\nDeine Überzeugung wächst, ohne dass neue Fakten hinzukommen\n\nForschende nennen das den Chat-Chamber Effect: eine Filterblase, die du dir selbst erschaffst. Mit Hilfe eines KI-Systems, das gelernt hat, dir zu gefallen.\n\n\n\n\n\n\nKey-pointDer Kern des Problems\n\n\n\nKlassische Echo Chambers entstehen durch Algorithmen, die dir ähnliche Inhalte zeigen. Bei Chatbots erzeugst du die Echo Chamber selbst: durch die Art, wie du fragst, und durch ein System, das darauf trainiert ist, zuzustimmen."
+  },
+  {
+    "objectID": "materialien.html",
+    "href": "materialien.html",
+    "title": "Materialien",
+    "section": "",
+    "text": "Diese Seite bietet einen Überblick über alle ergänzenden Materialien zum Workshop.",
+    "crumbs": [
+      "Materialien"
+    ]
+  },
+  {
+    "objectID": "materialien.html#handout",
+    "href": "materialien.html#handout",
+    "title": "Materialien",
+    "section": "Handout",
+    "text": "Handout\n\nHandout: Lateral Reading: Kompakte Zusammenfassung der Workshop-Methode zum Ausdrucken oder Nachschlagen.",
+    "crumbs": [
+      "Materialien"
+    ]
+  },
+  {
+    "objectID": "materialien.html#vertiefungsartikel",
+    "href": "materialien.html#vertiefungsartikel",
+    "title": "Materialien",
+    "section": "Vertiefungsartikel",
+    "text": "Vertiefungsartikel\nDiese Artikel vertiefen einzelne Aspekte, die im 40-Minuten-Workshop nicht vollständig behandelt werden können:\n\nVertiefung: Nicht verifizierbare Behauptungen und zeitliche Gültigkeit von Informationen.\nVertical vs. Lateral Reading: Warum wir die Quelle verlassen müssen. Die theoretische Grundlage der Workshop-Methode.\nConfirmation Bias und KI: Warum Chatbots uns recht geben und wie wir dagegen vorgehen können.",
+    "crumbs": [
+      "Materialien"
+    ]
   }
 ]

@@ -1,6 +1,7 @@
 ---
 title: "Confirmation Bias und KI"
 subtitle: "Warum Chatbots uns recht geben und warum das gefährlich ist"
+bibliography: ../../../bibliography.bib
 ---
 
 ## Unser Gehirn sucht Bestätigung
@@ -113,4 +114,4 @@ Du kannst Chatbots explizit bitten, kritisch zu sein:
 
 ## Weiterführend
 
-- Sharma, M. et al. (2023): [Towards Understanding Sycophancy in Language Models](https://arxiv.org/abs/2310.13548). Anthropic-Forschung zum Thema.
+- @sharmaUnderstandingSycophancyLanguage2023: Forschung zum Thema Sycophancy.

@@ -12,6 +12,7 @@ project:
     - index.qmd
     - workshop/**/*.qmd
     - handout.qmd
+    - materialien.qmd
 
 website:
   title: "Fact-Checking für KI"
@@ -33,18 +34,9 @@ website:
         href: workshop/index.qmd
         text: Workshop
 
-    # right:
       - icon: file-text
         text: "Materialien"
-        menu:
-          - text: "Handout"
-            file: handout.qmd
-          - text: "Vertiefung"
-            href: workshop/vertiefung/index.qmd
-          - text: "Vertical vs. Lateral Reading"
-            href: workshop/vertiefung/vertical-lateral/index.qmd
-          - text: "Confirmation Bias und KI"
-            href: workshop/vertiefung/confirmation-bias/index.qmd
+        href: materialien.qmd
 
     tools:
       - icon: lightbulb-fill
@@ -52,23 +44,31 @@ website:
         href: https://virtuelleakademie.ch/knowledge-base/
 
   sidebar:
-    - title: "Workshop"
+    - id: workshop
+      title: "Workshop"
       style: "docked"
       search: true
       background: light
       contents:
         - workshop/index.qmd
-        # - section: "Ablauf"
-          # contents:
         - workshop/framing/index.qmd
         - workshop/experiment-1/index.qmd
         - workshop/experiment-2/index.qmd
         - workshop/lateral-reading/index.qmd
         - workshop/entscheidungsregel/index.qmd
-        # - section: "Materialien"
-        #   contents:
-        #     - handout.qmd
-        #     - workshop/vertiefung/index.qmd
+
+    - id: materialien
+      title: "Materialien"
+      style: "docked"
+      background: light
+      contents:
+        - materialien.qmd
+        - handout.qmd
+        - section: "Vertiefung"
+          contents:
+            - workshop/vertiefung/index.qmd
+            - workshop/vertiefung/vertical-lateral/index.qmd
+            - workshop/vertiefung/confirmation-bias/index.qmd
 
 page-footer:
     right:

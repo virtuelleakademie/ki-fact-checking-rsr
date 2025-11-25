@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -87,78 +107,6 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-source-check.callout {
-  border-left-color: #198754;
-}
-div.callout-source-check.callout-style-default > .callout-header {
-  background-color: rgba(25, 135, 84, 0.13);
-}
-div.callout-source-check .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-source-check.callout-style-default .callout-icon::before, div.callout-source-check.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f002';
-  background-image: none;
-}
-div.callout-demonstration.callout {
-  border-left-color: #0d6efd;
-}
-div.callout-demonstration.callout-style-default > .callout-header {
-  background-color: rgba(13, 110, 253, 0.13);
-}
-div.callout-demonstration .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-demonstration.callout-style-default .callout-icon::before, div.callout-demonstration.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f51b';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: #6f42c1;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(111, 66, 193, 0.13);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f0eb';
-  background-image: none;
-}
-div.callout-warning.callout {
-  border-left-color: #fd7e14;
-}
-div.callout-warning.callout-style-default > .callout-header {
-  background-color: rgba(253, 126, 20, 0.13);
-}
-div.callout-warning .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-warning.callout-style-default .callout-icon::before, div.callout-warning.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f06a';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: #9A4665;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f007';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: #6f42c1;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgba(111, 66, 193, 0.13);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f0c0';
-  background-image: none;
-}
 div.callout-prompt.callout {
   border-left-color: #495057;
 }
@@ -171,6 +119,18 @@ div.callout-prompt.callout-style-default .callout-icon::before, div.callout-prom
   content: '\f328';
   background-image: none;
 }
+div.callout-pro-tip.callout {
+  border-left-color: #20c997;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgba(32, 201, 151, 0.13);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\e2ca';
+  background-image: none;
+}
 div.callout-key-point.callout {
   border-left-color: #9A4665;
 }
@@ -181,6 +141,18 @@ div.callout-key-point .callout-toggle::before {  background-image: url('data:ima
 div.callout-key-point.callout-style-default .callout-icon::before, div.callout-key-point.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
   content: '\f005';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: #9A4665;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f007';
   background-image: none;
 }
 div.callout-scenario.callout {
@@ -207,16 +179,64 @@ div.callout-experiment.callout-style-default .callout-icon::before, div.callout-
   content: '\f0c3';
   background-image: none;
 }
-div.callout-pro-tip.callout {
-  border-left-color: #20c997;
+div.callout-group.callout {
+  border-left-color: #6f42c1;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgba(32, 201, 151, 0.13);
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgba(111, 66, 193, 0.13);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
-  content: '\e2ca';
+  content: '\f0c0';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: #6f42c1;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(111, 66, 193, 0.13);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f0eb';
+  background-image: none;
+}
+div.callout-warning.callout {
+  border-left-color: #fd7e14;
+}
+div.callout-warning.callout-style-default > .callout-header {
+  background-color: rgba(253, 126, 20, 0.13);
+}
+div.callout-warning .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-warning.callout-style-default .callout-icon::before, div.callout-warning.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f06a';
+  background-image: none;
+}
+div.callout-source-check.callout {
+  border-left-color: #198754;
+}
+div.callout-source-check.callout-style-default > .callout-header {
+  background-color: rgba(25, 135, 84, 0.13);
+}
+div.callout-source-check .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-source-check.callout-style-default .callout-icon::before, div.callout-source-check.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f002';
+  background-image: none;
+}
+div.callout-demonstration.callout {
+  border-left-color: #0d6efd;
+}
+div.callout-demonstration.callout-style-default > .callout-header {
+  background-color: rgba(13, 110, 253, 0.13);
+}
+div.callout-demonstration .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-demonstration.callout-style-default .callout-icon::before, div.callout-demonstration.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f51b';
   background-image: none;
 }
 </style>
@@ -250,31 +270,13 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </i> 
 <span class="menu-text">Workshop</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-materialien" role="link" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="bi bi-file-text" role="img">
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../workshop/vertiefung/index.html"> <i class="bi bi-file-text" role="img">
 </i> 
- <span class="menu-text">Materialien</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-materialien">    
-        <li>
-    <a class="dropdown-item" href="../../../handout.html">
- <span class="dropdown-text">Handout</span></a>
+<span class="menu-text">Materialien</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../../../workshop/vertiefung/index.html">
- <span class="dropdown-text">Vertiefung</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../workshop/vertiefung/vertical-lateral/index.html">
- <span class="dropdown-text">Vertical vs.&nbsp;Lateral Reading</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../../workshop/vertiefung/confirmation-bias/index.html">
- <span class="dropdown-text">Confirmation Bias und KI</span></a>
-  </li>  
-    </ul>
-  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -427,7 +429,7 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </section>
 <section id="ein-extremes-beispiel" class="level2">
 <h2 class="anchored" data-anchor-id="ein-extremes-beispiel">Ein extremes Beispiel</h2>
-<p>Der Fall von Allan Brooks (2025) zeigt, wie weit das gehen kann.</p>
+<p>Der Fall von <a href="https://futurism.com/chatgpt-chabot-severe-delusions">Allan Brooks (2025)</a> zeigt, wie weit das gehen kann.</p>
 <p>Ein 47-jähriger Personalvermittler aus Kanada nutzte ChatGPT während einer schwierigen Scheidung. Was als mathematische Frage begann, entwickelte sich über 21 Tage zu einer Überzeugung, er habe eine revolutionäre mathematische Theorie entdeckt.</p>
 <ul>
 <li>ChatGPT stimmte ihm zu, nannte ihn ein Genie, verglich ihn mit Alan Turing</li>
@@ -505,14 +507,18 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 <section id="weiterführend" class="level2">
 <h2 class="anchored" data-anchor-id="weiterführend">Weiterführend</h2>
 <ul>
-<li>Sharma, M. et al.&nbsp;(2023): <a href="https://arxiv.org/abs/2310.13548">Towards Understanding Sycophancy in Language Models</a>. Anthropic-Forschung zum Thema.</li>
-<li>Rathje, S. et al.&nbsp;(2025): <a href="https://www.science.org/doi/10.1126/science.adq5769">AI chatbot interactions and attitude polarization</a>. Studie zu Meinungsverstärkung.</li>
+<li><span class="citation" data-cites="sharmaUnderstandingSycophancyLanguage2023">Sharma et al. (<a href="#ref-sharmaUnderstandingSycophancyLanguage2023" role="doc-biblioref">2023</a>)</span>: Forschung zum Thema Sycophancy.</li>
 </ul>
+
 
 
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-sharmaUnderstandingSycophancyLanguage2023" class="csl-entry" role="listitem">
+Sharma, Mrinank, Meg Tong, Tomasz Korbak, David Duvenaud, Amanda Askell, Samuel R. Bowman, Newton Cheng, et al. 2023. <span>“Towards <span>Understanding Sycophancy</span> in <span>Language Models</span>.”</span> October 27, 2023. <a href="https://doi.org/10.48550/arXiv.2310.13548">https://doi.org/10.48550/arXiv.2310.13548</a>.
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Find all prompt callouts

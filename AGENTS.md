@@ -27,7 +27,7 @@ quarto render           # Build site to /docs/
 - Use "ss" instead of "ß" (e.g., "weisst" not "weißt")
 - Address readers with informal "du" form, not formal "Sie"
 - No emojis in content
-- Use em-dashes for parenthetical phrases: "---" not "—"
+- Do not use em-dashes ("---" or "—"). Use colons or restructure sentences instead.
 - Do not use dividing lines ("---" on its own line) except in YAML headers
 - Ensure blank line above all markdown lists
 
