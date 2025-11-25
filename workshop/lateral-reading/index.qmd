@@ -45,7 +45,20 @@ Nicht: "Stimmt 78000?"
 
 Wichtig: Nicht die Google-Zusammenfassung lesen. Zur echten Seite gehen und die Daten selbst finden.
 
-### Schritt 4: Ergebnis
+### Schritt 4: Zwei Prüffragen
+
+Wenn du eine Quelle gefunden hast, stelle zwei Fragen:
+
+| Frage | Bedeutung |
+|-------|-----------|
+| **Ist die Quelle zuverlässig?** | Ist das eine Primärquelle oder offizielle Stelle? |
+| **Steht da wirklich das, was das Sprachmodell behauptet?** | Unterstützt die Quelle tatsächlich die konkrete Aussage? |
+
+::: {.warning}
+Sprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch oder übertreiben. Immer selbst nachlesen!
+:::
+
+### Schritt 5: Ergebnis
 
 ::: {.reflect}
 ### Was haben wir gefunden?

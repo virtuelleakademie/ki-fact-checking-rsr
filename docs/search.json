@@ -39,7 +39,7 @@
     "href": "handout.html#wann-besonders-skeptisch-sein",
     "title": "Handout: Lateral Reading",
     "section": "Wann besonders skeptisch sein",
-    "text": "Wann besonders skeptisch sein\n\n\n\n\n\n\nWarningRote Flaggen\n\n\n\n\nDas Sprachmodell gibt sehr spezifische Zahlen ohne Quellenangabe\nDas Sprachmodell bestätigt genau das, was du vermutet hast\nDu hast eine Annahme in die Frage eingebaut\nEs geht um rechtliche oder finanzielle Entscheidungen"
+    "text": "Wann besonders skeptisch sein\n\n\n\n\n\n\nWarningRote Flaggen\n\n\n\n\nSpezifitätsfalle: Je präziser die Zahlen, desto vertrauenswürdiger wirkt es — aber Spezifität ≠ Richtigkeit\nDas Sprachmodell bestätigt genau das, was du vermutet hast\nDu hast eine Annahme in die Frage eingebaut\nEs geht um rechtliche oder finanzielle Entscheidungen"
   },
   {
     "objectID": "handout.html#stärken-und-schwächen-von-sprachmodellen",
@@ -369,7 +369,7 @@
     "href": "workshop/experiment-1/index.html#beobachtung",
     "title": "Teil 1: Das Sprachmodell liegt falsch",
     "section": "Beobachtung",
-    "text": "Beobachtung\n\n\n\n\n\n\nReflectWas siehst du?\n\n\n\n\nStimmen die Zahlen der Sprachmodelle mit der offiziellen Quelle überein?\nHat das Modell eine Quelle genannt?\nWie sicher klang die Antwort?\n\n\n\n\n\n\n\n\n\n\nKey-pointKernbotschaft\n\n\n\nAntworten von Sprachmodellen können sehr spezifisch und selbstbewusst klingen — und trotzdem falsch sein.\nÜberzeugend heisst nicht korrekt.",
+    "text": "Beobachtung\n\n\n\n\n\n\nReflectWas siehst du?\n\n\n\n\nStimmen die Zahlen der Sprachmodelle mit der offiziellen Quelle überein?\nHat das Modell eine Quelle genannt?\nWie sicher klang die Antwort?\n\n\n\n\n\n\n\n\n\n\nKey-pointKernbotschaft\n\n\n\nAntworten von Sprachmodellen können sehr spezifisch und selbstbewusst klingen — und trotzdem falsch sein.\nÜberzeugend heisst nicht korrekt.\n\n\n\n\n\n\n\n\nWarningDie Spezifitätsfalle\n\n\n\nJe spezifischer eine Antwort klingt — genaue Zahlen, Daten, Namen — desto vertrauenswürdiger wirkt sie. Aber Spezifität ist kein Beweis für Richtigkeit. Sprachmodelle generieren oft sehr präzise klingende Details, die frei erfunden sind.",
     "crumbs": [
       "Workshop",
       "Teil 1: Das Sprachmodell liegt falsch"
@@ -402,7 +402,7 @@
     "href": "workshop/lateral-reading/index.html#runde-1",
     "title": "Teil 3: Lateral Reading",
     "section": "Runde 1: Gemeinsam",
-    "text": "Runde 1: Gemeinsam\n\n\n\n\n\n\nScenarioDas Szenario\n\n\n\nDas Sprachmodell sagt:\n\n“Das durchschnittliche Gehalt für Verwaltungsmitarbeitende an Schweizer Universitäten liegt bei CHF 78’000 brutto pro Jahr.”\n\nDu willst das für einen Budgetantrag verwenden.\n\n\n\nSchritt 1: Suchbegriffe formulieren\nWie würdest du suchen? Nicht das Sprachmodell fragen — was tippst du bei Google ein?\n\n\n\n\n\n\nPro-tipGute Suchbegriffe\n\n\n\n\n\n\n“Schweiz Universität Verwaltung Gehalt Statistik”\n“swissuniversities Lohnstruktur”\n\nNicht: “Stimmt 78000?”\n\n\n\n\n\nSchritt 2: Suchergebnisse filtern\n\n\n\nQuelle\nBewertung\n\n\n\n\njobs.ch\nStellenanzeigen — keine offizielle Statistik\n\n\nBlogs, Foren\nÜberspringen\n\n\nbfs.admin.ch\nPrimärquelle — klicken\n\n\nswissuniversities\nOffizielle Quelle — klicken\n\n\n\n\n\nSchritt 3: Zur Quelle gehen\nWichtig: Nicht die Google-Zusammenfassung lesen. Zur echten Seite gehen und die Daten selbst finden.\n\n\nSchritt 4: Ergebnis\n\n\n\n\n\n\nReflectWas haben wir gefunden?\n\n\n\nOft: Die exakte Zahl existiert nicht in dieser Form. Das ist selbst eine wichtige Information — die Zahl vom Sprachmodell ist nicht verifizierbar und somit nicht verwendbar für einen Budgetantrag.",
+    "text": "Runde 1: Gemeinsam\n\n\n\n\n\n\nScenarioDas Szenario\n\n\n\nDas Sprachmodell sagt:\n\n“Das durchschnittliche Gehalt für Verwaltungsmitarbeitende an Schweizer Universitäten liegt bei CHF 78’000 brutto pro Jahr.”\n\nDu willst das für einen Budgetantrag verwenden.\n\n\n\nSchritt 1: Suchbegriffe formulieren\nWie würdest du suchen? Nicht das Sprachmodell fragen — was tippst du bei Google ein?\n\n\n\n\n\n\nPro-tipGute Suchbegriffe\n\n\n\n\n\n\n“Schweiz Universität Verwaltung Gehalt Statistik”\n“swissuniversities Lohnstruktur”\n\nNicht: “Stimmt 78000?”\n\n\n\n\n\nSchritt 2: Suchergebnisse filtern\n\n\n\nQuelle\nBewertung\n\n\n\n\njobs.ch\nStellenanzeigen — keine offizielle Statistik\n\n\nBlogs, Foren\nÜberspringen\n\n\nbfs.admin.ch\nPrimärquelle — klicken\n\n\nswissuniversities\nOffizielle Quelle — klicken\n\n\n\n\n\nSchritt 3: Zur Quelle gehen\nWichtig: Nicht die Google-Zusammenfassung lesen. Zur echten Seite gehen und die Daten selbst finden.\n\n\nSchritt 4: Zwei Prüffragen\nWenn du eine Quelle gefunden hast, stelle zwei Fragen:\n\n\n\n\n\n\n\nFrage\nBedeutung\n\n\n\n\nIst die Quelle zuverlässig?\nIst das eine Primärquelle oder offizielle Stelle?\n\n\nSteht da wirklich das, was das Sprachmodell behauptet?\nUnterstützt die Quelle tatsächlich die konkrete Aussage?\n\n\n\n\n\n\n\n\n\nWarningAchtung\n\n\n\nSprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch oder übertreiben. Immer selbst nachlesen!\n\n\n\n\nSchritt 5: Ergebnis\n\n\n\n\n\n\nReflectWas haben wir gefunden?\n\n\n\nOft: Die exakte Zahl existiert nicht in dieser Form. Das ist selbst eine wichtige Information — die Zahl vom Sprachmodell ist nicht verifizierbar und somit nicht verwendbar für einen Budgetantrag.",
     "crumbs": [
       "Workshop",
       "Teil 3: Lateral Reading"
@@ -471,5 +471,12 @@
     "title": "Vertiefung",
     "section": "Weiterführende Ressourcen",
     "text": "Weiterführende Ressourcen\n\nZur Vertiefung\n\nSIFT-Methode — die englischsprachige Grundlage für Lateral Reading\nCorrectiv — deutschsprachiges Fact-Checking\nAFP Faktencheck — deutschsprachig, auch Schweizer Themen\n\n\n\nFür den Arbeitsalltag\n\nBei Unsicherheit: Lieber einmal mehr nachfragen als falsche Information weitergeben\nDokumentation: Notiere dir, wo du was verifiziert hast — spart Zeit bei Rückfragen\nTeamwissen: Teile gute Quellen mit Kolleginnen und Kollegen"
+  },
+  {
+    "objectID": "handout.html#lateral-reading-in-4-schritten",
+    "href": "handout.html#lateral-reading-in-4-schritten",
+    "title": "Handout: Lateral Reading",
+    "section": "Lateral Reading in 4 Schritten",
+    "text": "Lateral Reading in 4 Schritten\n\n1. Suchbegriffe formulieren\n\n\n\nNicht\n“Stimmt das?” oder Sprachmodell nochmal fragen\n\n\nSondern\n“[Thema] Schweiz Statistik/Gesetz”\n\n\n\n\n\n2. Suchergebnisse filtern\n\n\n\nQuelle\nBewertung\n\n\n\n\nPrimärquellen: .admin.ch, .edu, offizielle Berichte\nKlicken\n\n\nWikipedia\nNur als Einstieg, nicht zitieren\n\n\nAI-generierte Zusammenfassungen, Blogs, Foren\nÜberspringen\n\n\n\n\n\n3. Zur Original-Quelle gehen\n\nGoogle-Zusammenfassung reicht nicht\nWebsite öffnen, echte Daten finden\nKeine Quelle gefunden = Aussage vom Sprachmodell nicht verwendbar\n\n\n\n4. Zwei Prüffragen stellen\n\n\n\n\n\n\n\nFrage\n\n\n\n\n\nZuverlässig?\nIst das eine Primärquelle oder offizielle Stelle?\n\n\nRelevant?\nSteht da wirklich das, was das Sprachmodell behauptet?\n\n\n\nSprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch."
   }
 ]

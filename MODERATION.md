@@ -135,6 +135,12 @@ Teilnehmende berichten: Zahlen stimmen nicht überein, das Modell war spezifisch
 
 > Die Antwort klang überzeugend. Spezifische Zahl, selbstsicher formuliert. Aber nicht richtig. Das ist das Muster: **Überzeugend heisst nicht korrekt.**
 
+### Die Spezifitätsfalle
+
+*Optional, wenn Zeit:*
+
+> Achte auf die Spezifitätsfalle: Je präziser eine Antwort klingt -- genaue Prozentzahlen, Jahreszahlen, Namen -- desto vertrauenswürdiger wirkt sie. Aber Spezifität ist kein Beweis. Sprachmodelle erfinden oft sehr präzise klingende Details.
+
 ### Troubleshooting
 
 **Alle Antworten sind gleich und korrekt?**
@@ -243,7 +249,13 @@ Am Projektor suchen und Ergebnisse bewerten:
 
 BFS oder swissuniversities öffnen, navigieren, zeigen was man findet (oder nicht findet).
 
-**Schritt 4: Ergebnis besprechen (2 Min)**
+**Schritt 4: Zwei Prüffragen (1 Min)**
+
+> Wenn du eine Quelle gefunden hast, stell zwei Fragen: Erstens, ist die Quelle zuverlässig -- also eine Primärquelle oder offizielle Stelle? Zweitens, steht da wirklich das, was das Sprachmodell behauptet?
+
+> Sprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch oder übertreiben. Immer selbst nachlesen.
+
+**Schritt 5: Ergebnis besprechen (1 Min)**
 
 > Was haben wir gefunden?
 

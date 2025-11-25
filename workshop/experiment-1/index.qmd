@@ -63,3 +63,9 @@ Antworten von Sprachmodellen können sehr spezifisch und selbstbewusst klingen -
 
 **Überzeugend heisst nicht korrekt.**
 :::
+
+::: {.warning}
+### Die Spezifitätsfalle
+
+Je spezifischer eine Antwort klingt --- genaue Zahlen, Daten, Namen --- desto vertrauenswürdiger wirkt sie. Aber Spezifität ist kein Beweis für Richtigkeit. Sprachmodelle generieren oft sehr präzise klingende Details, die frei erfunden sind.
+:::
