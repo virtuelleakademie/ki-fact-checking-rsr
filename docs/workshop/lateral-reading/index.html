@@ -89,47 +89,14 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-pair.callout {
-  border-left-color: forestgreen;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
-div.callout-reflect.callout {
+div.callout-group.callout {
   border-left-color: purple;
 }
-div.callout-reflect.callout-style-default > .callout-header {
+div.callout-group.callout-style-default > .callout-header {
   background-color: rgb(from purple r g b / 13%);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: steelblue;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
-div.callout-demonstration.callout {
-  border-left-color: steelblue;
-}
-div.callout-demonstration.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-demonstration .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-demonstration.callout-style-default .callout-icon::before, div.callout-demonstration.callout-titled .callout-icon::before {
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
   content: '';
   background-image: none;
 }
@@ -144,36 +111,14 @@ div.callout-warning.callout-style-default .callout-icon::before, div.callout-war
   content: '!';
   background-image: none;
 }
-div.callout-group.callout {
-  border-left-color: purple;
+div.callout-demonstration.callout {
+  border-left-color: steelblue;
 }
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
+div.callout-demonstration.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
 }
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
-div.callout-key-point.callout {
-  border-left-color: #9A4665;
-}
-div.callout-key-point.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-key-point .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-key-point.callout-style-default .callout-icon::before, div.callout-key-point.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
-div.callout-experiment.callout {
-  border-left-color: #9A4665;
-}
-div.callout-experiment.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-experiment .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-experiment.callout-style-default .callout-icon::before, div.callout-experiment.callout-titled .callout-icon::before {
+div.callout-demonstration .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-demonstration.callout-style-default .callout-icon::before, div.callout-demonstration.callout-titled .callout-icon::before {
   content: '';
   background-image: none;
 }
@@ -188,14 +133,36 @@ div.callout-source-check.callout-style-default .callout-icon::before, div.callou
   content: '';
   background-image: none;
 }
-div.callout-scenario.callout {
-  border-left-color: steelblue;
+div.callout-reflect.callout {
+  border-left-color: purple;
 }
-div.callout-scenario.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
 }
-div.callout-scenario .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-scenario.callout-style-default .callout-icon::before, div.callout-scenario.callout-titled .callout-icon::before {
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: forestgreen;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '';
+  background-image: none;
+}
+div.callout-key-point.callout {
+  border-left-color: #9A4665;
+}
+div.callout-key-point.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-key-point .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-key-point.callout-style-default .callout-icon::before, div.callout-key-point.callout-titled .callout-icon::before {
   content: '';
   background-image: none;
 }
@@ -207,6 +174,39 @@ div.callout-pro-tip.callout-style-default > .callout-header {
 }
 div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '';
+  background-image: none;
+}
+div.callout-scenario.callout {
+  border-left-color: steelblue;
+}
+div.callout-scenario.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-scenario .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-scenario.callout-style-default .callout-icon::before, div.callout-scenario.callout-titled .callout-icon::before {
+  content: '';
+  background-image: none;
+}
+div.callout-experiment.callout {
+  border-left-color: #9A4665;
+}
+div.callout-experiment.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-experiment .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-experiment.callout-style-default .callout-icon::before, div.callout-experiment.callout-titled .callout-icon::before {
+  content: '';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: steelblue;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
   content: '';
   background-image: none;
 }
@@ -240,11 +240,23 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </i> 
 <span class="menu-text">Workshop</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../handout.html"> <i class="bi bi-file-text" role="img">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-materialien" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-file-text" role="img">
 </i> 
-<span class="menu-text">Handout</span></a>
+ <span class="menu-text">Materialien</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-materialien">    
+        <li>
+    <a class="dropdown-item" href="../../handout.html">
+ <span class="dropdown-text">Handout</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../workshop/vertiefung/index.html">
+ <span class="dropdown-text">Vertiefung</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -257,7 +269,7 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../workshop/framing/index.html">Ablauf</a></li><li class="breadcrumb-item"><a href="../../workshop/lateral-reading/index.html">Teil 3: Lateral Reading</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../workshop/lateral-reading/index.html">Teil 3: Lateral Reading</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -283,64 +295,36 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
  <span class="menu-text">Antworten von Sprachmodellen kritisch prüfen</span></a>
   </div>
 </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Ablauf</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/framing/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Einstieg</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/experiment-1/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Teil 1: Das Sprachmodell liegt falsch</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/experiment-2/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Teil 2: Warum Nachfragen nicht hilft</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/lateral-reading/index.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Teil 3: Lateral Reading</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/entscheidungsregel/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Teil 4: Die Entscheidungsregel</span></a>
   </div>
 </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Materialien</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../handout.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Quick Reference Card</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
     </ul>
     </div>
 </nav>
@@ -351,33 +335,25 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#runde-1" id="toc-runde-1" class="nav-link active" data-scroll-target="#runde-1">Runde 1: Gemeinsam (7 Min)</a>
+  <li><a href="#runde-1" id="toc-runde-1" class="nav-link active" data-scroll-target="#runde-1">Runde 1: Gemeinsam</a>
   <ul class="collapse">
-  <li><a href="#schritt-1-suchbegriffe-1.5-min" id="toc-schritt-1-suchbegriffe-1.5-min" class="nav-link" data-scroll-target="#schritt-1-suchbegriffe-1.5-min">Schritt 1: Suchbegriffe (1.5 Min)</a></li>
-  <li><a href="#schritt-2-suchergebnisse-filtern-1.5-min" id="toc-schritt-2-suchergebnisse-filtern-1.5-min" class="nav-link" data-scroll-target="#schritt-2-suchergebnisse-filtern-1.5-min">Schritt 2: Suchergebnisse filtern (1.5 Min)</a></li>
-  <li><a href="#schritt-3-zur-quelle-gehen-2-min" id="toc-schritt-3-zur-quelle-gehen-2-min" class="nav-link" data-scroll-target="#schritt-3-zur-quelle-gehen-2-min">Schritt 3: Zur Quelle gehen (2 Min)</a></li>
-  <li><a href="#schritt-4-ergebnis-besprechen-2-min" id="toc-schritt-4-ergebnis-besprechen-2-min" class="nav-link" data-scroll-target="#schritt-4-ergebnis-besprechen-2-min">Schritt 4: Ergebnis besprechen (2 Min)</a></li>
+  <li><a href="#schritt-1-suchbegriffe-formulieren" id="toc-schritt-1-suchbegriffe-formulieren" class="nav-link" data-scroll-target="#schritt-1-suchbegriffe-formulieren">Schritt 1: Suchbegriffe formulieren</a></li>
+  <li><a href="#schritt-2-suchergebnisse-filtern" id="toc-schritt-2-suchergebnisse-filtern" class="nav-link" data-scroll-target="#schritt-2-suchergebnisse-filtern">Schritt 2: Suchergebnisse filtern</a></li>
+  <li><a href="#schritt-3-zur-quelle-gehen" id="toc-schritt-3-zur-quelle-gehen" class="nav-link" data-scroll-target="#schritt-3-zur-quelle-gehen">Schritt 3: Zur Quelle gehen</a></li>
+  <li><a href="#schritt-4-ergebnis" id="toc-schritt-4-ergebnis" class="nav-link" data-scroll-target="#schritt-4-ergebnis">Schritt 4: Ergebnis</a></li>
   </ul></li>
-  <li><a href="#runde-2" id="toc-runde-2" class="nav-link" data-scroll-target="#runde-2">Runde 2: In Kleingruppen (8 Min)</a>
+  <li><a href="#runde-2" id="toc-runde-2" class="nav-link" data-scroll-target="#runde-2">Runde 2: In Kleingruppen</a>
   <ul class="collapse">
-  <li><a href="#auswertung-3-min" id="toc-auswertung-3-min" class="nav-link" data-scroll-target="#auswertung-3-min">Auswertung (3 Min)</a></li>
+  <li><a href="#auswertung" id="toc-auswertung" class="nav-link" data-scroll-target="#auswertung">Auswertung</a></li>
   </ul></li>
-  <li><a href="#runde-3" id="toc-runde-3" class="nav-link" data-scroll-target="#runde-3">Runde 3: Eigenes Beispiel (7 Min)</a>
-  <ul class="collapse">
-  <li><a href="#teilen" id="toc-teilen" class="nav-link" data-scroll-target="#teilen">Teilen</a></li>
-  </ul></li>
-  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting">Troubleshooting</a>
-  <ul class="collapse">
-  <li><a href="#teilnehmende-finden-keine-quelle" id="toc-teilnehmende-finden-keine-quelle" class="nav-link" data-scroll-target="#teilnehmende-finden-keine-quelle">Teilnehmende finden keine Quelle</a></li>
-  <li><a href="#zeit-wird-knapp" id="toc-zeit-wird-knapp" class="nav-link" data-scroll-target="#zeit-wird-knapp">Zeit wird knapp</a></li>
-  </ul></li>
+  <li><a href="#runde-3" id="toc-runde-3" class="nav-link" data-scroll-target="#runde-3">Runde 3: Eigenes Beispiel</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../workshop/framing/index.html">Ablauf</a></li><li class="breadcrumb-item"><a href="../../workshop/lateral-reading/index.html">Teil 3: Lateral Reading</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Teil 3: Lateral Reading</h1>
 <p class="subtitle lead">Die Technik in drei Runden üben</p>
@@ -397,71 +373,106 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </header>
 
 
-<p><strong>Dauer:</strong> 22 Minuten (14:30–36:30)</p>
-<hr>
-<p><strong>Ziel:</strong> Die Technik praktisch anwenden – von geführt bis selbständig.</p>
+<p>Lateral Reading heisst: Raus aus dem Sprachmodell, eigene Suche, Primärquellen finden.</p>
 <hr>
 <section id="runde-1" class="level2">
-<h2 class="anchored" data-anchor-id="runde-1">Runde 1: Gemeinsam (7 Min)</h2>
+<h2 class="anchored" data-anchor-id="runde-1">Runde 1: Gemeinsam</h2>
+<div class="callout callout-style-simple callout-scenario no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Scenario</span>Das Szenario
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Das Sprachmodell sagt:</p>
 <blockquote class="blockquote">
-<p>Lateral Reading heisst: Raus aus dem Sprachmodell, eigene Suche, Primärquellen finden. Wir machen das jetzt gemeinsam.</p>
+<p>“Das durchschnittliche Gehalt für Verwaltungsmitarbeitende an Schweizer Universitäten liegt bei CHF 78’000 brutto pro Jahr.”</p>
 </blockquote>
-<p><strong>Szenario vorstellen:</strong></p>
-<blockquote class="blockquote">
-<p>Das Sprachmodell sagt: “Das durchschnittliche Gehalt für Verwaltungsmitarbeitende an Schweizer Universitäten liegt bei CHF 78’000 brutto pro Jahr.” Du willst das für einen Budgetantrag verwenden.</p>
-</blockquote>
-<section id="schritt-1-suchbegriffe-1.5-min" class="level3">
-<h3 class="anchored" data-anchor-id="schritt-1-suchbegriffe-1.5-min">Schritt 1: Suchbegriffe (1.5 Min)</h3>
-<blockquote class="blockquote">
-<p>Wie würdest du suchen? Nicht das Sprachmodell fragen. Was tippst du bei Google ein?</p>
-</blockquote>
-<p>Teilnehmende machen Vorschläge.</p>
-<blockquote class="blockquote">
-<p>Gute Begriffe: “Schweiz Universität Verwaltung Gehalt Statistik” oder “swissuniversities Lohnstruktur”. Nicht: “Stimmt 78000?”</p>
-</blockquote>
+<p>Du willst das für einen Budgetantrag verwenden.</p>
+</div>
+</div>
+<section id="schritt-1-suchbegriffe-formulieren" class="level3">
+<h3 class="anchored" data-anchor-id="schritt-1-suchbegriffe-formulieren">Schritt 1: Suchbegriffe formulieren</h3>
+<p>Wie würdest du suchen? Nicht das Sprachmodell fragen — was tippst du bei Google ein?</p>
+<div class="callout callout-style-simple callout-pro-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Pro-tip</span>Gute Suchbegriffe
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li>“Schweiz Universität Verwaltung Gehalt Statistik”</li>
+<li>“swissuniversities Lohnstruktur”</li>
+</ul>
+<p>Nicht: “Stimmt 78000?”</p>
+</div>
+</div>
+</div>
 </section>
-<section id="schritt-2-suchergebnisse-filtern-1.5-min" class="level3">
-<h3 class="anchored" data-anchor-id="schritt-2-suchergebnisse-filtern-1.5-min">Schritt 2: Suchergebnisse filtern (1.5 Min)</h3>
-<p>Am Projektor suchen und Ergebnisse bewerten:</p>
-<blockquote class="blockquote">
-<p>Was sehen wir hier? jobs.ch – das sind Stellenanzeigen, nicht offizielle Statistik. Hier ein Blog – überspringen. BFS – das ist eine Primärquelle. swissuniversities – auch gut.</p>
-</blockquote>
+<section id="schritt-2-suchergebnisse-filtern" class="level3">
+<h3 class="anchored" data-anchor-id="schritt-2-suchergebnisse-filtern">Schritt 2: Suchergebnisse filtern</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Quelle</th>
+<th>Bewertung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>jobs.ch</td>
+<td>Stellenanzeigen — keine offizielle Statistik</td>
+</tr>
+<tr class="even">
+<td>Blogs, Foren</td>
+<td>Überspringen</td>
+</tr>
+<tr class="odd">
+<td>bfs.admin.ch</td>
+<td>Primärquelle — klicken</td>
+</tr>
+<tr class="even">
+<td>swissuniversities</td>
+<td>Offizielle Quelle — klicken</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="schritt-3-zur-quelle-gehen-2-min" class="level3">
-<h3 class="anchored" data-anchor-id="schritt-3-zur-quelle-gehen-2-min">Schritt 3: Zur Quelle gehen (2 Min)</h3>
-<blockquote class="blockquote">
-<p>Wichtig: Nicht die Google-Zusammenfassung lesen. Zur echten Seite gehen.</p>
-</blockquote>
-<p>BFS oder swissuniversities öffnen, navigieren, zeigen was man findet (oder nicht findet).</p>
+<section id="schritt-3-zur-quelle-gehen" class="level3">
+<h3 class="anchored" data-anchor-id="schritt-3-zur-quelle-gehen">Schritt 3: Zur Quelle gehen</h3>
+<p>Wichtig: Nicht die Google-Zusammenfassung lesen. Zur echten Seite gehen und die Daten selbst finden.</p>
 </section>
-<section id="schritt-4-ergebnis-besprechen-2-min" class="level3">
-<h3 class="anchored" data-anchor-id="schritt-4-ergebnis-besprechen-2-min">Schritt 4: Ergebnis besprechen (2 Min)</h3>
-<blockquote class="blockquote">
-<p>Was haben wir gefunden?</p>
-</blockquote>
-<p>Teilnehmende berichten.</p>
-<p>Typisches Ergebnis: Die exakte Zahl existiert nicht in dieser Form.</p>
-<blockquote class="blockquote">
-<p>Das ist selbst eine wichtige Information. Die Zahl vom Sprachmodell ist nicht verifizierbar – also nicht verwendbar für einen Budgetantrag.</p>
-</blockquote>
+<section id="schritt-4-ergebnis" class="level3">
+<h3 class="anchored" data-anchor-id="schritt-4-ergebnis">Schritt 4: Ergebnis</h3>
+<div class="callout callout-style-simple callout-reflect no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Reflect</span>Was haben wir gefunden?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Oft: Die exakte Zahl existiert nicht in dieser Form. Das ist selbst eine wichtige Information — die Zahl vom Sprachmodell ist nicht verifizierbar und somit nicht verwendbar für einen Budgetantrag.</p>
+</div>
+</div>
 <hr>
 </section>
 </section>
 <section id="runde-2" class="level2">
-<h2 class="anchored" data-anchor-id="runde-2">Runde 2: In Kleingruppen (8 Min)</h2>
-<blockquote class="blockquote">
-<p>Wähle ein Szenario. Du hast 5 Minuten.</p>
-</blockquote>
-<div id="timer-1" class="timer-container"></div>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    if (typeof initializeTimer === 'function') {
-      initializeTimer("timer-1", 300, "visible");
-    }
-  });
-</script>
-
-<p><strong>6 Szenarien (projizieren oder austeilen):</strong></p>
+<h2 class="anchored" data-anchor-id="runde-2">Runde 2: In Kleingruppen</h2>
+<p>Wähle ein Szenario und versuche, die Behauptung zu verifizieren.</p>
+{{&lt; timer 5 &gt;}}
 <div class="callout callout-style-simple callout-scenario no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -553,76 +564,69 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
 </div>
 </div>
 <hr>
-<p><strong>Während Teilnehmende arbeiten:</strong></p>
+<section id="auswertung" class="level3">
+<h3 class="anchored" data-anchor-id="auswertung">Auswertung</h3>
+<div class="callout callout-style-simple callout-group no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Group</span>Ergebnisse teilen
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>Herumgehen, bei Suchbegriffen helfen falls nötig</li>
-<li>Notieren, wer interessante Funde hat</li>
-</ul>
-<section id="auswertung-3-min" class="level3">
-<h3 class="anchored" data-anchor-id="auswertung-3-min">Auswertung (3 Min)</h3>
-<blockquote class="blockquote">
-<p>Wer hat etwas gefunden? Oder etwas Interessantes entdeckt?</p>
-</blockquote>
-<p>3–4 Teilnehmende berichten kurz:</p>
-<ul>
-<li>Welches Szenario?</li>
-<li>Was gefunden?</li>
+<li>Welches Szenario hast du gewählt?</li>
+<li>Was hast du gefunden?</li>
 <li>War das Modell richtig, falsch, oder nicht prüfbar?</li>
 </ul>
+</div>
+</div>
 <hr>
 </section>
 </section>
 <section id="runde-3" class="level2">
-<h2 class="anchored" data-anchor-id="runde-3">Runde 3: Eigenes Beispiel (7 Min)</h2>
-<blockquote class="blockquote">
-<p>Jetzt dein eigener Fall. Denk an etwas, das du diese Woche ein Sprachmodell fragen könntest – oder schon gefragt hast.</p>
-</blockquote>
-<p><strong>Aufgabe (auf Projektor zeigen):</strong></p>
+<h2 class="anchored" data-anchor-id="runde-3">Runde 3: Eigenes Beispiel</h2>
+<div class="callout callout-style-simple callout-individual no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Individual</span>Dein eigener Fall
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Denk an etwas, das du diese Woche ein Sprachmodell fragen könntest — oder schon gefragt hast.</p>
 <ol type="1">
-<li>Eine konkrete Frage formulieren</li>
-<li>Das Sprachmodell fragen</li>
-<li>Entscheiden: Braucht das Verifikation?</li>
+<li>Formuliere eine konkrete Frage</li>
+<li>Frag das Sprachmodell</li>
+<li>Entscheide: Braucht das Verifikation?</li>
 <li>Wenn ja: Welche Quelle würdest du nutzen?</li>
 </ol>
-<div id="timer-2" class="timer-container"></div>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    if (typeof initializeTimer === 'function') {
-      initializeTimer("timer-2", 240, "visible");
-    }
-  });
-</script>
-
+</div>
+</div>
+{{&lt; timer 4 &gt;}}
 <hr>
-<section id="teilen" class="level3">
-<h3 class="anchored" data-anchor-id="teilen">Teilen</h3>
-<blockquote class="blockquote">
-<p>Wer möchte teilen?</p>
-</blockquote>
-<p>2–3 Freiwillige berichten.</p>
-<p><strong>Bei jedem Beispiel fragen:</strong></p>
-<blockquote class="blockquote">
-<p>Würdest du diese Information in einem formellen Dokument verwenden?</p>
-</blockquote>
-<p>Das bereitet Teil 4 vor.</p>
-<hr>
-</section>
-</section>
-<section id="troubleshooting" class="level2">
-<h2 class="anchored" data-anchor-id="troubleshooting">Troubleshooting</h2>
-<section id="teilnehmende-finden-keine-quelle" class="level3">
-<h3 class="anchored" data-anchor-id="teilnehmende-finden-keine-quelle">Teilnehmende finden keine Quelle</h3>
-<p>Das ist selbst lehrreich:</p>
-<blockquote class="blockquote">
-<p>Du findest keine offizielle Quelle? Das ist wichtige Information. Die Aussage vom Sprachmodell ist nicht verifizierbar – also nicht verwendbar für wichtige Entscheidungen.</p>
-</blockquote>
-</section>
-<section id="zeit-wird-knapp" class="level3">
-<h3 class="anchored" data-anchor-id="zeit-wird-knapp">Zeit wird knapp</h3>
-<p>Kürze Runde 3 (eigenes Beispiel). Der Kern ist Runde 1 (gemeinsam) und Runde 2 (Szenarien).</p>
+<div class="callout callout-style-simple callout-group no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Group</span>Teilen
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Was war deine Frage?</li>
+<li>Würdest du diese Information in einem formellen Dokument verwenden?</li>
+</ul>
+</div>
+</div>
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
