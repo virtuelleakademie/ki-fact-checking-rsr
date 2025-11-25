@@ -3,119 +3,63 @@ title: "Teil 1: Das Sprachmodell liegt falsch"
 subtitle: "Gemeinsames Experiment"
 ---
 
-**Dauer:** 8 Minuten (0:30--8:30)
-
-**Ziel:** Gemeinsam erleben, dass Sprachmodelle überzeugend falsch sein können.
-
----
-
-## Das Experiment (5 Min)
-
-> Alle stellen dieselbe Frage. Kopiere diesen Prompt:
+## Das Experiment
 
 ::: {.experiment}
-## Alle testen denselben Prompt
+### Alle testen denselben Prompt
+
+Kopiere diesen Prompt in dein Sprachmodell:
 
 ```
 Wie hoch ist der Anteil der Studierenden an Schweizer Universitäten,
 die ihr Bachelorstudium in der Regelstudienzeit abschliessen?
 ```
-
-{{< timer 2 >}}
 :::
 
-### Alternative Prompts
-
-Falls du andere Themen bevorzugst (vorher testen, einen auswählen):
-
-- "Wie hoch sind die durchschnittlichen IT-Kosten pro Studierenden an Schweizer Unis?"
-- "Wie viele Verwaltungsmitarbeitende hat die Universität Bern?"
-- "Welcher Prozentsatz der Uni-Mitarbeitenden arbeitet in Teilzeit?"
-
-::: {.callout-important appearance="minimal"}
-## Wichtig: 24h vorher testen!
-
-Wähle die Frage, bei der:
-
-- Die Antworten zwischen Teilnehmenden variieren werden, ODER
-- Die Antwort falsch/ungenau ist, ODER
-- Die Antwort sehr spezifisch klingt aber nicht verifizierbar ist
+:::{.timer #EXP-1 seconds=300 starton=interaction}
 :::
 
 ---
 
-## Antworten sammeln
-
-> Wer möchte seine Antwort vorlesen?
-
-::: {.group}
 ## Antworten teilen
 
-3--4 Teilnehmende teilen ihre Antworten.
+::: {.group}
+### Antworten vergleichen
 
-Notiere die Zahlen sichtbar (Tafel/Flipchart).
+Teile deine Antwort mit der Gruppe. Vergleicht die Zahlen.
 :::
 
 ---
 
-## Auswertung durch Lateral Reading (3 Min)
-
-> Wir haben verschiedene Zahlen. Jetzt prüfen wir. Schau zu.
+## Auswertung: Die offizielle Quelle
 
 ::: {.demonstration}
-## Live-Demonstration am Projektor
+### Live-Check
 
-**Schritt 1:** Neuen Browser-Tab öffnen (nicht das Sprachmodell fragen)
-
-**Schritt 2:** Suchen: `BFS Studiendauer Bachelor Schweiz`
-
-**Schritt 3:** Suchergebnisse zeigen:
-
-> Hier ist bfs.admin.ch -- das Bundesamt für Statistik. Das ist eine Primärquelle.
-
-**Schritt 4:** Zur BFS-Seite navigieren, offizielle Statistik zeigen
-
-**Schritt 5:** Mit den Antworten der Sprachmodelle vergleichen
+1. Neuen Browser-Tab öffnen
+2. Suchen: `BFS Studiendauer Bachelor Schweiz`
+3. Zur BFS-Seite (bfs.admin.ch) navigieren
+4. Offizielle Statistik mit den Modell-Antworten vergleichen
 :::
 
 ---
 
-## Beobachtungen sammeln
+## Beobachtung
 
-> Was siehst du?
+::: {.reflect}
+### Was siehst du?
 
-Teilnehmende berichten: Zahlen stimmen nicht überein, das Modell war spezifisch aber falsch, etc.
+- Stimmen die Zahlen der Sprachmodelle mit der offiziellen Quelle überein?
+- Hat das Modell eine Quelle genannt?
+- Wie sicher klang die Antwort?
+:::
 
 ---
-
-## Minimaler Frame
-
-*Erst nach den Berichten der Teilnehmenden:*
-
-> Die Antwort klang überzeugend. Spezifische Zahl, selbstsicher formuliert. Aber nicht richtig. Das ist das Muster: **Überzeugend heisst nicht korrekt.**
 
 ::: {.key-point}
-## Kernbotschaft
+### Kernbotschaft
 
-Antworten von Sprachmodellen können sehr spezifisch und selbstbewusst klingen -- und trotzdem falsch sein.
+Antworten von Sprachmodellen können sehr spezifisch und selbstbewusst klingen --- und trotzdem falsch sein.
+
+**Überzeugend heisst nicht korrekt.**
 :::
-
----
-
-## Troubleshooting
-
-### Alle Antworten sind gleich und korrekt?
-
-Selten, aber möglich. Optionen:
-
-**Option A:**
-
-> Das Modell hat heute gut geantwortet. Aber schau: Hat es eine Quelle genannt? Woher weisst du, dass die Zahl stimmt -- ausser dass das Sprachmodell es sagt?
-
-**Option B:**
-
-Backup-Screenshot zeigen:
-
-> Letzte Woche sah das so aus...
-
-Dann weiter zu Teil 2 -- der Punkt "Sprachmodelle können sich nicht selbst prüfen" funktioniert unabhängig davon.

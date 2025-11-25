@@ -3,14 +3,10 @@ title: "Teil 4: Die Entscheidungsregel"
 subtitle: "Wann verifizieren?"
 ---
 
-**Dauer:** 3.5 Minuten (36:30--40:00)
-
----
-
-## Die Eine Frage (1 Min)
+## Die Eine Frage
 
 ::: {.key-point}
-## Die Entscheidungsregel
+### Die Entscheidungsregel
 
 **Würdest du diese Information in einem formellen Dokument zitieren?**
 
@@ -19,10 +15,6 @@ subtitle: "Wann verifizieren?"
 | **JA** | Extern verifizieren |
 | **NEIN** | Antwort vom Sprachmodell reicht |
 :::
-
-> Eine einfache Frage hilft dir entscheiden:
->
-> Würdest du diese Info in einem Bericht zitieren? In einem Antrag verwenden? Als Grundlage für eine Entscheidung nutzen?
 
 ### Beispiele
 
@@ -35,7 +27,7 @@ subtitle: "Wann verifizieren?"
 
 ---
 
-## Quellen-Shortcuts (1 Min)
+## Deine Quellen-Shortcuts
 
 | Kategorie | Quellen |
 |-----------|---------|
@@ -46,31 +38,20 @@ subtitle: "Wann verifizieren?"
 
 ---
 
-## Abschluss (1.5 Min)
+## Zusammenfassung
 
-> Du hast heute drei Dinge erlebt:
->
-> **Erstens** -- Sprachmodelle können überzeugend falsch liegen.
->
-> **Zweitens** -- Nachfragen beim Sprachmodell ist keine echte Prüfung.
->
-> **Drittens** -- Lateral Reading funktioniert: Raus aus dem Sprachmodell, eigene Suche, Primärquellen.
->
-> Das Handout hat die wichtigsten Quellen für deinen Bereich. Probiere es diese Woche einmal aus.
+Du hast heute drei Dinge erlebt:
 
-**Handout verteilen (oder auf Link verweisen).**
+1. **Sprachmodelle können überzeugend falsch liegen** --- spezifische Zahlen, selbstbewusster Ton, trotzdem falsch
 
-> Danke.
+2. **Nachfragen beim Sprachmodell ist keine echte Prüfung** --- es kann sich nicht selbst verifizieren und bestätigt tendenziell deine Annahmen
 
----
+3. **Lateral Reading funktioniert** --- raus aus dem Sprachmodell, eigene Suche, Primärquellen finden
 
-## Erfolgskriterien
+::: {.key-point}
+### Nächster Schritt
 
-**Minimal-Erfolg:**
-Teilnehmende haben erlebt, dass Sprachmodelle falsch liegen können, und kennen eine vertrauenswürdige Quelle für ihren Bereich.
+Probiere es diese Woche einmal aus: Wenn du eine Antwort vom Sprachmodell in einem formellen Dokument verwenden willst, verifiziere sie extern.
 
-**Guter Erfolg:**
-Teilnehmende haben Lateral Reading selbst angewendet und verstehen, warum Nachfragen beim Sprachmodell keine Lösung ist.
-
-**Optimaler Erfolg:**
-Teilnehmende nehmen sich vor, diese Woche mindestens einmal eine Antwort vom Sprachmodell extern zu verifizieren.
+Das [Handout](/handout.qmd) hat die wichtigsten Quellen für deinen Bereich.
+:::

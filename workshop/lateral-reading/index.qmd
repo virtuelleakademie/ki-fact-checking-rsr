@@ -3,61 +3,63 @@ title: "Teil 3: Lateral Reading"
 subtitle: "Die Technik in drei Runden üben"
 ---
 
-**Dauer:** 22 Minuten (14:30--36:30)
+Lateral Reading heisst: Raus aus dem Sprachmodell, eigene Suche, Primärquellen finden.
 
 ---
 
-**Ziel:** Die Technik praktisch anwenden -- von geführt bis selbständig.
+## Runde 1: Gemeinsam {#runde-1}
+
+::: {.scenario}
+### Das Szenario
+
+Das Sprachmodell sagt:
+
+> "Das durchschnittliche Gehalt für Verwaltungsmitarbeitende an Schweizer Universitäten liegt bei CHF 78'000 brutto pro Jahr."
+
+Du willst das für einen Budgetantrag verwenden.
+:::
+
+### Schritt 1: Suchbegriffe formulieren
+
+Wie würdest du suchen? Nicht das Sprachmodell fragen --- was tippst du bei Google ein?
+
+::: {.pro-tip}
+### Gute Suchbegriffe
+
+- "Schweiz Universität Verwaltung Gehalt Statistik"
+- "swissuniversities Lohnstruktur"
+
+Nicht: "Stimmt 78000?"
+:::
+
+### Schritt 2: Suchergebnisse filtern
+
+| Quelle | Bewertung |
+|--------|-----------|
+| jobs.ch | Stellenanzeigen --- keine offizielle Statistik |
+| Blogs, Foren | Überspringen |
+| bfs.admin.ch | Primärquelle --- klicken |
+| swissuniversities | Offizielle Quelle --- klicken |
+
+### Schritt 3: Zur Quelle gehen
+
+Wichtig: Nicht die Google-Zusammenfassung lesen. Zur echten Seite gehen und die Daten selbst finden.
+
+### Schritt 4: Ergebnis
+
+::: {.reflect}
+### Was haben wir gefunden?
+
+Oft: Die exakte Zahl existiert nicht in dieser Form. Das ist selbst eine wichtige Information --- die Zahl vom Sprachmodell ist nicht verifizierbar und somit nicht verwendbar für einen Budgetantrag.
+:::
 
 ---
 
-## Runde 1: Gemeinsam (7 Min) {#runde-1}
+## Runde 2: In Kleingruppen {#runde-2}
 
-> Lateral Reading heisst: Raus aus dem Sprachmodell, eigene Suche, Primärquellen finden. Wir machen das jetzt gemeinsam.
-
-**Szenario vorstellen:**
-
-> Das Sprachmodell sagt: "Das durchschnittliche Gehalt für Verwaltungsmitarbeitende an Schweizer Universitäten liegt bei CHF 78'000 brutto pro Jahr." Du willst das für einen Budgetantrag verwenden.
-
-### Schritt 1: Suchbegriffe (1.5 Min)
-
-> Wie würdest du suchen? Nicht das Sprachmodell fragen. Was tippst du bei Google ein?
-
-Teilnehmende machen Vorschläge.
-
-> Gute Begriffe: "Schweiz Universität Verwaltung Gehalt Statistik" oder "swissuniversities Lohnstruktur". Nicht: "Stimmt 78000?"
-
-### Schritt 2: Suchergebnisse filtern (1.5 Min)
-
-Am Projektor suchen und Ergebnisse bewerten:
-
-> Was sehen wir hier? jobs.ch -- das sind Stellenanzeigen, nicht offizielle Statistik. Hier ein Blog -- überspringen. BFS -- das ist eine Primärquelle. swissuniversities -- auch gut.
-
-### Schritt 3: Zur Quelle gehen (2 Min)
-
-> Wichtig: Nicht die Google-Zusammenfassung lesen. Zur echten Seite gehen.
-
-BFS oder swissuniversities öffnen, navigieren, zeigen was man findet (oder nicht findet).
-
-### Schritt 4: Ergebnis besprechen (2 Min)
-
-> Was haben wir gefunden?
-
-Teilnehmende berichten.
-
-Typisches Ergebnis: Die exakte Zahl existiert nicht in dieser Form.
-
-> Das ist selbst eine wichtige Information. Die Zahl vom Sprachmodell ist nicht verifizierbar -- also nicht verwendbar für einen Budgetantrag.
-
----
-
-## Runde 2: In Kleingruppen (8 Min) {#runde-2}
-
-> Wähle ein Szenario. Du hast 5 Minuten.
+Wähle ein Szenario und versuche, die Behauptung zu verifizieren.
 
 {{< timer 5 >}}
-
-**6 Szenarien (projizieren oder austeilen):**
 
 ::: {.scenario}
 ### Szenario A: Rechtliches
@@ -121,60 +123,38 @@ Das Modell sagt: "Microsoft 365 Lizenzen kosten Schweizer Unis durchschnittlich 
 
 ---
 
-**Während Teilnehmende arbeiten:**
+### Auswertung
 
-- Herumgehen, bei Suchbegriffen helfen falls nötig
-- Notieren, wer interessante Funde hat
+::: {.group}
+### Ergebnisse teilen
 
-### Auswertung (3 Min)
-
-> Wer hat etwas gefunden? Oder etwas Interessantes entdeckt?
-
-3--4 Teilnehmende berichten kurz:
-
-- Welches Szenario?
-- Was gefunden?
+- Welches Szenario hast du gewählt?
+- Was hast du gefunden?
 - War das Modell richtig, falsch, oder nicht prüfbar?
+:::
 
 ---
 
-## Runde 3: Eigenes Beispiel (7 Min) {#runde-3}
+## Runde 3: Eigenes Beispiel {#runde-3}
 
-> Jetzt dein eigener Fall. Denk an etwas, das du diese Woche ein Sprachmodell fragen könntest -- oder schon gefragt hast.
+::: {.individual}
+### Dein eigener Fall
 
-**Aufgabe (auf Projektor zeigen):**
+Denk an etwas, das du diese Woche ein Sprachmodell fragen könntest --- oder schon gefragt hast.
 
-1. Eine konkrete Frage formulieren
-2. Das Sprachmodell fragen
-3. Entscheiden: Braucht das Verifikation?
+1. Formuliere eine konkrete Frage
+2. Frag das Sprachmodell
+3. Entscheide: Braucht das Verifikation?
 4. Wenn ja: Welche Quelle würdest du nutzen?
+:::
 
 {{< timer 4 >}}
 
 ---
 
+::: {.group}
 ### Teilen
 
-> Wer möchte teilen?
-
-2--3 Freiwillige berichten.
-
-**Bei jedem Beispiel fragen:**
-
-> Würdest du diese Information in einem formellen Dokument verwenden?
-
-Das bereitet Teil 4 vor.
-
----
-
-## Troubleshooting
-
-### Teilnehmende finden keine Quelle
-
-Das ist selbst lehrreich:
-
-> Du findest keine offizielle Quelle? Das ist wichtige Information. Die Aussage vom Sprachmodell ist nicht verifizierbar -- also nicht verwendbar für wichtige Entscheidungen.
-
-### Zeit wird knapp
-
-Kürze Runde 3 (eigenes Beispiel). Der Kern ist Runde 1 (gemeinsam) und Runde 2 (Szenarien).
+- Was war deine Frage?
+- Würdest du diese Information in einem formellen Dokument verwenden?
+:::

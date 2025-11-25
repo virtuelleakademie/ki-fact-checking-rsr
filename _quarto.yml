@@ -32,16 +32,15 @@ website:
       - icon: card-list
         href: workshop/index.qmd
         text: Workshop
-      - icon: file-text
-        href: handout.qmd
-        text: Handout
 
     # right:
-      # - icon: file-slides
-      #   text: "Materialien"
-      #   menu:
-      #     - text: "Quick Reference Card (Handout)"
-      #       file: handout.qmd
+      - icon: file-text
+        text: "Materialien"
+        menu:
+          - text: "Handout"
+            file: handout.qmd
+          - text: "Vertiefung"
+            href: workshop/vertiefung/index.qmd
 
     tools:
       - icon: lightbulb-fill
@@ -62,7 +61,10 @@ website:
         - workshop/experiment-2/index.qmd
         - workshop/lateral-reading/index.qmd
         - workshop/entscheidungsregel/index.qmd
-        - handout.qmd
+        # - section: "Materialien"
+        #   contents:
+        #     - handout.qmd
+        #     - workshop/vertiefung/index.qmd
 
 page-footer:
     right:

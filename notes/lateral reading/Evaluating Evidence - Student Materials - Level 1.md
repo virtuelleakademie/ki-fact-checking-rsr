@@ -1,0 +1,10 @@
+# **Evaluating Evidence Graphic Organizer**
+
+|  | What source is providing the information?  What is the claim?    | What do you know about the source? Is it trustworthy? | What evidence is provided to support the claims? | What is the source of the evidence? Is it trustworthy?  | Does the evidence directly relate to the claim the source makes?  | Based on your answers to all these questions,  how strong is the evidence?  |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| Example: Nuclear Daisies |  Source: An imgur user called “pleasegoogleShakerAamerpleasegoogleDavidKelly” Claim: The daisies are growing in an unusual way because of radiation from the nuclear power plant disaster in Japan. | We don’t know anything about this imgur user, so we don’t know anything about their reliability. | The photo shows some daisies growing in an unusual way. | There is no source provided for who actually took this picture, so we don’t know where it was taken. | The source claims that the daisies’ unusual growth was caused by nuclear radiation, but there is no proof of that in this picture. Many things could have caused the daisies to grow that way. | Because of questions about where the evidence came from and the limits in what it shows, the picture is not strong evidence. |
+| Post 1: |  Source: Unknown social media user Claim: Eric Trump (President Trump’s son) thinks that his father should have much more power as president.  |  |  |  |  |  |
+|  | What source is providing the information? What is the claim? | What do you know about the source? Is it trustworthy? | What evidence is provided to support the claims? | What is the source of the evidence? Is it trustworthy?  | Does the evidence directly relate to the claim the source makes?  | Based on your answers to all these questions,  how strong is the evidence? |
+| Post 2: |  Source: NBC Bay Area Claim: The air quality has not improved in the Bay Area (as of November 16, 2018).  |  |  |  |  |  |
+| Post 3: |  Source: @thelowdownofficial Instagram Account Claim: Mother pigs sing to their babies  |  |  |  |  |  |
+

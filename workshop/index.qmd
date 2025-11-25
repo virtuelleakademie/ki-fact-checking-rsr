@@ -5,80 +5,32 @@ subtitle: "Ein 40-Minuten Workshop zu Lateral Reading"
 
 ## Überblick
 
-Dieser Workshop vermittelt eine praktische Technik zur Verifikation von Antworten aus Large Language Models (LLMs) wie ChatGPT, Claude oder Gemini: **Lateral Reading**.
+Dieser Workshop vermittelt eine praktische Technik zur Verifikation von Antworten aus Large Language Models (LLMs) wie Copilot, ChatGPT, Claude oder Gemini: **Lateral Reading**.
 
-Teilnehmende lernen durch eigene Experimente, warum Antworten von Sprachmodellen externe Verifikation brauchen -- und wie sie in wenigen Minuten Fakten unabhängig prüfen können.
+Du lernst durch eigene Experimente, warum Antworten von Sprachmodellen externe Verifikation brauchen und wie du in wenigen Minuten Fakten unabhängig prüfen kannst.
 
 ## Lernziele
 
-Nach diesem Workshop können Teilnehmende:
+Nach diesem Workshop kannst du:
 
 1. **Erkennen**, wann Antworten von Sprachmodellen externe Verifikation brauchen
 2. **Verstehen**, warum Nachfragen beim Sprachmodell keine echte Prüfung ist
 3. **Lateral Reading anwenden**, um Fakten zu überprüfen
-4. **Vertrauenswürdige Quellen** für ihren Arbeitsbereich identifizieren
+4. **Vertrauenswürdige Quellen** für deinen Arbeitsbereich identifizieren
 
-## Zeitplan
+## Ablauf
 
-| Zeit | Phase | Dauer | Inhalt |
-|------|-------|-------|--------|
-| 0:00--0:30 | [Einstieg](framing/index.qmd) | 30 Sek | Direkt ins Experiment |
-| 0:30--8:30 | [Teil 1](experiment-1/index.qmd) | 8 Min | Das Sprachmodell liegt falsch |
-| 8:30--14:30 | [Teil 2](experiment-2/index.qmd) | 6 Min | Warum Nachfragen nicht hilft |
-| 14:30--36:30 | [Teil 3](lateral-reading/index.qmd) | 22 Min | Lateral Reading üben |
-| 36:30--40:00 | [Teil 4](entscheidungsregel/index.qmd) | 3.5 Min | Die Entscheidungsregel |
+| Phase | Dauer | Inhalt |
+|-------|-------|--------|
+| [Einstieg](framing/index.qmd) | 30 Sek | Direkt ins Experiment |
+| [Teil 1](experiment-1/index.qmd) | 8 Min | Das Sprachmodell liegt falsch |
+| [Teil 2](experiment-2/index.qmd) | 6 Min | Warum Nachfragen nicht hilft |
+| [Teil 3](lateral-reading/index.qmd) | 22 Min | Lateral Reading üben |
+| [Teil 4](entscheidungsregel/index.qmd) | 3.5 Min | Die Entscheidungsregel |
 
 **Gesamtdauer:** 40 Minuten
 
-## Zielgruppe
+## Was du brauchst
 
-Mitarbeitende in Verwaltung und Services ohne spezifische Vorkenntnisse zu Large Language Models.
-
-## Benötigte Materialien
-
-### Technisch
-
-- Alle Teilnehmenden haben Laptops/Tablets mit Internet
-- Projektor für Demonstrationen
-- Zugang zu mindestens einem Sprachmodell (ChatGPT, Claude, oder Gemini)
-
-### Vorbereitet
-
-- Teil 1 Beispiel: 24 Stunden vorher testen und final auswählen
-- Teil 2 Experimente: Selbstprüfungs-Prompt und führenden Prompt vorher testen
-- Teil 3 Szenarien: 6 arbeitsbezogene Szenarien (siehe [Lateral Reading](lateral-reading/index.qmd))
-- [Handout: Quick-Reference-Karte](../handout.qmd)
-- Backup: Screenshots von 2--3 klaren Fehlern von Sprachmodellen
-
-## Vorbereitung: Checkliste
-
-### 24 Stunden vorher
-
-**Teil 1 -- Beispiel testen:**
-
-- [ ] Prompt bei ChatGPT, Claude, Gemini testen
-- [ ] Antworten notieren -- variieren sie? Sind sie falsch?
-- [ ] Offizielle Quelle finden (BFS etc.)
-- [ ] Backup-Prompt bereit haben
-
-**Teil 2 -- Nachfragen-Experimente testen:**
-
-- [ ] Selbstprüfungs-Prompt testen ("Bist du sicher?")
-- [ ] Führenden Prompt testen (mit eingebauter Annahme)
-- [ ] Prüfen ob Effekte sichtbar sind
-
-**Teil 3 -- Szenarien:**
-
-- [ ] 6 Szenarien ausdrucken oder Projektion vorbereiten
-- [ ] 2--3 Szenarien selbst durchspielen
-- [ ] Quellen-URLs notieren
-
-**Backup:**
-
-- [ ] 2--3 Screenshots von klaren Fehlern aus früheren Tests
-
-### 10 Minuten vor Workshop
-
-- [ ] Projektor testen
-- [ ] Tabs geöffnet: ChatGPT/Claude/Gemini, BFS, admin.ch, Uni-Statistiken
-- [ ] Handouts bereit
+- Laptop oder Tablet mit Internetzugang
+- Zugang zu einem Sprachmodell (Copilot, ChatGPT, Claude, oder Gemini)

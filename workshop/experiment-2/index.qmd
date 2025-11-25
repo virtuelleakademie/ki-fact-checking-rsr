@@ -3,101 +3,73 @@ title: "Teil 2: Warum Nachfragen nicht hilft"
 subtitle: "Selbstprüfung und Annahmen testen"
 ---
 
-**Dauer:** 6 Minuten (8:30--14:30)
-
-**Ziel:** Entdecken, dass Sprachmodelle sich nicht selbst prüfen können -- und dass sie Annahmen bestätigen.
-
----
-
-## Experiment A: Selbstprüfung (2 Min)
-
-> Eine naheliegende Idee: Frag das Sprachmodell, ob es sicher ist. Probiere das jetzt.
+## Experiment A: Selbstprüfung
 
 ::: {.experiment}
-## Selbstprüfungs-Prompt
+### Frag das Sprachmodell, ob es sicher ist
+
+Bleib im selben Chat und schreibe:
 
 ```
 Bist du sicher? Kannst du deine Antwort überprüfen?
 ```
-
-{{< timer 1 >}}
 :::
 
-> Was ist passiert? Ein paar Beispiele.
+:::{.timer #EXP-2.A seconds=120 starton=interaction}
+:::
 
-::: {.group}
-## Beobachtungen sammeln
+::: {.reflect}
+### Was ist passiert?
 
-2--3 Teilnehmende berichten kurz.
+Beobachte: Hat das Modell seine Antwort wirklich überprüft --- oder einfach eine neue Antwort generiert?
 :::
 
 ---
 
-## Experiment B: Annahme einbauen (2 Min)
-
-> Jetzt ein zweiter Test. Starte einen neuen Chat und stelle die Frage so:
+## Experiment B: Annahme einbauen
 
 ::: {.experiment}
-## Führender Prompt
+### Teste einen führenden Prompt
+
+Starte einen **neuen Chat** und stelle die Frage so:
 
 ```
 Ich habe gelesen dass etwa 60% der Studierenden in Regelzeit
 abschliessen. Stimmt das ungefähr?
 ```
-
-{{< timer 1 >}}
 :::
 
-> Was sagt das Modell jetzt?
-
-::: {.group}
-## Beobachtungen sammeln
-
-2--3 Teilnehmende berichten kurz.
+:::{.timer #EXP-2.B seconds=120 starton=interaction}
 :::
-
----
-
-## Auswertung (2 Min)
-
-> Du hast zwei Dinge ausprobiert. Was hast du beobachtet?
 
 ::: {.reflect}
-## Teilnehmende berichten ihre Beobachtungen
+### Was sagt das Modell jetzt?
 
-Typische Antworten:
-
-- "Sie hat einfach nochmal dasselbe gesagt"
-- "Sie hat meine Zahl bestätigt"
-- "Sie hat 'korrigiert' aber ohne echte Quelle"
+Beobachte: Bestätigt es deine eingebaute Annahme?
 :::
 
 ---
 
-## Minimaler Frame
+## Auswertung
 
-*Erst nach den Berichten der Teilnehmenden:*
+::: {.group}
+### Beobachtungen teilen
 
-> Zwei Beobachtungen:
->
-> **Erstens:** Das Sprachmodell kann sich nicht selbst prüfen. Es hat keinen Zugang zu seinem eigenen Denkprozess -- es generiert einfach die nächste plausible Antwort. Das ist keine Prüfung, das ist mehr vom Gleichen.
->
-> **Zweitens:** Es bestätigt tendenziell das, was du andeutest. Deine Annahmen fliessen in die Antwort ein.
->
-> Beide Wege sind blockiert. Bleibt: **Externe Quellen.** Das üben wir jetzt.
+Teile deine Beobachtungen:
+
+- Was hat das Modell bei "Bist du sicher?" gemacht?
+- Hat es deine Annahme bei der zweiten Frage bestätigt?
+:::
+
+---
 
 ::: {.key-point}
-## Kernbotschaft
+### Kernbotschaft
 
-Nachfragen beim Sprachmodell ist keine echte Prüfung. Es kann sich nicht selbst verifizieren und bestätigt tendenziell deine Annahmen.
+Nachfragen beim Sprachmodell ist keine echte Prüfung.
+
+- Es kann sich **nicht selbst verifizieren** --- es generiert nur neue Antworten
+- Es **bestätigt tendenziell deine Annahmen** --- deine Frage beeinflusst die Antwort
+
+Beide Wege sind blockiert. Bleibt: **Externe Quellen.**
 :::
-
----
-
-## Troubleshooting
-
-### Das Modell sagt "Ich bin nicht sicher" oder verweigert?
-
-Manchmal gut trainierte Antwort. Nutze es:
-
-> Es hat Unsicherheit signalisiert. Aber: Ist das eine echte Prüfung oder eine trainierte Antwort? Bei anderen Fragen bekommst du diese Warnung nicht. Verlassen kannst du dich darauf nicht.

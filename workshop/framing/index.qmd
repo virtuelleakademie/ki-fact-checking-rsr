@@ -3,12 +3,4 @@ title: "Einstieg"
 subtitle: "Direkt ins Experiment"
 ---
 
-**Dauer:** 30 Sekunden
-
----
-
-## Moderationstext
-
-> Wir starten direkt. Öffne ein Sprachmodell deiner Wahl -- ChatGPT, Claude, oder Gemini.
-
-Keine weitere Einleitung. Direkt zu Teil 1.
+Öffne ein Sprachmodell deiner Wahl --- ChatGPT, Claude, oder Gemini.
