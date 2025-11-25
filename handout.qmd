@@ -26,7 +26,7 @@ format:
 
 ---
 
-## Lateral Reading in 3 Schritten
+## Lateral Reading in 4 Schritten
 
 ### 1. Suchbegriffe formulieren
 
@@ -48,6 +48,15 @@ format:
 - Google-Zusammenfassung reicht nicht
 - Website öffnen, echte Daten finden
 - Keine Quelle gefunden = Aussage vom Sprachmodell nicht verwendbar
+
+### 4. Zwei Prüffragen stellen
+
+| Frage | |
+|-------|---|
+| **Zuverlässig?** | Ist das eine Primärquelle oder offizielle Stelle? |
+| **Relevant?** | Steht da wirklich das, was das Sprachmodell behauptet? |
+
+Sprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch.
 
 ---
 
@@ -78,7 +87,7 @@ format:
 ::: {.callout-warning appearance="minimal"}
 ### Rote Flaggen
 
-- Das Sprachmodell gibt sehr spezifische Zahlen ohne Quellenangabe
+- **Spezifitätsfalle:** Je präziser die Zahlen, desto vertrauenswürdiger wirkt es --- aber Spezifität ≠ Richtigkeit
 - Das Sprachmodell bestätigt genau das, was du vermutet hast
 - Du hast eine Annahme in die Frage eingebaut
 - Es geht um rechtliche oder finanzielle Entscheidungen
