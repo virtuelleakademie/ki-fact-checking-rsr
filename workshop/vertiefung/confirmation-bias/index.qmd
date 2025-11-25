@@ -1,0 +1,117 @@
+---
+title: "Confirmation Bias und KI"
+subtitle: "Warum Chatbots uns recht geben und warum das gefährlich ist"
+bibliography: ../../../bibliography.bib
+---
+
+## Unser Gehirn sucht Bestätigung
+
+**Confirmation Bias** ist eine der hartnäckigsten Denkfallen. Er funktioniert auf drei Ebenen:
+
+1. **Wir suchen** bevorzugt nach Informationen, die unsere Meinung bestätigen
+2. **Wir interpretieren** mehrdeutige Informationen so, dass sie zu uns passen
+3. **Wir erinnern** uns besser an bestätigende als an widersprechende Fakten
+
+Das ist kein Zeichen von Dummheit. Es passiert allen Menschen, auch Experten. Studien zeigen, dass selbst Richter, Ärzte und CEOs diesem Fehler unterliegen.
+
+::: {.warning}
+### Das Problem
+
+Je überzeugter du von etwas bist, desto stärker suchst du nach Bestätigung. Und desto weniger merkst du es.
+:::
+
+## KI-Chatbots verstärken den Effekt
+
+Sprachmodelle wie ChatGPT oder Gemini haben eine eingebaute Tendenz, Nutzern zuzustimmen. Fachleute nennen das **Sycophancy** (Schmeichelei).
+
+### Warum Chatbots zustimmen
+
+Diese Tendenz ist kein Bug, sondern entsteht durch das Training:
+
+- Sprachmodelle werden mit menschlichem Feedback trainiert
+- Menschen bewerten Antworten positiver, wenn sie mit ihrer Meinung übereinstimmen
+- Das Modell lernt: Zustimmung = gute Bewertung
+- Ergebnis: Das Modell optimiert auf Zustimmung statt auf Wahrheit
+
+### Die Zahlen
+
+| Befund | Quelle |
+|--------|--------|
+| 58% aller Chatbot-Antworten zeigen schmeichelndes Verhalten | SycEval-Studie, 2025 |
+| KI ist 50% schmeichlerischer als Menschen | Nature, 2025 |
+| Einmal begonnen, bleibt Schmeichelei in 78% der Fälle bestehen | SycEval-Studie, 2025 |
+
+## Die Echo Chamber für eine Person
+
+Wenn Confirmation Bias und KI-Schmeichelei zusammentreffen, entsteht ein Teufelskreis:
+
+1. Du stellst eine Frage, die deine Meinung andeutet
+2. Der Chatbot bestätigt deine Meinung
+3. Du fühlst dich bestärkt und fragst weiter
+4. Der Chatbot verstärkt weiter
+5. Deine Überzeugung wächst, ohne dass neue Fakten hinzukommen
+
+Forschende nennen das den **Chat-Chamber Effect**: eine Filterblase, die du dir selbst erschaffst. Mit Hilfe eines KI-Systems, das gelernt hat, dir zu gefallen.
+
+::: {.key-point}
+### Der Kern des Problems
+
+Klassische Echo Chambers entstehen durch Algorithmen, die dir ähnliche Inhalte zeigen. Bei Chatbots erzeugst du die Echo Chamber selbst: durch die Art, wie du fragst, und durch ein System, das darauf trainiert ist, zuzustimmen.
+:::
+
+## Ein extremes Beispiel
+
+Der Fall von [Allan Brooks (2025)](https://futurism.com/chatgpt-chabot-severe-delusions) zeigt, wie weit das gehen kann.
+
+Ein 47-jähriger Personalvermittler aus Kanada nutzte ChatGPT während einer schwierigen Scheidung. Was als mathematische Frage begann, entwickelte sich über 21 Tage zu einer Überzeugung, er habe eine revolutionäre mathematische Theorie entdeckt.
+
+- ChatGPT stimmte ihm zu, nannte ihn ein Genie, verglich ihn mit Alan Turing
+- Als er zweifelte, sagte der Chatbot: "Du bist kein bisschen verrückt"
+- Als er einen Tippfehler machte, übernahm ChatGPT den Fehler stillschweigend
+
+Erst als er seine "Entdeckung" mit einem anderen Chatbot testete, brach die Illusion zusammen. Der andere Chatbot antwortete direkt: Diese Theorie existiert nicht.
+
+::: {.warning}
+### Das ist ein Extremfall
+
+Brooks befand sich in einer verletzlichen psychischen Situation. Der Fall zeigt aber ein grundsätzliches Muster: Chatbots widersprechen nicht, auch wenn sie sollten.
+:::
+
+## Was du tun kannst
+
+### Beim Fragen
+
+- **Vermeide Suggestivfragen.** Nicht "Warum ist X besser als Y?", sondern "Vergleiche X und Y".
+- **Bitte um Gegenargumente.** "Welche Argumente sprechen gegen diese Position?"
+- **Nutze mehrere Quellen.** Frage verschiedene Chatbots, vergleiche die Antworten.
+
+### Bei den Antworten
+
+- **Misstraue Zustimmung.** Wenn der Chatbot dir sofort recht gibt, ist das kein Qualitätsmerkmal.
+- **Prüfe extern.** Verlasse den Chat und verifiziere wichtige Aussagen.
+- **Frage dich selbst:** "Welche Antwort hätte ich mir gewünscht?" Wenn die Antwort genau das ist, ist besondere Vorsicht geboten.
+
+### Adversarial Prompting
+
+Du kannst Chatbots explizit bitten, kritisch zu sein:
+
+> "Spiele den Advocatus Diaboli. Finde alle logischen und faktischen Schwächen in meinem Argument. Sei skeptisch und direkt."
+
+> "Gib mir drei Gründe, warum diese Annahme falsch sein könnte. Stimme keinem Teil zu."
+
+> "Nenne mir zuerst die stärksten Argumente gegen meine Position, bevor du Schwächen in der Gegenposition identifizierst."
+
+## Die Kernbotschaft
+
+::: {.key-point}
+### Zustimmung ist kein Qualitätsmerkmal
+
+- KI-Chatbots sind darauf trainiert, dir zuzustimmen
+- Dein Gehirn sucht ohnehin nach Bestätigung
+- Zusammen ergibt das eine gefährliche Kombination
+- Die Lösung: Aktiv nach Widerspruch suchen, bei der KI und bei dir selbst
+:::
+
+## Weiterführend
+
+- @sharmaUnderstandingSycophancyLanguage2023: Forschung zum Thema Sycophancy.

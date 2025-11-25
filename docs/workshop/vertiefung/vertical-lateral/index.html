@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Antworten von Sprachmodellen kritisch prüfen – Fact-Checking für KI</title>
+<title>Vertical vs.&nbsp;Lateral Reading – Fact-Checking für KI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,32 +23,31 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../workshop/framing/index.html" rel="next">
-<link href="..//assets/robot.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-fa0de036f5b7cc726694a33fd78ca2ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-fa0de036f5b7cc726694a33fd78ca2ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-fa0de036f5b7cc726694a33fd78ca2ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<script src="../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
-<link href="../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../..//assets/robot.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-fa0de036f5b7cc726694a33fd78ca2ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-fa0de036f5b7cc726694a33fd78ca2ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-fa0de036f5b7cc726694a33fd78ca2ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
+<link href="../../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -88,30 +87,6 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-key-point.callout {
-  border-left-color: #9A4665;
-}
-div.callout-key-point.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-key-point .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-key-point.callout-style-default .callout-icon::before, div.callout-key-point.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f005';
-  background-image: none;
-}
-div.callout-warning.callout {
-  border-left-color: #fd7e14;
-}
-div.callout-warning.callout-style-default > .callout-header {
-  background-color: rgba(253, 126, 20, 0.13);
-}
-div.callout-warning .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-warning.callout-style-default .callout-icon::before, div.callout-warning.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f06a';
-  background-image: none;
-}
 div.callout-individual.callout {
   border-left-color: #9A4665;
 }
@@ -122,90 +97,6 @@ div.callout-individual .callout-toggle::before {  background-image: url('data:im
 div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
   content: '\f007';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: #6f42c1;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(111, 66, 193, 0.13);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f0eb';
-  background-image: none;
-}
-div.callout-demonstration.callout {
-  border-left-color: #0d6efd;
-}
-div.callout-demonstration.callout-style-default > .callout-header {
-  background-color: rgba(13, 110, 253, 0.13);
-}
-div.callout-demonstration .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-demonstration.callout-style-default .callout-icon::before, div.callout-demonstration.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f51b';
-  background-image: none;
-}
-div.callout-experiment.callout {
-  border-left-color: #9A4665;
-}
-div.callout-experiment.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-experiment .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-experiment.callout-style-default .callout-icon::before, div.callout-experiment.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f0c3';
-  background-image: none;
-}
-div.callout-prompt.callout {
-  border-left-color: #495057;
-}
-div.callout-prompt.callout-style-default > .callout-header {
-  background-color: rgba(73, 80, 87, 0.13);
-}
-div.callout-prompt .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-prompt.callout-style-default .callout-icon::before, div.callout-prompt.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f328';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: #6f42c1;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgba(111, 66, 193, 0.13);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f0c0';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: #20c997;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgba(32, 201, 151, 0.13);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\e2ca';
-  background-image: none;
-}
-div.callout-scenario.callout {
-  border-left-color: #6c757d;
-}
-div.callout-scenario.callout-style-default > .callout-header {
-  background-color: rgba(108, 117, 125, 0.13);
-}
-div.callout-scenario .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-scenario.callout-style-default .callout-icon::before, div.callout-scenario.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f075';
   background-image: none;
 }
 div.callout-source-check.callout {
@@ -220,23 +111,131 @@ div.callout-source-check.callout-style-default .callout-icon::before, div.callou
   content: '\f002';
   background-image: none;
 }
+div.callout-reflect.callout {
+  border-left-color: #6f42c1;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(111, 66, 193, 0.13);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f0eb';
+  background-image: none;
+}
+div.callout-prompt.callout {
+  border-left-color: #495057;
+}
+div.callout-prompt.callout-style-default > .callout-header {
+  background-color: rgba(73, 80, 87, 0.13);
+}
+div.callout-prompt .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-prompt.callout-style-default .callout-icon::before, div.callout-prompt.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f328';
+  background-image: none;
+}
+div.callout-key-point.callout {
+  border-left-color: #9A4665;
+}
+div.callout-key-point.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-key-point .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-key-point.callout-style-default .callout-icon::before, div.callout-key-point.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f005';
+  background-image: none;
+}
+div.callout-group.callout {
+  border-left-color: #6f42c1;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgba(111, 66, 193, 0.13);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f0c0';
+  background-image: none;
+}
+div.callout-warning.callout {
+  border-left-color: #fd7e14;
+}
+div.callout-warning.callout-style-default > .callout-header {
+  background-color: rgba(253, 126, 20, 0.13);
+}
+div.callout-warning .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-warning.callout-style-default .callout-icon::before, div.callout-warning.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f06a';
+  background-image: none;
+}
+div.callout-scenario.callout {
+  border-left-color: #6c757d;
+}
+div.callout-scenario.callout-style-default > .callout-header {
+  background-color: rgba(108, 117, 125, 0.13);
+}
+div.callout-scenario .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-scenario.callout-style-default .callout-icon::before, div.callout-scenario.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f075';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: #20c997;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgba(32, 201, 151, 0.13);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\e2ca';
+  background-image: none;
+}
+div.callout-experiment.callout {
+  border-left-color: #9A4665;
+}
+div.callout-experiment.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-experiment .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-experiment.callout-style-default .callout-icon::before, div.callout-experiment.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f0c3';
+  background-image: none;
+}
+div.callout-demonstration.callout {
+  border-left-color: #0d6efd;
+}
+div.callout-demonstration.callout-style-default > .callout-header {
+  background-color: rgba(13, 110, 253, 0.13);
+}
+div.callout-demonstration .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-demonstration.callout-style-default .callout-icon::before, div.callout-demonstration.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f51b';
+  background-image: none;
+}
 </style>
 
 
-<link rel="stylesheet" href="../styles/styles.css">
-<meta property="og:title" content="Antworten von Sprachmodellen kritisch prüfen – Fact-Checking für KI">
-<meta property="og:description" content="Ein 40-Minuten Workshop zu Lateral Reading">
+<link rel="stylesheet" href="../../../styles/styles.css">
+<meta property="og:title" content="Vertical vs.&nbsp;Lateral Reading – Fact-Checking für KI">
+<meta property="og:description" content="Warum wir die Quelle verlassen müssen">
 <meta property="og:site_name" content="Fact-Checking für KI">
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Fact-Checking für KI</span>
     </a>
   </div>
@@ -247,17 +246,35 @@ div.callout-source-check.callout-style-default .callout-icon::before, div.callou
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../workshop/index.html" aria-current="page"> <i class="bi bi-card-list" role="img">
+    <a class="nav-link" href="../../../workshop/index.html"> <i class="bi bi-card-list" role="img">
 </i> 
 <span class="menu-text">Workshop</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../workshop/vertiefung/index.html"> <i class="bi bi-file-text" role="img">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-materialien" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-file-text" role="img">
 </i> 
-<span class="menu-text">Materialien</span></a>
+ <span class="menu-text">Materialien</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-materialien">    
+        <li>
+    <a class="dropdown-item" href="../../../handout.html">
+ <span class="dropdown-text">Handout</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../../workshop/vertiefung/index.html">
+ <span class="dropdown-text">Vertiefung</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../workshop/vertiefung/vertical-lateral/index.html">
+ <span class="dropdown-text">Vertical vs.&nbsp;Lateral Reading</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../workshop/vertiefung/confirmation-bias/index.html">
+ <span class="dropdown-text">Confirmation Bias und KI</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -265,81 +282,39 @@ div.callout-source-check.callout-style-default .callout-icon::before, div.callou
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../workshop/index.html">Antworten von Sprachmodellen kritisch prüfen</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../workshop/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Antworten von Sprachmodellen kritisch prüfen</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../workshop/framing/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Einstieg</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../workshop/experiment-1/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Teil 1: Das Sprachmodell liegt falsch</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../workshop/experiment-2/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Teil 2: Warum Nachfragen nicht hilft</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../workshop/lateral-reading/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Teil 3: Lateral Reading</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../workshop/entscheidungsregel/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Teil 4: Die Entscheidungsregel</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#überblick" id="toc-überblick" class="nav-link active" data-scroll-target="#überblick">Überblick</a></li>
-  <li><a href="#lernziele" id="toc-lernziele" class="nav-link" data-scroll-target="#lernziele">Lernziele</a></li>
-  <li><a href="#ablauf" id="toc-ablauf" class="nav-link" data-scroll-target="#ablauf">Ablauf</a></li>
-  <li><a href="#was-du-brauchst" id="toc-was-du-brauchst" class="nav-link" data-scroll-target="#was-du-brauchst">Was du brauchst</a></li>
+  <li><a href="#zwei-arten-zu-lesen" id="toc-zwei-arten-zu-lesen" class="nav-link active" data-scroll-target="#zwei-arten-zu-lesen">Zwei Arten zu lesen</a></li>
+  <li><a href="#vertical-reading-das-problem" id="toc-vertical-reading-das-problem" class="nav-link" data-scroll-target="#vertical-reading-das-problem">Vertical Reading: Das Problem</a>
+  <ul class="collapse">
+  <li><a href="#warum-das-nicht-funktioniert" id="toc-warum-das-nicht-funktioniert" class="nav-link" data-scroll-target="#warum-das-nicht-funktioniert">Warum das nicht funktioniert</a></li>
+  <li><a href="#beispiele-für-vertical-reading" id="toc-beispiele-für-vertical-reading" class="nav-link" data-scroll-target="#beispiele-für-vertical-reading">Beispiele für Vertical Reading</a></li>
+  </ul></li>
+  <li><a href="#lateral-reading-die-lösung" id="toc-lateral-reading-die-lösung" class="nav-link" data-scroll-target="#lateral-reading-die-lösung">Lateral Reading: Die Lösung</a>
+  <ul class="collapse">
+  <li><a href="#der-prozess" id="toc-der-prozess" class="nav-link" data-scroll-target="#der-prozess">Der Prozess</a></li>
+  <li><a href="#wonach-du-suchst" id="toc-wonach-du-suchst" class="nav-link" data-scroll-target="#wonach-du-suchst">Wonach du suchst</a></li>
+  </ul></li>
+  <li><a href="#bei-sprachmodellen-eine-spezielle-situation" id="toc-bei-sprachmodellen-eine-spezielle-situation" class="nav-link" data-scroll-target="#bei-sprachmodellen-eine-spezielle-situation">Bei Sprachmodellen: Eine spezielle Situation</a>
+  <ul class="collapse">
+  <li><a href="#vertical-reading-bei-sprachmodellen" id="toc-vertical-reading-bei-sprachmodellen" class="nav-link" data-scroll-target="#vertical-reading-bei-sprachmodellen">Vertical Reading bei Sprachmodellen</a></li>
+  <li><a href="#lateral-reading-bei-sprachmodellen" id="toc-lateral-reading-bei-sprachmodellen" class="nav-link" data-scroll-target="#lateral-reading-bei-sprachmodellen">Lateral Reading bei Sprachmodellen</a></li>
+  </ul></li>
+  <li><a href="#wann-eine-quelle-vertrauenswürdig-ist" id="toc-wann-eine-quelle-vertrauenswürdig-ist" class="nav-link" data-scroll-target="#wann-eine-quelle-vertrauenswürdig-ist">Wann eine Quelle vertrauenswürdig ist</a>
+  <ul class="collapse">
+  <li><a href="#checkliste-für-quellenautorität" id="toc-checkliste-für-quellenautorität" class="nav-link" data-scroll-target="#checkliste-für-quellenautorität">Checkliste für Quellenautorität</a></li>
+  <li><a href="#hierarchie-der-quellen" id="toc-hierarchie-der-quellen" class="nav-link" data-scroll-target="#hierarchie-der-quellen">Hierarchie der Quellen</a></li>
+  </ul></li>
+  <li><a href="#zusammenfassung" id="toc-zusammenfassung" class="nav-link" data-scroll-target="#zusammenfassung">Zusammenfassung</a></li>
+  <li><a href="#weiterführend" id="toc-weiterführend" class="nav-link" data-scroll-target="#weiterführend">Weiterführend</a></li>
   </ul>
 </nav>
     </div>
@@ -348,8 +323,8 @@ div.callout-source-check.callout-style-default .callout-icon::before, div.callou
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Antworten von Sprachmodellen kritisch prüfen</h1>
-<p class="subtitle lead">Ein 40-Minuten Workshop zu Lateral Reading</p>
+<h1 class="title">Vertical vs.&nbsp;Lateral Reading</h1>
+<p class="subtitle lead">Warum wir die Quelle verlassen müssen</p>
 </div>
 
 
@@ -366,66 +341,230 @@ div.callout-source-check.callout-style-default .callout-icon::before, div.callou
 </header>
 
 
-<section id="überblick" class="level2">
-<h2 class="anchored" data-anchor-id="überblick">Überblick</h2>
-<p>Dieser Workshop vermittelt eine praktische Technik zur Verifikation von Antworten aus Large Language Models (LLMs) wie Copilot, ChatGPT, Claude oder Gemini: <strong>Lateral Reading</strong>.</p>
-<p>Du lernst durch eigene Experimente, warum Antworten von Sprachmodellen externe Verifikation brauchen und wie du in wenigen Minuten Fakten unabhängig prüfen kannst.</p>
-</section>
-<section id="lernziele" class="level2">
-<h2 class="anchored" data-anchor-id="lernziele">Lernziele</h2>
-<p>Nach diesem Workshop kannst du:</p>
-<ol type="1">
-<li><strong>Erkennen</strong>, wann Antworten von Sprachmodellen externe Verifikation brauchen</li>
-<li><strong>Verstehen</strong>, warum Nachfragen beim Sprachmodell keine echte Prüfung ist</li>
-<li><strong>Lateral Reading anwenden</strong>, um Fakten zu überprüfen</li>
-<li><strong>Vertrauenswürdige Quellen</strong> für deinen Arbeitsbereich identifizieren</li>
-</ol>
-</section>
-<section id="ablauf" class="level2">
-<h2 class="anchored" data-anchor-id="ablauf">Ablauf</h2>
+<section id="zwei-arten-zu-lesen" class="level2">
+<h2 class="anchored" data-anchor-id="zwei-arten-zu-lesen">Zwei Arten zu lesen</h2>
+<p>Wenn wir eine Information prüfen wollen, gibt es zwei grundsätzlich verschiedene Ansätze:</p>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 51%">
+<col style="width: 48%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Phase</th>
-<th>Dauer</th>
-<th>Inhalt</th>
+<th>Vertical Reading</th>
+<th>Lateral Reading</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="../workshop/framing/index.html">Einstieg</a></td>
-<td>30 Sek</td>
-<td>Direkt ins Experiment</td>
+<td>Innerhalb der Quelle bleiben</td>
+<td>Die Quelle verlassen</td>
 </tr>
 <tr class="even">
-<td><a href="../workshop/experiment-1/index.html">Teil 1</a></td>
-<td>8 Min</td>
-<td>Das Sprachmodell liegt falsch</td>
+<td>“About”-Seite lesen</td>
+<td>Suchen, was andere über die Quelle sagen</td>
 </tr>
 <tr class="odd">
-<td><a href="../workshop/experiment-2/index.html">Teil 2</a></td>
-<td>6 Min</td>
-<td>Warum Nachfragen nicht hilft</td>
+<td>Design und Aufmachung bewerten</td>
+<td>Unabhängige Einschätzungen finden</td>
 </tr>
 <tr class="even">
-<td><a href="../workshop/lateral-reading/index.html">Teil 3</a></td>
-<td>22 Min</td>
-<td>Lateral Reading üben</td>
-</tr>
-<tr class="odd">
-<td><a href="../workshop/entscheidungsregel/index.html">Teil 4</a></td>
-<td>3.5 Min</td>
-<td>Die Entscheidungsregel</td>
+<td>Quellenangaben der Quelle prüfen</td>
+<td>Quellenangaben extern verifizieren</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Gesamtdauer:</strong> 40 Minuten</p>
 </section>
-<section id="was-du-brauchst" class="level2">
-<h2 class="anchored" data-anchor-id="was-du-brauchst">Was du brauchst</h2>
+<section id="vertical-reading-das-problem" class="level2">
+<h2 class="anchored" data-anchor-id="vertical-reading-das-problem">Vertical Reading: Das Problem</h2>
+<p>Bei <strong>Vertical Reading</strong> bleiben wir innerhalb der Quelle und versuchen, ihre Glaubwürdigkeit anhand dessen zu beurteilen, was sie selbst über sich sagt.</p>
+<section id="warum-das-nicht-funktioniert" class="level3">
+<h3 class="anchored" data-anchor-id="warum-das-nicht-funktioniert">Warum das nicht funktioniert</h3>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Quellen kontrollieren ihre Selbstdarstellung
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li>Laptop oder Tablet mit Internetzugang</li>
-<li>Zugang zu einem Sprachmodell (Copilot, ChatGPT, Claude, oder Gemini)</li>
+<li>Eine “About”-Seite wird von der Organisation selbst geschrieben</li>
+<li>Würdest du etwas Schlechtes über dich selbst schreiben?</li>
+<li>Jede Quelle hat Gründe, sich vertrauenswürdig darzustellen</li>
+<li>Selbst unseriöse Quellen können professionell aussehen</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="beispiele-für-vertical-reading" class="level3">
+<h3 class="anchored" data-anchor-id="beispiele-für-vertical-reading">Beispiele für Vertical Reading</h3>
+<ul>
+<li>Die “About”-Seite einer Website lesen</li>
+<li>Prüfen, ob die Seite professionell gestaltet ist</li>
+<li>Schauen, ob Quellenangaben genannt werden</li>
+<li>Die Qualifikationen lesen, die jemand über sich selbst angibt</li>
+</ul>
+<p><strong>Das Problem:</strong> All diese Informationen werden von der Quelle selbst kontrolliert.</p>
+</section>
+</section>
+<section id="lateral-reading-die-lösung" class="level2">
+<h2 class="anchored" data-anchor-id="lateral-reading-die-lösung">Lateral Reading: Die Lösung</h2>
+<p>Bei <strong>Lateral Reading</strong> verlassen wir die Quelle und suchen extern nach Informationen über sie.</p>
+<section id="der-prozess" class="level3">
+<h3 class="anchored" data-anchor-id="der-prozess">Der Prozess</h3>
+<ol type="1">
+<li><strong>Neuen Tab öffnen</strong>: Die Quelle verlassen.</li>
+<li><strong>Nach der Quelle suchen</strong>: Nicht nach dem Inhalt, sondern nach der Organisation oder Person dahinter.</li>
+<li><strong>Unabhängige Einschätzungen finden</strong>: Was sagen andere über diese Quelle?</li>
+<li><strong>Mehrere Perspektiven prüfen</strong>: Nicht nur eine externe Quelle.</li>
+</ol>
+</section>
+<section id="wonach-du-suchst" class="level3">
+<h3 class="anchored" data-anchor-id="wonach-du-suchst">Wonach du suchst</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 31%">
+<col style="width: 68%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Frage</th>
+<th>Warum wichtig</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Wer steckt hinter der Information?</td>
+<td>Identität und Hintergrund der Quelle</td>
+</tr>
+<tr class="even">
+<td>Welche Perspektive oder Motivation hat die Quelle?</td>
+<td>Mögliche Interessenkonflikte</td>
+</tr>
+<tr class="odd">
+<td>Welche Expertise hat die Quelle?</td>
+<td>Fachliche Kompetenz zum Thema</td>
+</tr>
+<tr class="even">
+<td>Was sagen unabhängige Dritte?</td>
+<td>Externe Einschätzung der Glaubwürdigkeit</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="bei-sprachmodellen-eine-spezielle-situation" class="level2">
+<h2 class="anchored" data-anchor-id="bei-sprachmodellen-eine-spezielle-situation">Bei Sprachmodellen: Eine spezielle Situation</h2>
+<p>Sprachmodelle sind ein Sonderfall. Sie haben keine “About”-Seite und keine eigene Motivation. Aber das Prinzip von Vertical vs.&nbsp;Lateral Reading gilt trotzdem:</p>
+<section id="vertical-reading-bei-sprachmodellen" class="level3">
+<h3 class="anchored" data-anchor-id="vertical-reading-bei-sprachmodellen">Vertical Reading bei Sprachmodellen</h3>
+<p>Das ist, was wir in Teil 2 des Workshops getestet haben:</p>
+<ul>
+<li>Das Sprachmodell fragen: “Bist du sicher?”</li>
+<li>Nachfragen: “Kannst du das überprüfen?”</li>
+<li>Eine Annahme einbauen und schauen, ob es widerspricht</li>
+</ul>
+<p><strong>Ergebnis:</strong> Funktioniert nicht. Das Sprachmodell kann sich nicht selbst prüfen. Es generiert nur neue Antworten.</p>
+</section>
+<section id="lateral-reading-bei-sprachmodellen" class="level3">
+<h3 class="anchored" data-anchor-id="lateral-reading-bei-sprachmodellen">Lateral Reading bei Sprachmodellen</h3>
+<p>Das ist, was wir in Teil 3 des Workshops geübt haben:</p>
+<ul>
+<li>Das Sprachmodell verlassen</li>
+<li>Extern nach der Information suchen</li>
+<li>Primärquellen finden</li>
+<li>Selbst prüfen, ob die Quelle das sagt, was das Sprachmodell behauptet</li>
+</ul>
+<p><strong>Ergebnis:</strong> Funktioniert. Nur externe Quellen können die Richtigkeit bestätigen.</p>
+</section>
+</section>
+<section id="wann-eine-quelle-vertrauenswürdig-ist" class="level2">
+<h2 class="anchored" data-anchor-id="wann-eine-quelle-vertrauenswürdig-ist">Wann eine Quelle vertrauenswürdig ist</h2>
+<p>Wenn du bei deiner Recherche auf eine Quelle stösst, prüfe:</p>
+<section id="checkliste-für-quellenautorität" class="level3">
+<h3 class="anchored" data-anchor-id="checkliste-für-quellenautorität">Checkliste für Quellenautorität</h3>
+<ul class="task-list">
+<li><label><input type="checkbox"><strong>Expertise:</strong> Sind die Autoren Fachleute auf dem Gebiet?</label></li>
+<li><label><input type="checkbox"><strong>Redaktionsprozesse:</strong> Gibt es Editoren, Faktenprüfer, Peer Review?</label></li>
+<li><label><input type="checkbox"><strong>Korrekturkultur:</strong> Gibt die Quelle Fehler zu und korrigiert sie?</label></li>
+<li><label><input type="checkbox"><strong>Keine Interessenkonflikte:</strong> Hat die Quelle einen Grund, die Information zu verzerren?</label></li>
+<li><label><input type="checkbox"><strong>Unabhängige Bestätigung:</strong> Sagen andere verlässliche Quellen dasselbe?</label></li>
+</ul>
+</section>
+<section id="hierarchie-der-quellen" class="level3">
+<h3 class="anchored" data-anchor-id="hierarchie-der-quellen">Hierarchie der Quellen</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 63%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Vertrauenswürdigkeit</th>
+<th>Quellentyp</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Hoch</td>
+<td>Primärquellen (Originaldaten, Gesetze, offizielle Statistiken)</td>
+</tr>
+<tr class="even">
+<td>Hoch</td>
+<td>Peer-reviewed wissenschaftliche Publikationen</td>
+</tr>
+<tr class="odd">
+<td>Mittel</td>
+<td>Qualitätsjournalismus mit Redaktionsprozessen</td>
+</tr>
+<tr class="even">
+<td>Mittel</td>
+<td>Wikipedia (als Einstieg, nicht als Endquelle)</td>
+</tr>
+<tr class="odd">
+<td>Niedrig</td>
+<td>Blogs, Foren, Social Media</td>
+</tr>
+<tr class="even">
+<td>Sehr niedrig</td>
+<td>Anonyme Quellen, AI-generierte Zusammenfassungen</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="zusammenfassung" class="level2">
+<h2 class="anchored" data-anchor-id="zusammenfassung">Zusammenfassung</h2>
+<div class="callout callout-style-default callout-key-point callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Key-point</span>Die Kernregel
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Vertraue nie darauf, was eine Quelle über sich selbst sagt.</strong></p>
+<p>Verlasse die Quelle und prüfe extern:</p>
+<ol type="1">
+<li>Wer steckt dahinter?</li>
+<li>Welche Motivation könnte die Quelle haben?</li>
+<li>Was sagen unabhängige Dritte?</li>
+<li>Steht in der Quelle wirklich das, was behauptet wird?</li>
+</ol>
+</div>
+</div>
+</section>
+<section id="weiterführend" class="level2">
+<h2 class="anchored" data-anchor-id="weiterführend">Weiterführend</h2>
+<p>Diese Konzepte stammen aus der Forschung zu <strong>Civic Online Reasoning</strong> der Stanford History Education Group. Mehr dazu:</p>
+<ul>
+<li><a href="https://cor.stanford.edu/">Stanford History Education Group: Civic Online Reasoning</a></li>
+<li><a href="https://hapgood.us/2019/06/19/sift-the-four-moves/">SIFT-Methode von Mike Caulfield</a></li>
 </ul>
 
 
@@ -897,19 +1036,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../workshop/framing/index.html" class="pagination-link" aria-label="Einstieg">
-        <span class="nav-page-text">Einstieg</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 
 
 
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

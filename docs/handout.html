@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>KI in unserer Alltagsarbeit – Fact-Checking für KI</title>
+<title>Handout: Lateral Reading – Fact-Checking für KI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -36,6 +36,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -47,8 +48,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-fa0de036f5b7cc726694a33fd78ca2ce.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
 <link href="site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
-<script src="site_libs/quarto-contrib/qrcodejs-v1.0.0/qrcode.js"></script>
-<link href="site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -88,42 +87,6 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-individual.callout {
-  border-left-color: #9A4665;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f007';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: #6f42c1;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgba(111, 66, 193, 0.13);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f0c0';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: #20c997;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgba(32, 201, 151, 0.13);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\e2ca';
-  background-image: none;
-}
 div.callout-warning.callout {
   border-left-color: #fd7e14;
 }
@@ -134,42 +97,6 @@ div.callout-warning .callout-toggle::before {  background-image: url('data:image
 div.callout-warning.callout-style-default .callout-icon::before, div.callout-warning.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
   content: '\f06a';
-  background-image: none;
-}
-div.callout-experiment.callout {
-  border-left-color: #9A4665;
-}
-div.callout-experiment.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-experiment .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-experiment.callout-style-default .callout-icon::before, div.callout-experiment.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f0c3';
-  background-image: none;
-}
-div.callout-demonstration.callout {
-  border-left-color: #0d6efd;
-}
-div.callout-demonstration.callout-style-default > .callout-header {
-  background-color: rgba(13, 110, 253, 0.13);
-}
-div.callout-demonstration .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-demonstration.callout-style-default .callout-icon::before, div.callout-demonstration.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f51b';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: #6f42c1;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(111, 66, 193, 0.13);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f0eb';
   background-image: none;
 }
 div.callout-prompt.callout {
@@ -184,18 +111,6 @@ div.callout-prompt.callout-style-default .callout-icon::before, div.callout-prom
   content: '\f328';
   background-image: none;
 }
-div.callout-source-check.callout {
-  border-left-color: #198754;
-}
-div.callout-source-check.callout-style-default > .callout-header {
-  background-color: rgba(25, 135, 84, 0.13);
-}
-div.callout-source-check .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-source-check.callout-style-default .callout-icon::before, div.callout-source-check.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f002';
-  background-image: none;
-}
 div.callout-key-point.callout {
   border-left-color: #9A4665;
 }
@@ -206,6 +121,30 @@ div.callout-key-point .callout-toggle::before {  background-image: url('data:ima
 div.callout-key-point.callout-style-default .callout-icon::before, div.callout-key-point.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
   content: '\f005';
+  background-image: none;
+}
+div.callout-experiment.callout {
+  border-left-color: #9A4665;
+}
+div.callout-experiment.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-experiment .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-experiment.callout-style-default .callout-icon::before, div.callout-experiment.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f0c3';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: #20c997;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgba(32, 201, 151, 0.13);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\e2ca';
   background-image: none;
 }
 div.callout-scenario.callout {
@@ -220,12 +159,72 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
   content: '\f075';
   background-image: none;
 }
+div.callout-demonstration.callout {
+  border-left-color: #0d6efd;
+}
+div.callout-demonstration.callout-style-default > .callout-header {
+  background-color: rgba(13, 110, 253, 0.13);
+}
+div.callout-demonstration .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-demonstration.callout-style-default .callout-icon::before, div.callout-demonstration.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f51b';
+  background-image: none;
+}
+div.callout-group.callout {
+  border-left-color: #6f42c1;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgba(111, 66, 193, 0.13);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f0c0';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: #9A4665;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f007';
+  background-image: none;
+}
+div.callout-source-check.callout {
+  border-left-color: #198754;
+}
+div.callout-source-check.callout-style-default > .callout-header {
+  background-color: rgba(25, 135, 84, 0.13);
+}
+div.callout-source-check .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-source-check.callout-style-default .callout-icon::before, div.callout-source-check.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f002';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: #6f42c1;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(111, 66, 193, 0.13);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f0eb';
+  background-image: none;
+}
 </style>
 
 
 <link rel="stylesheet" href="styles/styles.css">
-<meta property="og:title" content="KI in unserer Alltagsarbeit – Fact-Checking für KI">
-<meta property="og:description" content="">
+<meta property="og:title" content="Handout: Lateral Reading – Fact-Checking für KI">
+<meta property="og:description" content="Antworten von Sprachmodellen verifizieren">
 <meta property="og:site_name" content="Fact-Checking für KI">
 </head>
 
@@ -251,13 +250,31 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 </i> 
 <span class="menu-text">Workshop</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./materialien.html"> <i class="bi bi-file-text" role="img">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-materialien" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-file-text" role="img">
 </i> 
-<span class="menu-text">Materialien</span></a>
+ <span class="menu-text">Materialien</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-materialien">    
+        <li>
+    <a class="dropdown-item" href="./handout.html">
+ <span class="dropdown-text">Handout</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./workshop/vertiefung/index.html">
+ <span class="dropdown-text">Vertiefung</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./workshop/vertiefung/vertical-lateral/index.html">
+ <span class="dropdown-text">Vertical vs.&nbsp;Lateral Reading</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./workshop/vertiefung/confirmation-bias/index.html">
+ <span class="dropdown-text">Confirmation Bias und KI</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -270,70 +287,209 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#warum-nachfragen-beim-sprachmodell-nicht-hilft" id="toc-warum-nachfragen-beim-sprachmodell-nicht-hilft" class="nav-link active" data-scroll-target="#warum-nachfragen-beim-sprachmodell-nicht-hilft">Warum Nachfragen beim Sprachmodell nicht hilft</a></li>
+  <li><a href="#die-eine-frage" id="toc-die-eine-frage" class="nav-link" data-scroll-target="#die-eine-frage">Die Eine Frage</a></li>
+  <li><a href="#lateral-reading-in-4-schritten" id="toc-lateral-reading-in-4-schritten" class="nav-link" data-scroll-target="#lateral-reading-in-4-schritten">Lateral Reading in 4 Schritten</a>
+  <ul class="collapse">
+  <li><a href="#suchbegriffe-formulieren" id="toc-suchbegriffe-formulieren" class="nav-link" data-scroll-target="#suchbegriffe-formulieren">1. Suchbegriffe formulieren</a></li>
+  <li><a href="#suchergebnisse-filtern" id="toc-suchergebnisse-filtern" class="nav-link" data-scroll-target="#suchergebnisse-filtern">2. Suchergebnisse filtern</a></li>
+  <li><a href="#zur-original-quelle-gehen" id="toc-zur-original-quelle-gehen" class="nav-link" data-scroll-target="#zur-original-quelle-gehen">3. Zur Original-Quelle gehen</a></li>
+  <li><a href="#zwei-prüffragen-stellen" id="toc-zwei-prüffragen-stellen" class="nav-link" data-scroll-target="#zwei-prüffragen-stellen">4. Zwei Prüffragen stellen</a></li>
+  </ul></li>
+  <li><a href="#wann-besonders-skeptisch-sein" id="toc-wann-besonders-skeptisch-sein" class="nav-link" data-scroll-target="#wann-besonders-skeptisch-sein">Wann besonders skeptisch sein</a></li>
+  <li><a href="#stärken-und-schwächen-von-sprachmodellen" id="toc-stärken-und-schwächen-von-sprachmodellen" class="nav-link" data-scroll-target="#stärken-und-schwächen-von-sprachmodellen">Stärken und Schwächen von Sprachmodellen</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<div class="quarto-about-marquee page-columns page-full">
-  <div class="about-image-container">
-  </div>
-  <div class="about-contents page-columns page-full">
-    <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">KI in unserer Alltagsarbeit</h1>
+<h1 class="title">Handout: Lateral Reading</h1>
+<p class="subtitle lead">Antworten von Sprachmodellen verifizieren</p>
 </div>
+
+
+
 <div class="quarto-title-meta">
-  </div>
-</header> <main class="content page-columns page-full" id="quarto-document-content">
-<p><i class="bi-calendar-event " style="" role="img" aria-hidden="true"></i> 26. November 2025</p>
-<p><i class="bi-clock " style="" role="img" aria-hidden="true"></i> 15:00–18:00 Uhr</p>
-<p><i class="bi-map " style="" role="img" aria-hidden="true"></i> Marzili Campus, Berner Fachhochschule</p>
-<section id="workshop-ki-antworten-kritisch-prüfen" class="level2 page-columns page-full">
-<h2 data-anchor-id="workshop-ki-antworten-kritisch-prüfen">Workshop: KI-Antworten kritisch prüfen</h2>
-<p><i class="bi-link " style="" role="img" aria-hidden="true"></i> <a href="https://virtuelleakademie.github.io/ki-fact-checking-rsrn/">virtuelleakademie.github.io/ki-fact-checking-rsrn/</a></p>
-<!-- <br> -->
 
-<div class="no-row-height column-margin column-container"><div class="">
-<div id="qrcode" class="qrcode"></div>
-<script type="text/javascript">
-var qrcode = new QRCode("qrcode", {"colorDark":"#000000","colorLight":"#ffffff","height":"100","text":"https://virtuelleakademie.github.io/ki-fact-checking-rsrn/","width":"100"});
-</script>
-</div></div><p><br></p>
-<p>KI-Chatbots wie ChatGPT liefern Antworten die überzeugend sind, aber nicht immer korrekt. In diesem 40-minütigen Workshop lernst du <strong>Lateral Reading</strong>: eine praktische Technik, um KI-Antworten schnell und zuverlässig zu verifizieren.</p>
-<section id="was-du-lernst" class="level3">
-<h3 data-anchor-id="was-du-lernst">Was du lernst</h3>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="warum-nachfragen-beim-sprachmodell-nicht-hilft" class="level2">
+<h2 class="anchored" data-anchor-id="warum-nachfragen-beim-sprachmodell-nicht-hilft">Warum Nachfragen beim Sprachmodell nicht hilft</h2>
 <ul>
-<li>Warum KI-Antworten externe Verifikation brauchen</li>
-<li>Wie deine Fragestellung die KI-Antwort beeinflusst</li>
-<li>Wie du in 2–5 Minuten Fakten unabhängig prüfst <!-- - Welche Quellen für deinen Arbeitsbereich relevant sind --></li>
+<li>Sprachmodelle haben keinen Zugang zu ihrem eigenen “Denkprozess”</li>
+<li>“Bist du sicher?” generiert nur eine neue Antwort</li>
+<li>Sprachmodelle tendieren dazu, deine Annahmen zu bestätigen</li>
+<li>Überzeugend formuliert ≠ korrekt</li>
 </ul>
-<p><a href="./workshop/index.html" class="btn btn-primary">Zum Workshop</a></p>
+</section>
+<section id="die-eine-frage" class="level2">
+<h2 class="anchored" data-anchor-id="die-eine-frage">Die Eine Frage</h2>
+<div class="callout callout-style-simple callout-important no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Würde ich diese Information in einem formellen Dokument zitieren?</strong></p>
+<ul>
+<li><strong>JA</strong> = Extern verifizieren (Lateral Reading)</li>
+<li><strong>NEIN</strong> = Antwort vom Sprachmodell reicht</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="lateral-reading-in-4-schritten" class="level2">
+<h2 class="anchored" data-anchor-id="lateral-reading-in-4-schritten">Lateral Reading in 4 Schritten</h2>
+<section id="suchbegriffe-formulieren" class="level3">
+<h3 class="anchored" data-anchor-id="suchbegriffe-formulieren">1. Suchbegriffe formulieren</h3>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td>Nicht</td>
+<td>“Stimmt das?” oder Sprachmodell nochmal fragen</td>
+</tr>
+<tr class="even">
+<td>Sondern</td>
+<td>“[Thema] Schweiz Statistik/Gesetz”</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="suchergebnisse-filtern" class="level3">
+<h3 class="anchored" data-anchor-id="suchergebnisse-filtern">2. Suchergebnisse filtern</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Quelle</th>
+<th>Bewertung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Primärquellen: .admin.ch, .edu, offizielle Berichte</td>
+<td>Klicken</td>
+</tr>
+<tr class="even">
+<td>Wikipedia</td>
+<td>Nur als Einstieg, nicht zitieren</td>
+</tr>
+<tr class="odd">
+<td>AI-generierte Zusammenfassungen, Blogs, Foren</td>
+<td>Überspringen</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="zur-original-quelle-gehen" class="level3">
+<h3 class="anchored" data-anchor-id="zur-original-quelle-gehen">3. Zur Original-Quelle gehen</h3>
+<ul>
+<li>Google-Zusammenfassung reicht nicht</li>
+<li>Website öffnen, echte Daten finden</li>
+<li>Keine Quelle gefunden = Aussage vom Sprachmodell nicht verwendbar</li>
+</ul>
+</section>
+<section id="zwei-prüffragen-stellen" class="level3">
+<h3 class="anchored" data-anchor-id="zwei-prüffragen-stellen">4. Zwei Prüffragen stellen</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 70%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Frage</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Zuverlässig?</strong></td>
+<td>Ist das eine Primärquelle oder offizielle Stelle?</td>
+</tr>
+<tr class="even">
+<td><strong>Relevant?</strong></td>
+<td>Steht da wirklich das, was das Sprachmodell behauptet?</td>
+</tr>
+</tbody>
+</table>
+<p>Sprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch.</p>
 </section>
 </section>
-<section id="dozent" class="level2">
-<h2 data-anchor-id="dozent">Dozent</h2>
-<p><a href="mailto:andrew.ellis@bfh.ch">Dr.&nbsp;Andrew Ellis</a> ist Kognitionspsychologe und Wissenschaftlicher Mitarbeiter an der <a href="https://virtuelleakademie.ch/">Virtuellen Akademie</a> der Berner Fachhochschule. Er erforscht, wie künstliche Intelligenz in Bildungssystemen sinnvoll eingesetzt werden kann.</p>
+<section id="wann-besonders-skeptisch-sein" class="level2">
+<h2 class="anchored" data-anchor-id="wann-besonders-skeptisch-sein">Wann besonders skeptisch sein</h2>
+<div class="callout callout-style-simple callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Rote Flaggen
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Spezifitätsfalle:</strong> Je präziser die Zahlen, desto vertrauenswürdiger wirkt es — aber Spezifität ≠ Richtigkeit</li>
+<li>Das Sprachmodell bestätigt genau das, was du vermutet hast</li>
+<li>Du hast eine Annahme in die Frage eingebaut</li>
+<li>Es geht um rechtliche oder finanzielle Entscheidungen</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="stärken-und-schwächen-von-sprachmodellen" class="level2">
+<h2 class="anchored" data-anchor-id="stärken-und-schwächen-von-sprachmodellen">Stärken und Schwächen von Sprachmodellen</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Gut geeignet für</th>
+<th>Nicht zuverlässig für</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Erste Ideen sammeln</td>
+<td>Spezifische Fakten</td>
+</tr>
+<tr class="even">
+<td>Text umformulieren</td>
+<td>Rechtliche Verbindlichkeit</td>
+</tr>
+<tr class="odd">
+<td>Konzepte erklären</td>
+<td>Aktuelle Zahlen</td>
+</tr>
+<tr class="even">
+<td>Strukturen vorschlagen</td>
+<td>Interne Regelungen</td>
+</tr>
+<tr class="odd">
+<td>Brainstorming</td>
+<td>Quellenangaben (oft erfunden!)</td>
+</tr>
+</tbody>
+</table>
 
 
 </section>
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> 
-    <div class="about-footer"><div class="about-links">
-  <a href="mailto:virtuelle.akademie@bfh.ch" class="about-link" rel="" target="">
-    <i class="bi bi-inbox-fill"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://virtuelleakademie.ch/" class="about-link" rel="" target="">
-    <i class="bi bi-magic"></i>
-     <span class="about-link-text">Virtuelle Akademie</span>
-  </a>
-  <a href="https://virtuelleakademie.ch/knowledge-base/" class="about-link" rel="" target="">
-    <i class="bi bi-lightbulb-fill"></i>
-     <span class="about-link-text">Knowledge Base</span>
-  </a>
-</div>
-</div>
-  </div>
-</div>
- <!-- /main -->
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Find all prompt callouts
@@ -394,6 +550,13 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

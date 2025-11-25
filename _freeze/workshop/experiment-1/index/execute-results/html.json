@@ -1,0 +1,15 @@
+{
+  "hash": "7afef0c0d1f2e1333404e84b3c156937",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Teil 1: Das Sprachmodell liegt falsch\"\nsubtitle: \"Gemeinsames Experiment\"\n---\n\n## Das Experiment\n\n::: {.experiment}\n\n1. Öffne dein Sprachmodell (ChatGPT, Claude, Copilot, etc.)\n2. Kopiere den Prompt unten und füge ihn ein\n3. Sende die Anfrage ab\n4. Notiere dir die Zahl, die das Modell nennt\n\n:::\n\n**Prompt zum Kopieren:**\n\n\n::: {.cell}\n\n```{.r .cell-code}\nf <- function(x)  return(x)\n```\n:::\n\n\n```\nWie hoch ist der Anteil der Studierenden an Schweizer Universitäten, die ihr Bachelorstudium in der Regelstudienzeit abschliessen?\n```\n\n:::{.timer #EXP-1 seconds=300 starton=interaction}\n:::\n\n---\n\n## Antworten teilen\n\n::: {.group}\n\n- Teile deine Antwort mit der Gruppe\n- Vergleicht die Zahlen: Sind sie gleich oder unterschiedlich?\n\n:::\n\n---\n\n## Auswertung: Die offizielle Quelle\n\n::: {.demonstration}\n\nWir prüfen jetzt gemeinsam die offizielle Quelle:\n\n1. Neuen Browser-Tab öffnen\n2. Suchen: `BFS Studiendauer Bachelor Schweiz`\n3. Zur BFS-Seite (bfs.admin.ch) navigieren\n4. Offizielle Statistik mit den Modell-Antworten vergleichen\n\n:::\n\n---\n\n## Beobachtung\n\n::: {.reflect}\n\n- Stimmen die Zahlen der Sprachmodelle mit der offiziellen Quelle überein?\n- Hat das Modell eine Quelle genannt?\n- Wie sicher klang die Antwort?\n\n:::\n\n---\n\n::: {.key-point}\n\nAntworten von Sprachmodellen können sehr spezifisch und selbstbewusst klingen --- und trotzdem falsch sein.\n\n**Überzeugend heisst nicht korrekt.**\n\n:::\n\n::: {.warning}\n### Die Spezifitätsfalle\n\nJe spezifischer eine Antwort klingt --- genaue Zahlen, Daten, Namen --- desto vertrauenswürdiger wirkt sie. Aber Spezifität ist kein Beweis für Richtigkeit. Sprachmodelle generieren oft sehr präzise klingende Details, die frei erfunden sind.\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

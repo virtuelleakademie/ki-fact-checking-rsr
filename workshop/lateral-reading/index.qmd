@@ -1,0 +1,176 @@
+---
+title: "Teil 3: Lateral Reading"
+subtitle: "Die Technik in vier Schritten üben"
+---
+
+Lateral Reading heisst: Raus aus dem Sprachmodell, eigene Suche, Primärquellen finden.
+
+## Die vier Schritte
+
+1. **Suchbegriffe formulieren.** Was tippst du bei Google ein?
+2. **Suchergebnisse filtern.** Welche Quellen sind vertrauenswürdig?
+3. **Zur Quelle gehen.** Nicht die Google-Zusammenfassung, sondern die echte Seite.
+4. **Zwei Prüffragen stellen.** Ist die Quelle zuverlässig? Steht da wirklich das, was behauptet wird?
+
+## Runde 1: Gemeinsam {#runde-1}
+
+::: {.scenario}
+
+Das Sprachmodell sagt:
+
+> "Das durchschnittliche Gehalt für Verwaltungsmitarbeitende an Schweizer Universitäten liegt bei CHF 78'000 brutto pro Jahr."
+
+Du willst das für einen Budgetantrag verwenden.
+
+:::
+
+### Schritt 1: Suchbegriffe formulieren
+
+Wie würdest du suchen? Nicht das Sprachmodell fragen. Was tippst du bei Google ein?
+
+::: {.pro-tip}
+
+Gute Suchbegriffe:
+
+- "Schweiz Universität Verwaltung Gehalt Statistik"
+- "swissuniversities Lohnstruktur"
+
+Nicht: "Stimmt 78000?"
+
+:::
+
+### Schritt 2: Suchergebnisse filtern
+
+| Quelle | Bewertung |
+|--------|-----------|
+| jobs.ch | Stellenanzeigen, keine offizielle Statistik |
+| Blogs, Foren | Überspringen |
+| bfs.admin.ch | Primärquelle, klicken |
+| swissuniversities | Offizielle Quelle, klicken |
+
+### Schritt 3: Zur Quelle gehen
+
+Wichtig: Nicht die Google-Zusammenfassung lesen. Zur echten Seite gehen und die Daten selbst finden.
+
+### Schritt 4: Zwei Prüffragen
+
+Wenn du eine Quelle gefunden hast, stelle zwei Fragen:
+
+| Frage | Bedeutung |
+|-------|-----------|
+| **Ist die Quelle zuverlässig?** | Ist das eine Primärquelle oder offizielle Stelle? |
+| **Steht da wirklich das, was das Sprachmodell behauptet?** | Unterstützt die Quelle tatsächlich die konkrete Aussage? |
+
+::: {.warning}
+
+Sprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch oder übertreiben. Immer selbst nachlesen!
+
+:::
+
+### Schritt 5: Ergebnis
+
+::: {.reflect}
+
+Oft: Die exakte Zahl existiert nicht in dieser Form. Das ist selbst eine wichtige Information. Die Zahl vom Sprachmodell ist nicht verifizierbar und somit nicht verwendbar für einen Budgetantrag.
+
+:::
+
+## Runde 2: In Kleingruppen {#runde-2}
+
+::: {.experiment}
+
+1. Wähle **ein Szenario** aus der Liste unten
+2. Versuche, die Behauptung mit den vier Schritten zu verifizieren
+3. Notiere: Ist die Behauptung richtig, falsch, oder nicht prüfbar?
+
+:::
+
+:::{.timer #LR-R2 seconds=300 starton=interaction}
+:::
+
+::: {.scenario collapse="true"}
+### Szenario A: Rechtliches
+
+> "Personaldossiers müssen in der Schweiz 10 Jahre nach Austritt aufbewahrt werden."
+
+Finde die offizielle rechtliche Grundlage. *Tipp: EDÖB, admin.ch, OR*
+
+:::
+
+::: {.scenario collapse="true"}
+### Szenario B: Statistik
+
+> "Die Universität Bern hatte im HS 2023 genau 18'734 Studierende."
+
+Finde die offizielle Statistik. *Tipp: Uni Bern Website, BFS*
+
+:::
+
+::: {.scenario collapse="true"}
+### Szenario C: Budget
+
+> "Ein Team-Event mit 20 Personen in Bern kostet durchschnittlich CHF 90 pro Person."
+
+Wie würdest du das überprüfen? *Tipp: Lokale Anbieter, frühere Events*
+
+:::
+
+::: {.scenario collapse="true"}
+### Szenario D: Prozess
+
+> "Reisekostenabrechnungen müssen innerhalb von 30 Tagen nach Reiseende eingereicht werden."
+
+Finde die offizielle Uni-Regelung. *Tipp: Uni-Intranet, HR-Richtlinien*
+
+:::
+
+::: {.scenario collapse="true"}
+### Szenario E: Weiterbildung
+
+> "Mitarbeitende haben Anspruch auf 5 Tage bezahlte Weiterbildung pro Jahr."
+
+Stimmt das für deine Institution? *Tipp: Personalreglement, GAV*
+
+:::
+
+::: {.scenario collapse="true"}
+### Szenario F: Technisches
+
+> "Microsoft 365 Lizenzen kosten Schweizer Unis durchschnittlich CHF 45 pro Nutzer/Jahr."
+
+Wie würdest du das verifizieren? *Tipp: IT-Services, swissuniversities Rahmenverträge*
+
+:::
+
+### Auswertung
+
+::: {.group}
+
+- Welches Szenario hast du gewählt?
+- Was hast du gefunden?
+- War das Modell richtig, falsch, oder nicht prüfbar?
+
+:::
+
+## Runde 3: Eigenes Beispiel {#runde-3}
+
+::: {.individual}
+
+Denk an etwas, das du diese Woche ein Sprachmodell fragen könntest. Oder an etwas, das du schon gefragt hast.
+
+1. Formuliere eine konkrete Frage
+2. Frag das Sprachmodell
+3. Entscheide: Braucht das Verifikation?
+4. Wenn ja: Welche Quelle würdest du nutzen?
+
+:::
+
+:::{.timer #LR-R3 seconds=240 starton=interaction}
+:::
+
+::: {.group}
+
+- Was war deine Frage?
+- Würdest du diese Information in einem formellen Dokument verwenden?
+
+:::

@@ -1,0 +1,72 @@
+---
+title: "Teil 2: Warum Nachfragen nicht hilft"
+subtitle: "Selbstprüfung und Annahmen testen"
+---
+
+## Experiment A: Selbstprüfung
+
+::: {.experiment}
+
+1. Bleib im **selben Chat** wie vorher
+2. Kopiere den Prompt unten und füge ihn ein
+3. Beobachte, was das Modell macht
+
+:::
+
+::: {.prompt}
+Bist du sicher? Kannst du deine Antwort überprüfen?
+:::
+
+:::{.timer #EXP-2A seconds=120 starton=interaction}
+:::
+
+::: {.reflect}
+
+Hat das Modell seine Antwort wirklich überprüft --- oder einfach eine neue Antwort generiert?
+
+:::
+
+## Experiment B: Annahme einbauen
+
+::: {.experiment}
+
+1. Starte einen **neuen Chat**
+2. Kopiere den Prompt unten und füge ihn ein
+3. Beobachte: Bestätigt das Modell deine eingebaute Annahme?
+
+:::
+
+::: {.prompt}
+Ich habe gelesen dass etwa 60% der Studierenden in Regelzeit abschliessen. Stimmt das ungefähr?
+:::
+
+:::{.timer #EXP-2B seconds=120 starton=interaction}
+:::
+
+::: {.reflect}
+
+Bestätigt das Modell deine eingebaute Annahme --- obwohl sie falsch ist?
+
+:::
+
+## Auswertung
+
+::: {.group}
+
+Teile deine Beobachtungen:
+
+- Was hat das Modell bei "Bist du sicher?" gemacht?
+- Hat es deine Annahme bei der zweiten Frage bestätigt?
+
+:::
+
+::: {.key-point}
+
+Nachfragen beim Sprachmodell ist keine echte Prüfung.
+
+- Es kann sich **nicht selbst verifizieren** --- es generiert nur neue Antworten
+- Es **bestätigt tendenziell deine Annahmen** --- deine Frage beeinflusst die Antwort
+
+Beide Wege sind blockiert. Bleibt: **Externe Quellen.**
+
+:::
