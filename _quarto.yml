@@ -4,6 +4,8 @@ project:
     - assets/*
     - assets/images/*
     - assets/pdfs/*
+    - _extensions/quarto-ext/fontawesome/assets/css/all.css
+    - _extensions/quarto-ext/fontawesome/assets/webfonts/*
   preview:
     port: 8800
     browser: false
@@ -83,6 +85,7 @@ format:
       light: simplex
     css:
       - styles/styles.css
+      - _extensions/quarto-ext/fontawesome/assets/css/all.css
     include-after-body: scripts/copy-prompt.js
     code-copy: true
     toc: true
