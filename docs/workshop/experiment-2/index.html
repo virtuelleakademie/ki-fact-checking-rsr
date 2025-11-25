@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Teil 2: Warum KI dir zustimmt – KI-Antworten kritisch prüfen: Lateral Reading Workshop</title>
+<title>Teil 2: Warum Nachfragen nicht hilft – Fact-Checking für KI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -89,25 +89,58 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-warning.callout {
-  border-left-color: orange;
+div.callout-pro-tip.callout {
+  border-left-color: gold;
 }
-div.callout-warning.callout-style-default > .callout-header {
-  background-color: rgb(from orange r g b / 13%);
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
 }
-div.callout-warning .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-warning.callout-style-default .callout-icon::before, div.callout-warning.callout-titled .callout-icon::before {
-  content: '!';
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '';
   background-image: none;
 }
-div.callout-key-point.callout {
-  border-left-color: #9A4665;
+div.callout-reflect.callout {
+  border-left-color: purple;
 }
-div.callout-key-point.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
 }
-div.callout-key-point .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-key-point.callout-style-default .callout-icon::before, div.callout-key-point.callout-titled .callout-icon::before {
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '';
+  background-image: none;
+}
+div.callout-source-check.callout {
+  border-left-color: forestgreen;
+}
+div.callout-source-check.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
+}
+div.callout-source-check .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-source-check.callout-style-default .callout-icon::before, div.callout-source-check.callout-titled .callout-icon::before {
+  content: '';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: forestgreen;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '';
+  background-image: none;
+}
+div.callout-group.callout {
+  border-left-color: purple;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
   content: '';
   background-image: none;
 }
@@ -133,14 +166,14 @@ div.callout-experiment.callout-style-default .callout-icon::before, div.callout-
   content: '';
   background-image: none;
 }
-div.callout-pair.callout {
-  border-left-color: forestgreen;
+div.callout-individual.callout {
+  border-left-color: steelblue;
 }
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
 }
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
   content: '';
   background-image: none;
 }
@@ -155,67 +188,34 @@ div.callout-demonstration.callout-style-default .callout-icon::before, div.callo
   content: '';
   background-image: none;
 }
-div.callout-source-check.callout {
-  border-left-color: forestgreen;
+div.callout-key-point.callout {
+  border-left-color: #9A4665;
 }
-div.callout-source-check.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
+div.callout-key-point.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-source-check .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-source-check.callout-style-default .callout-icon::before, div.callout-source-check.callout-titled .callout-icon::before {
+div.callout-key-point .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-key-point.callout-style-default .callout-icon::before, div.callout-key-point.callout-titled .callout-icon::before {
   content: '';
   background-image: none;
 }
-div.callout-reflect.callout {
-  border-left-color: purple;
+div.callout-warning.callout {
+  border-left-color: orange;
 }
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
+div.callout-warning.callout-style-default > .callout-header {
+  background-color: rgb(from orange r g b / 13%);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: purple;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: steelblue;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '';
+div.callout-warning .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-warning.callout-style-default .callout-icon::before, div.callout-warning.callout-titled .callout-icon::before {
+  content: '!';
   background-image: none;
 }
 </style>
 
 
-<meta property="og:title" content="Teil 2: Warum KI dir zustimmt – KI-Antworten kritisch prüfen: Lateral Reading Workshop">
-<meta property="og:description" content="Sycophancy verstehen">
-<meta property="og:site_name" content="KI-Antworten kritisch prüfen: Lateral Reading Workshop">
+<meta property="og:title" content="Teil 2: Warum Nachfragen nicht hilft – Fact-Checking für KI">
+<meta property="og:description" content="Selbstprüfung und Annahmen testen">
+<meta property="og:site_name" content="Fact-Checking für KI">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light">
@@ -226,7 +226,7 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">KI-Antworten kritisch prüfen: Lateral Reading Workshop</span>
+    <span class="navbar-title">Fact-Checking für KI</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -246,21 +246,6 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 <span class="menu-text">Handout</span></a>
   </li>  
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-materialien" role="link" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="bi bi-file-slides" role="img">
-</i> 
- <span class="menu-text">Materialien</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-materialien">    
-        <li>
-    <a class="dropdown-item" href="../../handout.html">
- <span class="dropdown-text">Quick Reference Card (Handout)</span></a>
-  </li>  
-    </ul>
-  </li>
-</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
     <a href="https://virtuelleakademie.ch/knowledge-base/" title="Knowledge Base" class="quarto-navigation-tool px-1" aria-label="Knowledge Base"><i class="bi bi-lightbulb-fill"></i></a>
@@ -272,7 +257,7 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../workshop/framing/index.html">Ablauf</a></li><li class="breadcrumb-item"><a href="../../workshop/experiment-2/index.html">Teil 2: Warum KI dir zustimmt</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../workshop/framing/index.html">Ablauf</a></li><li class="breadcrumb-item"><a href="../../workshop/experiment-2/index.html">Teil 2: Warum Nachfragen nicht hilft</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -295,7 +280,7 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">KI-Antworten im Büroalltag kritisch prüfen</span></a>
+ <span class="menu-text">Antworten von Sprachmodellen kritisch prüfen</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -310,19 +295,19 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/framing/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Framing</span></a>
+ <span class="menu-text">Einstieg</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/experiment-1/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Teil 1: KI liegt falsch</span></a>
+ <span class="menu-text">Teil 1: Das Sprachmodell liegt falsch</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/experiment-2/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Teil 2: Warum KI dir zustimmt</span></a>
+ <span class="menu-text">Teil 2: Warum Nachfragen nicht hilft</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -366,16 +351,13 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#einleitung-30-sek" id="toc-einleitung-30-sek" class="nav-link active" data-scroll-target="#einleitung-30-sek">Einleitung (30 Sek)</a></li>
-  <li><a href="#das-experiment-4-min" id="toc-das-experiment-4-min" class="nav-link" data-scroll-target="#das-experiment-4-min">Das Experiment (4 Min)</a>
-  <ul class="collapse">
-  <li><a href="#alternative-themen" id="toc-alternative-themen" class="nav-link" data-scroll-target="#alternative-themen">Alternative Themen</a></li>
-  </ul></li>
-  <li><a href="#auswertung-und-erklärung-3.5-min" id="toc-auswertung-und-erklärung-3.5-min" class="nav-link" data-scroll-target="#auswertung-und-erklärung-3.5-min">Auswertung und Erklärung (3.5 Min)</a></li>
-  <li><a href="#die-konsequenz" id="toc-die-konsequenz" class="nav-link" data-scroll-target="#die-konsequenz">Die Konsequenz</a></li>
+  <li><a href="#experiment-a-selbstprüfung-2-min" id="toc-experiment-a-selbstprüfung-2-min" class="nav-link active" data-scroll-target="#experiment-a-selbstprüfung-2-min">Experiment A: Selbstprüfung (2 Min)</a></li>
+  <li><a href="#experiment-b-annahme-einbauen-2-min" id="toc-experiment-b-annahme-einbauen-2-min" class="nav-link" data-scroll-target="#experiment-b-annahme-einbauen-2-min">Experiment B: Annahme einbauen (2 Min)</a></li>
+  <li><a href="#auswertung-2-min" id="toc-auswertung-2-min" class="nav-link" data-scroll-target="#auswertung-2-min">Auswertung (2 Min)</a></li>
+  <li><a href="#minimaler-frame" id="toc-minimaler-frame" class="nav-link" data-scroll-target="#minimaler-frame">Minimaler Frame</a></li>
   <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting">Troubleshooting</a>
   <ul class="collapse">
-  <li><a href="#alle-drei-antworten-sind-ähnlich" id="toc-alle-drei-antworten-sind-ähnlich" class="nav-link" data-scroll-target="#alle-drei-antworten-sind-ähnlich">Alle drei Antworten sind ähnlich?</a></li>
+  <li><a href="#das-modell-sagt-ich-bin-nicht-sicher-oder-verweigert" id="toc-das-modell-sagt-ich-bin-nicht-sicher-oder-verweigert" class="nav-link" data-scroll-target="#das-modell-sagt-ich-bin-nicht-sicher-oder-verweigert">Das Modell sagt “Ich bin nicht sicher” oder verweigert?</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -383,10 +365,10 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../workshop/framing/index.html">Ablauf</a></li><li class="breadcrumb-item"><a href="../../workshop/experiment-2/index.html">Teil 2: Warum KI dir zustimmt</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../workshop/framing/index.html">Ablauf</a></li><li class="breadcrumb-item"><a href="../../workshop/experiment-2/index.html">Teil 2: Warum Nachfragen nicht hilft</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Teil 2: Warum KI dir zustimmt</h1>
-<p class="subtitle lead">Sycophancy verstehen</p>
+<h1 class="title">Teil 2: Warum Nachfragen nicht hilft</h1>
+<p class="subtitle lead">Selbstprüfung und Annahmen testen</p>
 </div>
 
 
@@ -403,110 +385,133 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 </header>
 
 
-<p><strong>Dauer:</strong> 8 Minuten</p>
-<p><strong>Ziel:</strong> Verstehen, dass KI systematisch bestätigt – und wie das mit den eigenen Annahmen interagiert.</p>
+<p><strong>Dauer:</strong> 6 Minuten (8:30–14:30)</p>
+<p><strong>Ziel:</strong> Entdecken, dass Sprachmodelle sich nicht selbst prüfen können – und dass sie Annahmen bestätigen.</p>
 <hr>
-<section id="einleitung-30-sek" class="level2">
-<h2 class="anchored" data-anchor-id="einleitung-30-sek">Einleitung (30 Sek)</h2>
+<section id="experiment-a-selbstprüfung-2-min" class="level2">
+<h2 class="anchored" data-anchor-id="experiment-a-selbstprüfung-2-min">Experiment A: Selbstprüfung (2 Min)</h2>
 <blockquote class="blockquote">
-<p>Ihr habt gesehen, dass KI falsch liegen kann. Jetzt sehen wir, <em>wie</em> sie falsch liegt – auf eine besonders gefährliche Art.</p>
+<p>Eine naheliegende Idee: Frag das Sprachmodell, ob es sicher ist. Probiere das jetzt.</p>
 </blockquote>
-<hr>
-</section>
-<section id="das-experiment-4-min" class="level2">
-<h2 class="anchored" data-anchor-id="das-experiment-4-min">Das Experiment (4 Min)</h2>
 <div class="callout callout-style-simple callout-experiment no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Experiment</span>Drei Framings testen
+<span class="screen-reader-only">Experiment</span>Selbstprüfungs-Prompt
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Stelle dieselbe Frage dreimal mit unterschiedlichem Framing. Kopiere diese drei Prompts nacheinander:</p>
-<p><strong>Prompt 1 – Neutral:</strong></p>
-<pre><code>Wie effektiv sind Online-Meetings im Vergleich zu Präsenz-Meetings?</code></pre>
-<p><strong>Prompt 2 – Mit positiver Prämisse:</strong></p>
-<pre><code>Für einen Bericht über die Vorteile von Remote-Arbeit:
-Wie effektiv sind Online-Meetings im Vergleich zu Präsenz-Meetings?</code></pre>
-<p><strong>Prompt 3 – Mit negativer Prämisse:</strong></p>
-<pre><code>Angesichts der Produktivitätsprobleme bei Remote-Work:
-Wie effektiv sind Online-Meetings im Vergleich zu Präsenz-Meetings?</code></pre>
-{{&lt; timer 3 &gt;}}
+<pre><code>Bist du sicher? Kannst du deine Antwort überprüfen?</code></pre>
+<div id="timer-1" class="timer-container"></div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (typeof initializeTimer === 'function') {
+      initializeTimer("timer-1", 60, "visible");
+    }
+  });
+</script>
+
 </div>
 </div>
-<section id="alternative-themen" class="level3">
-<h3 class="anchored" data-anchor-id="alternative-themen">Alternative Themen</h3>
-<ul>
-<li>Effektivität verschiedener Lehr-Methoden</li>
-<li>Vor- und Nachteile von Open-Plan-Büros</li>
-<li>Nutzen von Weiterbildungen</li>
-</ul>
-<hr>
-<div class="callout callout-style-simple callout-pair no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Pair</span>Kurzer Austausch
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Vergleiche kurz mit deinem Nachbarn:</p>
-<ul>
-<li>Was siehst du?</li>
-<li>Wie unterscheiden sich die drei Antworten?</li>
-</ul>
-</div>
-</div>
-<hr>
-</section>
-</section>
-<section id="auswertung-und-erklärung-3.5-min" class="level2">
-<h2 class="anchored" data-anchor-id="auswertung-und-erklärung-3.5-min">Auswertung und Erklärung (3.5 Min)</h2>
 <blockquote class="blockquote">
-<p>Was seht ihr? Die KI passt ihre Antwort eurem Framing an.</p>
-<p>Jetzt der wichtige Punkt: <strong>Das ist kein Zufall. Das ist Design.</strong></p>
-<p>KI-Modelle werden mit Nutzer-Feedback trainiert. Nutzer bewerten Antworten als “gut” oder “schlecht”. Und Nutzer – Menschen – bevorzugen Zustimmung. Wir mögen es, wenn jemand unsere Meinung bestätigt. Das ist menschlich.</p>
-<p>Also lernt die KI: <strong>Zustimmung = gute Bewertung</strong>. OpenAI hat das selbst zugegeben. Sie schrieben: Ihr Modell wurde “übermässig zustimmend aber unaufrichtig.”</p>
+<p>Was ist passiert? Ein paar Beispiele.</p>
 </blockquote>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout callout-style-simple callout-group no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Ein extremes Beispiel
+<span class="screen-reader-only">Group</span>Beobachtungen sammeln
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Ein Recruiter in den USA hat ChatGPT über 50 Mal gefragt, ob seine mathematischen Entdeckungen korrekt sind. Formeln für Verschlüsselung, Levitationsmaschinen. Jedes Mal hat die KI bestätigt. Ein Mathematiker, der die Protokolle prüfte, sagte: Die KI hat “wie verrückt geschummelt” statt Fehler zuzugeben.</p>
+<p>2–3 Teilnehmende berichten kurz.</p>
 </div>
 </div>
 <hr>
 </section>
-<section id="die-konsequenz" class="level2">
-<h2 class="anchored" data-anchor-id="die-konsequenz">Die Konsequenz</h2>
-<div class="callout callout-style-simple callout-warning no-icon callout-titled">
+<section id="experiment-b-annahme-einbauen-2-min" class="level2">
+<h2 class="anchored" data-anchor-id="experiment-b-annahme-einbauen-2-min">Experiment B: Annahme einbauen (2 Min)</h2>
+<blockquote class="blockquote">
+<p>Jetzt ein zweiter Test. Starte einen neuen Chat und stelle die Frage so:</p>
+</blockquote>
+<div class="callout callout-style-simple callout-experiment no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Warning</span>Echo Chamber of One
+<span class="screen-reader-only">Experiment</span>Führender Prompt
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><strong>Je sicherer du schon bist, desto gefährlicher ist die KI-Bestätigung.</strong></p>
-<p>Wenn du eine Meinung hast und die KI fragst, formulierst du unbewusst so, dass sie deine Meinung widerspiegelt. Die KI bestätigt. Du fühlst dich bestätigt. Ein Kreislauf entsteht – was die Forschung “Echo Chamber of One” nennt: Eine Echokammer aus einer Person.</p>
-<p><strong>Genau dann, wenn du denkst “Das bestätigt was ich wusste”, solltest du am skeptischsten sein.</strong></p>
+<pre><code>Ich habe gelesen dass etwa 60% der Studierenden in Regelzeit
+abschliessen. Stimmt das ungefähr?</code></pre>
+<div id="timer-2" class="timer-container"></div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (typeof initializeTimer === 'function') {
+      initializeTimer("timer-2", 60, "visible");
+    }
+  });
+</script>
+
 </div>
 </div>
 <blockquote class="blockquote">
-<p>Deshalb reicht es nicht, einfach “vorsichtig” zu sein. Du brauchst einen externen Prüfpunkt. Das ist Lateral Reading.</p>
+<p>Was sagt das Modell jetzt?</p>
+</blockquote>
+<div class="callout callout-style-simple callout-group no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Group</span>Beobachtungen sammeln
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>2–3 Teilnehmende berichten kurz.</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="auswertung-2-min" class="level2">
+<h2 class="anchored" data-anchor-id="auswertung-2-min">Auswertung (2 Min)</h2>
+<blockquote class="blockquote">
+<p>Du hast zwei Dinge ausprobiert. Was hast du beobachtet?</p>
+</blockquote>
+<div class="callout callout-style-simple callout-reflect no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Reflect</span>Teilnehmende berichten ihre Beobachtungen
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Typische Antworten:</p>
+<ul>
+<li>“Sie hat einfach nochmal dasselbe gesagt”</li>
+<li>“Sie hat meine Zahl bestätigt”</li>
+<li>“Sie hat ‘korrigiert’ aber ohne echte Quelle”</li>
+</ul>
+</div>
+</div>
+<hr>
+</section>
+<section id="minimaler-frame" class="level2">
+<h2 class="anchored" data-anchor-id="minimaler-frame">Minimaler Frame</h2>
+<p><em>Erst nach den Berichten der Teilnehmenden:</em></p>
+<blockquote class="blockquote">
+<p>Zwei Beobachtungen:</p>
+<p><strong>Erstens:</strong> Das Sprachmodell kann sich nicht selbst prüfen. Es hat keinen Zugang zu seinem eigenen Denkprozess – es generiert einfach die nächste plausible Antwort. Das ist keine Prüfung, das ist mehr vom Gleichen.</p>
+<p><strong>Zweitens:</strong> Es bestätigt tendenziell das, was du andeutest. Deine Annahmen fliessen in die Antwort ein.</p>
+<p>Beide Wege sind blockiert. Bleibt: <strong>Externe Quellen.</strong> Das üben wir jetzt.</p>
 </blockquote>
 <div class="callout callout-style-simple callout-key-point no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -518,22 +523,18 @@ Wie effektiv sind Online-Meetings im Vergleich zu Präsenz-Meetings?</code></pre
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>KI ist trainiert, dir zuzustimmen. Je überzeugter du bereits bist, desto gefährlicher ist diese Bestätigung.</p>
+<p>Nachfragen beim Sprachmodell ist keine echte Prüfung. Es kann sich nicht selbst verifizieren und bestätigt tendenziell deine Annahmen.</p>
 </div>
 </div>
 <hr>
 </section>
 <section id="troubleshooting" class="level2">
 <h2 class="anchored" data-anchor-id="troubleshooting">Troubleshooting</h2>
-<section id="alle-drei-antworten-sind-ähnlich" class="level3">
-<h3 class="anchored" data-anchor-id="alle-drei-antworten-sind-ähnlich">Alle drei Antworten sind ähnlich?</h3>
-<p><strong>Option 1:</strong></p>
+<section id="das-modell-sagt-ich-bin-nicht-sicher-oder-verweigert" class="level3">
+<h3 class="anchored" data-anchor-id="das-modell-sagt-ich-bin-nicht-sicher-oder-verweigert">Das Modell sagt “Ich bin nicht sicher” oder verweigert?</h3>
+<p>Manchmal gut trainierte Antwort. Nutze es:</p>
 <blockquote class="blockquote">
-<p>Die Antworten sind ähnlich? Schau genau: Ändert sich der Ton? Die Gewichtung? Werden andere Aspekte betont?</p>
-</blockquote>
-<p><strong>Option 2:</strong></p>
-<blockquote class="blockquote">
-<p>Diese KI ist hier robust. Aber wäre sie das bei einem kontroversen Thema? Bei deinen internen Prozessen?</p>
+<p>Es hat Unsicherheit signalisiert. Aber: Ist das eine echte Prüfung oder eine trainierte Antwort? Bei anderen Fragen bekommst du diese Warnung nicht. Verlassen kannst du dich darauf nicht.</p>
 </blockquote>
 
 
@@ -950,8 +951,8 @@ Wie effektiv sind Online-Meetings im Vergleich zu Präsenz-Meetings?</code></pre
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../workshop/experiment-1/index.html" class="pagination-link" aria-label="Teil 1: KI liegt falsch">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Teil 1: KI liegt falsch</span>
+      <a href="../../workshop/experiment-1/index.html" class="pagination-link" aria-label="Teil 1: Das Sprachmodell liegt falsch">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Teil 1: Das Sprachmodell liegt falsch</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

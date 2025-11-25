@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Teil 3: Lateral Reading – KI-Antworten kritisch prüfen: Lateral Reading Workshop</title>
+<title>Teil 3: Lateral Reading – Fact-Checking für KI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -89,6 +89,50 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
+div.callout-pair.callout {
+  border-left-color: forestgreen;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: steelblue;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '';
+  background-image: none;
+}
+div.callout-demonstration.callout {
+  border-left-color: steelblue;
+}
+div.callout-demonstration.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-demonstration .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-demonstration.callout-style-default .callout-icon::before, div.callout-demonstration.callout-titled .callout-icon::before {
+  content: '';
+  background-image: none;
+}
 div.callout-warning.callout {
   border-left-color: orange;
 }
@@ -111,36 +155,14 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   content: '';
   background-image: none;
 }
-div.callout-pro-tip.callout {
-  border-left-color: gold;
+div.callout-key-point.callout {
+  border-left-color: #9A4665;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
+div.callout-key-point.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
-div.callout-demonstration.callout {
-  border-left-color: steelblue;
-}
-div.callout-demonstration.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-demonstration .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-demonstration.callout-style-default .callout-icon::before, div.callout-demonstration.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: forestgreen;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+div.callout-key-point .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-key-point.callout-style-default .callout-icon::before, div.callout-key-point.callout-titled .callout-icon::before {
   content: '';
   background-image: none;
 }
@@ -155,39 +177,6 @@ div.callout-experiment.callout-style-default .callout-icon::before, div.callout-
   content: '';
   background-image: none;
 }
-div.callout-scenario.callout {
-  border-left-color: steelblue;
-}
-div.callout-scenario.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-scenario .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-scenario.callout-style-default .callout-icon::before, div.callout-scenario.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
-div.callout-key-point.callout {
-  border-left-color: #9A4665;
-}
-div.callout-key-point.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-key-point .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-key-point.callout-style-default .callout-icon::before, div.callout-key-point.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: purple;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
 div.callout-source-check.callout {
   border-left-color: forestgreen;
 }
@@ -199,23 +188,34 @@ div.callout-source-check.callout-style-default .callout-icon::before, div.callou
   content: '';
   background-image: none;
 }
-div.callout-individual.callout {
+div.callout-scenario.callout {
   border-left-color: steelblue;
 }
-div.callout-individual.callout-style-default > .callout-header {
+div.callout-scenario.callout-style-default > .callout-header {
   background-color: rgb(from steelblue r g b / 13%);
 }
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+div.callout-scenario .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-scenario.callout-style-default .callout-icon::before, div.callout-scenario.callout-titled .callout-icon::before {
+  content: '';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
   content: '';
   background-image: none;
 }
 </style>
 
 
-<meta property="og:title" content="Teil 3: Lateral Reading – KI-Antworten kritisch prüfen: Lateral Reading Workshop">
+<meta property="og:title" content="Teil 3: Lateral Reading – Fact-Checking für KI">
 <meta property="og:description" content="Die Technik in drei Runden üben">
-<meta property="og:site_name" content="KI-Antworten kritisch prüfen: Lateral Reading Workshop">
+<meta property="og:site_name" content="Fact-Checking für KI">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light">
@@ -226,7 +226,7 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">KI-Antworten kritisch prüfen: Lateral Reading Workshop</span>
+    <span class="navbar-title">Fact-Checking für KI</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -245,21 +245,6 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 </i> 
 <span class="menu-text">Handout</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-materialien" role="link" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="bi bi-file-slides" role="img">
-</i> 
- <span class="menu-text">Materialien</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-materialien">    
-        <li>
-    <a class="dropdown-item" href="../../handout.html">
- <span class="dropdown-text">Quick Reference Card (Handout)</span></a>
-  </li>  
-    </ul>
-  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -295,7 +280,7 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">KI-Antworten im Büroalltag kritisch prüfen</span></a>
+ <span class="menu-text">Antworten von Sprachmodellen kritisch prüfen</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -310,19 +295,19 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/framing/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Framing</span></a>
+ <span class="menu-text">Einstieg</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/experiment-1/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Teil 1: KI liegt falsch</span></a>
+ <span class="menu-text">Teil 1: Das Sprachmodell liegt falsch</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/experiment-2/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Teil 2: Warum KI dir zustimmt</span></a>
+ <span class="menu-text">Teil 2: Warum Nachfragen nicht hilft</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -366,24 +351,25 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#kurze-zusammenfassung-30-sek" id="toc-kurze-zusammenfassung-30-sek" class="nav-link active" data-scroll-target="#kurze-zusammenfassung-30-sek">Kurze Zusammenfassung (30 Sek)</a></li>
-  <li><a href="#runde-1" id="toc-runde-1" class="nav-link" data-scroll-target="#runde-1">Runde 1: Gemeinsam (6 Min)</a>
+  <li><a href="#runde-1" id="toc-runde-1" class="nav-link active" data-scroll-target="#runde-1">Runde 1: Gemeinsam (7 Min)</a>
   <ul class="collapse">
-  <li><a href="#schritt-für-schritt-gemeinsam" id="toc-schritt-für-schritt-gemeinsam" class="nav-link" data-scroll-target="#schritt-für-schritt-gemeinsam">Schritt für Schritt gemeinsam</a></li>
-  <li><a href="#ergebnis-2-min" id="toc-ergebnis-2-min" class="nav-link" data-scroll-target="#ergebnis-2-min">Ergebnis (2 Min)</a></li>
+  <li><a href="#schritt-1-suchbegriffe-1.5-min" id="toc-schritt-1-suchbegriffe-1.5-min" class="nav-link" data-scroll-target="#schritt-1-suchbegriffe-1.5-min">Schritt 1: Suchbegriffe (1.5 Min)</a></li>
+  <li><a href="#schritt-2-suchergebnisse-filtern-1.5-min" id="toc-schritt-2-suchergebnisse-filtern-1.5-min" class="nav-link" data-scroll-target="#schritt-2-suchergebnisse-filtern-1.5-min">Schritt 2: Suchergebnisse filtern (1.5 Min)</a></li>
+  <li><a href="#schritt-3-zur-quelle-gehen-2-min" id="toc-schritt-3-zur-quelle-gehen-2-min" class="nav-link" data-scroll-target="#schritt-3-zur-quelle-gehen-2-min">Schritt 3: Zur Quelle gehen (2 Min)</a></li>
+  <li><a href="#schritt-4-ergebnis-besprechen-2-min" id="toc-schritt-4-ergebnis-besprechen-2-min" class="nav-link" data-scroll-target="#schritt-4-ergebnis-besprechen-2-min">Schritt 4: Ergebnis besprechen (2 Min)</a></li>
   </ul></li>
-  <li><a href="#runde-2" id="toc-runde-2" class="nav-link" data-scroll-target="#runde-2">Runde 2: Scaffolded Practice (7 Min)</a>
+  <li><a href="#runde-2" id="toc-runde-2" class="nav-link" data-scroll-target="#runde-2">Runde 2: In Kleingruppen (8 Min)</a>
   <ul class="collapse">
-  <li><a href="#die-6-szenarien" id="toc-die-6-szenarien" class="nav-link" data-scroll-target="#die-6-szenarien">Die 6 Szenarien</a></li>
   <li><a href="#auswertung-3-min" id="toc-auswertung-3-min" class="nav-link" data-scroll-target="#auswertung-3-min">Auswertung (3 Min)</a></li>
   </ul></li>
-  <li><a href="#runde-3" id="toc-runde-3" class="nav-link" data-scroll-target="#runde-3">Runde 3: Eigenes Beispiel (5 Min)</a>
+  <li><a href="#runde-3" id="toc-runde-3" class="nav-link" data-scroll-target="#runde-3">Runde 3: Eigenes Beispiel (7 Min)</a>
   <ul class="collapse">
-  <li><a href="#quick-share-2-min" id="toc-quick-share-2-min" class="nav-link" data-scroll-target="#quick-share-2-min">Quick Share (2 Min)</a></li>
+  <li><a href="#teilen" id="toc-teilen" class="nav-link" data-scroll-target="#teilen">Teilen</a></li>
   </ul></li>
   <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting">Troubleshooting</a>
   <ul class="collapse">
   <li><a href="#teilnehmende-finden-keine-quelle" id="toc-teilnehmende-finden-keine-quelle" class="nav-link" data-scroll-target="#teilnehmende-finden-keine-quelle">Teilnehmende finden keine Quelle</a></li>
+  <li><a href="#zeit-wird-knapp" id="toc-zeit-wird-knapp" class="nav-link" data-scroll-target="#zeit-wird-knapp">Zeit wird knapp</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -411,153 +397,71 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
 </header>
 
 
-<p><strong>Dauer:</strong> 19 Minuten</p>
+<p><strong>Dauer:</strong> 22 Minuten (14:30–36:30)</p>
 <hr>
-<section id="kurze-zusammenfassung-30-sek" class="level2">
-<h2 class="anchored" data-anchor-id="kurze-zusammenfassung-30-sek">Kurze Zusammenfassung (30 Sek)</h2>
-<blockquote class="blockquote">
-<p>Lateral Reading bedeutet: Weg von der KI, hin zu unabhängigen Quellen. Nicht die KI nochmal fragen. Nicht eine andere KI fragen. Sondern: <strong>Originale Quellen suchen.</strong></p>
-<p>Ihr habt das gerade bei mir gesehen. Jetzt übt ihr.</p>
-</blockquote>
+<p><strong>Ziel:</strong> Die Technik praktisch anwenden – von geführt bis selbständig.</p>
 <hr>
-</section>
 <section id="runde-1" class="level2">
-<h2 class="anchored" data-anchor-id="runde-1">Runde 1: Gemeinsam (6 Min)</h2>
-<p><strong>Guided Practice – alle arbeiten am selben Beispiel</strong></p>
-<div class="callout callout-style-simple callout-scenario no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Scenario</span>Das Szenario
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Die KI sagt dir:</p>
+<h2 class="anchored" data-anchor-id="runde-1">Runde 1: Gemeinsam (7 Min)</h2>
 <blockquote class="blockquote">
-<p>“Das durchschnittliche Gehalt für Verwaltungsmitarbeitende an Schweizer Universitäten liegt bei CHF 78’000 brutto pro Jahr.”</p>
+<p>Lateral Reading heisst: Raus aus dem Sprachmodell, eigene Suche, Primärquellen finden. Wir machen das jetzt gemeinsam.</p>
 </blockquote>
-<p>Du willst das für einen Budgetantrag verwenden. <strong>Wie überprüfst du das?</strong></p>
-</div>
-</div>
-<section id="schritt-für-schritt-gemeinsam" class="level3">
-<h3 class="anchored" data-anchor-id="schritt-für-schritt-gemeinsam">Schritt für Schritt gemeinsam</h3>
-<div class="callout callout-style-simple callout-source-check no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Source-check</span>Schritt 1: Suchbegriffe formulieren (1 Min)
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<pre><code>Nicht: "Stimmt das?"
-Nicht: "Ist 78000 korrekt?"
-Sondern: "Schweiz Universität Verwaltung Gehalt Statistik"</code></pre>
-</div>
-</div>
-<div class="callout callout-style-simple callout-source-check no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Source-check</span>Schritt 2: Suchergebnisse filtern (1 Min)
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<table class="caption-top table">
-<colgroup>
-<col style="width: 57%">
-<col style="width: 42%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Was du siehst</th>
-<th>Bewertung</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>jobs.ch, indeed.ch</td>
-<td>Stellenanzeigen – nützlich, aber nicht offiziell</td>
-</tr>
-<tr class="even">
-<td>KI-generierte Zusammenfassung</td>
-<td>Überspringen</td>
-</tr>
-<tr class="odd">
-<td>Wikipedia</td>
-<td>Sekundärquelle – als Einstieg OK, aber nicht zitierbar</td>
-</tr>
-<tr class="even">
-<td>BFS, swissuniversities</td>
-<td>Primärquellen – das suchen wir</td>
-</tr>
-<tr class="odd">
-<td>Blog, News-Artikel</td>
-<td>Können auf Primärquelle verweisen – Link folgen</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div class="callout callout-style-simple callout-source-check no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Source-check</span>Schritt 3: Zur Quelle gehen (2 Min)
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<p><strong>Szenario vorstellen:</strong></p>
 <blockquote class="blockquote">
-<p>Klicke niemals nur auf die Google-Zusammenfassung. Geh zur echten Website.</p>
+<p>Das Sprachmodell sagt: “Das durchschnittliche Gehalt für Verwaltungsmitarbeitende an Schweizer Universitäten liegt bei CHF 78’000 brutto pro Jahr.” Du willst das für einen Budgetantrag verwenden.</p>
 </blockquote>
-<p><strong>Demonstriere:</strong></p>
-<ul>
-<li>BFS-Website öffnen</li>
-<li>Navigation zur richtigen Statistik</li>
-<li>Die Zahl finden (oder feststellen, dass es diese spezifische Zahl nicht gibt)</li>
-</ul>
-</div>
-</div>
+<section id="schritt-1-suchbegriffe-1.5-min" class="level3">
+<h3 class="anchored" data-anchor-id="schritt-1-suchbegriffe-1.5-min">Schritt 1: Suchbegriffe (1.5 Min)</h3>
+<blockquote class="blockquote">
+<p>Wie würdest du suchen? Nicht das Sprachmodell fragen. Was tippst du bei Google ein?</p>
+</blockquote>
+<p>Teilnehmende machen Vorschläge.</p>
+<blockquote class="blockquote">
+<p>Gute Begriffe: “Schweiz Universität Verwaltung Gehalt Statistik” oder “swissuniversities Lohnstruktur”. Nicht: “Stimmt 78000?”</p>
+</blockquote>
 </section>
-<section id="ergebnis-2-min" class="level3">
-<h3 class="anchored" data-anchor-id="ergebnis-2-min">Ergebnis (2 Min)</h3>
+<section id="schritt-2-suchergebnisse-filtern-1.5-min" class="level3">
+<h3 class="anchored" data-anchor-id="schritt-2-suchergebnisse-filtern-1.5-min">Schritt 2: Suchergebnisse filtern (1.5 Min)</h3>
+<p>Am Projektor suchen und Ergebnisse bewerten:</p>
 <blockquote class="blockquote">
-<p>Wir haben jetzt gelernt: Die genaue Zahl gibt es in dieser Form nicht. Das bedeutet:</p>
-<ul>
-<li>Die KI hat wahrscheinlich kombiniert oder geschätzt</li>
-<li>Für einen Budgetantrag: <strong>Nicht verwendbar</strong></li>
-<li>Du müsstest andere Kennzahlen nutzen oder direkt bei HR anfragen</li>
-</ul>
-<p><strong>Wichtiger als die Zahl zu finden: Du weisst jetzt, DASS die KI-Zahl nicht verifizierbar ist.</strong></p>
+<p>Was sehen wir hier? jobs.ch – das sind Stellenanzeigen, nicht offizielle Statistik. Hier ein Blog – überspringen. BFS – das ist eine Primärquelle. swissuniversities – auch gut.</p>
+</blockquote>
+</section>
+<section id="schritt-3-zur-quelle-gehen-2-min" class="level3">
+<h3 class="anchored" data-anchor-id="schritt-3-zur-quelle-gehen-2-min">Schritt 3: Zur Quelle gehen (2 Min)</h3>
+<blockquote class="blockquote">
+<p>Wichtig: Nicht die Google-Zusammenfassung lesen. Zur echten Seite gehen.</p>
+</blockquote>
+<p>BFS oder swissuniversities öffnen, navigieren, zeigen was man findet (oder nicht findet).</p>
+</section>
+<section id="schritt-4-ergebnis-besprechen-2-min" class="level3">
+<h3 class="anchored" data-anchor-id="schritt-4-ergebnis-besprechen-2-min">Schritt 4: Ergebnis besprechen (2 Min)</h3>
+<blockquote class="blockquote">
+<p>Was haben wir gefunden?</p>
+</blockquote>
+<p>Teilnehmende berichten.</p>
+<p>Typisches Ergebnis: Die exakte Zahl existiert nicht in dieser Form.</p>
+<blockquote class="blockquote">
+<p>Das ist selbst eine wichtige Information. Die Zahl vom Sprachmodell ist nicht verifizierbar – also nicht verwendbar für einen Budgetantrag.</p>
 </blockquote>
 <hr>
 </section>
 </section>
 <section id="runde-2" class="level2">
-<h2 class="anchored" data-anchor-id="runde-2">Runde 2: Scaffolded Practice (7 Min)</h2>
-<div class="callout callout-style-simple callout-individual no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Individual</span>Wähle ein Szenario
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Wähle das Szenario, das deinem Arbeitsbereich am nächsten kommt.</p>
-{{&lt; timer 4 &gt;}}
-</div>
-</div>
-<section id="die-6-szenarien" class="level3">
-<h3 class="anchored" data-anchor-id="die-6-szenarien">Die 6 Szenarien</h3>
+<h2 class="anchored" data-anchor-id="runde-2">Runde 2: In Kleingruppen (8 Min)</h2>
+<blockquote class="blockquote">
+<p>Wähle ein Szenario. Du hast 5 Minuten.</p>
+</blockquote>
+<div id="timer-1" class="timer-container"></div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (typeof initializeTimer === 'function') {
+      initializeTimer("timer-1", 300, "visible");
+    }
+  });
+</script>
+
+<p><strong>6 Szenarien (projizieren oder austeilen):</strong></p>
 <div class="callout callout-style-simple callout-scenario no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -568,7 +472,7 @@ Sondern: "Schweiz Universität Verwaltung Gehalt Statistik"</code></pre>
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>KI sagt: “Personaldossiers müssen in der Schweiz 10 Jahre nach Austritt aufbewahrt werden.”</p>
+<p>Das Modell sagt: “Personaldossiers müssen in der Schweiz 10 Jahre nach Austritt aufbewahrt werden.”</p>
 <p><strong>Deine Aufgabe:</strong> Finde die offizielle rechtliche Grundlage.</p>
 <p><strong>Tipp:</strong> EDÖB, admin.ch, OR</p>
 </div>
@@ -583,7 +487,7 @@ Sondern: "Schweiz Universität Verwaltung Gehalt Statistik"</code></pre>
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>KI sagt: “Die Universität Bern hatte im HS 2023 genau 18’734 Studierende.”</p>
+<p>Das Modell sagt: “Die Universität Bern hatte im HS 2023 genau 18’734 Studierende.”</p>
 <p><strong>Deine Aufgabe:</strong> Finde die offizielle Statistik.</p>
 <p><strong>Tipp:</strong> Uni Bern Website, BFS</p>
 </div>
@@ -598,7 +502,7 @@ Sondern: "Schweiz Universität Verwaltung Gehalt Statistik"</code></pre>
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>KI sagt: “Ein Team-Event mit 20 Personen in Bern kostet durchschnittlich CHF 90 pro Person.”</p>
+<p>Das Modell sagt: “Ein Team-Event mit 20 Personen in Bern kostet durchschnittlich CHF 90 pro Person.”</p>
 <p><strong>Deine Aufgabe:</strong> Wie würdest du das überprüfen?</p>
 <p><strong>Tipp:</strong> Lokale Anbieter, frühere Events, Vergleichsangebote</p>
 </div>
@@ -613,7 +517,7 @@ Sondern: "Schweiz Universität Verwaltung Gehalt Statistik"</code></pre>
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>KI sagt: “Reisekostenabrechnungen müssen innerhalb von 30 Tagen nach Reiseende eingereicht werden.”</p>
+<p>Das Modell sagt: “Reisekostenabrechnungen müssen innerhalb von 30 Tagen nach Reiseende eingereicht werden.”</p>
 <p><strong>Deine Aufgabe:</strong> Finde die offizielle Uni-Regelung.</p>
 <p><strong>Tipp:</strong> Uni-Intranet, HR-Richtlinien</p>
 </div>
@@ -628,7 +532,7 @@ Sondern: "Schweiz Universität Verwaltung Gehalt Statistik"</code></pre>
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>KI sagt: “Mitarbeitende haben Anspruch auf 5 Tage bezahlte Weiterbildung pro Jahr.”</p>
+<p>Das Modell sagt: “Mitarbeitende haben Anspruch auf 5 Tage bezahlte Weiterbildung pro Jahr.”</p>
 <p><strong>Deine Aufgabe:</strong> Stimmt das für deine Institution?</p>
 <p><strong>Tipp:</strong> Personalreglement, GAV</p>
 </div>
@@ -643,86 +547,64 @@ Sondern: "Schweiz Universität Verwaltung Gehalt Statistik"</code></pre>
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>KI sagt: “Microsoft 365 Lizenzen kosten Schweizer Unis durchschnittlich CHF 45 pro Nutzer/Jahr.”</p>
+<p>Das Modell sagt: “Microsoft 365 Lizenzen kosten Schweizer Unis durchschnittlich CHF 45 pro Nutzer/Jahr.”</p>
 <p><strong>Deine Aufgabe:</strong> Wie würdest du das verifizieren?</p>
 <p><strong>Tipp:</strong> IT-Services, swissuniversities Rahmenverträge</p>
 </div>
 </div>
 <hr>
-</section>
+<p><strong>Während Teilnehmende arbeiten:</strong></p>
+<ul>
+<li>Herumgehen, bei Suchbegriffen helfen falls nötig</li>
+<li>Notieren, wer interessante Funde hat</li>
+</ul>
 <section id="auswertung-3-min" class="level3">
 <h3 class="anchored" data-anchor-id="auswertung-3-min">Auswertung (3 Min)</h3>
-<div class="callout callout-style-simple callout-group no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Group</span>Ergebnisse teilen
-</div>
-</div>
-<div class="callout-body-container callout-body">
 <blockquote class="blockquote">
-<p>Wer hat etwas Interessantes gefunden?</p>
+<p>Wer hat etwas gefunden? Oder etwas Interessantes entdeckt?</p>
 </blockquote>
-<p>2–3 Teilnehmende teilen kurz:</p>
+<p>3–4 Teilnehmende berichten kurz:</p>
 <ul>
 <li>Welches Szenario?</li>
-<li>Welche Quelle gefunden?</li>
-<li>War die KI richtig, falsch, oder unklar?</li>
+<li>Was gefunden?</li>
+<li>War das Modell richtig, falsch, oder nicht prüfbar?</li>
 </ul>
-</div>
-</div>
 <hr>
 </section>
 </section>
 <section id="runde-3" class="level2">
-<h2 class="anchored" data-anchor-id="runde-3">Runde 3: Eigenes Beispiel (5 Min)</h2>
-<div class="callout callout-style-simple callout-individual no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Individual</span>Dein eigener Anwendungsfall
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Denk an deine eigene Arbeit. Was könntest du diese Woche von einer KI erfragen?</p>
-<p><strong>3 Minuten:</strong></p>
-<ol type="1">
-<li>Überleg dir eine konkrete Frage</li>
-<li>Frag die KI</li>
-<li>Entscheide: Braucht das Verifikation?</li>
-<li>Wenn ja: Wo würdest du nachschauen?</li>
-</ol>
-{{&lt; timer 3 &gt;}}
-</div>
-</div>
-<hr>
-<section id="quick-share-2-min" class="level3">
-<h3 class="anchored" data-anchor-id="quick-share-2-min">Quick Share (2 Min)</h3>
-<div class="callout callout-style-simple callout-group no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Group</span>Freiwillige teilen
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<h2 class="anchored" data-anchor-id="runde-3">Runde 3: Eigenes Beispiel (7 Min)</h2>
 <blockquote class="blockquote">
-<p>Wer möchte sein Beispiel teilen?</p>
+<p>Jetzt dein eigener Fall. Denk an etwas, das du diese Woche ein Sprachmodell fragen könntest – oder schon gefragt hast.</p>
 </blockquote>
-<p>2 Freiwillige:</p>
-<ul>
-<li>Was war die Frage?</li>
-<li>Braucht es Verifikation?</li>
-<li>Welche Quelle würdest du nutzen?</li>
-</ul>
-</div>
-</div>
+<p><strong>Aufgabe (auf Projektor zeigen):</strong></p>
+<ol type="1">
+<li>Eine konkrete Frage formulieren</li>
+<li>Das Sprachmodell fragen</li>
+<li>Entscheiden: Braucht das Verifikation?</li>
+<li>Wenn ja: Welche Quelle würdest du nutzen?</li>
+</ol>
+<div id="timer-2" class="timer-container"></div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (typeof initializeTimer === 'function') {
+      initializeTimer("timer-2", 240, "visible");
+    }
+  });
+</script>
+
+<hr>
+<section id="teilen" class="level3">
+<h3 class="anchored" data-anchor-id="teilen">Teilen</h3>
+<blockquote class="blockquote">
+<p>Wer möchte teilen?</p>
+</blockquote>
+<p>2–3 Freiwillige berichten.</p>
+<p><strong>Bei jedem Beispiel fragen:</strong></p>
+<blockquote class="blockquote">
+<p>Würdest du diese Information in einem formellen Dokument verwenden?</p>
+</blockquote>
+<p>Das bereitet Teil 4 vor.</p>
 <hr>
 </section>
 </section>
@@ -730,10 +612,14 @@ Sondern: "Schweiz Universität Verwaltung Gehalt Statistik"</code></pre>
 <h2 class="anchored" data-anchor-id="troubleshooting">Troubleshooting</h2>
 <section id="teilnehmende-finden-keine-quelle" class="level3">
 <h3 class="anchored" data-anchor-id="teilnehmende-finden-keine-quelle">Teilnehmende finden keine Quelle</h3>
-<p><strong>Das ist selbst lehrreich:</strong></p>
+<p>Das ist selbst lehrreich:</p>
 <blockquote class="blockquote">
-<p>Perfekt – du hast entdeckt: Es gibt keine offizielle Quelle dafür. Das bedeutet: Die KI-Antwort ist spekulativ. <strong>Verwende das nicht für wichtige Entscheidungen.</strong></p>
+<p>Du findest keine offizielle Quelle? Das ist wichtige Information. Die Aussage vom Sprachmodell ist nicht verifizierbar – also nicht verwendbar für wichtige Entscheidungen.</p>
 </blockquote>
+</section>
+<section id="zeit-wird-knapp" class="level3">
+<h3 class="anchored" data-anchor-id="zeit-wird-knapp">Zeit wird knapp</h3>
+<p>Kürze Runde 3 (eigenes Beispiel). Der Kern ist Runde 1 (gemeinsam) und Runde 2 (Szenarien).</p>
 
 
 </section>
@@ -1149,8 +1035,8 @@ Sondern: "Schweiz Universität Verwaltung Gehalt Statistik"</code></pre>
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../workshop/experiment-2/index.html" class="pagination-link" aria-label="Teil 2: Warum KI dir zustimmt">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Teil 2: Warum KI dir zustimmt</span>
+      <a href="../../workshop/experiment-2/index.html" class="pagination-link" aria-label="Teil 2: Warum Nachfragen nicht hilft">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Teil 2: Warum Nachfragen nicht hilft</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

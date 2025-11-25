@@ -2,234 +2,227 @@
   {
     "objectID": "handout.html",
     "href": "handout.html",
-    "title": "Quick Reference Card",
+    "title": "Handout: Lateral Reading",
     "section": "",
-    "text": "KI generiert plausible Antworten, keine geprüften Fakten\nSelbst mit Web-Suche: kann Quellen falsch interpretieren\nKI kann ihre eigenen Fehler nicht zuverlässig erkennen\nKI ist trainiert, dir zuzustimmen – nicht zu korrigieren",
+    "text": "Sprachmodelle haben keinen Zugang zu ihrem eigenen “Denkprozess”\n“Bist du sicher?” generiert nur eine neue Antwort\nSprachmodelle tendieren dazu, deine Annahmen zu bestätigen\nÜberzeugend formuliert ≠ korrekt",
     "crumbs": [
       "Workshop",
-      "Materialien",
-      "Quick Reference Card"
+      "Handout: Lateral Reading"
     ]
   },
   {
-    "objectID": "handout.html#warum-verifikation-nötig-ist",
-    "href": "handout.html#warum-verifikation-nötig-ist",
-    "title": "Quick Reference Card",
+    "objectID": "handout.html#warum-nachfragen-beim-sprachmodell-nicht-hilft",
+    "href": "handout.html#warum-nachfragen-beim-sprachmodell-nicht-hilft",
+    "title": "Handout: Lateral Reading",
     "section": "",
-    "text": "KI generiert plausible Antworten, keine geprüften Fakten\nSelbst mit Web-Suche: kann Quellen falsch interpretieren\nKI kann ihre eigenen Fehler nicht zuverlässig erkennen\nKI ist trainiert, dir zuzustimmen – nicht zu korrigieren",
+    "text": "Sprachmodelle haben keinen Zugang zu ihrem eigenen “Denkprozess”\n“Bist du sicher?” generiert nur eine neue Antwort\nSprachmodelle tendieren dazu, deine Annahmen zu bestätigen\nÜberzeugend formuliert ≠ korrekt",
     "crumbs": [
       "Workshop",
-      "Materialien",
-      "Quick Reference Card"
+      "Handout: Lateral Reading"
     ]
   },
   {
     "objectID": "handout.html#die-eine-frage",
     "href": "handout.html#die-eine-frage",
-    "title": "Quick Reference Card",
+    "title": "Handout: Lateral Reading",
     "section": "Die Eine Frage",
-    "text": "Die Eine Frage\n\n\n\n\n\n\nWürde ich diese Information in einem formellen Dokument zitieren?\n\nJA = Extern verifizieren (Lateral Reading)\nNEIN = KI-Antwort reicht",
+    "text": "Die Eine Frage\n\n\n\n\n\n\nWürde ich diese Information in einem formellen Dokument zitieren?\n\nJA = Extern verifizieren (Lateral Reading)\nNEIN = Antwort vom Sprachmodell reicht",
     "crumbs": [
       "Workshop",
-      "Materialien",
-      "Quick Reference Card"
+      "Handout: Lateral Reading"
     ]
   },
   {
     "objectID": "handout.html#lateral-reading-in-3-schritten",
     "href": "handout.html#lateral-reading-in-3-schritten",
-    "title": "Quick Reference Card",
+    "title": "Handout: Lateral Reading",
     "section": "Lateral Reading in 3 Schritten",
-    "text": "Lateral Reading in 3 Schritten\n\n1. Suchbegriffe formulieren\n\n\n\nNicht\n“Stimmt das?” oder KI nochmal fragen\n\n\nSondern\n“[Thema] Schweiz Statistik/Gesetz”\n\n\n\n\n\n2. Suchergebnisse filtern\n\n\n\nQuelle\nBewertung\n\n\n\n\n.gov, .ch, .edu, offizielle Berichte\nKlicken\n\n\nWikipedia\nNur als Einstieg\n\n\nKI-Zusammenfassungen, Blogs, Foren\nÜberspringen\n\n\n\n\n\n3. Zur Original-Quelle gehen\n\nNicht nur Google-Zusammenfassung lesen\nWebsite öffnen, echte Daten finden",
+    "text": "Lateral Reading in 3 Schritten\n\n1. Suchbegriffe formulieren\n\n\n\nNicht\n“Stimmt das?” oder Sprachmodell nochmal fragen\n\n\nSondern\n“[Thema] Schweiz Statistik/Gesetz”\n\n\n\n\n\n2. Suchergebnisse filtern\n\n\n\nQuelle\nBewertung\n\n\n\n\nPrimärquellen: .admin.ch, .edu, offizielle Berichte\nKlicken\n\n\nWikipedia\nNur als Einstieg, nicht zitieren\n\n\nAI-generierte Zusammenfassungen, Blogs, Foren\nÜberspringen\n\n\n\n\n\n3. Zur Original-Quelle gehen\n\nGoogle-Zusammenfassung reicht nicht\nWebsite öffnen, echte Daten finden\nKeine Quelle gefunden = Aussage vom Sprachmodell nicht verwendbar",
     "crumbs": [
       "Workshop",
-      "Materialien",
-      "Quick Reference Card"
+      "Handout: Lateral Reading"
     ]
   },
   {
-    "objectID": "handout.html#ihre-quellen-shortcuts",
-    "href": "handout.html#ihre-quellen-shortcuts",
-    "title": "Quick Reference Card",
-    "section": "Ihre Quellen-Shortcuts",
-    "text": "Ihre Quellen-Shortcuts\n\nZahlen & Statistiken\n\nbfs.admin.ch (Bundesamt für Statistik)\nseco.admin.ch (Arbeitsmarkt, Wirtschaft)\nUni-eigene Zahlen & Fakten\n\n\n\nRecht & Regulierung\n\nadmin.ch (Bundesgesetze)\nedoeb.admin.ch (Datenschutz)\nRechtsdienst Ihrer Institution\n\n\n\nInterne Prozesse\n\nIntranet\nHR-Richtlinien & Reglemente\nDirekt bei Fachabteilung nachfragen",
+    "objectID": "handout.html#deine-quellen-shortcuts",
+    "href": "handout.html#deine-quellen-shortcuts",
+    "title": "Handout: Lateral Reading",
+    "section": "Deine Quellen-Shortcuts",
+    "text": "Deine Quellen-Shortcuts\n\nZahlen & Statistiken\n\nbfs.admin.ch (Bundesamt für Statistik)\nseco.admin.ch (Arbeitsmarkt, Wirtschaft)\nUni-eigene Zahlen & Fakten\n\n\n\nRecht & Regulierung\n\nadmin.ch (Bundesgesetze)\nedoeb.admin.ch (Datenschutz)\nRechtsdienst deiner Institution\n\n\n\nInterne Prozesse\n\nIntranet\nHR-Richtlinien & Reglemente\nDirekt bei Fachabteilung nachfragen",
     "crumbs": [
       "Workshop",
-      "Materialien",
-      "Quick Reference Card"
+      "Handout: Lateral Reading"
     ]
   },
   {
     "objectID": "handout.html#wann-besonders-skeptisch-sein",
     "href": "handout.html#wann-besonders-skeptisch-sein",
-    "title": "Quick Reference Card",
+    "title": "Handout: Lateral Reading",
     "section": "Wann besonders skeptisch sein",
-    "text": "Wann besonders skeptisch sein\n\n\n\n\n\n\nWarningRote Flaggen\n\n\n\n\nDie KI bestätigt, was du ohnehin dachtest\nDu hast die Frage mit einer Annahme formuliert\nKI gibt sehr spezifische Zahlen ohne Quelle\nDu hast lange an einem Thema mit der KI gearbeitet (starte eine frische Konversation für Realitätscheck)",
+    "text": "Wann besonders skeptisch sein\n\n\n\n\n\n\nWarningRote Flaggen\n\n\n\n\nDas Sprachmodell gibt sehr spezifische Zahlen ohne Quellenangabe\nDas Sprachmodell bestätigt genau das, was du vermutet hast\nDu hast eine Annahme in die Frage eingebaut\nEs geht um rechtliche oder finanzielle Entscheidungen",
     "crumbs": [
       "Workshop",
-      "Materialien",
-      "Quick Reference Card"
+      "Handout: Lateral Reading"
     ]
   },
   {
-    "objectID": "handout.html#ki-stärken-und--schwächen",
-    "href": "handout.html#ki-stärken-und--schwächen",
-    "title": "Quick Reference Card",
-    "section": "KI-Stärken und -Schwächen",
-    "text": "KI-Stärken und -Schwächen\n\n\n\nKI ist gut für\nKI ist nicht zuverlässig für\n\n\n\n\nErste Ideen sammeln\nSpezifische Fakten\n\n\nText umformulieren\nRechtliche Verbindlichkeit\n\n\nKonzepte erklären\nAktuelle Zahlen\n\n\nStrukturen vorschlagen\nInterne Regelungen\n\n\nBrainstorming\nQuellenangaben (oft erfunden!)",
+    "objectID": "handout.html#stärken-und-schwächen-von-sprachmodellen",
+    "href": "handout.html#stärken-und-schwächen-von-sprachmodellen",
+    "title": "Handout: Lateral Reading",
+    "section": "Stärken und Schwächen von Sprachmodellen",
+    "text": "Stärken und Schwächen von Sprachmodellen\n\n\n\nGut geeignet für\nNicht zuverlässig für\n\n\n\n\nErste Ideen sammeln\nSpezifische Fakten\n\n\nText umformulieren\nRechtliche Verbindlichkeit\n\n\nKonzepte erklären\nAktuelle Zahlen\n\n\nStrukturen vorschlagen\nInterne Regelungen\n\n\nBrainstorming\nQuellenangaben (oft erfunden!)",
     "crumbs": [
       "Workshop",
-      "Materialien",
-      "Quick Reference Card"
+      "Handout: Lateral Reading"
     ]
   },
   {
     "objectID": "workshop/index.html",
     "href": "workshop/index.html",
-    "title": "KI-Antworten im Büroalltag kritisch prüfen",
+    "title": "Antworten von Sprachmodellen kritisch prüfen",
     "section": "",
-    "text": "Dieser Workshop vermittelt eine praktische Technik zur Verifikation von KI-Antworten: Lateral Reading.\nTeilnehmende lernen, warum KI-Chatbots systematisch problematische Antworten liefern können – und wie sie in wenigen Minuten Fakten unabhängig prüfen können.",
+    "text": "Dieser Workshop vermittelt eine praktische Technik zur Verifikation von Antworten aus Large Language Models (LLMs) wie ChatGPT, Claude oder Gemini: Lateral Reading.\nTeilnehmende lernen durch eigene Experimente, warum Antworten von Sprachmodellen externe Verifikation brauchen – und wie sie in wenigen Minuten Fakten unabhängig prüfen können.",
     "crumbs": [
       "Workshop",
-      "KI-Antworten im Büroalltag kritisch prüfen"
+      "Antworten von Sprachmodellen kritisch prüfen"
     ]
   },
   {
     "objectID": "workshop/index.html#überblick",
     "href": "workshop/index.html#überblick",
-    "title": "KI-Antworten im Büroalltag kritisch prüfen",
+    "title": "Antworten von Sprachmodellen kritisch prüfen",
     "section": "",
-    "text": "Dieser Workshop vermittelt eine praktische Technik zur Verifikation von KI-Antworten: Lateral Reading.\nTeilnehmende lernen, warum KI-Chatbots systematisch problematische Antworten liefern können – und wie sie in wenigen Minuten Fakten unabhängig prüfen können.",
+    "text": "Dieser Workshop vermittelt eine praktische Technik zur Verifikation von Antworten aus Large Language Models (LLMs) wie ChatGPT, Claude oder Gemini: Lateral Reading.\nTeilnehmende lernen durch eigene Experimente, warum Antworten von Sprachmodellen externe Verifikation brauchen – und wie sie in wenigen Minuten Fakten unabhängig prüfen können.",
     "crumbs": [
       "Workshop",
-      "KI-Antworten im Büroalltag kritisch prüfen"
+      "Antworten von Sprachmodellen kritisch prüfen"
     ]
   },
   {
     "objectID": "workshop/index.html#lernziele",
     "href": "workshop/index.html#lernziele",
-    "title": "KI-Antworten im Büroalltag kritisch prüfen",
+    "title": "Antworten von Sprachmodellen kritisch prüfen",
     "section": "Lernziele",
-    "text": "Lernziele\nNach diesem Workshop können Teilnehmende:\n\nVerstehen, warum KI-Antworten externe Verifikation brauchen (nicht nur “manchmal falsch”, sondern systemisch)\nErkennen, wie die eigene Fragestellung die KI-Antwort beeinflusst\nLateral Reading anwenden, um Fakten zu überprüfen\nVertrauenswürdige Quellen für ihren Arbeitsbereich identifizieren",
+    "text": "Lernziele\nNach diesem Workshop können Teilnehmende:\n\nErkennen, wann Antworten von Sprachmodellen externe Verifikation brauchen\nVerstehen, warum Nachfragen beim Sprachmodell keine echte Prüfung ist\nLateral Reading anwenden, um Fakten zu überprüfen\nVertrauenswürdige Quellen für ihren Arbeitsbereich identifizieren",
     "crumbs": [
       "Workshop",
-      "KI-Antworten im Büroalltag kritisch prüfen"
+      "Antworten von Sprachmodellen kritisch prüfen"
     ]
   },
   {
     "objectID": "workshop/index.html#zeitplan",
     "href": "workshop/index.html#zeitplan",
-    "title": "KI-Antworten im Büroalltag kritisch prüfen",
+    "title": "Antworten von Sprachmodellen kritisch prüfen",
     "section": "Zeitplan",
-    "text": "Zeitplan\n\n\n\nZeit\nPhase\nInhalt\n\n\n\n\n0:00–2:00\nFraming\nWarum KI-Antworten problematisch sind\n\n\n2:00–10:00\nTeil 1\nKI liegt falsch: Gemeinsames Experiment\n\n\n10:00–18:00\nTeil 2\nWarum KI dir zustimmt: Sycophancy\n\n\n18:00–37:00\nTeil 3\nLateral Reading in drei Runden\n\n\n37:00–40:00\nTeil 4\nDie Entscheidungsregel\n\n\n\nGesamtdauer: 40 Minuten",
+    "text": "Zeitplan\n\n\n\nZeit\nPhase\nDauer\nInhalt\n\n\n\n\n0:00–0:30\nEinstieg\n30 Sek\nDirekt ins Experiment\n\n\n0:30–8:30\nTeil 1\n8 Min\nDas Sprachmodell liegt falsch\n\n\n8:30–14:30\nTeil 2\n6 Min\nWarum Nachfragen nicht hilft\n\n\n14:30–36:30\nTeil 3\n22 Min\nLateral Reading üben\n\n\n36:30–40:00\nTeil 4\n3.5 Min\nDie Entscheidungsregel\n\n\n\nGesamtdauer: 40 Minuten",
     "crumbs": [
       "Workshop",
-      "KI-Antworten im Büroalltag kritisch prüfen"
+      "Antworten von Sprachmodellen kritisch prüfen"
     ]
   },
   {
     "objectID": "workshop/index.html#zielgruppe",
     "href": "workshop/index.html#zielgruppe",
-    "title": "KI-Antworten im Büroalltag kritisch prüfen",
+    "title": "Antworten von Sprachmodellen kritisch prüfen",
     "section": "Zielgruppe",
-    "text": "Zielgruppe\nMitarbeitende in Verwaltung und Services ohne spezifische KI-Vorkenntnisse.",
+    "text": "Zielgruppe\nMitarbeitende in Verwaltung und Services ohne spezifische Vorkenntnisse zu Large Language Models.",
     "crumbs": [
       "Workshop",
-      "KI-Antworten im Büroalltag kritisch prüfen"
+      "Antworten von Sprachmodellen kritisch prüfen"
     ]
   },
   {
     "objectID": "workshop/index.html#benötigte-materialien",
     "href": "workshop/index.html#benötigte-materialien",
-    "title": "KI-Antworten im Büroalltag kritisch prüfen",
+    "title": "Antworten von Sprachmodellen kritisch prüfen",
     "section": "Benötigte Materialien",
-    "text": "Benötigte Materialien\n\nTechnisch\n\nAlle Teilnehmenden haben Laptops/Tablets mit Internet\nProjektor für Demonstrationen\nZugang zu mindestens einer KI (ChatGPT, Claude, oder Gemini)\n\n\n\nVorbereitet\n\nTeil 1 Beispiel: 24 Stunden vorher testen und final auswählen\nTeil 3 Szenarien: 6 arbeitsbezogene Szenarien (siehe Lateral Reading)\nHandout: Quick-Reference-Karte\nBackup: Screenshots von 2–3 klaren KI-Fehlern",
+    "text": "Benötigte Materialien\n\nTechnisch\n\nAlle Teilnehmenden haben Laptops/Tablets mit Internet\nProjektor für Demonstrationen\nZugang zu mindestens einem Sprachmodell (ChatGPT, Claude, oder Gemini)\n\n\n\nVorbereitet\n\nTeil 1 Beispiel: 24 Stunden vorher testen und final auswählen\nTeil 2 Experimente: Selbstprüfungs-Prompt und führenden Prompt vorher testen\nTeil 3 Szenarien: 6 arbeitsbezogene Szenarien (siehe Lateral Reading)\nHandout: Quick-Reference-Karte\nBackup: Screenshots von 2–3 klaren Fehlern von Sprachmodellen",
     "crumbs": [
       "Workshop",
-      "KI-Antworten im Büroalltag kritisch prüfen"
+      "Antworten von Sprachmodellen kritisch prüfen"
     ]
   },
   {
     "objectID": "workshop/index.html#vorbereitung-checkliste",
     "href": "workshop/index.html#vorbereitung-checkliste",
-    "title": "KI-Antworten im Büroalltag kritisch prüfen",
+    "title": "Antworten von Sprachmodellen kritisch prüfen",
     "section": "Vorbereitung: Checkliste",
-    "text": "Vorbereitung: Checkliste\n\n24 Stunden vorher\nTeil 1 – Beispiel testen:\n\nPrompt bei ChatGPT, Claude, Gemini testen\nAntworten notieren\nEchte Quelle finden und Screenshot machen\nBackup-Beispiel vorbereiten\n\nTeil 2 – Sycophancy-Experiment testen:\n\nDrei Framings mit verschiedenen KIs testen\nPrüfen ob Unterschiede sichtbar sind\nAlternative Themen bereit haben\n\nTeil 3 – Szenarien:\n\n6 Szenarien ausdrucken oder Projektion vorbereiten\n2–3 Szenarien selbst durchspielen\nQuellen-URLs notieren\n\n\n\n10 Minuten vor Workshop\n\nProjektor testen\nTabs geöffnet: KI, BFS, admin.ch, Uni-Statistiken\nHandouts bereit",
+    "text": "Vorbereitung: Checkliste\n\n24 Stunden vorher\nTeil 1 – Beispiel testen:\n\nPrompt bei ChatGPT, Claude, Gemini testen\nAntworten notieren – variieren sie? Sind sie falsch?\nOffizielle Quelle finden (BFS etc.)\nBackup-Prompt bereit haben\n\nTeil 2 – Nachfragen-Experimente testen:\n\nSelbstprüfungs-Prompt testen (“Bist du sicher?”)\nFührenden Prompt testen (mit eingebauter Annahme)\nPrüfen ob Effekte sichtbar sind\n\nTeil 3 – Szenarien:\n\n6 Szenarien ausdrucken oder Projektion vorbereiten\n2–3 Szenarien selbst durchspielen\nQuellen-URLs notieren\n\nBackup:\n\n2–3 Screenshots von klaren Fehlern aus früheren Tests\n\n\n\n10 Minuten vor Workshop\n\nProjektor testen\nTabs geöffnet: ChatGPT/Claude/Gemini, BFS, admin.ch, Uni-Statistiken\nHandouts bereit",
     "crumbs": [
       "Workshop",
-      "KI-Antworten im Büroalltag kritisch prüfen"
+      "Antworten von Sprachmodellen kritisch prüfen"
     ]
   },
   {
     "objectID": "workshop/experiment-2/index.html",
     "href": "workshop/experiment-2/index.html",
-    "title": "Teil 2: Warum KI dir zustimmt",
+    "title": "Teil 2: Warum Nachfragen nicht hilft",
     "section": "",
-    "text": "Dauer: 8 Minuten\nZiel: Verstehen, dass KI systematisch bestätigt – und wie das mit den eigenen Annahmen interagiert.",
+    "text": "Dauer: 6 Minuten (8:30–14:30)\nZiel: Entdecken, dass Sprachmodelle sich nicht selbst prüfen können – und dass sie Annahmen bestätigen.",
     "crumbs": [
       "Workshop",
       "Ablauf",
-      "Teil 2: Warum KI dir zustimmt"
+      "Teil 2: Warum Nachfragen nicht hilft"
     ]
   },
   {
-    "objectID": "workshop/experiment-2/index.html#einleitung-30-sek",
-    "href": "workshop/experiment-2/index.html#einleitung-30-sek",
-    "title": "Teil 2: Warum KI dir zustimmt",
-    "section": "Einleitung (30 Sek)",
-    "text": "Einleitung (30 Sek)\n\nIhr habt gesehen, dass KI falsch liegen kann. Jetzt sehen wir, wie sie falsch liegt – auf eine besonders gefährliche Art.",
+    "objectID": "workshop/experiment-2/index.html#experiment-a-selbstprüfung-2-min",
+    "href": "workshop/experiment-2/index.html#experiment-a-selbstprüfung-2-min",
+    "title": "Teil 2: Warum Nachfragen nicht hilft",
+    "section": "Experiment A: Selbstprüfung (2 Min)",
+    "text": "Experiment A: Selbstprüfung (2 Min)\n\nEine naheliegende Idee: Frag das Sprachmodell, ob es sicher ist. Probiere das jetzt.\n\n\n\n\n\n\n\nExperimentSelbstprüfungs-Prompt\n\n\n\nBist du sicher? Kannst du deine Antwort überprüfen?\n\n\n\n\n\n\nWas ist passiert? Ein paar Beispiele.\n\n\n\n\n\n\n\nGroupBeobachtungen sammeln\n\n\n\n2–3 Teilnehmende berichten kurz.",
     "crumbs": [
       "Workshop",
       "Ablauf",
-      "Teil 2: Warum KI dir zustimmt"
+      "Teil 2: Warum Nachfragen nicht hilft"
     ]
   },
   {
-    "objectID": "workshop/experiment-2/index.html#das-experiment-4-min",
-    "href": "workshop/experiment-2/index.html#das-experiment-4-min",
-    "title": "Teil 2: Warum KI dir zustimmt",
-    "section": "Das Experiment (4 Min)",
-    "text": "Das Experiment (4 Min)\n\n\n\n\n\n\nExperimentDrei Framings testen\n\n\n\nStelle dieselbe Frage dreimal mit unterschiedlichem Framing. Kopiere diese drei Prompts nacheinander:\nPrompt 1 – Neutral:\nWie effektiv sind Online-Meetings im Vergleich zu Präsenz-Meetings?\nPrompt 2 – Mit positiver Prämisse:\nFür einen Bericht über die Vorteile von Remote-Arbeit:\nWie effektiv sind Online-Meetings im Vergleich zu Präsenz-Meetings?\nPrompt 3 – Mit negativer Prämisse:\nAngesichts der Produktivitätsprobleme bei Remote-Work:\nWie effektiv sind Online-Meetings im Vergleich zu Präsenz-Meetings?\n{{&lt; timer 3 &gt;}}\n\n\n\nAlternative Themen\n\nEffektivität verschiedener Lehr-Methoden\nVor- und Nachteile von Open-Plan-Büros\nNutzen von Weiterbildungen\n\n\n\n\n\n\n\n\nPairKurzer Austausch\n\n\n\nVergleiche kurz mit deinem Nachbarn:\n\nWas siehst du?\nWie unterscheiden sich die drei Antworten?",
+    "objectID": "workshop/experiment-2/index.html#experiment-b-annahme-einbauen-2-min",
+    "href": "workshop/experiment-2/index.html#experiment-b-annahme-einbauen-2-min",
+    "title": "Teil 2: Warum Nachfragen nicht hilft",
+    "section": "Experiment B: Annahme einbauen (2 Min)",
+    "text": "Experiment B: Annahme einbauen (2 Min)\n\nJetzt ein zweiter Test. Starte einen neuen Chat und stelle die Frage so:\n\n\n\n\n\n\n\nExperimentFührender Prompt\n\n\n\nIch habe gelesen dass etwa 60% der Studierenden in Regelzeit\nabschliessen. Stimmt das ungefähr?\n\n\n\n\n\n\nWas sagt das Modell jetzt?\n\n\n\n\n\n\n\nGroupBeobachtungen sammeln\n\n\n\n2–3 Teilnehmende berichten kurz.",
     "crumbs": [
       "Workshop",
       "Ablauf",
-      "Teil 2: Warum KI dir zustimmt"
+      "Teil 2: Warum Nachfragen nicht hilft"
     ]
   },
   {
-    "objectID": "workshop/experiment-2/index.html#auswertung-und-erklärung-3.5-min",
-    "href": "workshop/experiment-2/index.html#auswertung-und-erklärung-3.5-min",
-    "title": "Teil 2: Warum KI dir zustimmt",
-    "section": "Auswertung und Erklärung (3.5 Min)",
-    "text": "Auswertung und Erklärung (3.5 Min)\n\nWas seht ihr? Die KI passt ihre Antwort eurem Framing an.\nJetzt der wichtige Punkt: Das ist kein Zufall. Das ist Design.\nKI-Modelle werden mit Nutzer-Feedback trainiert. Nutzer bewerten Antworten als “gut” oder “schlecht”. Und Nutzer – Menschen – bevorzugen Zustimmung. Wir mögen es, wenn jemand unsere Meinung bestätigt. Das ist menschlich.\nAlso lernt die KI: Zustimmung = gute Bewertung. OpenAI hat das selbst zugegeben. Sie schrieben: Ihr Modell wurde “übermässig zustimmend aber unaufrichtig.”\n\n\n\n\n\n\n\nNoteEin extremes Beispiel\n\n\n\nEin Recruiter in den USA hat ChatGPT über 50 Mal gefragt, ob seine mathematischen Entdeckungen korrekt sind. Formeln für Verschlüsselung, Levitationsmaschinen. Jedes Mal hat die KI bestätigt. Ein Mathematiker, der die Protokolle prüfte, sagte: Die KI hat “wie verrückt geschummelt” statt Fehler zuzugeben.",
+    "objectID": "workshop/experiment-2/index.html#auswertung-2-min",
+    "href": "workshop/experiment-2/index.html#auswertung-2-min",
+    "title": "Teil 2: Warum Nachfragen nicht hilft",
+    "section": "Auswertung (2 Min)",
+    "text": "Auswertung (2 Min)\n\nDu hast zwei Dinge ausprobiert. Was hast du beobachtet?\n\n\n\n\n\n\n\nReflectTeilnehmende berichten ihre Beobachtungen\n\n\n\nTypische Antworten:\n\n“Sie hat einfach nochmal dasselbe gesagt”\n“Sie hat meine Zahl bestätigt”\n“Sie hat ‘korrigiert’ aber ohne echte Quelle”",
     "crumbs": [
       "Workshop",
       "Ablauf",
-      "Teil 2: Warum KI dir zustimmt"
+      "Teil 2: Warum Nachfragen nicht hilft"
     ]
   },
   {
-    "objectID": "workshop/experiment-2/index.html#die-konsequenz",
-    "href": "workshop/experiment-2/index.html#die-konsequenz",
-    "title": "Teil 2: Warum KI dir zustimmt",
-    "section": "Die Konsequenz",
-    "text": "Die Konsequenz\n\n\n\n\n\n\nWarningEcho Chamber of One\n\n\n\nJe sicherer du schon bist, desto gefährlicher ist die KI-Bestätigung.\nWenn du eine Meinung hast und die KI fragst, formulierst du unbewusst so, dass sie deine Meinung widerspiegelt. Die KI bestätigt. Du fühlst dich bestätigt. Ein Kreislauf entsteht – was die Forschung “Echo Chamber of One” nennt: Eine Echokammer aus einer Person.\nGenau dann, wenn du denkst “Das bestätigt was ich wusste”, solltest du am skeptischsten sein.\n\n\n\nDeshalb reicht es nicht, einfach “vorsichtig” zu sein. Du brauchst einen externen Prüfpunkt. Das ist Lateral Reading.\n\n\n\n\n\n\n\nKey-pointKernbotschaft\n\n\n\nKI ist trainiert, dir zuzustimmen. Je überzeugter du bereits bist, desto gefährlicher ist diese Bestätigung.",
+    "objectID": "workshop/experiment-2/index.html#minimaler-frame",
+    "href": "workshop/experiment-2/index.html#minimaler-frame",
+    "title": "Teil 2: Warum Nachfragen nicht hilft",
+    "section": "Minimaler Frame",
+    "text": "Minimaler Frame\nErst nach den Berichten der Teilnehmenden:\n\nZwei Beobachtungen:\nErstens: Das Sprachmodell kann sich nicht selbst prüfen. Es hat keinen Zugang zu seinem eigenen Denkprozess – es generiert einfach die nächste plausible Antwort. Das ist keine Prüfung, das ist mehr vom Gleichen.\nZweitens: Es bestätigt tendenziell das, was du andeutest. Deine Annahmen fliessen in die Antwort ein.\nBeide Wege sind blockiert. Bleibt: Externe Quellen. Das üben wir jetzt.\n\n\n\n\n\n\n\nKey-pointKernbotschaft\n\n\n\nNachfragen beim Sprachmodell ist keine echte Prüfung. Es kann sich nicht selbst verifizieren und bestätigt tendenziell deine Annahmen.",
     "crumbs": [
       "Workshop",
       "Ablauf",
-      "Teil 2: Warum KI dir zustimmt"
+      "Teil 2: Warum Nachfragen nicht hilft"
     ]
   },
   {
     "objectID": "workshop/experiment-2/index.html#troubleshooting",
     "href": "workshop/experiment-2/index.html#troubleshooting",
-    "title": "Teil 2: Warum KI dir zustimmt",
+    "title": "Teil 2: Warum Nachfragen nicht hilft",
     "section": "Troubleshooting",
-    "text": "Troubleshooting\n\nAlle drei Antworten sind ähnlich?\nOption 1:\n\nDie Antworten sind ähnlich? Schau genau: Ändert sich der Ton? Die Gewichtung? Werden andere Aspekte betont?\n\nOption 2:\n\nDiese KI ist hier robust. Aber wäre sie das bei einem kontroversen Thema? Bei deinen internen Prozessen?",
+    "text": "Troubleshooting\n\nDas Modell sagt “Ich bin nicht sicher” oder verweigert?\nManchmal gut trainierte Antwort. Nutze es:\n\nEs hat Unsicherheit signalisiert. Aber: Ist das eine echte Prüfung oder eine trainierte Antwort? Bei anderen Fragen bekommst du diese Warnung nicht. Verlassen kannst du dich darauf nicht.",
     "crumbs": [
       "Workshop",
       "Ablauf",
-      "Teil 2: Warum KI dir zustimmt"
+      "Teil 2: Warum Nachfragen nicht hilft"
     ]
   },
   {
@@ -237,7 +230,7 @@
     "href": "workshop/entscheidungsregel/index.html",
     "title": "Teil 4: Die Entscheidungsregel",
     "section": "",
-    "text": "Dauer: 3 Minuten",
+    "text": "Dauer: 3.5 Minuten (36:30–40:00)",
     "crumbs": [
       "Workshop",
       "Ablauf",
@@ -249,7 +242,7 @@
     "href": "workshop/entscheidungsregel/index.html#die-eine-frage-1-min",
     "title": "Teil 4: Die Entscheidungsregel",
     "section": "Die Eine Frage (1 Min)",
-    "text": "Die Eine Frage (1 Min)\n\n\n\n\n\n\nKey-pointDie Entscheidungsregel\n\n\n\nWürdest du diese Information in einem formellen Dokument zitieren?\n\n\n\nAntwort\nKonsequenz\n\n\n\n\nJA\nExtern verifizieren\n\n\nNEIN\nKI-Antwort reicht\n\n\n\n\n\n\nEine einfache Frage hilft dir entscheiden:\nWürdest du diese Info in einem Bericht zitieren? In einem Antrag verwenden? Als Grundlage für eine Entscheidung nutzen?\n\n\nBeispiele\n\n\n\nSituation\nEntscheidung\n\n\n\n\nBrainstorming für Meeting-Agenda\nKI reicht\n\n\nTeilnehmerzahl für Budget-Rechnung\nVerifizieren\n\n\nIdeen für Email-Formulierung\nKI reicht\n\n\nRechtliche Grundlage für Entscheidung\nVerifizieren",
+    "text": "Die Eine Frage (1 Min)\n\n\n\n\n\n\nKey-pointDie Entscheidungsregel\n\n\n\nWürdest du diese Information in einem formellen Dokument zitieren?\n\n\n\nAntwort\nKonsequenz\n\n\n\n\nJA\nExtern verifizieren\n\n\nNEIN\nAntwort vom Sprachmodell reicht\n\n\n\n\n\n\nEine einfache Frage hilft dir entscheiden:\nWürdest du diese Info in einem Bericht zitieren? In einem Antrag verwenden? Als Grundlage für eine Entscheidung nutzen?\n\n\nBeispiele\n\n\n\nSituation\nEntscheidung\n\n\n\n\nBrainstorming für Meeting-Agenda\nSprachmodell reicht\n\n\nTeilnehmerzahl für Budget-Rechnung\nVerifizieren\n\n\nIdeen für Email-Formulierung\nSprachmodell reicht\n\n\nRechtliche Grundlage für Entscheidung\nVerifizieren",
     "crumbs": [
       "Workshop",
       "Ablauf",
@@ -261,7 +254,7 @@
     "href": "workshop/entscheidungsregel/index.html#quellen-shortcuts-1-min",
     "title": "Teil 4: Die Entscheidungsregel",
     "section": "Quellen-Shortcuts (1 Min)",
-    "text": "Quellen-Shortcuts (1 Min)\n\n\n\n\n\n\n\nKategorie\nQuellen\n\n\n\n\nZahlen, Statistiken\nBFS (bfs.admin.ch), SECO, Uni-Statistiken\n\n\nRechtliches\nadmin.ch, EDÖB, Rechtsdienst\n\n\nUni-interne Prozesse\nIntranet, HR-Richtlinien, Fachabteilung direkt\n\n\nIdeen, Brainstorming\nKI allein ist OK",
+    "text": "Quellen-Shortcuts (1 Min)\n\n\n\n\n\n\n\nKategorie\nQuellen\n\n\n\n\nZahlen, Statistiken\nBFS (bfs.admin.ch), SECO, Uni-Statistiken\n\n\nRechtliches\nadmin.ch, EDÖB, Rechtsdienst\n\n\nUni-interne Prozesse\nIntranet, HR-Richtlinien, Fachabteilung direkt\n\n\nIdeen, Brainstorming\nSprachmodell allein ist OK",
     "crumbs": [
       "Workshop",
       "Ablauf",
@@ -269,11 +262,11 @@
     ]
   },
   {
-    "objectID": "workshop/entscheidungsregel/index.html#abschluss-1-min",
-    "href": "workshop/entscheidungsregel/index.html#abschluss-1-min",
+    "objectID": "workshop/entscheidungsregel/index.html#abschluss-1.5-min",
+    "href": "workshop/entscheidungsregel/index.html#abschluss-1.5-min",
     "title": "Teil 4: Die Entscheidungsregel",
-    "section": "Abschluss (1 Min)",
-    "text": "Abschluss (1 Min)\n\nDrei Dinge zum Mitnehmen:\nErstens: KI generiert plausible Antworten – nicht geprüfte Fakten. Beide Modi (Training und Web-Suche) können versagen.\nZweitens: KI bestätigt deine Annahmen. Je sicherer du bist, desto skeptischer solltest du sein.\nDrittens: Lateral Reading – raus aus der KI, eigene Suche, Primärquellen – dauert 2–5 Minuten und lohnt sich bei jeder wichtigen Entscheidung.\n\n\n\n\n\n\n\nPro-tipTipp für Fortgeschrittene\n\n\n\n\n\nWenn du lange mit einer KI an einem Thema gearbeitet hast, starte eine frische Konversation für eine Realitätsprüfung. Der Kontext-Aufbau beeinflusst die Antworten.\n\n\n\n\nViel Erfolg.",
+    "section": "Abschluss (1.5 Min)",
+    "text": "Abschluss (1.5 Min)\n\nDu hast heute drei Dinge erlebt:\nErstens – Sprachmodelle können überzeugend falsch liegen.\nZweitens – Nachfragen beim Sprachmodell ist keine echte Prüfung.\nDrittens – Lateral Reading funktioniert: Raus aus dem Sprachmodell, eigene Suche, Primärquellen.\nDas Handout hat die wichtigsten Quellen für deinen Bereich. Probiere es diese Woche einmal aus.\n\nHandout verteilen (oder auf Link verweisen).\n\nDanke.",
     "crumbs": [
       "Workshop",
       "Ablauf",
@@ -285,7 +278,7 @@
     "href": "workshop/entscheidungsregel/index.html#erfolgskriterien",
     "title": "Teil 4: Die Entscheidungsregel",
     "section": "Erfolgskriterien",
-    "text": "Erfolgskriterien\nMinimal-Erfolg: Teilnehmende verstehen, warum KI-Antworten nicht selbst-verifizierend sind, und kennen eine vertrauenswürdige Quelle für ihren Bereich.\nGuter Erfolg: Teilnehmende haben erlebt, wie Framing die Antwort beeinflusst, und können Lateral Reading anwenden.\nOptimaler Erfolg: Teilnehmende sind überzeugt, dass sie bei wichtiger KI-Nutzung externe Quellen konsultieren werden – und wissen, dass sie besonders skeptisch sein sollten, wenn die KI ihre bestehende Meinung bestätigt.",
+    "text": "Erfolgskriterien\nMinimal-Erfolg: Teilnehmende haben erlebt, dass Sprachmodelle falsch liegen können, und kennen eine vertrauenswürdige Quelle für ihren Bereich.\nGuter Erfolg: Teilnehmende haben Lateral Reading selbst angewendet und verstehen, warum Nachfragen beim Sprachmodell keine Lösung ist.\nOptimaler Erfolg: Teilnehmende nehmen sich vor, diese Woche mindestens einmal eine Antwort vom Sprachmodell extern zu verifizieren.",
     "crumbs": [
       "Workshop",
       "Ablauf",
@@ -297,14 +290,14 @@
     "href": "index.html",
     "title": "KI-Antworten kritisch prüfen",
     "section": "",
-    "text": "KI-Chatbots wie ChatGPT liefern überzeugende Antworten – aber nicht immer korrekte. In diesem 40-minütigen Workshop lernst du Lateral Reading: eine praktische Technik, um KI-Antworten schnell und zuverlässig zu verifizieren.\n\n\nMitarbeitende in Verwaltung und Services, die KI-Tools im Arbeitsalltag nutzen möchten – ohne Vorkenntnisse.\n\n\n\n\nWarum KI-Antworten externe Verifikation brauchen\nWie deine Fragestellung die KI-Antwort beeinflusst\nWie du in 2–5 Minuten Fakten unabhängig prüfst\nWelche Quellen für deinen Arbeitsbereich relevant sind\n\nZum Workshop"
+    "text": "KI-Chatbots wie ChatGPT liefern Antworten die überzeugend sind, aber nicht immer korrekt. In diesem 40-minütigen Workshop lernst du Lateral Reading: eine praktische Technik, um KI-Antworten schnell und zuverlässig zu verifizieren.\n\n\n\nWarum KI-Antworten externe Verifikation brauchen\nWie deine Fragestellung die KI-Antwort beeinflusst\nWie du in 2–5 Minuten Fakten unabhängig prüfst \n\nZum Workshop"
   },
   {
     "objectID": "index.html#workshop-ki-antworten-im-büroalltag-kritisch-prüfen",
     "href": "index.html#workshop-ki-antworten-im-büroalltag-kritisch-prüfen",
     "title": "KI-Antworten kritisch prüfen",
     "section": "",
-    "text": "KI-Chatbots wie ChatGPT liefern überzeugende Antworten – aber nicht immer korrekte. In diesem 40-minütigen Workshop lernst du Lateral Reading: eine praktische Technik, um KI-Antworten schnell und zuverlässig zu verifizieren.\n\n\nMitarbeitende in Verwaltung und Services, die KI-Tools im Arbeitsalltag nutzen möchten – ohne Vorkenntnisse.\n\n\n\n\nWarum KI-Antworten externe Verifikation brauchen\nWie deine Fragestellung die KI-Antwort beeinflusst\nWie du in 2–5 Minuten Fakten unabhängig prüfst\nWelche Quellen für deinen Arbeitsbereich relevant sind\n\nZum Workshop"
+    "text": "KI-Chatbots wie ChatGPT liefern Antworten die überzeugend sind, aber nicht immer korrekt. In diesem 40-minütigen Workshop lernst du Lateral Reading: eine praktische Technik, um KI-Antworten schnell und zuverlässig zu verifizieren.\n\n\n\nWarum KI-Antworten externe Verifikation brauchen\nWie deine Fragestellung die KI-Antwort beeinflusst\nWie du in 2–5 Minuten Fakten unabhängig prüfst \n\nZum Workshop"
   },
   {
     "objectID": "index.html#dozent",
@@ -316,109 +309,109 @@
   {
     "objectID": "workshop/experiment-1/index.html",
     "href": "workshop/experiment-1/index.html",
-    "title": "Teil 1: KI liegt falsch",
+    "title": "Teil 1: Das Sprachmodell liegt falsch",
     "section": "",
-    "text": "Dauer: 8 Minuten\nZiel: Gemeinsam erleben, dass KI überzeugend falsch sein kann.",
+    "text": "Dauer: 8 Minuten (0:30–8:30)\nZiel: Gemeinsam erleben, dass Sprachmodelle überzeugend falsch sein können.",
     "crumbs": [
       "Workshop",
       "Ablauf",
-      "Teil 1: KI liegt falsch"
+      "Teil 1: Das Sprachmodell liegt falsch"
     ]
   },
   {
-    "objectID": "workshop/experiment-1/index.html#setup-1-min",
-    "href": "workshop/experiment-1/index.html#setup-1-min",
-    "title": "Teil 1: KI liegt falsch",
-    "section": "Setup (1 Min)",
-    "text": "Setup (1 Min)\nDu am Projektor:\n\nWir testen alle dieselbe Frage. Öffne eine KI deiner Wahl.",
+    "objectID": "workshop/experiment-1/index.html#das-experiment-5-min",
+    "href": "workshop/experiment-1/index.html#das-experiment-5-min",
+    "title": "Teil 1: Das Sprachmodell liegt falsch",
+    "section": "Das Experiment (5 Min)",
+    "text": "Das Experiment (5 Min)\n\nAlle stellen dieselbe Frage. Kopiere diesen Prompt:\n\n\n\n\n\n\n\nExperimentAlle testen denselben Prompt\n\n\n\nWie hoch ist der Anteil der Studierenden an Schweizer Universitäten,\ndie ihr Bachelorstudium in der Regelstudienzeit abschliessen?\n\n\n\n\n\n\nAlternative Prompts\nFalls du andere Themen bevorzugst (vorher testen, einen auswählen):\n\n“Wie hoch sind die durchschnittlichen IT-Kosten pro Studierenden an Schweizer Unis?”\n“Wie viele Verwaltungsmitarbeitende hat die Universität Bern?”\n“Welcher Prozentsatz der Uni-Mitarbeitenden arbeitet in Teilzeit?”\n\n\n\n\n\n\n\nImportantWichtig: 24h vorher testen!\n\n\n\nWähle die Frage, bei der:\n\nDie Antworten zwischen Teilnehmenden variieren werden, ODER\nDie Antwort falsch/ungenau ist, ODER\nDie Antwort sehr spezifisch klingt aber nicht verifizierbar ist",
     "crumbs": [
       "Workshop",
       "Ablauf",
-      "Teil 1: KI liegt falsch"
+      "Teil 1: Das Sprachmodell liegt falsch"
     ]
   },
   {
-    "objectID": "workshop/experiment-1/index.html#das-experiment-4-min",
-    "href": "workshop/experiment-1/index.html#das-experiment-4-min",
-    "title": "Teil 1: KI liegt falsch",
-    "section": "Das Experiment (4 Min)",
-    "text": "Das Experiment (4 Min)\n\n\n\n\n\n\nExperimentAlle testen denselben Prompt\n\n\n\nKopiere diesen Prompt in ChatGPT, Claude, oder Gemini:\nWie hoch ist der Anteil der Studierenden an Schweizer Universitäten,\ndie ihr Bachelorstudium in der Regelstudienzeit abschliessen?\n{{&lt; timer 2 &gt;}}\n\n\n\nAlternative Prompts\nFalls du andere Themen bevorzugst:\n\n“Wie hoch sind die durchschnittlichen IT-Kosten pro Studierenden an Schweizer Unis?”\n“Wie viele Verwaltungsmitarbeitende hat die Universität Bern?”\n“Welcher Prozentsatz der Uni-Mitarbeitenden arbeitet in Teilzeit?”\n\n\n\n\n\n\n\nImportantWichtig: 24h vorher testen!\n\n\n\nWähle die Frage, bei der:\n\nDie Antworten zwischen Teilnehmenden variieren werden, ODER\nDie Antwort falsch/ungenau ist, ODER\nDie Antwort sehr spezifisch klingt aber nicht verifizierbar ist",
+    "objectID": "workshop/experiment-1/index.html#antworten-sammeln",
+    "href": "workshop/experiment-1/index.html#antworten-sammeln",
+    "title": "Teil 1: Das Sprachmodell liegt falsch",
+    "section": "Antworten sammeln",
+    "text": "Antworten sammeln\n\nWer möchte seine Antwort vorlesen?\n\n\n\n\n\n\n\nGroupAntworten teilen\n\n\n\n3–4 Teilnehmende teilen ihre Antworten.\nNotiere die Zahlen sichtbar (Tafel/Flipchart).",
     "crumbs": [
       "Workshop",
       "Ablauf",
-      "Teil 1: KI liegt falsch"
+      "Teil 1: Das Sprachmodell liegt falsch"
     ]
   },
   {
-    "objectID": "workshop/experiment-1/index.html#auswertung-3-min",
-    "href": "workshop/experiment-1/index.html#auswertung-3-min",
-    "title": "Teil 1: KI liegt falsch",
-    "section": "Auswertung (3 Min)",
-    "text": "Auswertung (3 Min)\n\n\n\n\n\n\nGroupAntworten teilen\n\n\n\n\nWer möchte seine Antwort vorlesen?\n\n3–4 Teilnehmende teilen (notiere Unterschiede sichtbar an der Tafel/Flipchart)",
+    "objectID": "workshop/experiment-1/index.html#auswertung-durch-lateral-reading-3-min",
+    "href": "workshop/experiment-1/index.html#auswertung-durch-lateral-reading-3-min",
+    "title": "Teil 1: Das Sprachmodell liegt falsch",
+    "section": "Auswertung durch Lateral Reading (3 Min)",
+    "text": "Auswertung durch Lateral Reading (3 Min)\n\nWir haben verschiedene Zahlen. Jetzt prüfen wir. Schau zu.\n\n\n\n\n\n\n\nDemonstrationLive-Demonstration am Projektor\n\n\n\nSchritt 1: Neuen Browser-Tab öffnen (nicht das Sprachmodell fragen)\nSchritt 2: Suchen: BFS Studiendauer Bachelor Schweiz\nSchritt 3: Suchergebnisse zeigen:\n\nHier ist bfs.admin.ch – das Bundesamt für Statistik. Das ist eine Primärquelle.\n\nSchritt 4: Zur BFS-Seite navigieren, offizielle Statistik zeigen\nSchritt 5: Mit den Antworten der Sprachmodelle vergleichen",
     "crumbs": [
       "Workshop",
       "Ablauf",
-      "Teil 1: KI liegt falsch"
+      "Teil 1: Das Sprachmodell liegt falsch"
     ]
   },
   {
-    "objectID": "workshop/experiment-1/index.html#die-auflösung-mit-lateral-reading-demonstration",
-    "href": "workshop/experiment-1/index.html#die-auflösung-mit-lateral-reading-demonstration",
-    "title": "Teil 1: KI liegt falsch",
-    "section": "Die Auflösung mit Lateral Reading Demonstration",
-    "text": "Die Auflösung mit Lateral Reading Demonstration\nDu zeigst jetzt die echte Quelle am Projektor:\n\nIch zeige euch jetzt, wie ich das prüfe. Achtet darauf, was ich tue.\n\n\n\n\n\n\n\nDemonstrationLive-Demonstration: Lateral Reading\n\n\n\nSchritt 1: Suchbegriffe formulieren\n\nIch gehe nicht zurück zur KI. Ich öffne einen neuen Tab und suche: “BFS Studiendauer Bachelor Schweiz”.\n\nSchritt 2: Suchergebnisse filtern\n\nIch schaue mir die Ergebnisse an, bevor ich klicke. Diese ersten Treffer sind KI-generierte Zusammenfassungen oder Blogs – die überspringe ich. Hier ist bfs.admin.ch – das Bundesamt für Statistik. Das ist eine Primärquelle.\n\nSchritt 3: Zur Quelle gehen\n\nIch klicke nicht auf die Google-Zusammenfassung. Ich gehe zur echten Seite.\n\nZeige die offizielle Statistik und vergleiche mit den KI-Antworten.",
+    "objectID": "workshop/experiment-1/index.html#beobachtungen-sammeln",
+    "href": "workshop/experiment-1/index.html#beobachtungen-sammeln",
+    "title": "Teil 1: Das Sprachmodell liegt falsch",
+    "section": "Beobachtungen sammeln",
+    "text": "Beobachtungen sammeln\n\nWas siehst du?\n\nTeilnehmende berichten: Zahlen stimmen nicht überein, das Modell war spezifisch aber falsch, etc.",
     "crumbs": [
       "Workshop",
       "Ablauf",
-      "Teil 1: KI liegt falsch"
+      "Teil 1: Das Sprachmodell liegt falsch"
     ]
   },
   {
-    "objectID": "workshop/experiment-1/index.html#zusammenfassung",
-    "href": "workshop/experiment-1/index.html#zusammenfassung",
-    "title": "Teil 1: KI liegt falsch",
-    "section": "Zusammenfassung",
-    "text": "Zusammenfassung\n\nSchaut: Die KI gab uns [X%], [Y%] und [Z%]. Die offizielle BFS-Statistik sagt [korrekte Zahl].\nDie KI war nicht einfach ungenau – sie klang aber völlig überzeugend. Das ist das Problem: spezifisch und selbstbewusst bedeutet nicht richtig.\n\n\n\n\n\n\n\nKey-pointKernbotschaft\n\n\n\nKI-Antworten können sehr spezifisch und selbstbewusst klingen – und trotzdem falsch sein. Überzeugend ist nicht gleich korrekt.",
+    "objectID": "workshop/experiment-1/index.html#minimaler-frame",
+    "href": "workshop/experiment-1/index.html#minimaler-frame",
+    "title": "Teil 1: Das Sprachmodell liegt falsch",
+    "section": "Minimaler Frame",
+    "text": "Minimaler Frame\nErst nach den Berichten der Teilnehmenden:\n\nDie Antwort klang überzeugend. Spezifische Zahl, selbstsicher formuliert. Aber nicht richtig. Das ist das Muster: Überzeugend heisst nicht korrekt.\n\n\n\n\n\n\n\nKey-pointKernbotschaft\n\n\n\nAntworten von Sprachmodellen können sehr spezifisch und selbstbewusst klingen – und trotzdem falsch sein.",
     "crumbs": [
       "Workshop",
       "Ablauf",
-      "Teil 1: KI liegt falsch"
+      "Teil 1: Das Sprachmodell liegt falsch"
     ]
   },
   {
     "objectID": "workshop/experiment-1/index.html#troubleshooting",
     "href": "workshop/experiment-1/index.html#troubleshooting",
-    "title": "Teil 1: KI liegt falsch",
+    "title": "Teil 1: Das Sprachmodell liegt falsch",
     "section": "Troubleshooting",
-    "text": "Troubleshooting\n\nKI korrigiert sofort?\nOption 1:\n\nInteressant! Heute hat sie korrigiert. Aber: Hat sie eine Web-Suche gemacht? Dann hat sie nicht “gewusst”, sondern gegoogelt. Und kannst du dich darauf verlassen, dass sie IMMER korrigiert?\n\nOption 2:\nZeige Backup-Screenshot von einem klaren Fehler.",
+    "text": "Troubleshooting\n\nAlle Antworten sind gleich und korrekt?\nSelten, aber möglich. Optionen:\nOption A:\n\nDas Modell hat heute gut geantwortet. Aber schau: Hat es eine Quelle genannt? Woher weisst du, dass die Zahl stimmt – ausser dass das Sprachmodell es sagt?\n\nOption B:\nBackup-Screenshot zeigen:\n\nLetzte Woche sah das so aus…\n\nDann weiter zu Teil 2 – der Punkt “Sprachmodelle können sich nicht selbst prüfen” funktioniert unabhängig davon.",
     "crumbs": [
       "Workshop",
       "Ablauf",
-      "Teil 1: KI liegt falsch"
+      "Teil 1: Das Sprachmodell liegt falsch"
     ]
   },
   {
     "objectID": "workshop/framing/index.html",
     "href": "workshop/framing/index.html",
-    "title": "Framing",
+    "title": "Einstieg",
     "section": "",
-    "text": "Dauer: 2 Minuten",
+    "text": "Dauer: 30 Sekunden",
     "crumbs": [
       "Workshop",
       "Ablauf",
-      "Framing"
+      "Einstieg"
     ]
   },
   {
     "objectID": "workshop/framing/index.html#moderationstext",
     "href": "workshop/framing/index.html#moderationstext",
-    "title": "Framing",
+    "title": "Einstieg",
     "section": "Moderationstext",
-    "text": "Moderationstext\n\nBevor wir anfangen, eine wichtige Unterscheidung.\nKI-Chatbots wie ChatGPT arbeiten auf zwei Arten: Manchmal durchsuchen sie das Web und fassen Ergebnisse zusammen. Manchmal generieren sie Antworten aus dem, was sie im Training gelernt haben. Als Nutzer kannst du oft nicht sehen, welcher Modus gerade aktiv ist.\nBeide Modi haben Probleme:\n\n\n\n\n\n\n\nWarningWenn die KI aus dem Training generiert\n\n\n\nSie kann spezifische, falsche Antworten erfinden – und sie klingen genauso überzeugend wie richtige.\n\n\n\n\n\n\n\n\nWarningWenn die KI das Web durchsucht\n\n\n\nSie kann Quellen falsch interpretieren, Zitate aus dem Kontext reissen, oder – das passiert tatsächlich – Quellen zitieren, die gar nicht existieren.\n\n\n\nIn beiden Fällen: Wenn du die KI fragst “Stimmt das?”, bekommst du keine echte Prüfung. Du bekommst die nächste plausible Antwort.\nDeshalb die Technik, die wir heute üben: Lateral Reading. Raus aus der KI, eigene Suche, Primärquellen finden.\nLos geht’s.\n\n\n\n\n\n\n\n\nKey-pointKernbotschaft\n\n\n\nKI produziert plausible Antworten, keine geprüften Fakten. Die Lösung: Externe Verifikation durch Lateral Reading.",
+    "text": "Moderationstext\n\nWir starten direkt. Öffne ein Sprachmodell deiner Wahl – ChatGPT, Claude, oder Gemini.\n\nKeine weitere Einleitung. Direkt zu Teil 1.",
     "crumbs": [
       "Workshop",
       "Ablauf",
-      "Framing"
+      "Einstieg"
     ]
   },
   {
@@ -426,19 +419,7 @@
     "href": "workshop/lateral-reading/index.html",
     "title": "Teil 3: Lateral Reading",
     "section": "",
-    "text": "Dauer: 19 Minuten",
-    "crumbs": [
-      "Workshop",
-      "Ablauf",
-      "Teil 3: Lateral Reading"
-    ]
-  },
-  {
-    "objectID": "workshop/lateral-reading/index.html#kurze-zusammenfassung-30-sek",
-    "href": "workshop/lateral-reading/index.html#kurze-zusammenfassung-30-sek",
-    "title": "Teil 3: Lateral Reading",
-    "section": "Kurze Zusammenfassung (30 Sek)",
-    "text": "Kurze Zusammenfassung (30 Sek)\n\nLateral Reading bedeutet: Weg von der KI, hin zu unabhängigen Quellen. Nicht die KI nochmal fragen. Nicht eine andere KI fragen. Sondern: Originale Quellen suchen.\nIhr habt das gerade bei mir gesehen. Jetzt übt ihr.",
+    "text": "Dauer: 22 Minuten (14:30–36:30)\nZiel: Die Technik praktisch anwenden – von geführt bis selbständig.",
     "crumbs": [
       "Workshop",
       "Ablauf",
@@ -449,8 +430,8 @@
     "objectID": "workshop/lateral-reading/index.html#runde-1",
     "href": "workshop/lateral-reading/index.html#runde-1",
     "title": "Teil 3: Lateral Reading",
-    "section": "Runde 1: Gemeinsam (6 Min)",
-    "text": "Runde 1: Gemeinsam (6 Min)\nGuided Practice – alle arbeiten am selben Beispiel\n\n\n\n\n\n\nScenarioDas Szenario\n\n\n\nDie KI sagt dir:\n\n“Das durchschnittliche Gehalt für Verwaltungsmitarbeitende an Schweizer Universitäten liegt bei CHF 78’000 brutto pro Jahr.”\n\nDu willst das für einen Budgetantrag verwenden. Wie überprüfst du das?\n\n\n\nSchritt für Schritt gemeinsam\n\n\n\n\n\n\nSource-checkSchritt 1: Suchbegriffe formulieren (1 Min)\n\n\n\nNicht: \"Stimmt das?\"\nNicht: \"Ist 78000 korrekt?\"\nSondern: \"Schweiz Universität Verwaltung Gehalt Statistik\"\n\n\n\n\n\n\n\n\nSource-checkSchritt 2: Suchergebnisse filtern (1 Min)\n\n\n\n\n\n\n\n\n\n\nWas du siehst\nBewertung\n\n\n\n\njobs.ch, indeed.ch\nStellenanzeigen – nützlich, aber nicht offiziell\n\n\nKI-generierte Zusammenfassung\nÜberspringen\n\n\nWikipedia\nSekundärquelle – als Einstieg OK, aber nicht zitierbar\n\n\nBFS, swissuniversities\nPrimärquellen – das suchen wir\n\n\nBlog, News-Artikel\nKönnen auf Primärquelle verweisen – Link folgen\n\n\n\n\n\n\n\n\n\n\n\nSource-checkSchritt 3: Zur Quelle gehen (2 Min)\n\n\n\n\nKlicke niemals nur auf die Google-Zusammenfassung. Geh zur echten Website.\n\nDemonstriere:\n\nBFS-Website öffnen\nNavigation zur richtigen Statistik\nDie Zahl finden (oder feststellen, dass es diese spezifische Zahl nicht gibt)\n\n\n\n\n\nErgebnis (2 Min)\n\nWir haben jetzt gelernt: Die genaue Zahl gibt es in dieser Form nicht. Das bedeutet:\n\nDie KI hat wahrscheinlich kombiniert oder geschätzt\nFür einen Budgetantrag: Nicht verwendbar\nDu müsstest andere Kennzahlen nutzen oder direkt bei HR anfragen\n\nWichtiger als die Zahl zu finden: Du weisst jetzt, DASS die KI-Zahl nicht verifizierbar ist.",
+    "section": "Runde 1: Gemeinsam (7 Min)",
+    "text": "Runde 1: Gemeinsam (7 Min)\n\nLateral Reading heisst: Raus aus dem Sprachmodell, eigene Suche, Primärquellen finden. Wir machen das jetzt gemeinsam.\n\nSzenario vorstellen:\n\nDas Sprachmodell sagt: “Das durchschnittliche Gehalt für Verwaltungsmitarbeitende an Schweizer Universitäten liegt bei CHF 78’000 brutto pro Jahr.” Du willst das für einen Budgetantrag verwenden.\n\n\nSchritt 1: Suchbegriffe (1.5 Min)\n\nWie würdest du suchen? Nicht das Sprachmodell fragen. Was tippst du bei Google ein?\n\nTeilnehmende machen Vorschläge.\n\nGute Begriffe: “Schweiz Universität Verwaltung Gehalt Statistik” oder “swissuniversities Lohnstruktur”. Nicht: “Stimmt 78000?”\n\n\n\nSchritt 2: Suchergebnisse filtern (1.5 Min)\nAm Projektor suchen und Ergebnisse bewerten:\n\nWas sehen wir hier? jobs.ch – das sind Stellenanzeigen, nicht offizielle Statistik. Hier ein Blog – überspringen. BFS – das ist eine Primärquelle. swissuniversities – auch gut.\n\n\n\nSchritt 3: Zur Quelle gehen (2 Min)\n\nWichtig: Nicht die Google-Zusammenfassung lesen. Zur echten Seite gehen.\n\nBFS oder swissuniversities öffnen, navigieren, zeigen was man findet (oder nicht findet).\n\n\nSchritt 4: Ergebnis besprechen (2 Min)\n\nWas haben wir gefunden?\n\nTeilnehmende berichten.\nTypisches Ergebnis: Die exakte Zahl existiert nicht in dieser Form.\n\nDas ist selbst eine wichtige Information. Die Zahl vom Sprachmodell ist nicht verifizierbar – also nicht verwendbar für einen Budgetantrag.",
     "crumbs": [
       "Workshop",
       "Ablauf",
@@ -461,8 +442,8 @@
     "objectID": "workshop/lateral-reading/index.html#runde-2",
     "href": "workshop/lateral-reading/index.html#runde-2",
     "title": "Teil 3: Lateral Reading",
-    "section": "Runde 2: Scaffolded Practice (7 Min)",
-    "text": "Runde 2: Scaffolded Practice (7 Min)\n\n\n\n\n\n\nIndividualWähle ein Szenario\n\n\n\nWähle das Szenario, das deinem Arbeitsbereich am nächsten kommt.\n{{&lt; timer 4 &gt;}}\n\n\n\nDie 6 Szenarien\n\n\n\n\n\n\nScenarioSzenario A: Rechtliches\n\n\n\nKI sagt: “Personaldossiers müssen in der Schweiz 10 Jahre nach Austritt aufbewahrt werden.”\nDeine Aufgabe: Finde die offizielle rechtliche Grundlage.\nTipp: EDÖB, admin.ch, OR\n\n\n\n\n\n\n\n\nScenarioSzenario B: Statistik\n\n\n\nKI sagt: “Die Universität Bern hatte im HS 2023 genau 18’734 Studierende.”\nDeine Aufgabe: Finde die offizielle Statistik.\nTipp: Uni Bern Website, BFS\n\n\n\n\n\n\n\n\nScenarioSzenario C: Budget\n\n\n\nKI sagt: “Ein Team-Event mit 20 Personen in Bern kostet durchschnittlich CHF 90 pro Person.”\nDeine Aufgabe: Wie würdest du das überprüfen?\nTipp: Lokale Anbieter, frühere Events, Vergleichsangebote\n\n\n\n\n\n\n\n\nScenarioSzenario D: Prozess\n\n\n\nKI sagt: “Reisekostenabrechnungen müssen innerhalb von 30 Tagen nach Reiseende eingereicht werden.”\nDeine Aufgabe: Finde die offizielle Uni-Regelung.\nTipp: Uni-Intranet, HR-Richtlinien\n\n\n\n\n\n\n\n\nScenarioSzenario E: Weiterbildung\n\n\n\nKI sagt: “Mitarbeitende haben Anspruch auf 5 Tage bezahlte Weiterbildung pro Jahr.”\nDeine Aufgabe: Stimmt das für deine Institution?\nTipp: Personalreglement, GAV\n\n\n\n\n\n\n\n\nScenarioSzenario F: Technisches\n\n\n\nKI sagt: “Microsoft 365 Lizenzen kosten Schweizer Unis durchschnittlich CHF 45 pro Nutzer/Jahr.”\nDeine Aufgabe: Wie würdest du das verifizieren?\nTipp: IT-Services, swissuniversities Rahmenverträge\n\n\n\n\n\nAuswertung (3 Min)\n\n\n\n\n\n\nGroupErgebnisse teilen\n\n\n\n\nWer hat etwas Interessantes gefunden?\n\n2–3 Teilnehmende teilen kurz:\n\nWelches Szenario?\nWelche Quelle gefunden?\nWar die KI richtig, falsch, oder unklar?",
+    "section": "Runde 2: In Kleingruppen (8 Min)",
+    "text": "Runde 2: In Kleingruppen (8 Min)\n\nWähle ein Szenario. Du hast 5 Minuten.\n\n\n\n\n6 Szenarien (projizieren oder austeilen):\n\n\n\n\n\n\nScenarioSzenario A: Rechtliches\n\n\n\nDas Modell sagt: “Personaldossiers müssen in der Schweiz 10 Jahre nach Austritt aufbewahrt werden.”\nDeine Aufgabe: Finde die offizielle rechtliche Grundlage.\nTipp: EDÖB, admin.ch, OR\n\n\n\n\n\n\n\n\nScenarioSzenario B: Statistik\n\n\n\nDas Modell sagt: “Die Universität Bern hatte im HS 2023 genau 18’734 Studierende.”\nDeine Aufgabe: Finde die offizielle Statistik.\nTipp: Uni Bern Website, BFS\n\n\n\n\n\n\n\n\nScenarioSzenario C: Budget\n\n\n\nDas Modell sagt: “Ein Team-Event mit 20 Personen in Bern kostet durchschnittlich CHF 90 pro Person.”\nDeine Aufgabe: Wie würdest du das überprüfen?\nTipp: Lokale Anbieter, frühere Events, Vergleichsangebote\n\n\n\n\n\n\n\n\nScenarioSzenario D: Prozess\n\n\n\nDas Modell sagt: “Reisekostenabrechnungen müssen innerhalb von 30 Tagen nach Reiseende eingereicht werden.”\nDeine Aufgabe: Finde die offizielle Uni-Regelung.\nTipp: Uni-Intranet, HR-Richtlinien\n\n\n\n\n\n\n\n\nScenarioSzenario E: Weiterbildung\n\n\n\nDas Modell sagt: “Mitarbeitende haben Anspruch auf 5 Tage bezahlte Weiterbildung pro Jahr.”\nDeine Aufgabe: Stimmt das für deine Institution?\nTipp: Personalreglement, GAV\n\n\n\n\n\n\n\n\nScenarioSzenario F: Technisches\n\n\n\nDas Modell sagt: “Microsoft 365 Lizenzen kosten Schweizer Unis durchschnittlich CHF 45 pro Nutzer/Jahr.”\nDeine Aufgabe: Wie würdest du das verifizieren?\nTipp: IT-Services, swissuniversities Rahmenverträge\n\n\n\nWährend Teilnehmende arbeiten:\n\nHerumgehen, bei Suchbegriffen helfen falls nötig\nNotieren, wer interessante Funde hat\n\n\nAuswertung (3 Min)\n\nWer hat etwas gefunden? Oder etwas Interessantes entdeckt?\n\n3–4 Teilnehmende berichten kurz:\n\nWelches Szenario?\nWas gefunden?\nWar das Modell richtig, falsch, oder nicht prüfbar?",
     "crumbs": [
       "Workshop",
       "Ablauf",
@@ -473,8 +454,8 @@
     "objectID": "workshop/lateral-reading/index.html#runde-3",
     "href": "workshop/lateral-reading/index.html#runde-3",
     "title": "Teil 3: Lateral Reading",
-    "section": "Runde 3: Eigenes Beispiel (5 Min)",
-    "text": "Runde 3: Eigenes Beispiel (5 Min)\n\n\n\n\n\n\nIndividualDein eigener Anwendungsfall\n\n\n\nDenk an deine eigene Arbeit. Was könntest du diese Woche von einer KI erfragen?\n3 Minuten:\n\nÜberleg dir eine konkrete Frage\nFrag die KI\nEntscheide: Braucht das Verifikation?\nWenn ja: Wo würdest du nachschauen?\n\n{{&lt; timer 3 &gt;}}\n\n\n\n\nQuick Share (2 Min)\n\n\n\n\n\n\nGroupFreiwillige teilen\n\n\n\n\nWer möchte sein Beispiel teilen?\n\n2 Freiwillige:\n\nWas war die Frage?\nBraucht es Verifikation?\nWelche Quelle würdest du nutzen?",
+    "section": "Runde 3: Eigenes Beispiel (7 Min)",
+    "text": "Runde 3: Eigenes Beispiel (7 Min)\n\nJetzt dein eigener Fall. Denk an etwas, das du diese Woche ein Sprachmodell fragen könntest – oder schon gefragt hast.\n\nAufgabe (auf Projektor zeigen):\n\nEine konkrete Frage formulieren\nDas Sprachmodell fragen\nEntscheiden: Braucht das Verifikation?\nWenn ja: Welche Quelle würdest du nutzen?\n\n\n\n\n\n\nTeilen\n\nWer möchte teilen?\n\n2–3 Freiwillige berichten.\nBei jedem Beispiel fragen:\n\nWürdest du diese Information in einem formellen Dokument verwenden?\n\nDas bereitet Teil 4 vor.",
     "crumbs": [
       "Workshop",
       "Ablauf",
@@ -486,23 +467,11 @@
     "href": "workshop/lateral-reading/index.html#troubleshooting",
     "title": "Teil 3: Lateral Reading",
     "section": "Troubleshooting",
-    "text": "Troubleshooting\n\nTeilnehmende finden keine Quelle\nDas ist selbst lehrreich:\n\nPerfekt – du hast entdeckt: Es gibt keine offizielle Quelle dafür. Das bedeutet: Die KI-Antwort ist spekulativ. Verwende das nicht für wichtige Entscheidungen.",
+    "text": "Troubleshooting\n\nTeilnehmende finden keine Quelle\nDas ist selbst lehrreich:\n\nDu findest keine offizielle Quelle? Das ist wichtige Information. Die Aussage vom Sprachmodell ist nicht verifizierbar – also nicht verwendbar für wichtige Entscheidungen.\n\n\n\nZeit wird knapp\nKürze Runde 3 (eigenes Beispiel). Der Kern ist Runde 1 (gemeinsam) und Runde 2 (Szenarien).",
     "crumbs": [
       "Workshop",
       "Ablauf",
       "Teil 3: Lateral Reading"
-    ]
-  },
-  {
-    "objectID": "handout.html#deine-quellen-shortcuts",
-    "href": "handout.html#deine-quellen-shortcuts",
-    "title": "Quick Reference Card",
-    "section": "Deine Quellen-Shortcuts",
-    "text": "Deine Quellen-Shortcuts\n\nZahlen & Statistiken\n\nbfs.admin.ch (Bundesamt für Statistik)\nseco.admin.ch (Arbeitsmarkt, Wirtschaft)\nUni-eigene Zahlen & Fakten\n\n\n\nRecht & Regulierung\n\nadmin.ch (Bundesgesetze)\nedoeb.admin.ch (Datenschutz)\nRechtsdienst deiner Institution\n\n\n\nInterne Prozesse\n\nIntranet\nHR-Richtlinien & Reglemente\nDirekt bei Fachabteilung nachfragen",
-    "crumbs": [
-      "Workshop",
-      "Materialien",
-      "Quick Reference Card"
     ]
   }
 ]

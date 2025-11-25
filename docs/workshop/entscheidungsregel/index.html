@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Teil 4: Die Entscheidungsregel – KI-Antworten kritisch prüfen: Lateral Reading Workshop</title>
+<title>Teil 4: Die Entscheidungsregel – Fact-Checking für KI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -48,8 +48,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-dark-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-4fcfe6d66dc41868357ea95dec6ef5ad.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<script src="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
-<link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -89,6 +87,39 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
+div.callout-key-point.callout {
+  border-left-color: #9A4665;
+}
+div.callout-key-point.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-key-point .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-key-point.callout-style-default .callout-icon::before, div.callout-key-point.callout-titled .callout-icon::before {
+  content: '';
+  background-image: none;
+}
+div.callout-reflect.callout {
+  border-left-color: purple;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '';
+  background-image: none;
+}
+div.callout-scenario.callout {
+  border-left-color: steelblue;
+}
+div.callout-scenario.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-scenario .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-scenario.callout-style-default .callout-icon::before, div.callout-scenario.callout-titled .callout-icon::before {
+  content: '';
+  background-image: none;
+}
 div.callout-group.callout {
   border-left-color: purple;
 }
@@ -97,6 +128,28 @@ div.callout-group.callout-style-default > .callout-header {
 }
 div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: steelblue;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  content: '';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: forestgreen;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
   content: '';
   background-image: none;
 }
@@ -122,25 +175,14 @@ div.callout-warning.callout-style-default .callout-icon::before, div.callout-war
   content: '!';
   background-image: none;
 }
-div.callout-individual.callout {
-  border-left-color: steelblue;
+div.callout-experiment.callout {
+  border-left-color: #9A4665;
 }
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
+div.callout-experiment.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: purple;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+div.callout-experiment .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-experiment.callout-style-default .callout-icon::before, div.callout-experiment.callout-titled .callout-icon::before {
   content: '';
   background-image: none;
 }
@@ -155,28 +197,6 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   content: '';
   background-image: none;
 }
-div.callout-pair.callout {
-  border-left-color: forestgreen;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
-div.callout-experiment.callout {
-  border-left-color: #9A4665;
-}
-div.callout-experiment.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-experiment .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-experiment.callout-style-default .callout-icon::before, div.callout-experiment.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
 div.callout-source-check.callout {
   border-left-color: forestgreen;
 }
@@ -188,34 +208,12 @@ div.callout-source-check.callout-style-default .callout-icon::before, div.callou
   content: '';
   background-image: none;
 }
-div.callout-scenario.callout {
-  border-left-color: steelblue;
-}
-div.callout-scenario.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-scenario .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-scenario.callout-style-default .callout-icon::before, div.callout-scenario.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
-div.callout-key-point.callout {
-  border-left-color: #9A4665;
-}
-div.callout-key-point.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-key-point .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-key-point.callout-style-default .callout-icon::before, div.callout-key-point.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
 </style>
 
 
-<meta property="og:title" content="Teil 4: Die Entscheidungsregel – KI-Antworten kritisch prüfen: Lateral Reading Workshop">
+<meta property="og:title" content="Teil 4: Die Entscheidungsregel – Fact-Checking für KI">
 <meta property="og:description" content="Wann verifizieren?">
-<meta property="og:site_name" content="KI-Antworten kritisch prüfen: Lateral Reading Workshop">
+<meta property="og:site_name" content="Fact-Checking für KI">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light">
@@ -226,7 +224,7 @@ div.callout-key-point.callout-style-default .callout-icon::before, div.callout-k
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">KI-Antworten kritisch prüfen: Lateral Reading Workshop</span>
+    <span class="navbar-title">Fact-Checking für KI</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -245,21 +243,6 @@ div.callout-key-point.callout-style-default .callout-icon::before, div.callout-k
 </i> 
 <span class="menu-text">Handout</span></a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-materialien" role="link" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="bi bi-file-slides" role="img">
-</i> 
- <span class="menu-text">Materialien</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-materialien">    
-        <li>
-    <a class="dropdown-item" href="../../handout.html">
- <span class="dropdown-text">Quick Reference Card (Handout)</span></a>
-  </li>  
-    </ul>
-  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -295,7 +278,7 @@ div.callout-key-point.callout-style-default .callout-icon::before, div.callout-k
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">KI-Antworten im Büroalltag kritisch prüfen</span></a>
+ <span class="menu-text">Antworten von Sprachmodellen kritisch prüfen</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -310,19 +293,19 @@ div.callout-key-point.callout-style-default .callout-icon::before, div.callout-k
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/framing/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Framing</span></a>
+ <span class="menu-text">Einstieg</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/experiment-1/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Teil 1: KI liegt falsch</span></a>
+ <span class="menu-text">Teil 1: Das Sprachmodell liegt falsch</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/experiment-2/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Teil 2: Warum KI dir zustimmt</span></a>
+ <span class="menu-text">Teil 2: Warum Nachfragen nicht hilft</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -371,7 +354,7 @@ div.callout-key-point.callout-style-default .callout-icon::before, div.callout-k
   <li><a href="#beispiele" id="toc-beispiele" class="nav-link" data-scroll-target="#beispiele">Beispiele</a></li>
   </ul></li>
   <li><a href="#quellen-shortcuts-1-min" id="toc-quellen-shortcuts-1-min" class="nav-link" data-scroll-target="#quellen-shortcuts-1-min">Quellen-Shortcuts (1 Min)</a></li>
-  <li><a href="#abschluss-1-min" id="toc-abschluss-1-min" class="nav-link" data-scroll-target="#abschluss-1-min">Abschluss (1 Min)</a></li>
+  <li><a href="#abschluss-1.5-min" id="toc-abschluss-1.5-min" class="nav-link" data-scroll-target="#abschluss-1.5-min">Abschluss (1.5 Min)</a></li>
   <li><a href="#erfolgskriterien" id="toc-erfolgskriterien" class="nav-link" data-scroll-target="#erfolgskriterien">Erfolgskriterien</a></li>
   </ul>
 </nav>
@@ -399,7 +382,7 @@ div.callout-key-point.callout-style-default .callout-icon::before, div.callout-k
 </header>
 
 
-<p><strong>Dauer:</strong> 3 Minuten</p>
+<p><strong>Dauer:</strong> 3.5 Minuten (36:30–40:00)</p>
 <hr>
 <section id="die-eine-frage-1-min" class="level2">
 <h2 class="anchored" data-anchor-id="die-eine-frage-1-min">Die Eine Frage (1 Min)</h2>
@@ -428,7 +411,7 @@ div.callout-key-point.callout-style-default .callout-icon::before, div.callout-k
 </tr>
 <tr class="even">
 <td><strong>NEIN</strong></td>
-<td>KI-Antwort reicht</td>
+<td>Antwort vom Sprachmodell reicht</td>
 </tr>
 </tbody>
 </table>
@@ -450,7 +433,7 @@ div.callout-key-point.callout-style-default .callout-icon::before, div.callout-k
 <tbody>
 <tr class="odd">
 <td>Brainstorming für Meeting-Agenda</td>
-<td>KI reicht</td>
+<td>Sprachmodell reicht</td>
 </tr>
 <tr class="even">
 <td>Teilnehmerzahl für Budget-Rechnung</td>
@@ -458,7 +441,7 @@ div.callout-key-point.callout-style-default .callout-icon::before, div.callout-k
 </tr>
 <tr class="odd">
 <td>Ideen für Email-Formulierung</td>
-<td>KI reicht</td>
+<td>Sprachmodell reicht</td>
 </tr>
 <tr class="even">
 <td>Rechtliche Grundlage für Entscheidung</td>
@@ -497,46 +480,32 @@ div.callout-key-point.callout-style-default .callout-icon::before, div.callout-k
 </tr>
 <tr class="even">
 <td>Ideen, Brainstorming</td>
-<td>KI allein ist OK</td>
+<td>Sprachmodell allein ist OK</td>
 </tr>
 </tbody>
 </table>
 <hr>
 </section>
-<section id="abschluss-1-min" class="level2">
-<h2 class="anchored" data-anchor-id="abschluss-1-min">Abschluss (1 Min)</h2>
+<section id="abschluss-1.5-min" class="level2">
+<h2 class="anchored" data-anchor-id="abschluss-1.5-min">Abschluss (1.5 Min)</h2>
 <blockquote class="blockquote">
-<p><strong>Drei Dinge zum Mitnehmen:</strong></p>
-<p><strong>Erstens:</strong> KI generiert plausible Antworten – nicht geprüfte Fakten. Beide Modi (Training und Web-Suche) können versagen.</p>
-<p><strong>Zweitens:</strong> KI bestätigt deine Annahmen. Je sicherer du bist, desto skeptischer solltest du sein.</p>
-<p><strong>Drittens:</strong> Lateral Reading – raus aus der KI, eigene Suche, Primärquellen – dauert 2–5 Minuten und lohnt sich bei jeder wichtigen Entscheidung.</p>
+<p>Du hast heute drei Dinge erlebt:</p>
+<p><strong>Erstens</strong> – Sprachmodelle können überzeugend falsch liegen.</p>
+<p><strong>Zweitens</strong> – Nachfragen beim Sprachmodell ist keine echte Prüfung.</p>
+<p><strong>Drittens</strong> – Lateral Reading funktioniert: Raus aus dem Sprachmodell, eigene Suche, Primärquellen.</p>
+<p>Das Handout hat die wichtigsten Quellen für deinen Bereich. Probiere es diese Woche einmal aus.</p>
 </blockquote>
-<div class="callout callout-style-simple callout-pro-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Pro-tip</span>Tipp für Fortgeschrittene
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Wenn du lange mit einer KI an einem Thema gearbeitet hast, starte eine frische Konversation für eine Realitätsprüfung. Der Kontext-Aufbau beeinflusst die Antworten.</p>
-</div>
-</div>
-</div>
+<p><strong>Handout verteilen (oder auf Link verweisen).</strong></p>
 <blockquote class="blockquote">
-<p>Viel Erfolg.</p>
+<p>Danke.</p>
 </blockquote>
 <hr>
 </section>
 <section id="erfolgskriterien" class="level2">
 <h2 class="anchored" data-anchor-id="erfolgskriterien">Erfolgskriterien</h2>
-<p><strong>Minimal-Erfolg:</strong> Teilnehmende verstehen, warum KI-Antworten nicht selbst-verifizierend sind, und kennen eine vertrauenswürdige Quelle für ihren Bereich.</p>
-<p><strong>Guter Erfolg:</strong> Teilnehmende haben erlebt, wie Framing die Antwort beeinflusst, und können Lateral Reading anwenden.</p>
-<p><strong>Optimaler Erfolg:</strong> Teilnehmende sind überzeugt, dass sie bei wichtiger KI-Nutzung externe Quellen konsultieren werden – und wissen, dass sie besonders skeptisch sein sollten, wenn die KI ihre bestehende Meinung bestätigt.</p>
+<p><strong>Minimal-Erfolg:</strong> Teilnehmende haben erlebt, dass Sprachmodelle falsch liegen können, und kennen eine vertrauenswürdige Quelle für ihren Bereich.</p>
+<p><strong>Guter Erfolg:</strong> Teilnehmende haben Lateral Reading selbst angewendet und verstehen, warum Nachfragen beim Sprachmodell keine Lösung ist.</p>
+<p><strong>Optimaler Erfolg:</strong> Teilnehmende nehmen sich vor, diese Woche mindestens einmal eine Antwort vom Sprachmodell extern zu verifizieren.</p>
 
 
 </section>
