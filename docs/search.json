@@ -435,7 +435,7 @@
     "href": "workshop/vertiefung/index.html",
     "title": "Vertiefung",
     "section": "",
-    "text": "Diese Materialien ergänzen den Workshop um drei Aspekte, die im 40-Minuten-Format nicht vollständig behandelt werden:"
+    "text": "Diese Materialien ergänzen den Workshop um Aspekte, die im 40-Minuten-Format nicht vollständig behandelt werden:"
   },
   {
     "objectID": "workshop/vertiefung/index.html#wenn-keine-quelle-existiert",
@@ -470,7 +470,7 @@
     "href": "workshop/vertiefung/index.html#weiterführende-ressourcen",
     "title": "Vertiefung",
     "section": "Weiterführende Ressourcen",
-    "text": "Weiterführende Ressourcen\n\nZur Vertiefung\n\nSIFT-Methode — die englischsprachige Grundlage für Lateral Reading\nCorrectiv — deutschsprachiges Fact-Checking\nAFP Faktencheck — deutschsprachig, auch Schweizer Themen\n\n\n\nFür den Arbeitsalltag\n\nBei Unsicherheit: Lieber einmal mehr nachfragen als falsche Information weitergeben\nDokumentation: Notiere dir, wo du was verifiziert hast — spart Zeit bei Rückfragen\nTeamwissen: Teile gute Quellen mit Kolleginnen und Kollegen"
+    "text": "Weiterführende Ressourcen\n\nZur Vertiefung\n\nStanford Civic Online Reasoning — Forschung und Unterrichtsmaterialien zu Lateral Reading\nSIFT-Methode — die englischsprachige Grundlage für Lateral Reading\nCorrectiv — deutschsprachiges Fact-Checking\nAFP Faktencheck — deutschsprachig, auch Schweizer Themen\n\n\n\nFür den Arbeitsalltag\n\nBei Unsicherheit: Lieber einmal mehr nachfragen als falsche Information weitergeben\nDokumentation: Notiere dir, wo du was verifiziert hast — spart Zeit bei Rückfragen\nTeamwissen: Teile gute Quellen mit Kolleginnen und Kollegen"
   },
   {
     "objectID": "handout.html#lateral-reading-in-4-schritten",
@@ -478,5 +478,117 @@
     "title": "Handout: Lateral Reading",
     "section": "Lateral Reading in 4 Schritten",
     "text": "Lateral Reading in 4 Schritten\n\n1. Suchbegriffe formulieren\n\n\n\nNicht\n“Stimmt das?” oder Sprachmodell nochmal fragen\n\n\nSondern\n“[Thema] Schweiz Statistik/Gesetz”\n\n\n\n\n\n2. Suchergebnisse filtern\n\n\n\nQuelle\nBewertung\n\n\n\n\nPrimärquellen: .admin.ch, .edu, offizielle Berichte\nKlicken\n\n\nWikipedia\nNur als Einstieg, nicht zitieren\n\n\nAI-generierte Zusammenfassungen, Blogs, Foren\nÜberspringen\n\n\n\n\n\n3. Zur Original-Quelle gehen\n\nGoogle-Zusammenfassung reicht nicht\nWebsite öffnen, echte Daten finden\nKeine Quelle gefunden = Aussage vom Sprachmodell nicht verwendbar\n\n\n\n4. Zwei Prüffragen stellen\n\n\n\n\n\n\n\nFrage\n\n\n\n\n\nZuverlässig?\nIst das eine Primärquelle oder offizielle Stelle?\n\n\nRelevant?\nSteht da wirklich das, was das Sprachmodell behauptet?\n\n\n\nSprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch."
+  },
+  {
+    "objectID": "workshop/vertiefung/vertical-lateral.html",
+    "href": "workshop/vertiefung/vertical-lateral.html",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "",
+    "text": "Wenn wir eine Information prüfen wollen, gibt es zwei grundsätzlich verschiedene Ansätze:\n\n\n\n\n\n\n\nVertical Reading\nLateral Reading\n\n\n\n\nInnerhalb der Quelle bleiben\nDie Quelle verlassen\n\n\n“About”-Seite lesen\nSuchen, was andere über die Quelle sagen\n\n\nDesign und Aufmachung bewerten\nUnabhängige Einschätzungen finden\n\n\nQuellenangaben der Quelle prüfen\nQuellenangaben extern verifizieren"
+  },
+  {
+    "objectID": "workshop/vertiefung/vertical-lateral.html#zwei-arten-zu-lesen",
+    "href": "workshop/vertiefung/vertical-lateral.html#zwei-arten-zu-lesen",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "",
+    "text": "Wenn wir eine Information prüfen wollen, gibt es zwei grundsätzlich verschiedene Ansätze:\n\n\n\n\n\n\n\nVertical Reading\nLateral Reading\n\n\n\n\nInnerhalb der Quelle bleiben\nDie Quelle verlassen\n\n\n“About”-Seite lesen\nSuchen, was andere über die Quelle sagen\n\n\nDesign und Aufmachung bewerten\nUnabhängige Einschätzungen finden\n\n\nQuellenangaben der Quelle prüfen\nQuellenangaben extern verifizieren"
+  },
+  {
+    "objectID": "workshop/vertiefung/vertical-lateral.html#vertical-reading-das-problem",
+    "href": "workshop/vertiefung/vertical-lateral.html#vertical-reading-das-problem",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "Vertical Reading: Das Problem",
+    "text": "Vertical Reading: Das Problem\nBei Vertical Reading bleiben wir innerhalb der Quelle und versuchen, ihre Glaubwürdigkeit anhand dessen zu beurteilen, was sie selbst über sich sagt.\n\nWarum das nicht funktioniert\n\n\n\n\n\n\nWarningQuellen kontrollieren ihre Selbstdarstellung\n\n\n\n\nEine “About”-Seite wird von der Organisation selbst geschrieben\nWürdest du etwas Schlechtes über dich selbst schreiben?\nJede Quelle hat Gründe, sich vertrauenswürdig darzustellen\nSelbst unseriöse Quellen können professionell aussehen\n\n\n\n\n\nBeispiele für Vertical Reading\n\nDie “About”-Seite einer Website lesen\nPrüfen, ob die Seite professionell gestaltet ist\nSchauen, ob Quellenangaben genannt werden\nDie Qualifikationen lesen, die jemand über sich selbst angibt\n\nDas Problem: All diese Informationen werden von der Quelle selbst kontrolliert."
+  },
+  {
+    "objectID": "workshop/vertiefung/vertical-lateral.html#lateral-reading-die-lösung",
+    "href": "workshop/vertiefung/vertical-lateral.html#lateral-reading-die-lösung",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "Lateral Reading: Die Lösung",
+    "text": "Lateral Reading: Die Lösung\nBei Lateral Reading verlassen wir die Quelle und suchen extern nach Informationen über sie.\n\nDer Prozess\n\nNeuen Tab öffnen — die Quelle verlassen\nNach der Quelle suchen — nicht nach dem Inhalt, sondern nach der Organisation/Person dahinter\nUnabhängige Einschätzungen finden — was sagen andere über diese Quelle?\nMehrere Perspektiven prüfen — nicht nur eine externe Quelle\n\n\n\nWonach du suchst\n\n\n\n\n\n\n\nFrage\nWarum wichtig\n\n\n\n\nWer steckt hinter der Information?\nIdentität und Hintergrund der Quelle\n\n\nWelche Perspektive oder Motivation hat die Quelle?\nMögliche Interessenkonflikte\n\n\nWelche Expertise hat die Quelle?\nFachliche Kompetenz zum Thema\n\n\nWas sagen unabhängige Dritte?\nExterne Einschätzung der Glaubwürdigkeit"
+  },
+  {
+    "objectID": "workshop/vertiefung/vertical-lateral.html#bei-sprachmodellen-eine-spezielle-situation",
+    "href": "workshop/vertiefung/vertical-lateral.html#bei-sprachmodellen-eine-spezielle-situation",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "Bei Sprachmodellen: Eine spezielle Situation",
+    "text": "Bei Sprachmodellen: Eine spezielle Situation\nSprachmodelle sind ein Sonderfall. Sie haben keine “About”-Seite und keine eigene Motivation. Aber das Prinzip von Vertical vs. Lateral Reading gilt trotzdem:\n\nVertical Reading bei Sprachmodellen\nDas ist, was wir in Teil 2 des Workshops getestet haben:\n\nDas Sprachmodell fragen: “Bist du sicher?”\nNachfragen: “Kannst du das überprüfen?”\nEine Annahme einbauen und schauen, ob es widerspricht\n\nErgebnis: Funktioniert nicht. Das Sprachmodell kann sich nicht selbst prüfen — es generiert nur neue Antworten.\n\n\nLateral Reading bei Sprachmodellen\nDas ist, was wir in Teil 3 des Workshops geübt haben:\n\nDas Sprachmodell verlassen\nExtern nach der Information suchen\nPrimärquellen finden\nSelbst prüfen, ob die Quelle das sagt, was das Sprachmodell behauptet\n\nErgebnis: Funktioniert. Nur externe Quellen können die Richtigkeit bestätigen."
+  },
+  {
+    "objectID": "workshop/vertiefung/vertical-lateral.html#wann-eine-quelle-vertrauenswürdig-ist",
+    "href": "workshop/vertiefung/vertical-lateral.html#wann-eine-quelle-vertrauenswürdig-ist",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "Wann eine Quelle vertrauenswürdig ist",
+    "text": "Wann eine Quelle vertrauenswürdig ist\nWenn du bei deiner Recherche auf eine Quelle stösst, prüfe:\n\nCheckliste für Quellenautorität\n\nExpertise: Sind die Autoren Fachleute auf dem Gebiet?\nRedaktionsprozesse: Gibt es Editoren, Faktenprüfer, Peer Review?\nKorrekturkultur: Gibt die Quelle Fehler zu und korrigiert sie?\nKeine Interessenkonflikte: Hat die Quelle einen Grund, die Information zu verzerren?\nUnabhängige Bestätigung: Sagen andere verlässliche Quellen dasselbe?\n\n\n\nHierarchie der Quellen\n\n\n\n\n\n\n\nVertrauenswürdigkeit\nQuellentyp\n\n\n\n\nHoch\nPrimärquellen (Originaldaten, Gesetze, offizielle Statistiken)\n\n\nHoch\nPeer-reviewed wissenschaftliche Publikationen\n\n\nMittel\nQualitätsjournalismus mit Redaktionsprozessen\n\n\nMittel\nWikipedia (als Einstieg, nicht als Endquelle)\n\n\nNiedrig\nBlogs, Foren, Social Media\n\n\nSehr niedrig\nAnonyme Quellen, AI-generierte Zusammenfassungen"
+  },
+  {
+    "objectID": "workshop/vertiefung/vertical-lateral.html#zusammenfassung",
+    "href": "workshop/vertiefung/vertical-lateral.html#zusammenfassung",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\n\n\n\n\n\nKey-pointDie Kernregel\n\n\n\nVertraue nie darauf, was eine Quelle über sich selbst sagt.\nVerlasse die Quelle und prüfe extern:\n\nWer steckt dahinter?\nWelche Motivation könnte die Quelle haben?\nWas sagen unabhängige Dritte?\nSteht in der Quelle wirklich das, was behauptet wird?"
+  },
+  {
+    "objectID": "workshop/vertiefung/vertical-lateral.html#weiterführend",
+    "href": "workshop/vertiefung/vertical-lateral.html#weiterführend",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "Weiterführend",
+    "text": "Weiterführend\nDiese Konzepte stammen aus der Forschung zu Civic Online Reasoning der Stanford History Education Group. Mehr dazu:\n\nStanford History Education Group: Civic Online Reasoning\nSIFT-Methode von Mike Caulfield"
+  },
+  {
+    "objectID": "workshop/vertiefung/vertical-lateral/index.html",
+    "href": "workshop/vertiefung/vertical-lateral/index.html",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "",
+    "text": "Wenn wir eine Information prüfen wollen, gibt es zwei grundsätzlich verschiedene Ansätze:\n\n\n\n\n\n\n\nVertical Reading\nLateral Reading\n\n\n\n\nInnerhalb der Quelle bleiben\nDie Quelle verlassen\n\n\n“About”-Seite lesen\nSuchen, was andere über die Quelle sagen\n\n\nDesign und Aufmachung bewerten\nUnabhängige Einschätzungen finden\n\n\nQuellenangaben der Quelle prüfen\nQuellenangaben extern verifizieren"
+  },
+  {
+    "objectID": "workshop/vertiefung/vertical-lateral/index.html#zwei-arten-zu-lesen",
+    "href": "workshop/vertiefung/vertical-lateral/index.html#zwei-arten-zu-lesen",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "",
+    "text": "Wenn wir eine Information prüfen wollen, gibt es zwei grundsätzlich verschiedene Ansätze:\n\n\n\n\n\n\n\nVertical Reading\nLateral Reading\n\n\n\n\nInnerhalb der Quelle bleiben\nDie Quelle verlassen\n\n\n“About”-Seite lesen\nSuchen, was andere über die Quelle sagen\n\n\nDesign und Aufmachung bewerten\nUnabhängige Einschätzungen finden\n\n\nQuellenangaben der Quelle prüfen\nQuellenangaben extern verifizieren"
+  },
+  {
+    "objectID": "workshop/vertiefung/vertical-lateral/index.html#vertical-reading-das-problem",
+    "href": "workshop/vertiefung/vertical-lateral/index.html#vertical-reading-das-problem",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "Vertical Reading: Das Problem",
+    "text": "Vertical Reading: Das Problem\nBei Vertical Reading bleiben wir innerhalb der Quelle und versuchen, ihre Glaubwürdigkeit anhand dessen zu beurteilen, was sie selbst über sich sagt.\n\nWarum das nicht funktioniert\n\n\n\n\n\n\nWarningQuellen kontrollieren ihre Selbstdarstellung\n\n\n\n\nEine “About”-Seite wird von der Organisation selbst geschrieben\nWürdest du etwas Schlechtes über dich selbst schreiben?\nJede Quelle hat Gründe, sich vertrauenswürdig darzustellen\nSelbst unseriöse Quellen können professionell aussehen\n\n\n\n\n\nBeispiele für Vertical Reading\n\nDie “About”-Seite einer Website lesen\nPrüfen, ob die Seite professionell gestaltet ist\nSchauen, ob Quellenangaben genannt werden\nDie Qualifikationen lesen, die jemand über sich selbst angibt\n\nDas Problem: All diese Informationen werden von der Quelle selbst kontrolliert."
+  },
+  {
+    "objectID": "workshop/vertiefung/vertical-lateral/index.html#lateral-reading-die-lösung",
+    "href": "workshop/vertiefung/vertical-lateral/index.html#lateral-reading-die-lösung",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "Lateral Reading: Die Lösung",
+    "text": "Lateral Reading: Die Lösung\nBei Lateral Reading verlassen wir die Quelle und suchen extern nach Informationen über sie.\n\nDer Prozess\n\nNeuen Tab öffnen — die Quelle verlassen\nNach der Quelle suchen — nicht nach dem Inhalt, sondern nach der Organisation/Person dahinter\nUnabhängige Einschätzungen finden — was sagen andere über diese Quelle?\nMehrere Perspektiven prüfen — nicht nur eine externe Quelle\n\n\n\nWonach du suchst\n\n\n\n\n\n\n\nFrage\nWarum wichtig\n\n\n\n\nWer steckt hinter der Information?\nIdentität und Hintergrund der Quelle\n\n\nWelche Perspektive oder Motivation hat die Quelle?\nMögliche Interessenkonflikte\n\n\nWelche Expertise hat die Quelle?\nFachliche Kompetenz zum Thema\n\n\nWas sagen unabhängige Dritte?\nExterne Einschätzung der Glaubwürdigkeit"
+  },
+  {
+    "objectID": "workshop/vertiefung/vertical-lateral/index.html#bei-sprachmodellen-eine-spezielle-situation",
+    "href": "workshop/vertiefung/vertical-lateral/index.html#bei-sprachmodellen-eine-spezielle-situation",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "Bei Sprachmodellen: Eine spezielle Situation",
+    "text": "Bei Sprachmodellen: Eine spezielle Situation\nSprachmodelle sind ein Sonderfall. Sie haben keine “About”-Seite und keine eigene Motivation. Aber das Prinzip von Vertical vs. Lateral Reading gilt trotzdem:\n\nVertical Reading bei Sprachmodellen\nDas ist, was wir in Teil 2 des Workshops getestet haben:\n\nDas Sprachmodell fragen: “Bist du sicher?”\nNachfragen: “Kannst du das überprüfen?”\nEine Annahme einbauen und schauen, ob es widerspricht\n\nErgebnis: Funktioniert nicht. Das Sprachmodell kann sich nicht selbst prüfen — es generiert nur neue Antworten.\n\n\nLateral Reading bei Sprachmodellen\nDas ist, was wir in Teil 3 des Workshops geübt haben:\n\nDas Sprachmodell verlassen\nExtern nach der Information suchen\nPrimärquellen finden\nSelbst prüfen, ob die Quelle das sagt, was das Sprachmodell behauptet\n\nErgebnis: Funktioniert. Nur externe Quellen können die Richtigkeit bestätigen."
+  },
+  {
+    "objectID": "workshop/vertiefung/vertical-lateral/index.html#wann-eine-quelle-vertrauenswürdig-ist",
+    "href": "workshop/vertiefung/vertical-lateral/index.html#wann-eine-quelle-vertrauenswürdig-ist",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "Wann eine Quelle vertrauenswürdig ist",
+    "text": "Wann eine Quelle vertrauenswürdig ist\nWenn du bei deiner Recherche auf eine Quelle stösst, prüfe:\n\nCheckliste für Quellenautorität\n\nExpertise: Sind die Autoren Fachleute auf dem Gebiet?\nRedaktionsprozesse: Gibt es Editoren, Faktenprüfer, Peer Review?\nKorrekturkultur: Gibt die Quelle Fehler zu und korrigiert sie?\nKeine Interessenkonflikte: Hat die Quelle einen Grund, die Information zu verzerren?\nUnabhängige Bestätigung: Sagen andere verlässliche Quellen dasselbe?\n\n\n\nHierarchie der Quellen\n\n\n\n\n\n\n\nVertrauenswürdigkeit\nQuellentyp\n\n\n\n\nHoch\nPrimärquellen (Originaldaten, Gesetze, offizielle Statistiken)\n\n\nHoch\nPeer-reviewed wissenschaftliche Publikationen\n\n\nMittel\nQualitätsjournalismus mit Redaktionsprozessen\n\n\nMittel\nWikipedia (als Einstieg, nicht als Endquelle)\n\n\nNiedrig\nBlogs, Foren, Social Media\n\n\nSehr niedrig\nAnonyme Quellen, AI-generierte Zusammenfassungen"
+  },
+  {
+    "objectID": "workshop/vertiefung/vertical-lateral/index.html#zusammenfassung",
+    "href": "workshop/vertiefung/vertical-lateral/index.html#zusammenfassung",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\n\n\n\n\n\nKey-pointDie Kernregel\n\n\n\nVertraue nie darauf, was eine Quelle über sich selbst sagt.\nVerlasse die Quelle und prüfe extern:\n\nWer steckt dahinter?\nWelche Motivation könnte die Quelle haben?\nWas sagen unabhängige Dritte?\nSteht in der Quelle wirklich das, was behauptet wird?"
+  },
+  {
+    "objectID": "workshop/vertiefung/vertical-lateral/index.html#weiterführend",
+    "href": "workshop/vertiefung/vertical-lateral/index.html#weiterführend",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "Weiterführend",
+    "text": "Weiterführend\nDiese Konzepte stammen aus der Forschung zu Civic Online Reasoning der Stanford History Education Group. Mehr dazu:\n\nStanford History Education Group: Civic Online Reasoning\nSIFT-Methode von Mike Caulfield"
   }
 ]

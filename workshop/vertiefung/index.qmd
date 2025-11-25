@@ -3,11 +3,17 @@ title: "Vertiefung"
 subtitle: "Ergänzende Materialien für komplexere Situationen"
 ---
 
-Diese Materialien ergänzen den Workshop um drei Aspekte, die im 40-Minuten-Format nicht vollständig behandelt werden:
+Diese Materialien ergänzen den Workshop um Aspekte, die im 40-Minuten-Format nicht vollständig behandelt werden:
 
 1. **Nicht verifizierbare Behauptungen** --- wenn keine Quelle existiert
 2. **Quellen jenseits der Schweiz** --- internationale und branchenspezifische Ressourcen
 3. **Zeitliche Gültigkeit** --- ist die Information noch aktuell?
+
+::: {.callout-note appearance="minimal"}
+### Siehe auch
+
+**[Vertical vs. Lateral Reading](vertical-lateral/index.qmd)** --- Warum wir die Quelle verlassen müssen: Die theoretische Grundlage der Workshop-Methode.
+:::
 
 ---
 
@@ -218,6 +224,7 @@ Ergänze die Workshop-Entscheidungsregel um diese Fragen:
 
 ### Zur Vertiefung
 
+- [Stanford Civic Online Reasoning](https://cor.stanford.edu/) --- Forschung und Unterrichtsmaterialien zu Lateral Reading
 - [SIFT-Methode](https://hapgood.us/2019/06/19/sift-the-four-moves/) --- die englischsprachige Grundlage für Lateral Reading
 - [Correctiv](https://correctiv.org) --- deutschsprachiges Fact-Checking
 - [AFP Faktencheck](https://faktencheck.afp.com) --- deutschsprachig, auch Schweizer Themen

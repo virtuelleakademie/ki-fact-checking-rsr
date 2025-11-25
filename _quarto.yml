@@ -41,6 +41,8 @@ website:
             file: handout.qmd
           - text: "Vertiefung"
             href: workshop/vertiefung/index.qmd
+          - text: "Vertical vs. Lateral Reading"
+            href: workshop/vertiefung/vertical-lateral/index.qmd
 
     tools:
       - icon: lightbulb-fill
