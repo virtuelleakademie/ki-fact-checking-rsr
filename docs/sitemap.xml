@@ -1,59 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/handout.html</loc>
-    <lastmod>2025-11-25T09:59:12.323Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/workshop/moderation/index.html</loc>
-    <lastmod>2025-11-25T07:14:14.486Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/workshop/index.html</loc>
-    <lastmod>2025-11-25T09:52:33.597Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/workshop/experiment-2/index.html</loc>
-    <lastmod>2025-11-25T09:54:22.812Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/workshop/entscheidungsregel/index.html</loc>
-    <lastmod>2025-11-25T09:52:33.596Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/index.html</loc>
-    <lastmod>2025-11-25T10:28:50.215Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/workshop/experiment-1/index.html</loc>
-    <lastmod>2025-11-25T09:54:54.347Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/workshop/framing/index.html</loc>
-    <lastmod>2025-11-25T09:54:43.350Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/workshop/lateral-reading/index.html</loc>
-    <lastmod>2025-11-25T09:55:12.045Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/workshop/vertiefung/index.html</loc>
-    <lastmod>2025-11-25T09:54:42.721Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/workshop/vertiefung/vertical-lateral.html</loc>
-    <lastmod>2025-11-25T08:00:38.738Z</lastmod>
+    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/materialien.html</loc>
+    <lastmod>2025-11-25T21:12:18.012Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/workshop/vertiefung/vertical-lateral/index.html</loc>
-    <lastmod>2025-11-25T09:52:33.598Z</lastmod>
+    <lastmod>2025-11-25T21:12:18.018Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/workshop/vertiefung/confirmation-bias/index.html</loc>
-    <lastmod>2025-11-25T10:33:31.512Z</lastmod>
+    <lastmod>2025-11-25T21:12:18.018Z</lastmod>
   </url>
   <url>
-    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/materialien.html</loc>
-    <lastmod>2025-11-25T09:52:33.590Z</lastmod>
+    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/workshop/index.html</loc>
+    <lastmod>2025-11-25T22:34:29.165Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/workshop/experiment-2/index.html</loc>
+    <lastmod>2025-11-25T21:12:18.018Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/workshop/entscheidungsregel/index.html</loc>
+    <lastmod>2025-11-25T22:34:43.943Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/index.html</loc>
+    <lastmod>2025-11-25T21:12:18.011Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/workshop/experiment-1/index.html</loc>
+    <lastmod>2025-11-25T21:12:18.017Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/workshop/framing/index.html</loc>
+    <lastmod>2025-11-25T21:12:18.018Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/workshop/lateral-reading/index.html</loc>
+    <lastmod>2025-11-25T23:26:50.423Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/workshop/vertiefung/index.html</loc>
+    <lastmod>2025-11-25T23:26:40.278Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-fact-checking-rsr/handout.html</loc>
+    <lastmod>2025-11-25T21:12:18.011Z</lastmod>
   </url>
 </urlset>

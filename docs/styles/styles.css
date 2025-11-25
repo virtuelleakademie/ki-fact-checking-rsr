@@ -70,3 +70,62 @@
         url('..fonts/open-sans-v34-vietnamese_latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-700.woff') format('woff');
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
+/* Callouts: subtle backgrounds and icon accents */
+.callout.callout-experiment .callout-icon {
+    background-color: rgba(154, 70, 101, 0.12);
+    color: #9A4665;
+}
+
+.callout.callout-experiment > .callout-body {
+    background-color: rgba(154, 70, 101, 0.05);
+    border-radius: 6px;
+}
+
+.callout.callout-reflect .callout-icon {
+    background-color: rgba(111, 66, 193, 0.12);
+    color: #6f42c1;
+}
+
+.callout.callout-reflect > .callout-body {
+    background-color: rgba(111, 66, 193, 0.05);
+    border-radius: 6px;
+}
+
+.callout.callout-warning .callout-icon {
+    background-color: rgba(253, 126, 20, 0.15);
+    color: #fd7e14;
+}
+
+.callout.callout-warning > .callout-body {
+    background-color: rgba(253, 126, 20, 0.06);
+    border-radius: 6px;
+}
+
+/* Tables: striped, readable, left-aligned */
+.quarto-table-container table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.quarto-table-container table th,
+.quarto-table-container table td {
+    padding: 0.6rem 0.75rem;
+    text-align: left;
+}
+
+.quarto-table-container table thead th {
+    background-color: #f3f4f6;
+    color: #1f2933;
+    font-weight: 700;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.quarto-table-container table tbody tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+.quarto-table-container table tbody tr:hover {
+    background-color: #f1f5f9;
+}

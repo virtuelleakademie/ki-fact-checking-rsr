@@ -1,179 +1,212 @@
 [
   {
-    "objectID": "handout.html",
-    "href": "handout.html",
-    "title": "Lateral Reading",
+    "objectID": "materialien.html",
+    "href": "materialien.html",
+    "title": "Materialien",
     "section": "",
-    "text": "Würde ich diese Information in einem formellen Dokument zitieren?\n\nJA → Extern verifizieren\nNEIN → Sprachmodell reicht",
+    "text": "Diese Seite bietet einen Überblick über alle ergänzenden Materialien zum Workshop.",
     "crumbs": [
-      "Materialien",
-      "Lateral Reading"
+      "Materialien"
     ]
   },
   {
-    "objectID": "handout.html#warum-nachfragen-beim-sprachmodell-nicht-hilft",
-    "href": "handout.html#warum-nachfragen-beim-sprachmodell-nicht-hilft",
-    "title": "Handout: Lateral Reading",
+    "objectID": "materialien.html#handout",
+    "href": "materialien.html#handout",
+    "title": "Materialien",
+    "section": "Handout",
+    "text": "Handout\n\nHandout: Lateral Reading: Kompakte Zusammenfassung der Workshop-Methode zum Ausdrucken oder Nachschlagen.",
+    "crumbs": [
+      "Materialien"
+    ]
+  },
+  {
+    "objectID": "materialien.html#vertiefungsartikel",
+    "href": "materialien.html#vertiefungsartikel",
+    "title": "Materialien",
+    "section": "Vertiefungsartikel",
+    "text": "Vertiefungsartikel\nDiese Artikel vertiefen einzelne Aspekte, die im 40-Minuten-Workshop nicht vollständig behandelt werden können:\n\nVertiefung: Nicht verifizierbare Behauptungen und zeitliche Gültigkeit von Informationen.\nVertical vs. Lateral Reading: Warum wir die Quelle verlassen müssen. Die theoretische Grundlage der Workshop-Methode.\nConfirmation Bias und KI: Warum Chatbots uns recht geben und wie wir dagegen vorgehen können.",
+    "crumbs": [
+      "Materialien"
+    ]
+  },
+  {
+    "objectID": "workshop/vertiefung/vertical-lateral/index.html",
+    "href": "workshop/vertiefung/vertical-lateral/index.html",
+    "title": "Vertical vs. Lateral Reading",
     "section": "",
-    "text": "Sprachmodelle haben keinen Zugang zu ihrem eigenen “Denkprozess”\n“Bist du sicher?” generiert nur eine neue Antwort\nSprachmodelle tendieren dazu, deine Annahmen zu bestätigen\nÜberzeugend formuliert ≠ korrekt",
+    "text": "Wenn wir eine Information prüfen wollen, gibt es zwei grundsätzlich verschiedene Ansätze:\n\n\n\n\n\n\n\nVertical Reading\nLateral Reading\n\n\n\n\nInnerhalb der Quelle bleiben\nDie Quelle verlassen\n\n\n“About”-Seite lesen\nSuchen, was andere über die Quelle sagen\n\n\nDesign und Aufmachung bewerten\nUnabhängige Einschätzungen finden\n\n\nQuellenangaben der Quelle prüfen\nQuellenangaben extern verifizieren",
     "crumbs": [
       "Materialien",
-      "Handout: Lateral Reading"
+      "Vertiefung",
+      "Vertical vs. Lateral Reading"
     ]
   },
   {
-    "objectID": "handout.html#die-eine-frage",
-    "href": "handout.html#die-eine-frage",
-    "title": "Handout: Lateral Reading",
-    "section": "Die Eine Frage",
-    "text": "Die Eine Frage\n\n\n\n\n\n\nWürde ich diese Information in einem formellen Dokument zitieren?\n\nJA = Extern verifizieren (Lateral Reading)\nNEIN = Antwort vom Sprachmodell reicht",
-    "crumbs": [
-      "Materialien",
-      "Handout: Lateral Reading"
-    ]
-  },
-  {
-    "objectID": "handout.html#lateral-reading-in-3-schritten",
-    "href": "handout.html#lateral-reading-in-3-schritten",
-    "title": "Handout: Lateral Reading",
-    "section": "Lateral Reading in 3 Schritten",
-    "text": "Lateral Reading in 3 Schritten\n\n1. Suchbegriffe formulieren\n\n\n\nNicht\n“Stimmt das?” oder Sprachmodell nochmal fragen\n\n\nSondern\n“[Thema] Schweiz Statistik/Gesetz”\n\n\n\n\n\n2. Suchergebnisse filtern\n\n\n\nQuelle\nBewertung\n\n\n\n\nPrimärquellen: .admin.ch, .edu, offizielle Berichte\nKlicken\n\n\nWikipedia\nNur als Einstieg, nicht zitieren\n\n\nAI-generierte Zusammenfassungen, Blogs, Foren\nÜberspringen\n\n\n\n\n\n3. Zur Original-Quelle gehen\n\nGoogle-Zusammenfassung reicht nicht\nWebsite öffnen, echte Daten finden\nKeine Quelle gefunden = Aussage vom Sprachmodell nicht verwendbar"
-  },
-  {
-    "objectID": "handout.html#deine-quellen-shortcuts",
-    "href": "handout.html#deine-quellen-shortcuts",
-    "title": "Handout: Lateral Reading",
-    "section": "Deine Quellen-Shortcuts",
-    "text": "Deine Quellen-Shortcuts\n\nZahlen & Statistiken\n\nbfs.admin.ch (Bundesamt für Statistik)\nseco.admin.ch (Arbeitsmarkt, Wirtschaft)\nUni-eigene Zahlen & Fakten\n\n\n\nRecht & Regulierung\n\nadmin.ch (Bundesgesetze)\nedoeb.admin.ch (Datenschutz)\nRechtsdienst deiner Institution\n\n\n\nInterne Prozesse\n\nIntranet\nHR-Richtlinien & Reglemente\nDirekt bei Fachabteilung nachfragen"
-  },
-  {
-    "objectID": "handout.html#wann-besonders-skeptisch-sein",
-    "href": "handout.html#wann-besonders-skeptisch-sein",
-    "title": "Handout: Lateral Reading",
-    "section": "Wann besonders skeptisch sein",
-    "text": "Wann besonders skeptisch sein\n\n\n\n\n\n\nWarningRote Flaggen\n\n\n\n\nSpezifitätsfalle: Je präziser die Zahlen, desto vertrauenswürdiger wirkt es. Aber Spezifität ≠ Richtigkeit.\nDas Sprachmodell bestätigt genau das, was du vermutet hast\nDu hast eine Annahme in die Frage eingebaut\nEs geht um rechtliche oder finanzielle Entscheidungen",
-    "crumbs": [
-      "Materialien",
-      "Handout: Lateral Reading"
-    ]
-  },
-  {
-    "objectID": "handout.html#stärken-und-schwächen-von-sprachmodellen",
-    "href": "handout.html#stärken-und-schwächen-von-sprachmodellen",
-    "title": "Handout: Lateral Reading",
-    "section": "Stärken und Schwächen von Sprachmodellen",
-    "text": "Stärken und Schwächen von Sprachmodellen\n\n\n\nGut geeignet für\nNicht zuverlässig für\n\n\n\n\nErste Ideen sammeln\nSpezifische Fakten\n\n\nText umformulieren\nRechtliche Verbindlichkeit\n\n\nKonzepte erklären\nAktuelle Zahlen\n\n\nStrukturen vorschlagen\nInterne Regelungen\n\n\nBrainstorming\nQuellenangaben (oft erfunden!)",
-    "crumbs": [
-      "Materialien",
-      "Handout: Lateral Reading"
-    ]
-  },
-  {
-    "objectID": "workshop/moderation/index.html",
-    "href": "workshop/moderation/index.html",
-    "title": "Moderationsleitfaden",
+    "objectID": "workshop/vertiefung/vertical-lateral/index.html#zwei-arten-zu-lesen",
+    "href": "workshop/vertiefung/vertical-lateral/index.html#zwei-arten-zu-lesen",
+    "title": "Vertical vs. Lateral Reading",
     "section": "",
-    "text": "Dieser Leitfaden enthält alle Anweisungen für die Durchführung des Workshops. Die Teilnehmenden-Materialien sind davon getrennt.",
+    "text": "Wenn wir eine Information prüfen wollen, gibt es zwei grundsätzlich verschiedene Ansätze:\n\n\n\n\n\n\n\nVertical Reading\nLateral Reading\n\n\n\n\nInnerhalb der Quelle bleiben\nDie Quelle verlassen\n\n\n“About”-Seite lesen\nSuchen, was andere über die Quelle sagen\n\n\nDesign und Aufmachung bewerten\nUnabhängige Einschätzungen finden\n\n\nQuellenangaben der Quelle prüfen\nQuellenangaben extern verifizieren",
     "crumbs": [
-      "Workshop",
-      "Für Leitende",
-      "Moderationsleitfaden"
+      "Materialien",
+      "Vertiefung",
+      "Vertical vs. Lateral Reading"
     ]
   },
   {
-    "objectID": "workshop/moderation/index.html#überblick",
-    "href": "workshop/moderation/index.html#überblick",
-    "title": "Moderationsleitfaden",
-    "section": "Überblick",
-    "text": "Überblick\n\n\n\nZeit\nPhase\nDauer\n\n\n\n\n0:00–0:30\nEinstieg\n30 Sek\n\n\n0:30–8:30\nTeil 1: Das Sprachmodell liegt falsch\n8 Min\n\n\n8:30–14:30\nTeil 2: Warum Nachfragen nicht hilft\n6 Min\n\n\n14:30–36:30\nTeil 3: Lateral Reading\n22 Min\n\n\n36:30–40:00\nTeil 4: Die Entscheidungsregel\n3.5 Min\n\n\n\nGesamtdauer: 40 Minuten",
+    "objectID": "workshop/vertiefung/vertical-lateral/index.html#vertical-reading-das-problem",
+    "href": "workshop/vertiefung/vertical-lateral/index.html#vertical-reading-das-problem",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "Vertical Reading: Das Problem",
+    "text": "Vertical Reading: Das Problem\nBei Vertical Reading bleiben wir innerhalb der Quelle und versuchen, ihre Glaubwürdigkeit anhand dessen zu beurteilen, was sie selbst über sich sagt.\n\nWarum das nicht funktioniert\n\n\n\n\n\n\nWarnungQuellen kontrollieren ihre Selbstdarstellung\n\n\n\n\nEine “About”-Seite wird von der Organisation selbst geschrieben\nWürdest du etwas Schlechtes über dich selbst schreiben?\nJede Quelle hat Gründe, sich vertrauenswürdig darzustellen\nSelbst unseriöse Quellen können professionell aussehen\n\n\n\n\n\nBeispiele für Vertical Reading\n\nDie “About”-Seite einer Website lesen\nPrüfen, ob die Seite professionell gestaltet ist\nSchauen, ob Quellenangaben genannt werden\nDie Qualifikationen lesen, die jemand über sich selbst angibt\n\nDas Problem: All diese Informationen werden von der Quelle selbst kontrolliert.",
     "crumbs": [
-      "Workshop",
-      "Für Leitende",
-      "Moderationsleitfaden"
+      "Materialien",
+      "Vertiefung",
+      "Vertical vs. Lateral Reading"
     ]
   },
   {
-    "objectID": "workshop/moderation/index.html#vorbereitung",
-    "href": "workshop/moderation/index.html#vorbereitung",
-    "title": "Moderationsleitfaden",
-    "section": "Vorbereitung",
-    "text": "Vorbereitung\n\n24 Stunden vorher\nTeil 1 – Beispiel testen:\n\nPrompt bei ChatGPT, Claude, Gemini testen\nAntworten notieren — variieren sie? Sind sie falsch?\nOffizielle Quelle finden (BFS etc.)\nBackup-Prompt bereit haben\n\nTeil 2 – Nachfragen-Experimente testen:\n\nSelbstprüfungs-Prompt testen (“Bist du sicher?”)\nFührenden Prompt testen (mit eingebauter Annahme)\nPrüfen ob Effekte sichtbar sind\n\nTeil 3 – Szenarien:\n\n6 Szenarien ausdrucken oder Projektion vorbereiten\n2–3 Szenarien selbst durchspielen\nQuellen-URLs notieren\n\nBackup:\n\n2–3 Screenshots von klaren Fehlern aus früheren Tests\n\n\n\n10 Minuten vor Workshop\n\nProjektor testen\nTabs geöffnet: ChatGPT/Claude/Gemini, BFS, admin.ch, Uni-Statistiken\nHandouts bereit\n\n\n\nBenötigte Materialien\nTechnisch:\n\nAlle Teilnehmenden haben Laptops/Tablets mit Internet\nProjektor für Demonstrationen\nZugang zu mindestens einem Sprachmodell (ChatGPT, Claude, oder Gemini)\n\nVorbereitet:\n\nTeil 1 Beispiel: 24 Stunden vorher testen und final auswählen\nTeil 2 Experimente: Selbstprüfungs-Prompt und führenden Prompt vorher testen\nTeil 3 Szenarien: 6 arbeitsbezogene Szenarien\nHandout: Quick-Reference-Karte\nBackup: Screenshots von 2–3 klaren Fehlern von Sprachmodellen",
+    "objectID": "workshop/vertiefung/vertical-lateral/index.html#lateral-reading-die-lösung",
+    "href": "workshop/vertiefung/vertical-lateral/index.html#lateral-reading-die-lösung",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "Lateral Reading: Die Lösung",
+    "text": "Lateral Reading: Die Lösung\nBei Lateral Reading verlassen wir die Quelle und suchen extern nach Informationen über sie.\n\nDer Prozess\n\nNeuen Tab öffnen: Die Quelle verlassen.\nNach der Quelle suchen: Nicht nach dem Inhalt, sondern nach der Organisation oder Person dahinter.\nUnabhängige Einschätzungen finden: Was sagen andere über diese Quelle?\nMehrere Perspektiven prüfen: Nicht nur eine externe Quelle.\n\n\n\nWonach du suchst\n\n\n\n\n\n\n\nFrage\nWarum wichtig\n\n\n\n\nWer steckt hinter der Information?\nIdentität und Hintergrund der Quelle\n\n\nWelche Perspektive oder Motivation hat die Quelle?\nMögliche Interessenkonflikte\n\n\nWelche Expertise hat die Quelle?\nFachliche Kompetenz zum Thema\n\n\nWas sagen unabhängige Dritte?\nExterne Einschätzung der Glaubwürdigkeit",
     "crumbs": [
-      "Workshop",
-      "Für Leitende",
-      "Moderationsleitfaden"
+      "Materialien",
+      "Vertiefung",
+      "Vertical vs. Lateral Reading"
     ]
   },
   {
-    "objectID": "workshop/moderation/index.html#einstieg-30-sek",
-    "href": "workshop/moderation/index.html#einstieg-30-sek",
-    "title": "Moderationsleitfaden",
-    "section": "Einstieg (30 Sek)",
-    "text": "Einstieg (30 Sek)\n\nModerationstext\n\nWir starten direkt. Öffne ein Sprachmodell deiner Wahl — ChatGPT, Claude, oder Gemini.\n\nKeine weitere Einleitung. Direkt zu Teil 1.",
+    "objectID": "workshop/vertiefung/vertical-lateral/index.html#bei-sprachmodellen-eine-spezielle-situation",
+    "href": "workshop/vertiefung/vertical-lateral/index.html#bei-sprachmodellen-eine-spezielle-situation",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "Bei Sprachmodellen: Eine spezielle Situation",
+    "text": "Bei Sprachmodellen: Eine spezielle Situation\nSprachmodelle sind ein Sonderfall. Sie haben keine “About”-Seite und keine eigene Motivation. Aber das Prinzip von Vertical vs. Lateral Reading gilt trotzdem:\n\nVertical Reading bei Sprachmodellen\nDas ist, was wir in Teil 2 des Workshops getestet haben:\n\nDas Sprachmodell fragen: “Bist du sicher?”\nNachfragen: “Kannst du das überprüfen?”\nEine Annahme einbauen und schauen, ob es widerspricht\n\nErgebnis: Funktioniert nicht. Das Sprachmodell kann sich nicht selbst prüfen. Es generiert nur neue Antworten.\n\n\nLateral Reading bei Sprachmodellen\nDas ist, was wir in Teil 3 des Workshops geübt haben:\n\nDas Sprachmodell verlassen\nExtern nach der Information suchen\nPrimärquellen finden\nSelbst prüfen, ob die Quelle das sagt, was das Sprachmodell behauptet\n\nErgebnis: Funktioniert. Nur externe Quellen können die Richtigkeit bestätigen.",
     "crumbs": [
-      "Workshop",
-      "Für Leitende",
-      "Moderationsleitfaden"
+      "Materialien",
+      "Vertiefung",
+      "Vertical vs. Lateral Reading"
     ]
   },
   {
-    "objectID": "workshop/moderation/index.html#teil-1-das-sprachmodell-liegt-falsch-8-min",
-    "href": "workshop/moderation/index.html#teil-1-das-sprachmodell-liegt-falsch-8-min",
-    "title": "Moderationsleitfaden",
-    "section": "Teil 1: Das Sprachmodell liegt falsch (8 Min)",
-    "text": "Teil 1: Das Sprachmodell liegt falsch (8 Min)\nZiel: Gemeinsam erleben, dass Sprachmodelle überzeugend falsch sein können.\n\nDas Experiment (5 Min)\n\nAlle stellen dieselbe Frage. Kopiere diesen Prompt.\n\nAlle testen den Prompt zur Bachelorabschlussquote (siehe Teilnehmenden-Material).\n\n\nAlternative Prompts\nFalls du andere Themen bevorzugst (vorher testen, einen auswählen):\n\n“Wie hoch sind die durchschnittlichen IT-Kosten pro Studierenden an Schweizer Unis?”\n“Wie viele Verwaltungsmitarbeitende hat die Universität Bern?”\n“Welcher Prozentsatz der Uni-Mitarbeitenden arbeitet in Teilzeit?”\n\n\n\n\n\n\n\nImportantWichtig: 24h vorher testen!\n\n\n\nWähle die Frage, bei der:\n\nDie Antworten zwischen Teilnehmenden variieren werden, ODER\nDie Antwort falsch/ungenau ist, ODER\nDie Antwort sehr spezifisch klingt aber nicht verifizierbar ist\n\n\n\n\n\nAntworten sammeln\n\nWer möchte seine Antwort vorlesen?\n\n3–4 Teilnehmende teilen ihre Antworten. Notiere die Zahlen sichtbar (Tafel/Flipchart).\n\n\nAuswertung durch Lateral Reading (3 Min)\n\nWir haben verschiedene Zahlen. Jetzt prüfen wir. Schau zu.\n\nLive-Demonstration am Projektor:\n\nNeuen Browser-Tab öffnen (nicht das Sprachmodell fragen)\nSuchen: BFS Studiendauer Bachelor Schweiz\nSuchergebnisse zeigen: &gt; Hier ist bfs.admin.ch — das Bundesamt für Statistik. Das ist eine Primärquelle.\nZur BFS-Seite navigieren, offizielle Statistik zeigen\nMit den Antworten der Sprachmodelle vergleichen\n\n\n\nBeobachtungen sammeln\n\nWas siehst du?\n\nTeilnehmende berichten: Zahlen stimmen nicht überein, das Modell war spezifisch aber falsch, etc.\n\n\nMinimaler Frame\nErst nach den Berichten der Teilnehmenden:\n\nDie Antwort klang überzeugend. Spezifische Zahl, selbstsicher formuliert. Aber nicht richtig. Das ist das Muster: Überzeugend heisst nicht korrekt.\n\n\n\nTroubleshooting\nAlle Antworten sind gleich und korrekt?\nSelten, aber möglich. Optionen:\nOption A:\n\nDas Modell hat heute gut geantwortet. Aber schau: Hat es eine Quelle genannt? Woher weisst du, dass die Zahl stimmt — ausser dass das Sprachmodell es sagt?\n\nOption B:\nBackup-Screenshot zeigen:\n\nLetzte Woche sah das so aus…\n\nDann weiter zu Teil 2 — der Punkt “Sprachmodelle können sich nicht selbst prüfen” funktioniert unabhängig davon.",
+    "objectID": "workshop/vertiefung/vertical-lateral/index.html#wann-eine-quelle-vertrauenswürdig-ist",
+    "href": "workshop/vertiefung/vertical-lateral/index.html#wann-eine-quelle-vertrauenswürdig-ist",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "Wann eine Quelle vertrauenswürdig ist",
+    "text": "Wann eine Quelle vertrauenswürdig ist\nWenn du bei deiner Recherche auf eine Quelle stösst, prüfe:\n\nCheckliste für Quellenautorität\n\nExpertise: Sind die Autoren Fachleute auf dem Gebiet?\nRedaktionsprozesse: Gibt es Editoren, Faktenprüfer, Peer Review?\nKorrekturkultur: Gibt die Quelle Fehler zu und korrigiert sie?\nKeine Interessenkonflikte: Hat die Quelle einen Grund, die Information zu verzerren?\nUnabhängige Bestätigung: Sagen andere verlässliche Quellen dasselbe?\n\n\n\nHierarchie der Quellen\n\n\n\n\n\n\n\nVertrauenswürdigkeit\nQuellentyp\n\n\n\n\nHoch\nPrimärquellen (Originaldaten, Gesetze, offizielle Statistiken)\n\n\nHoch\nPeer-reviewed wissenschaftliche Publikationen\n\n\nMittel\nQualitätsjournalismus mit Redaktionsprozessen\n\n\nMittel\nWikipedia (als Einstieg, nicht als Endquelle)\n\n\nNiedrig\nBlogs, Foren, Social Media\n\n\nSehr niedrig\nAnonyme Quellen, AI-generierte Zusammenfassungen",
     "crumbs": [
-      "Workshop",
-      "Für Leitende",
-      "Moderationsleitfaden"
+      "Materialien",
+      "Vertiefung",
+      "Vertical vs. Lateral Reading"
     ]
   },
   {
-    "objectID": "workshop/moderation/index.html#teil-2-warum-nachfragen-nicht-hilft-6-min",
-    "href": "workshop/moderation/index.html#teil-2-warum-nachfragen-nicht-hilft-6-min",
-    "title": "Moderationsleitfaden",
-    "section": "Teil 2: Warum Nachfragen nicht hilft (6 Min)",
-    "text": "Teil 2: Warum Nachfragen nicht hilft (6 Min)\nZiel: Entdecken, dass Sprachmodelle sich nicht selbst prüfen können — und dass sie Annahmen bestätigen.\n\nExperiment A: Selbstprüfung (2 Min)\n\nEine naheliegende Idee: Frag das Sprachmodell, ob es sicher ist. Probiere das jetzt.\n\nTeilnehmende testen den Selbstprüfungs-Prompt.\n\nWas ist passiert? Ein paar Beispiele.\n\n2–3 Teilnehmende berichten kurz.\n\n\nExperiment B: Annahme einbauen (2 Min)\n\nJetzt ein zweiter Test. Starte einen neuen Chat und stelle die Frage so:\n\nTeilnehmende testen den führenden Prompt.\n\nWas sagt das Modell jetzt?\n\n2–3 Teilnehmende berichten kurz.\n\n\nAuswertung (2 Min)\n\nDu hast zwei Dinge ausprobiert. Was hast du beobachtet?\n\nTypische Antworten:\n\n“Sie hat einfach nochmal dasselbe gesagt”\n“Sie hat meine Zahl bestätigt”\n“Sie hat ‘korrigiert’ aber ohne echte Quelle”\n\n\n\nMinimaler Frame\nErst nach den Berichten der Teilnehmenden:\n\nZwei Beobachtungen:\nErstens: Das Sprachmodell kann sich nicht selbst prüfen. Es hat keinen Zugang zu seinem eigenen Denkprozess — es generiert einfach die nächste plausible Antwort. Das ist keine Prüfung, das ist mehr vom Gleichen.\nZweitens: Es bestätigt tendenziell das, was du andeutest. Deine Annahmen fliessen in die Antwort ein.\nBeide Wege sind blockiert. Bleibt: Externe Quellen. Das üben wir jetzt.\n\n\n\nTroubleshooting\nDas Modell sagt “Ich bin nicht sicher” oder verweigert?\nManchmal gut trainierte Antwort. Nutze es:\n\nEs hat Unsicherheit signalisiert. Aber: Ist das eine echte Prüfung oder eine trainierte Antwort? Bei anderen Fragen bekommst du diese Warnung nicht. Verlassen kannst du dich darauf nicht.",
+    "objectID": "workshop/vertiefung/vertical-lateral/index.html#zusammenfassung",
+    "href": "workshop/vertiefung/vertical-lateral/index.html#zusammenfassung",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "Zusammenfassung",
+    "text": "Zusammenfassung\n\n\n\n\n\n\nKey-pointDie Kernregel\n\n\n\nVertraue nie darauf, was eine Quelle über sich selbst sagt.\nVerlasse die Quelle und prüfe extern:\n\nWer steckt dahinter?\nWelche Motivation könnte die Quelle haben?\nWas sagen unabhängige Dritte?\nSteht in der Quelle wirklich das, was behauptet wird?",
     "crumbs": [
-      "Workshop",
-      "Für Leitende",
-      "Moderationsleitfaden"
+      "Materialien",
+      "Vertiefung",
+      "Vertical vs. Lateral Reading"
     ]
   },
   {
-    "objectID": "workshop/moderation/index.html#teil-3-lateral-reading-22-min",
-    "href": "workshop/moderation/index.html#teil-3-lateral-reading-22-min",
-    "title": "Moderationsleitfaden",
-    "section": "Teil 3: Lateral Reading (22 Min)",
-    "text": "Teil 3: Lateral Reading (22 Min)\nZiel: Die Technik praktisch anwenden — von geführt bis selbständig.\n\nRunde 1: Gemeinsam (7 Min)\n\nLateral Reading heisst: Raus aus dem Sprachmodell, eigene Suche, Primärquellen finden. Wir machen das jetzt gemeinsam.\n\nSzenario vorstellen:\n\nDas Sprachmodell sagt: “Das durchschnittliche Gehalt für Verwaltungsmitarbeitende an Schweizer Universitäten liegt bei CHF 78’000 brutto pro Jahr.” Du willst das für einen Budgetantrag verwenden.\n\nSchritt 1: Suchbegriffe (1.5 Min)\n\nWie würdest du suchen? Nicht das Sprachmodell fragen. Was tippst du bei Google ein?\n\nTeilnehmende machen Vorschläge.\n\nGute Begriffe: “Schweiz Universität Verwaltung Gehalt Statistik” oder “swissuniversities Lohnstruktur”. Nicht: “Stimmt 78000?”\n\nSchritt 2: Suchergebnisse filtern (1.5 Min)\nAm Projektor suchen und Ergebnisse bewerten:\n\nWas sehen wir hier? jobs.ch — das sind Stellenanzeigen, nicht offizielle Statistik. Hier ein Blog — überspringen. BFS — das ist eine Primärquelle. swissuniversities — auch gut.\n\nSchritt 3: Zur Quelle gehen (2 Min)\n\nWichtig: Nicht die Google-Zusammenfassung lesen. Zur echten Seite gehen.\n\nBFS oder swissuniversities öffnen, navigieren, zeigen was man findet (oder nicht findet).\nSchritt 4: Ergebnis besprechen (2 Min)\n\nWas haben wir gefunden?\n\nTeilnehmende berichten. Typisches Ergebnis: Die exakte Zahl existiert nicht in dieser Form.\n\nDas ist selbst eine wichtige Information. Die Zahl vom Sprachmodell ist nicht verifizierbar — also nicht verwendbar für einen Budgetantrag.\n\n\n\nRunde 2: In Kleingruppen (8 Min)\n\nWähle ein Szenario. Du hast 5 Minuten.\n\n6 Szenarien projizieren oder austeilen (siehe Teilnehmenden-Material).\nWährend Teilnehmende arbeiten:\n\nHerumgehen, bei Suchbegriffen helfen falls nötig\nNotieren, wer interessante Funde hat\n\nAuswertung (3 Min):\n\nWer hat etwas gefunden? Oder etwas Interessantes entdeckt?\n\n3–4 Teilnehmende berichten kurz:\n\nWelches Szenario?\nWas gefunden?\nWar das Modell richtig, falsch, oder nicht prüfbar?\n\n\n\nRunde 3: Eigenes Beispiel (7 Min)\n\nJetzt dein eigener Fall. Denk an etwas, das du diese Woche ein Sprachmodell fragen könntest — oder schon gefragt hast.\n\nAufgabe auf Projektor zeigen (siehe Teilnehmenden-Material).\nTeilen (3 Min):\n\nWer möchte teilen?\n\n2–3 Freiwillige berichten.\nBei jedem Beispiel fragen:\n\nWürdest du diese Information in einem formellen Dokument verwenden?\n\nDas bereitet Teil 4 vor.\n\n\nTroubleshooting\nTeilnehmende finden keine Quelle:\nDas ist selbst lehrreich:\n\nDu findest keine offizielle Quelle? Das ist wichtige Information. Die Aussage vom Sprachmodell ist nicht verifizierbar — also nicht verwendbar für wichtige Entscheidungen.\n\nZeit wird knapp:\nKürze Runde 3 (eigenes Beispiel). Der Kern ist Runde 1 (gemeinsam) und Runde 2 (Szenarien).",
+    "objectID": "workshop/vertiefung/vertical-lateral/index.html#weiterführend",
+    "href": "workshop/vertiefung/vertical-lateral/index.html#weiterführend",
+    "title": "Vertical vs. Lateral Reading",
+    "section": "Weiterführend",
+    "text": "Weiterführend\nDiese Konzepte stammen aus der Forschung zu Civic Online Reasoning der Stanford History Education Group. Mehr dazu:\n\nStanford History Education Group: Civic Online Reasoning\nSIFT-Methode von Mike Caulfield",
     "crumbs": [
-      "Workshop",
-      "Für Leitende",
-      "Moderationsleitfaden"
+      "Materialien",
+      "Vertiefung",
+      "Vertical vs. Lateral Reading"
     ]
   },
   {
-    "objectID": "workshop/moderation/index.html#teil-4-die-entscheidungsregel-3.5-min",
-    "href": "workshop/moderation/index.html#teil-4-die-entscheidungsregel-3.5-min",
-    "title": "Moderationsleitfaden",
-    "section": "Teil 4: Die Entscheidungsregel (3.5 Min)",
-    "text": "Teil 4: Die Entscheidungsregel (3.5 Min)\n\nDie Eine Frage (1 Min)\n\nEine einfache Frage hilft dir entscheiden:\nWürdest du diese Info in einem Bericht zitieren? In einem Antrag verwenden? Als Grundlage für eine Entscheidung nutzen?\n\nDie Entscheidungsregel zeigen (siehe Teilnehmenden-Material).\n\n\nQuellen-Shortcuts (1 Min)\nQuellen-Tabelle zeigen (siehe Teilnehmenden-Material).\n\n\nAbschluss (1.5 Min)\n\nDu hast heute drei Dinge erlebt:\nErstens — Sprachmodelle können überzeugend falsch liegen.\nZweitens — Nachfragen beim Sprachmodell ist keine echte Prüfung.\nDrittens — Lateral Reading funktioniert: Raus aus dem Sprachmodell, eigene Suche, Primärquellen.\nDas Handout hat die wichtigsten Quellen für deinen Bereich. Probiere es diese Woche einmal aus.\n\nHandout verteilen (oder auf Link verweisen).\n\nDanke.",
+    "objectID": "workshop/vertiefung/confirmation-bias/index.html",
+    "href": "workshop/vertiefung/confirmation-bias/index.html",
+    "title": "Confirmation Bias und KI",
+    "section": "",
+    "text": "Confirmation Bias ist eine der hartnäckigsten Denkfallen. Er funktioniert auf drei Ebenen:\n\nWir suchen bevorzugt nach Informationen, die unsere Meinung bestätigen\nWir interpretieren mehrdeutige Informationen so, dass sie zu uns passen\nWir erinnern uns besser an bestätigende als an widersprechende Fakten\n\nDas passiert allen Menschen, auch Experten. Studien zeigen, dass selbst Richter, Ärzte und CEOs diesem Fehler unterliegen.\n\n\n\n\n\n\nWarnungDas Problem\n\n\n\nJe überzeugter du von etwas bist, desto stärker suchst du nach Bestätigung. Und desto weniger merkst du es.",
     "crumbs": [
-      "Workshop",
-      "Für Leitende",
-      "Moderationsleitfaden"
+      "Materialien",
+      "Vertiefung",
+      "Confirmation Bias und KI"
     ]
   },
   {
-    "objectID": "workshop/moderation/index.html#erfolgskriterien",
-    "href": "workshop/moderation/index.html#erfolgskriterien",
-    "title": "Moderationsleitfaden",
-    "section": "Erfolgskriterien",
-    "text": "Erfolgskriterien\nMinimal-Erfolg: Teilnehmende haben erlebt, dass Sprachmodelle falsch liegen können, und kennen eine vertrauenswürdige Quelle für ihren Bereich.\nGuter Erfolg: Teilnehmende haben Lateral Reading selbst angewendet und verstehen, warum Nachfragen beim Sprachmodell keine Lösung ist.\nOptimaler Erfolg: Teilnehmende nehmen sich vor, diese Woche mindestens einmal eine Antwort vom Sprachmodell extern zu verifizieren.",
+    "objectID": "workshop/vertiefung/confirmation-bias/index.html#unser-gehirn-sucht-bestätigung",
+    "href": "workshop/vertiefung/confirmation-bias/index.html#unser-gehirn-sucht-bestätigung",
+    "title": "Confirmation Bias und KI",
+    "section": "",
+    "text": "Confirmation Bias ist eine der hartnäckigsten Denkfallen. Er funktioniert auf drei Ebenen:\n\nWir suchen bevorzugt nach Informationen, die unsere Meinung bestätigen\nWir interpretieren mehrdeutige Informationen so, dass sie zu uns passen\nWir erinnern uns besser an bestätigende als an widersprechende Fakten\n\nDas passiert allen Menschen, auch Experten. Studien zeigen, dass selbst Richter, Ärzte und CEOs diesem Fehler unterliegen.\n\n\n\n\n\n\nWarnungDas Problem\n\n\n\nJe überzeugter du von etwas bist, desto stärker suchst du nach Bestätigung. Und desto weniger merkst du es.",
     "crumbs": [
-      "Workshop",
-      "Für Leitende",
-      "Moderationsleitfaden"
+      "Materialien",
+      "Vertiefung",
+      "Confirmation Bias und KI"
+    ]
+  },
+  {
+    "objectID": "workshop/vertiefung/confirmation-bias/index.html#ki-chatbots-verstärken-den-effekt",
+    "href": "workshop/vertiefung/confirmation-bias/index.html#ki-chatbots-verstärken-den-effekt",
+    "title": "Confirmation Bias und KI",
+    "section": "KI-Chatbots verstärken den Effekt",
+    "text": "KI-Chatbots verstärken den Effekt\nKI-Chatbots wie ChatGPT oder Gemini haben eine eingebaute Tendenz, Nutzern zuzustimmen. Fachleute nennen das Sycophancy (Sharma u. a. 2023). Einge passende deutsche Übersetzung wäre Schmeichelei oder Anbiederung.\n\nWarum Chatbots zustimmen\nDiese Tendenz ist kein Bug, sondern entsteht durch das Training:\n\nSprachmodelle werden mit menschlichem Feedback trainiert\nMenschen bewerten Antworten positiver, wenn sie mit ihrer Meinung übereinstimmen\nDas Modell lernt: Zustimmung = gute Bewertung\nErgebnis: Das Modell optimiert auf Zustimmung statt auf Wahrheit",
+    "crumbs": [
+      "Materialien",
+      "Vertiefung",
+      "Confirmation Bias und KI"
+    ]
+  },
+  {
+    "objectID": "workshop/vertiefung/confirmation-bias/index.html#die-echo-chamber-für-eine-person",
+    "href": "workshop/vertiefung/confirmation-bias/index.html#die-echo-chamber-für-eine-person",
+    "title": "Confirmation Bias und KI",
+    "section": "Die Echo Chamber für eine Person",
+    "text": "Die Echo Chamber für eine Person\nWenn Confirmation Bias und KI-Schmeichelei zusammentreffen, entsteht ein Teufelskreis:\n\nDu stellst eine Frage, die deine Meinung andeutet\nDer Chatbot bestätigt deine Meinung\nDu fühlst dich bestärkt und fragst weiter\nDer Chatbot verstärkt weiter\nDeine Überzeugung wächst, ohne dass neue Fakten hinzukommen\n\nDaraus entsteht ein Chamber Effect: eine Filterblase, die du dir selbst erschaffst. Mit Hilfe eines KI-Systems, das gelernt hat, dir zu gefallen.\n\n\n\n\n\n\nKey-pointDer Kern des Problems\n\n\n\nKlassische Echo Chambers entstehen durch Algorithmen, die dir ähnliche Inhalte zeigen. Bei Chatbots erzeugst du die Echo Chamber selbst: durch die Art, wie du fragst, und durch ein System, das darauf trainiert ist, zuzustimmen.",
+    "crumbs": [
+      "Materialien",
+      "Vertiefung",
+      "Confirmation Bias und KI"
+    ]
+  },
+  {
+    "objectID": "workshop/vertiefung/confirmation-bias/index.html#ein-extremes-beispiel",
+    "href": "workshop/vertiefung/confirmation-bias/index.html#ein-extremes-beispiel",
+    "title": "Confirmation Bias und KI",
+    "section": "Ein extremes Beispiel",
+    "text": "Ein extremes Beispiel\nDer Fall von Allan Brooks (2025) zeigt, wie weit das gehen kann.\nEin Personalvermittler aus Toronto nutzte ChatGPT während einer schwierigen Scheidung. Was als mathematische Frage begann, entwickelte sich über 21 Tage zu einer Überzeugung, er habe eine revolutionäre mathematische Theorie entdeckt.\n\nAls er zweifelte, sagte der Chatbot: “Du klingst kein bisschen verrückt”\nAls er einen Tippfehler machte, übernahm ChatGPT den Fehler stillschweigend\n\nErst als er seine “Entdeckung” mit Gemini testete, brach die Illusion zusammen. Gemini erklärte, es handle sich um eine “überzeugende, aber letztlich falsche Erzählung”.\n\n\n\n\n\n\nWarnungDas ist ein Extremfall\n\n\n\nBrooks befand sich in einer verletzlichen psychischen Situation. Der Fall zeigt aber ein grundsätzliches Muster: Chatbots widersprechen oft nicht, auch wenn sie sollten.",
+    "crumbs": [
+      "Materialien",
+      "Vertiefung",
+      "Confirmation Bias und KI"
+    ]
+  },
+  {
+    "objectID": "workshop/vertiefung/confirmation-bias/index.html#was-du-tun-kannst",
+    "href": "workshop/vertiefung/confirmation-bias/index.html#was-du-tun-kannst",
+    "title": "Confirmation Bias und KI",
+    "section": "Was du tun kannst",
+    "text": "Was du tun kannst\n\nBeim Fragen\n\nVermeide Suggestivfragen. Nicht “Warum ist X besser als Y?”, sondern “Vergleiche X und Y”.\nBitte um Gegenargumente. “Welche Argumente sprechen gegen diese Position?”\nNutze mehrere Quellen. Frage verschiedene Chatbots, vergleiche die Antworten.\n\n\n\nBei den Antworten\n\nMisstraue Zustimmung. Wenn der Chatbot dir sofort recht gibt, ist das kein Qualitätsmerkmal.\nPrüfe extern. Verlasse den Chat und verifiziere wichtige Aussagen.\nFrage dich selbst: “Welche Antwort hätte ich mir gewünscht?” Wenn die Antwort genau das ist, ist besondere Vorsicht geboten.\n\n\n\nAdversarial Prompting\nDu kannst Chatbots explizit bitten, kritisch zu sein:\n\n“Spiele den Advocatus Diaboli. Finde alle logischen und faktischen Schwächen in meinem Argument. Sei skeptisch und direkt.”\n\n\n“Gib mir drei Gründe, warum diese Annahme falsch sein könnte. Stimme keinem Teil zu.”\n\n\n“Nenne mir zuerst die stärksten Argumente gegen meine Position, bevor du Schwächen in der Gegenposition identifizierst.”",
+    "crumbs": [
+      "Materialien",
+      "Vertiefung",
+      "Confirmation Bias und KI"
+    ]
+  },
+  {
+    "objectID": "workshop/vertiefung/confirmation-bias/index.html#die-kernbotschaft",
+    "href": "workshop/vertiefung/confirmation-bias/index.html#die-kernbotschaft",
+    "title": "Confirmation Bias und KI",
+    "section": "Die Kernbotschaft",
+    "text": "Die Kernbotschaft\n\n\n\n\n\n\nKey-pointZustimmung ist kein Qualitätsmerkmal\n\n\n\n\nKI-Chatbots sind darauf trainiert, dir zuzustimmen\nDein Gehirn sucht ohnehin nach Bestätigung\nZusammen ergibt das eine gefährliche Kombination\nDie Lösung: Aktiv nach Widerspruch suchen, bei der KI und bei dir selbst",
+    "crumbs": [
+      "Materialien",
+      "Vertiefung",
+      "Confirmation Bias und KI"
     ]
   },
   {
@@ -298,17 +331,6 @@
     ]
   },
   {
-    "objectID": "workshop/entscheidungsregel/index.html#deine-quellen-shortcuts",
-    "href": "workshop/entscheidungsregel/index.html#deine-quellen-shortcuts",
-    "title": "Teil 4: Die Entscheidungsregel",
-    "section": "Deine Quellen-Shortcuts",
-    "text": "Deine Quellen-Shortcuts\n\n\n\n\n\n\n\nKategorie\nQuellen\n\n\n\n\nZahlen, Statistiken\nBFS (bfs.admin.ch), SECO, Uni-Statistiken\n\n\nRechtliches\nadmin.ch, EDÖB, Rechtsdienst\n\n\nUni-interne Prozesse\nIntranet, HR-Richtlinien, Fachabteilung direkt\n\n\nIdeen, Brainstorming\nSprachmodell allein ist OK",
-    "crumbs": [
-      "Workshop",
-      "Teil 4: Die Entscheidungsregel"
-    ]
-  },
-  {
     "objectID": "workshop/entscheidungsregel/index.html#zusammenfassung",
     "href": "workshop/entscheidungsregel/index.html#zusammenfassung",
     "title": "Teil 4: Die Entscheidungsregel",
@@ -389,7 +411,7 @@
     "href": "workshop/experiment-1/index.html#beobachtung",
     "title": "Teil 1: Das Sprachmodell liegt falsch",
     "section": "Beobachtung",
-    "text": "Beobachtung\n\n\n\n\n\n\nReflectReflexion\n\n\n\n\nStimmen die Zahlen der Sprachmodelle mit der offiziellen Quelle überein?\nHat das Modell eine Quelle genannt?\nWie sicher klang die Antwort?\n\n\n\n\n\n\n\n\n\nKey-pointKernaussage\n\n\n\nAntworten von Sprachmodellen können sehr spezifisch und selbstbewusst klingen und trotzdem falsch sein.\nÜberzeugend heisst nicht korrekt.\n\n\n\n\n\n\n\n\nWarningDie Spezifitätsfalle\n\n\n\nJe spezifischer eine Antwort klingt (genaue Zahlen, Daten, Namen), desto vertrauenswürdiger wirkt sie. Aber Spezifität ist kein Beweis für Richtigkeit. Sprachmodelle generieren oft sehr präzise klingende Details, die frei erfunden sind.",
+    "text": "Beobachtung\n\n\n\n\n\n\nReflectReflexion\n\n\n\n\nStimmen die Zahlen der Sprachmodelle mit der offiziellen Quelle überein?\nHat das Modell eine Quelle genannt?\nWie sicher klang die Antwort?\n\n\n\n\n\n\n\n\n\nKey-pointKernaussage\n\n\n\nAntworten von Sprachmodellen können sehr spezifisch und selbstbewusst klingen und trotzdem falsch sein.\nÜberzeugend heisst nicht korrekt.\n\n\n\n\n\n\n\n\nWarnungDie Spezifitätsfalle\n\n\n\nJe spezifischer eine Antwort klingt (genaue Zahlen, Daten, Namen), desto vertrauenswürdiger wirkt sie. Aber Spezifität ist kein Beweis für Richtigkeit. Sprachmodelle generieren oft sehr präzise klingende Details, die frei erfunden sind.",
     "crumbs": [
       "Workshop",
       "Teil 1: Das Sprachmodell liegt falsch"
@@ -400,7 +422,7 @@
     "href": "workshop/framing/index.html",
     "title": "Einstieg",
     "section": "",
-    "text": "Öffne ein Sprachmodell deiner Wahl: ChatGPT, Copilot, Claude, oder Gemini.\n\n\n\n Back to topReuseCC BY 4.0",
+    "text": "Öffne ein Sprachmodell deiner Wahl: ChatGPT, Copilot, Claude, oder Gemini.\n\n\n\n Zurück nach obenWiederverwendungCC BY 4.0",
     "crumbs": [
       "Workshop",
       "Einstieg"
@@ -418,11 +440,22 @@
     ]
   },
   {
+    "objectID": "workshop/lateral-reading/index.html#die-vier-schritte",
+    "href": "workshop/lateral-reading/index.html#die-vier-schritte",
+    "title": "Teil 3: Lateral Reading",
+    "section": "Die vier Schritte",
+    "text": "Die vier Schritte\n\nSuchbegriffe formulieren. Was tippst du in die Suchmaschine?\nSuchergebnisse filtern. Welche Quellen sind vertrauenswürdig?\nZur Quelle gehen. Nicht die Zusammenfassung der Suchmaschine, sondern die echte Seite.\nZwei Prüffragen stellen. Ist die Quelle zuverlässig? Steht da wirklich das, was behauptet wird?",
+    "crumbs": [
+      "Workshop",
+      "Teil 3: Lateral Reading"
+    ]
+  },
+  {
     "objectID": "workshop/lateral-reading/index.html#runde-1",
     "href": "workshop/lateral-reading/index.html#runde-1",
     "title": "Teil 3: Lateral Reading",
     "section": "Runde 1: Gemeinsam",
-    "text": "Runde 1: Gemeinsam\n\n\n\n\n\n\nScenarioSzenario\n\n\n\nDas Sprachmodell sagt:\n\n“Das durchschnittliche Gehalt für Verwaltungsmitarbeitende an Schweizer Universitäten liegt bei CHF 78’000 brutto pro Jahr.”\n\nDu willst das für einen Budgetantrag verwenden.\n\n\n\nSchritt 1: Suchbegriffe formulieren\nWie würdest du suchen? Nicht das Sprachmodell fragen. Was tippst du bei Google ein?\n\n\n\n\n\n\nPro-tipTipp\n\n\n\n\n\nGute Suchbegriffe:\n\n“Schweiz Universität Verwaltung Gehalt Statistik”\n“swissuniversities Lohnstruktur”\n\nNicht: “Stimmt 78000?”\n\n\n\n\n\nSchritt 2: Suchergebnisse filtern\n\n\n\nQuelle\nBewertung\n\n\n\n\njobs.ch\nStellenanzeigen, keine offizielle Statistik\n\n\nBlogs, Foren\nÜberspringen\n\n\nbfs.admin.ch\nPrimärquelle, klicken\n\n\nswissuniversities\nOffizielle Quelle, klicken\n\n\n\n\n\nSchritt 3: Zur Quelle gehen\nWichtig: Nicht die Google-Zusammenfassung lesen. Zur echten Seite gehen und die Daten selbst finden.\n\n\nSchritt 4: Zwei Prüffragen\nWenn du eine Quelle gefunden hast, stelle zwei Fragen:\n\n\n\n\n\n\n\nFrage\nBedeutung\n\n\n\n\nIst die Quelle zuverlässig?\nIst das eine Primärquelle oder offizielle Stelle?\n\n\nSteht da wirklich das, was das Sprachmodell behauptet?\nUnterstützt die Quelle tatsächlich die konkrete Aussage?\n\n\n\n\n\n\n\n\n\nWarningAchtung\n\n\n\nSprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch oder übertreiben. Immer selbst nachlesen!\n\n\n\n\nErgebnis\n\n\n\n\n\n\nReflectReflexion\n\n\n\nOft: Die exakte Zahl existiert nicht in dieser Form. Das ist selbst eine wichtige Information. Die Zahl vom Sprachmodell ist nicht verifizierbar und somit nicht verwendbar für einen Budgetantrag.",
+    "text": "Runde 1: Gemeinsam\n\n\n\n\n\n\nScenarioSzenario\n\n\n\nDas Sprachmodell sagt:\n\n“Das durchschnittliche Gehalt für Verwaltungsmitarbeitende an Schweizer Universitäten liegt bei CHF 78’000 brutto pro Jahr.”\n\nDu willst das für einen Budgetantrag verwenden.\n\n\n\nSchritt 1: Suchbegriffe formulieren\nWie würdest du suchen? Nicht das Sprachmodell fragen. Was tippst du in deine Suchmaschine ein?\n\n\n\n\n\n\nPro-tipSuchmaschine wählen\n\n\n\n\n\n\nDatenschutzfreundlich: Startpage, DuckDuckGo, Qwant\nStarke Filter/Ranking: Kagi (kostenpflichtig), Brave Search\nFallback, wenn du etwas nicht findest: Google\n\n\n\n\n\n\n\n\n\n\nPro-tipTipp\n\n\n\n\n\nGute Suchbegriffe:\n\n“Schweiz Universität Verwaltung Gehalt Statistik”\n“swissuniversities Lohnstruktur”\n\nNicht: “Stimmt 78000?”\n\n\n\n\n\nSchritt 2: Suchergebnisse filtern\n\n\n\nQuelle\nBewertung\n\n\n\n\njobs.ch\nStellenanzeigen, keine offizielle Statistik\n\n\nBlogs, Foren\nÜberspringen\n\n\nbfs.admin.ch\nPrimärquelle, klicken\n\n\nswissuniversities\nOffizielle Quelle, klicken\n\n\n\n\n\nSchritt 3: Zur Quelle gehen\nWichtig: Nicht die Zusammenfassung der Suchmaschine lesen. Zur echten Seite gehen und die Daten selbst finden.\n\n\nSchritt 4: Zwei Prüffragen\nWenn du eine Quelle gefunden hast, stelle zwei Fragen:\n\n\n\n\n\n\n\nFrage\nBedeutung\n\n\n\n\nIst die Quelle zuverlässig?\nIst das eine Primärquelle oder offizielle Stelle?\n\n\nSteht da wirklich das, was das Sprachmodell behauptet?\nUnterstützt die Quelle tatsächlich die konkrete Aussage?\n\n\n\n\n\n\n\n\n\nWarnungAchtung\n\n\n\nSprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch oder übertreiben. Immer selbst nachlesen!\n\n\n\n\nErgebnis\n\n\n\n\n\n\nReflectReflexion\n\n\n\nOft: Die exakte Zahl existiert nicht in dieser Form. Das ist selbst eine wichtige Information. Die Zahl vom Sprachmodell ist nicht verifizierbar und somit nicht verwendbar für einen Budgetantrag.",
     "crumbs": [
       "Workshop",
       "Teil 3: Lateral Reading"
@@ -475,204 +508,15 @@
     ]
   },
   {
-    "objectID": "workshop/vertiefung/index.html#quellen-jenseits-der-schweiz",
-    "href": "workshop/vertiefung/index.html#quellen-jenseits-der-schweiz",
-    "title": "Vertiefung",
-    "section": "2. Quellen jenseits der Schweiz",
-    "text": "2. Quellen jenseits der Schweiz\nDer Workshop fokussiert auf Schweizer Quellen. Für internationale oder branchenspezifische Themen brauchst du andere Ressourcen.\n\nInternationale Statistiken\n\n\n\nBereich\nPrimärquelle\nURL\n\n\n\n\nEU-Statistiken\nEurostat\nec.europa.eu/eurostat\n\n\nGlobale Wirtschaft\nWeltbank\ndata.worldbank.org\n\n\nGesundheit\nWHO\nwho.int/data\n\n\nBildung international\nOECD\ndata.oecd.org\n\n\nArbeit & Soziales\nILO\nilostat.ilo.org\n\n\n\n\n\nWissenschaftliche Quellen\n\n\n\nTyp\nRessource\nHinweis\n\n\n\n\nPeer-reviewed Artikel\nGoogle Scholar\nNur als Einstieg, dann Original lesen\n\n\nOpen Access\nPubMed\nBiomedizin, Gesundheit\n\n\nPreprints\narXiv\nNicht peer-reviewed! Mit Vorsicht\n\n\nSystematische Reviews\nCochrane Library\nHöchste Evidenzstufe\n\n\n\n\n\n\n\n\n\nWarningVorsicht bei wissenschaftlichen Quellen\n\n\n\n\nEine Studie ≠ Konsens — Einzelstudien können widerlegt werden\nPreprints sind nicht begutachtet — können fehlerhaft sein\nÄltere Metaanalysen können durch neuere Daten überholt sein\nImpact Factor ≠ Qualität — auch renommierte Journals publizieren gelegentlich Fehler\n\n\n\n\n\nBranchenspezifische Quellen\n\n\n\nBranche\nTypische Primärquellen\n\n\n\n\nIT & Software\nOffizielle Dokumentation (docs.microsoft.com, etc.), Herstellerseiten\n\n\nRecht (EU)\nEUR-Lex, nationale Gesetzesdatenbanken\n\n\nFinanzen\nZentralbanken (SNB, EZB), Finanzmarktaufsichten\n\n\nNormen & Standards\nISO, SNV (kostenpflichtig)\n\n\nDatenschutz (EU)\nEDPB (Europäischer Datenschutzausschuss)\n\n\n\n\n\nHierarchie der Quellen\n\n\n\n\n\n\nKey-pointVom Zuverlässigsten zum Unzuverlässigsten\n\n\n\n\nPrimärquellen — Originaldaten, Gesetze, offizielle Berichte\nSekundärquellen — Peer-reviewed Analysen der Primärquellen\nTertiärquellen — Lehrbücher, Enzyklopädien, Zusammenfassungen\nGraue Literatur — Whitepapers, Reports von Firmen/NGOs\nJournalismus — kann gut recherchiert sein, aber verifiziere die Primärquelle\nBlogs, Foren, Social Media — nie als alleinige Quelle verwenden"
-  },
-  {
     "objectID": "workshop/vertiefung/index.html#zeitliche-gültigkeit-prüfen",
     "href": "workshop/vertiefung/index.html#zeitliche-gültigkeit-prüfen",
     "title": "Ergänzende Materialien",
     "section": "2. Zeitliche Gültigkeit prüfen",
-    "text": "2. Zeitliche Gültigkeit prüfen\nEine Information kann faktisch korrekt, aber veraltet sein. Das ist besonders relevant bei:\n\nGesetzen und Verordnungen\nStatistiken und Kennzahlen\nSoftware-Dokumentation\nInstitutionellen Prozessen\n\n\nWarnsignale\n\n\n\n\n\n\n\nSignal\nBeispiel\n\n\n\n\nKein Datum sichtbar\nWebseite ohne Aktualisierungsdatum\n\n\nAlte Jahreszahlen\n“Stand 2019” bei sich schnell ändernden Themen\n\n\nInaktive Links\nVerweise führen ins Leere\n\n\n\n\n\nStrategien\n\n\n\n\n\n\nPro-tipSo prüfst du die Aktualität\n\n\n\n\n\n\nDatum suchen. “Letzte Aktualisierung”, “Stand:”, Impressum.\nVersionierung prüfen. Bei Gesetzen: “Fassung vom…”\nGoogle-Zeitfilter nutzen. Suche auf “Letztes Jahr” einschränken.",
+    "text": "2. Zeitliche Gültigkeit prüfen\nEine Information kann faktisch korrekt, aber veraltet sein. Das ist besonders relevant bei:\n\nGesetzen und Verordnungen\nStatistiken und Kennzahlen\nSoftware-Dokumentation\nInstitutionellen Prozessen\n\n\nWarnsignale\n\n\n\n\n\n\n\nSignal\nBeispiel\n\n\n\n\nKein Datum sichtbar\nWebseite ohne Aktualisierungsdatum\n\n\nAlte Jahreszahlen\n“Stand 2019” bei sich schnell ändernden Themen\n\n\nInaktive Links\nVerweise führen ins Leere\n\n\n\n\n\nStrategien\n\n\n\n\n\n\nPro-tipSo prüfst du die Aktualität\n\n\n\n\n\n\nDatum suchen. “Letzte Aktualisierung”, “Stand:”, Impressum.\nVersionierung prüfen. Bei Gesetzen: “Fassung vom…”\nZeitfilter der Suchmaschine nutzen. Suche auf “Letztes Jahr” einschränken.",
     "crumbs": [
       "Materialien",
       "Vertiefung",
       "Ergänzende Materialien"
-    ]
-  },
-  {
-    "objectID": "workshop/vertiefung/index.html#zusammenfassung",
-    "href": "workshop/vertiefung/index.html#zusammenfassung",
-    "title": "Vertiefung",
-    "section": "Zusammenfassung",
-    "text": "Zusammenfassung\n\n\n\n\n\n\nKey-pointDrei zusätzliche Prüffragen\n\n\n\nErgänze die Workshop-Entscheidungsregel um diese Fragen:\n\nExistiert überhaupt eine verifizierbare Quelle?\n\nWenn nein: Unsicherheit kennzeichnen oder verzichten\n\nIst meine Quelle die richtige für diesen Kontext?\n\nSchweizer Frage → Schweizer Quelle\nInternationale Frage → internationale Quelle\nWissenschaftliche Frage → peer-reviewed Quelle\n\nIst die Information noch aktuell?\n\nDatum prüfen\nBei Gesetzen: “Fassung vom” beachten\nIm Zweifel: direkt bei der Quelle nachschauen"
-  },
-  {
-    "objectID": "workshop/vertiefung/index.html#weiterführende-ressourcen",
-    "href": "workshop/vertiefung/index.html#weiterführende-ressourcen",
-    "title": "Ergänzende Materialien",
-    "section": "Weiterführende Ressourcen",
-    "text": "Weiterführende Ressourcen\n\nStanford Civic Online Reasoning: Forschung zu Lateral Reading\nSIFT-Methode: Englischsprachige Grundlage für Lateral Reading",
-    "crumbs": [
-      "Materialien",
-      "Vertiefung",
-      "Ergänzende Materialien"
-    ]
-  },
-  {
-    "objectID": "handout.html#lateral-reading-in-4-schritten",
-    "href": "handout.html#lateral-reading-in-4-schritten",
-    "title": "Lateral Reading",
-    "section": "Lateral Reading in 4 Schritten",
-    "text": "Lateral Reading in 4 Schritten\n\n1. Suchbegriffe formulieren\n\nNicht “Stimmt das?”, sondern “[Thema] Schweiz Statistik/Gesetz”\n\n2. Suchergebnisse filtern\n\nPrimärquellen (.admin.ch, .edu) klicken. Blogs, Foren, AI-Zusammenfassungen überspringen.\n\n3. Zur Quelle gehen\n\nNicht die Google-Zusammenfassung. Die echte Seite öffnen. Keine Quelle = nicht verwendbar.\n\n4. Zwei Fragen stellen\n\nIst die Quelle zuverlässig? Steht da wirklich das, was behauptet wird?",
-    "crumbs": [
-      "Materialien",
-      "Lateral Reading"
-    ]
-  },
-  {
-    "objectID": "workshop/vertiefung/vertical-lateral.html",
-    "href": "workshop/vertiefung/vertical-lateral.html",
-    "title": "Vertical vs. Lateral Reading",
-    "section": "",
-    "text": "Wenn wir eine Information prüfen wollen, gibt es zwei grundsätzlich verschiedene Ansätze:\n\n\n\n\n\n\n\nVertical Reading\nLateral Reading\n\n\n\n\nInnerhalb der Quelle bleiben\nDie Quelle verlassen\n\n\n“About”-Seite lesen\nSuchen, was andere über die Quelle sagen\n\n\nDesign und Aufmachung bewerten\nUnabhängige Einschätzungen finden\n\n\nQuellenangaben der Quelle prüfen\nQuellenangaben extern verifizieren"
-  },
-  {
-    "objectID": "workshop/vertiefung/vertical-lateral.html#zwei-arten-zu-lesen",
-    "href": "workshop/vertiefung/vertical-lateral.html#zwei-arten-zu-lesen",
-    "title": "Vertical vs. Lateral Reading",
-    "section": "",
-    "text": "Wenn wir eine Information prüfen wollen, gibt es zwei grundsätzlich verschiedene Ansätze:\n\n\n\n\n\n\n\nVertical Reading\nLateral Reading\n\n\n\n\nInnerhalb der Quelle bleiben\nDie Quelle verlassen\n\n\n“About”-Seite lesen\nSuchen, was andere über die Quelle sagen\n\n\nDesign und Aufmachung bewerten\nUnabhängige Einschätzungen finden\n\n\nQuellenangaben der Quelle prüfen\nQuellenangaben extern verifizieren"
-  },
-  {
-    "objectID": "workshop/vertiefung/vertical-lateral.html#vertical-reading-das-problem",
-    "href": "workshop/vertiefung/vertical-lateral.html#vertical-reading-das-problem",
-    "title": "Vertical vs. Lateral Reading",
-    "section": "Vertical Reading: Das Problem",
-    "text": "Vertical Reading: Das Problem\nBei Vertical Reading bleiben wir innerhalb der Quelle und versuchen, ihre Glaubwürdigkeit anhand dessen zu beurteilen, was sie selbst über sich sagt.\n\nWarum das nicht funktioniert\n\n\n\n\n\n\nWarningQuellen kontrollieren ihre Selbstdarstellung\n\n\n\n\nEine “About”-Seite wird von der Organisation selbst geschrieben\nWürdest du etwas Schlechtes über dich selbst schreiben?\nJede Quelle hat Gründe, sich vertrauenswürdig darzustellen\nSelbst unseriöse Quellen können professionell aussehen\n\n\n\n\n\nBeispiele für Vertical Reading\n\nDie “About”-Seite einer Website lesen\nPrüfen, ob die Seite professionell gestaltet ist\nSchauen, ob Quellenangaben genannt werden\nDie Qualifikationen lesen, die jemand über sich selbst angibt\n\nDas Problem: All diese Informationen werden von der Quelle selbst kontrolliert."
-  },
-  {
-    "objectID": "workshop/vertiefung/vertical-lateral.html#lateral-reading-die-lösung",
-    "href": "workshop/vertiefung/vertical-lateral.html#lateral-reading-die-lösung",
-    "title": "Vertical vs. Lateral Reading",
-    "section": "Lateral Reading: Die Lösung",
-    "text": "Lateral Reading: Die Lösung\nBei Lateral Reading verlassen wir die Quelle und suchen extern nach Informationen über sie.\n\nDer Prozess\n\nNeuen Tab öffnen — die Quelle verlassen\nNach der Quelle suchen — nicht nach dem Inhalt, sondern nach der Organisation/Person dahinter\nUnabhängige Einschätzungen finden — was sagen andere über diese Quelle?\nMehrere Perspektiven prüfen — nicht nur eine externe Quelle\n\n\n\nWonach du suchst\n\n\n\n\n\n\n\nFrage\nWarum wichtig\n\n\n\n\nWer steckt hinter der Information?\nIdentität und Hintergrund der Quelle\n\n\nWelche Perspektive oder Motivation hat die Quelle?\nMögliche Interessenkonflikte\n\n\nWelche Expertise hat die Quelle?\nFachliche Kompetenz zum Thema\n\n\nWas sagen unabhängige Dritte?\nExterne Einschätzung der Glaubwürdigkeit"
-  },
-  {
-    "objectID": "workshop/vertiefung/vertical-lateral.html#bei-sprachmodellen-eine-spezielle-situation",
-    "href": "workshop/vertiefung/vertical-lateral.html#bei-sprachmodellen-eine-spezielle-situation",
-    "title": "Vertical vs. Lateral Reading",
-    "section": "Bei Sprachmodellen: Eine spezielle Situation",
-    "text": "Bei Sprachmodellen: Eine spezielle Situation\nSprachmodelle sind ein Sonderfall. Sie haben keine “About”-Seite und keine eigene Motivation. Aber das Prinzip von Vertical vs. Lateral Reading gilt trotzdem:\n\nVertical Reading bei Sprachmodellen\nDas ist, was wir in Teil 2 des Workshops getestet haben:\n\nDas Sprachmodell fragen: “Bist du sicher?”\nNachfragen: “Kannst du das überprüfen?”\nEine Annahme einbauen und schauen, ob es widerspricht\n\nErgebnis: Funktioniert nicht. Das Sprachmodell kann sich nicht selbst prüfen — es generiert nur neue Antworten.\n\n\nLateral Reading bei Sprachmodellen\nDas ist, was wir in Teil 3 des Workshops geübt haben:\n\nDas Sprachmodell verlassen\nExtern nach der Information suchen\nPrimärquellen finden\nSelbst prüfen, ob die Quelle das sagt, was das Sprachmodell behauptet\n\nErgebnis: Funktioniert. Nur externe Quellen können die Richtigkeit bestätigen."
-  },
-  {
-    "objectID": "workshop/vertiefung/vertical-lateral.html#wann-eine-quelle-vertrauenswürdig-ist",
-    "href": "workshop/vertiefung/vertical-lateral.html#wann-eine-quelle-vertrauenswürdig-ist",
-    "title": "Vertical vs. Lateral Reading",
-    "section": "Wann eine Quelle vertrauenswürdig ist",
-    "text": "Wann eine Quelle vertrauenswürdig ist\nWenn du bei deiner Recherche auf eine Quelle stösst, prüfe:\n\nCheckliste für Quellenautorität\n\nExpertise: Sind die Autoren Fachleute auf dem Gebiet?\nRedaktionsprozesse: Gibt es Editoren, Faktenprüfer, Peer Review?\nKorrekturkultur: Gibt die Quelle Fehler zu und korrigiert sie?\nKeine Interessenkonflikte: Hat die Quelle einen Grund, die Information zu verzerren?\nUnabhängige Bestätigung: Sagen andere verlässliche Quellen dasselbe?\n\n\n\nHierarchie der Quellen\n\n\n\n\n\n\n\nVertrauenswürdigkeit\nQuellentyp\n\n\n\n\nHoch\nPrimärquellen (Originaldaten, Gesetze, offizielle Statistiken)\n\n\nHoch\nPeer-reviewed wissenschaftliche Publikationen\n\n\nMittel\nQualitätsjournalismus mit Redaktionsprozessen\n\n\nMittel\nWikipedia (als Einstieg, nicht als Endquelle)\n\n\nNiedrig\nBlogs, Foren, Social Media\n\n\nSehr niedrig\nAnonyme Quellen, AI-generierte Zusammenfassungen"
-  },
-  {
-    "objectID": "workshop/vertiefung/vertical-lateral.html#zusammenfassung",
-    "href": "workshop/vertiefung/vertical-lateral.html#zusammenfassung",
-    "title": "Vertical vs. Lateral Reading",
-    "section": "Zusammenfassung",
-    "text": "Zusammenfassung\n\n\n\n\n\n\nKey-pointDie Kernregel\n\n\n\nVertraue nie darauf, was eine Quelle über sich selbst sagt.\nVerlasse die Quelle und prüfe extern:\n\nWer steckt dahinter?\nWelche Motivation könnte die Quelle haben?\nWas sagen unabhängige Dritte?\nSteht in der Quelle wirklich das, was behauptet wird?"
-  },
-  {
-    "objectID": "workshop/vertiefung/vertical-lateral.html#weiterführend",
-    "href": "workshop/vertiefung/vertical-lateral.html#weiterführend",
-    "title": "Vertical vs. Lateral Reading",
-    "section": "Weiterführend",
-    "text": "Weiterführend\nDiese Konzepte stammen aus der Forschung zu Civic Online Reasoning der Stanford History Education Group. Mehr dazu:\n\nStanford History Education Group: Civic Online Reasoning\nSIFT-Methode von Mike Caulfield"
-  },
-  {
-    "objectID": "workshop/vertiefung/vertical-lateral/index.html",
-    "href": "workshop/vertiefung/vertical-lateral/index.html",
-    "title": "Vertical vs. Lateral Reading",
-    "section": "",
-    "text": "Wenn wir eine Information prüfen wollen, gibt es zwei grundsätzlich verschiedene Ansätze:\n\n\n\n\n\n\n\nVertical Reading\nLateral Reading\n\n\n\n\nInnerhalb der Quelle bleiben\nDie Quelle verlassen\n\n\n“About”-Seite lesen\nSuchen, was andere über die Quelle sagen\n\n\nDesign und Aufmachung bewerten\nUnabhängige Einschätzungen finden\n\n\nQuellenangaben der Quelle prüfen\nQuellenangaben extern verifizieren",
-    "crumbs": [
-      "Materialien",
-      "Vertiefung",
-      "Vertical vs. Lateral Reading"
-    ]
-  },
-  {
-    "objectID": "workshop/vertiefung/vertical-lateral/index.html#zwei-arten-zu-lesen",
-    "href": "workshop/vertiefung/vertical-lateral/index.html#zwei-arten-zu-lesen",
-    "title": "Vertical vs. Lateral Reading",
-    "section": "",
-    "text": "Wenn wir eine Information prüfen wollen, gibt es zwei grundsätzlich verschiedene Ansätze:\n\n\n\n\n\n\n\nVertical Reading\nLateral Reading\n\n\n\n\nInnerhalb der Quelle bleiben\nDie Quelle verlassen\n\n\n“About”-Seite lesen\nSuchen, was andere über die Quelle sagen\n\n\nDesign und Aufmachung bewerten\nUnabhängige Einschätzungen finden\n\n\nQuellenangaben der Quelle prüfen\nQuellenangaben extern verifizieren",
-    "crumbs": [
-      "Materialien",
-      "Vertiefung",
-      "Vertical vs. Lateral Reading"
-    ]
-  },
-  {
-    "objectID": "workshop/vertiefung/vertical-lateral/index.html#vertical-reading-das-problem",
-    "href": "workshop/vertiefung/vertical-lateral/index.html#vertical-reading-das-problem",
-    "title": "Vertical vs. Lateral Reading",
-    "section": "Vertical Reading: Das Problem",
-    "text": "Vertical Reading: Das Problem\nBei Vertical Reading bleiben wir innerhalb der Quelle und versuchen, ihre Glaubwürdigkeit anhand dessen zu beurteilen, was sie selbst über sich sagt.\n\nWarum das nicht funktioniert\n\n\n\n\n\n\nWarningQuellen kontrollieren ihre Selbstdarstellung\n\n\n\n\nEine “About”-Seite wird von der Organisation selbst geschrieben\nWürdest du etwas Schlechtes über dich selbst schreiben?\nJede Quelle hat Gründe, sich vertrauenswürdig darzustellen\nSelbst unseriöse Quellen können professionell aussehen\n\n\n\n\n\nBeispiele für Vertical Reading\n\nDie “About”-Seite einer Website lesen\nPrüfen, ob die Seite professionell gestaltet ist\nSchauen, ob Quellenangaben genannt werden\nDie Qualifikationen lesen, die jemand über sich selbst angibt\n\nDas Problem: All diese Informationen werden von der Quelle selbst kontrolliert.",
-    "crumbs": [
-      "Materialien",
-      "Vertiefung",
-      "Vertical vs. Lateral Reading"
-    ]
-  },
-  {
-    "objectID": "workshop/vertiefung/vertical-lateral/index.html#lateral-reading-die-lösung",
-    "href": "workshop/vertiefung/vertical-lateral/index.html#lateral-reading-die-lösung",
-    "title": "Vertical vs. Lateral Reading",
-    "section": "Lateral Reading: Die Lösung",
-    "text": "Lateral Reading: Die Lösung\nBei Lateral Reading verlassen wir die Quelle und suchen extern nach Informationen über sie.\n\nDer Prozess\n\nNeuen Tab öffnen: Die Quelle verlassen.\nNach der Quelle suchen: Nicht nach dem Inhalt, sondern nach der Organisation oder Person dahinter.\nUnabhängige Einschätzungen finden: Was sagen andere über diese Quelle?\nMehrere Perspektiven prüfen: Nicht nur eine externe Quelle.\n\n\n\nWonach du suchst\n\n\n\n\n\n\n\nFrage\nWarum wichtig\n\n\n\n\nWer steckt hinter der Information?\nIdentität und Hintergrund der Quelle\n\n\nWelche Perspektive oder Motivation hat die Quelle?\nMögliche Interessenkonflikte\n\n\nWelche Expertise hat die Quelle?\nFachliche Kompetenz zum Thema\n\n\nWas sagen unabhängige Dritte?\nExterne Einschätzung der Glaubwürdigkeit",
-    "crumbs": [
-      "Materialien",
-      "Vertiefung",
-      "Vertical vs. Lateral Reading"
-    ]
-  },
-  {
-    "objectID": "workshop/vertiefung/vertical-lateral/index.html#bei-sprachmodellen-eine-spezielle-situation",
-    "href": "workshop/vertiefung/vertical-lateral/index.html#bei-sprachmodellen-eine-spezielle-situation",
-    "title": "Vertical vs. Lateral Reading",
-    "section": "Bei Sprachmodellen: Eine spezielle Situation",
-    "text": "Bei Sprachmodellen: Eine spezielle Situation\nSprachmodelle sind ein Sonderfall. Sie haben keine “About”-Seite und keine eigene Motivation. Aber das Prinzip von Vertical vs. Lateral Reading gilt trotzdem:\n\nVertical Reading bei Sprachmodellen\nDas ist, was wir in Teil 2 des Workshops getestet haben:\n\nDas Sprachmodell fragen: “Bist du sicher?”\nNachfragen: “Kannst du das überprüfen?”\nEine Annahme einbauen und schauen, ob es widerspricht\n\nErgebnis: Funktioniert nicht. Das Sprachmodell kann sich nicht selbst prüfen. Es generiert nur neue Antworten.\n\n\nLateral Reading bei Sprachmodellen\nDas ist, was wir in Teil 3 des Workshops geübt haben:\n\nDas Sprachmodell verlassen\nExtern nach der Information suchen\nPrimärquellen finden\nSelbst prüfen, ob die Quelle das sagt, was das Sprachmodell behauptet\n\nErgebnis: Funktioniert. Nur externe Quellen können die Richtigkeit bestätigen.",
-    "crumbs": [
-      "Materialien",
-      "Vertiefung",
-      "Vertical vs. Lateral Reading"
-    ]
-  },
-  {
-    "objectID": "workshop/vertiefung/vertical-lateral/index.html#wann-eine-quelle-vertrauenswürdig-ist",
-    "href": "workshop/vertiefung/vertical-lateral/index.html#wann-eine-quelle-vertrauenswürdig-ist",
-    "title": "Vertical vs. Lateral Reading",
-    "section": "Wann eine Quelle vertrauenswürdig ist",
-    "text": "Wann eine Quelle vertrauenswürdig ist\nWenn du bei deiner Recherche auf eine Quelle stösst, prüfe:\n\nCheckliste für Quellenautorität\n\nExpertise: Sind die Autoren Fachleute auf dem Gebiet?\nRedaktionsprozesse: Gibt es Editoren, Faktenprüfer, Peer Review?\nKorrekturkultur: Gibt die Quelle Fehler zu und korrigiert sie?\nKeine Interessenkonflikte: Hat die Quelle einen Grund, die Information zu verzerren?\nUnabhängige Bestätigung: Sagen andere verlässliche Quellen dasselbe?\n\n\n\nHierarchie der Quellen\n\n\n\n\n\n\n\nVertrauenswürdigkeit\nQuellentyp\n\n\n\n\nHoch\nPrimärquellen (Originaldaten, Gesetze, offizielle Statistiken)\n\n\nHoch\nPeer-reviewed wissenschaftliche Publikationen\n\n\nMittel\nQualitätsjournalismus mit Redaktionsprozessen\n\n\nMittel\nWikipedia (als Einstieg, nicht als Endquelle)\n\n\nNiedrig\nBlogs, Foren, Social Media\n\n\nSehr niedrig\nAnonyme Quellen, AI-generierte Zusammenfassungen",
-    "crumbs": [
-      "Materialien",
-      "Vertiefung",
-      "Vertical vs. Lateral Reading"
-    ]
-  },
-  {
-    "objectID": "workshop/vertiefung/vertical-lateral/index.html#zusammenfassung",
-    "href": "workshop/vertiefung/vertical-lateral/index.html#zusammenfassung",
-    "title": "Vertical vs. Lateral Reading",
-    "section": "Zusammenfassung",
-    "text": "Zusammenfassung\n\n\n\n\n\n\nKey-pointDie Kernregel\n\n\n\nVertraue nie darauf, was eine Quelle über sich selbst sagt.\nVerlasse die Quelle und prüfe extern:\n\nWer steckt dahinter?\nWelche Motivation könnte die Quelle haben?\nWas sagen unabhängige Dritte?\nSteht in der Quelle wirklich das, was behauptet wird?",
-    "crumbs": [
-      "Materialien",
-      "Vertiefung",
-      "Vertical vs. Lateral Reading"
-    ]
-  },
-  {
-    "objectID": "workshop/vertiefung/vertical-lateral/index.html#weiterführend",
-    "href": "workshop/vertiefung/vertical-lateral/index.html#weiterführend",
-    "title": "Vertical vs. Lateral Reading",
-    "section": "Weiterführend",
-    "text": "Weiterführend\nDiese Konzepte stammen aus der Forschung zu Civic Online Reasoning der Stanford History Education Group. Mehr dazu:\n\nStanford History Education Group: Civic Online Reasoning\nSIFT-Methode von Mike Caulfield",
-    "crumbs": [
-      "Materialien",
-      "Vertiefung",
-      "Vertical vs. Lateral Reading"
     ]
   },
   {
@@ -688,147 +532,26 @@
     ]
   },
   {
-    "objectID": "workshop/lateral-reading/index.html#die-vier-schritte",
-    "href": "workshop/lateral-reading/index.html#die-vier-schritte",
-    "title": "Teil 3: Lateral Reading",
-    "section": "Die vier Schritte",
-    "text": "Die vier Schritte\n\nSuchbegriffe formulieren. Was tippst du bei Google ein?\nSuchergebnisse filtern. Welche Quellen sind vertrauenswürdig?\nZur Quelle gehen. Nicht die Google-Zusammenfassung, sondern die echte Seite.\nZwei Prüffragen stellen. Ist die Quelle zuverlässig? Steht da wirklich das, was behauptet wird?",
+    "objectID": "workshop/vertiefung/index.html#weiterführende-ressourcen",
+    "href": "workshop/vertiefung/index.html#weiterführende-ressourcen",
+    "title": "Ergänzende Materialien",
+    "section": "Weiterführende Ressourcen",
+    "text": "Weiterführende Ressourcen\n\nStanford Civic Online Reasoning: Forschung zu Lateral Reading\nSIFT-Methode: Englischsprachige Grundlage für Lateral Reading",
     "crumbs": [
-      "Workshop",
-      "Teil 3: Lateral Reading"
+      "Materialien",
+      "Vertiefung",
+      "Ergänzende Materialien"
     ]
   },
   {
-    "objectID": "workshop/vertiefung/confirmation-bias/index.html",
-    "href": "workshop/vertiefung/confirmation-bias/index.html",
-    "title": "Confirmation Bias und KI",
+    "objectID": "handout.html",
+    "href": "handout.html",
+    "title": "Lateral Reading",
     "section": "",
-    "text": "Confirmation Bias ist eine der hartnäckigsten Denkfallen. Er funktioniert auf drei Ebenen:\n\nWir suchen bevorzugt nach Informationen, die unsere Meinung bestätigen\nWir interpretieren mehrdeutige Informationen so, dass sie zu uns passen\nWir erinnern uns besser an bestätigende als an widersprechende Fakten\n\nDas passiert allen Menschen, auch Experten. Studien zeigen, dass selbst Richter, Ärzte und CEOs diesem Fehler unterliegen.\n\n\n\n\n\n\nWarnungDas Problem\n\n\n\nJe überzeugter du von etwas bist, desto stärker suchst du nach Bestätigung. Und desto weniger merkst du es.",
+    "text": "Würde ich diese Information in einem formellen Dokument zitieren?\n\nJA → Extern verifizieren\nNEIN → Sprachmodell reicht",
     "crumbs": [
       "Materialien",
-      "Vertiefung",
-      "Confirmation Bias und KI"
-    ]
-  },
-  {
-    "objectID": "workshop/vertiefung/confirmation-bias/index.html#unser-gehirn-sucht-bestätigung",
-    "href": "workshop/vertiefung/confirmation-bias/index.html#unser-gehirn-sucht-bestätigung",
-    "title": "Confirmation Bias und KI",
-    "section": "",
-    "text": "Confirmation Bias ist eine der hartnäckigsten Denkfallen. Er funktioniert auf drei Ebenen:\n\nWir suchen bevorzugt nach Informationen, die unsere Meinung bestätigen\nWir interpretieren mehrdeutige Informationen so, dass sie zu uns passen\nWir erinnern uns besser an bestätigende als an widersprechende Fakten\n\nDas passiert allen Menschen, auch Experten. Studien zeigen, dass selbst Richter, Ärzte und CEOs diesem Fehler unterliegen.\n\n\n\n\n\n\nWarnungDas Problem\n\n\n\nJe überzeugter du von etwas bist, desto stärker suchst du nach Bestätigung. Und desto weniger merkst du es.",
-    "crumbs": [
-      "Materialien",
-      "Vertiefung",
-      "Confirmation Bias und KI"
-    ]
-  },
-  {
-    "objectID": "workshop/vertiefung/confirmation-bias/index.html#ki-chatbots-verstärken-den-effekt",
-    "href": "workshop/vertiefung/confirmation-bias/index.html#ki-chatbots-verstärken-den-effekt",
-    "title": "Confirmation Bias und KI",
-    "section": "KI-Chatbots verstärken den Effekt",
-    "text": "KI-Chatbots verstärken den Effekt\nKI-Chatbots wie ChatGPT oder Gemini haben eine eingebaute Tendenz, Nutzern zuzustimmen. Fachleute nennen das Sycophancy (Sharma u. a. 2023). Einge passende deutsche Übersetzung wäre Schmeichelei oder Anbiederung.\n\nWarum Chatbots zustimmen\nDiese Tendenz ist kein Bug, sondern entsteht durch das Training:\n\nSprachmodelle werden mit menschlichem Feedback trainiert\nMenschen bewerten Antworten positiver, wenn sie mit ihrer Meinung übereinstimmen\nDas Modell lernt: Zustimmung = gute Bewertung\nErgebnis: Das Modell optimiert auf Zustimmung statt auf Wahrheit",
-    "crumbs": [
-      "Materialien",
-      "Vertiefung",
-      "Confirmation Bias und KI"
-    ]
-  },
-  {
-    "objectID": "workshop/vertiefung/confirmation-bias/index.html#die-echokammer-für-eine-person",
-    "href": "workshop/vertiefung/confirmation-bias/index.html#die-echokammer-für-eine-person",
-    "title": "Bestätigungsfehler und KI",
-    "section": "Die “Echokammer für eine Person”",
-    "text": "Die “Echokammer für eine Person”\nWenn Bestätigungsfehler und KI-Schmeichelei zusammentreffen, entsteht ein Teufelskreis:\n\nDu stellst eine Frage, die deine Meinung andeutet\nDer Chatbot bestätigt deine Meinung\nDu fühlst dich bestärkt und fragst weiter\nDer Chatbot verstärkt weiter\nDeine Überzeugung wächst — ohne neue Fakten\n\nForschende nennen das den “Chat-Chamber Effect”: eine Filterblase, die du dir selbst erschaffst — mit Hilfe eines KI-Systems, das gelernt hat, dir zu gefallen.\n\n\n\n\n\n\nKey-pointDer Kern des Problems\n\n\n\nKlassische Echokammern entstehen durch Algorithmen, die dir ähnliche Inhalte zeigen. Bei Chatbots erzeugst du die Echokammer selbst — durch die Art, wie du fragst, und durch ein System, das darauf trainiert ist, zuzustimmen."
-  },
-  {
-    "objectID": "workshop/vertiefung/confirmation-bias/index.html#ein-extremes-beispiel",
-    "href": "workshop/vertiefung/confirmation-bias/index.html#ein-extremes-beispiel",
-    "title": "Confirmation Bias und KI",
-    "section": "Ein extremes Beispiel",
-    "text": "Ein extremes Beispiel\nDer Fall von Allan Brooks (2025) zeigt, wie weit das gehen kann.\nEin Personalvermittler aus Toronto nutzte ChatGPT während einer schwierigen Scheidung. Was als mathematische Frage begann, entwickelte sich über 21 Tage zu einer Überzeugung, er habe eine revolutionäre mathematische Theorie entdeckt.\n\nAls er zweifelte, sagte der Chatbot: “Du klingst kein bisschen verrückt”\nAls er einen Tippfehler machte, übernahm ChatGPT den Fehler stillschweigend\n\nErst als er seine “Entdeckung” mit Gemini testete, brach die Illusion zusammen. Gemini erklärte, es handle sich um eine “überzeugende, aber letztlich falsche Erzählung”.\n\n\n\n\n\n\nWarnungDas ist ein Extremfall\n\n\n\nBrooks befand sich in einer verletzlichen psychischen Situation. Der Fall zeigt aber ein grundsätzliches Muster: Chatbots widersprechen oft nicht, auch wenn sie sollten.",
-    "crumbs": [
-      "Materialien",
-      "Vertiefung",
-      "Confirmation Bias und KI"
-    ]
-  },
-  {
-    "objectID": "workshop/vertiefung/confirmation-bias/index.html#was-du-tun-kannst",
-    "href": "workshop/vertiefung/confirmation-bias/index.html#was-du-tun-kannst",
-    "title": "Confirmation Bias und KI",
-    "section": "Was du tun kannst",
-    "text": "Was du tun kannst\n\nBeim Fragen\n\nVermeide Suggestivfragen. Nicht “Warum ist X besser als Y?”, sondern “Vergleiche X und Y”.\nBitte um Gegenargumente. “Welche Argumente sprechen gegen diese Position?”\nNutze mehrere Quellen. Frage verschiedene Chatbots, vergleiche die Antworten.\n\n\n\nBei den Antworten\n\nMisstraue Zustimmung. Wenn der Chatbot dir sofort recht gibt, ist das kein Qualitätsmerkmal.\nPrüfe extern. Verlasse den Chat und verifiziere wichtige Aussagen.\nFrage dich selbst: “Welche Antwort hätte ich mir gewünscht?” Wenn die Antwort genau das ist, ist besondere Vorsicht geboten.\n\n\n\nAdversarial Prompting\nDu kannst Chatbots explizit bitten, kritisch zu sein:\n\n“Spiele den Advocatus Diaboli. Finde alle logischen und faktischen Schwächen in meinem Argument. Sei skeptisch und direkt.”\n\n\n“Gib mir drei Gründe, warum diese Annahme falsch sein könnte. Stimme keinem Teil zu.”\n\n\n“Nenne mir zuerst die stärksten Argumente gegen meine Position, bevor du Schwächen in der Gegenposition identifizierst.”",
-    "crumbs": [
-      "Materialien",
-      "Vertiefung",
-      "Confirmation Bias und KI"
-    ]
-  },
-  {
-    "objectID": "workshop/vertiefung/confirmation-bias/index.html#die-kernbotschaft",
-    "href": "workshop/vertiefung/confirmation-bias/index.html#die-kernbotschaft",
-    "title": "Confirmation Bias und KI",
-    "section": "Die Kernbotschaft",
-    "text": "Die Kernbotschaft\n\n\n\n\n\n\nKey-pointZustimmung ist kein Qualitätsmerkmal\n\n\n\n\nKI-Chatbots sind darauf trainiert, dir zuzustimmen\nDein Gehirn sucht ohnehin nach Bestätigung\nZusammen ergibt das eine gefährliche Kombination\nDie Lösung: Aktiv nach Widerspruch suchen, bei der KI und bei dir selbst",
-    "crumbs": [
-      "Materialien",
-      "Vertiefung",
-      "Confirmation Bias und KI"
-    ]
-  },
-  {
-    "objectID": "workshop/vertiefung/confirmation-bias/index.html#weiterführend",
-    "href": "workshop/vertiefung/confirmation-bias/index.html#weiterführend",
-    "title": "Confirmation Bias und KI",
-    "section": "Weiterführend",
-    "text": "Weiterführend\n\nSharma et al. (2023): Forschung zum Thema Sycophancy.",
-    "crumbs": [
-      "Materialien",
-      "Vertiefung",
-      "Confirmation Bias und KI"
-    ]
-  },
-  {
-    "objectID": "workshop/vertiefung/confirmation-bias/index.html#die-echo-chamber-für-eine-person",
-    "href": "workshop/vertiefung/confirmation-bias/index.html#die-echo-chamber-für-eine-person",
-    "title": "Confirmation Bias und KI",
-    "section": "Die Echo Chamber für eine Person",
-    "text": "Die Echo Chamber für eine Person\nWenn Confirmation Bias und KI-Schmeichelei zusammentreffen, entsteht ein Teufelskreis:\n\nDu stellst eine Frage, die deine Meinung andeutet\nDer Chatbot bestätigt deine Meinung\nDu fühlst dich bestärkt und fragst weiter\nDer Chatbot verstärkt weiter\nDeine Überzeugung wächst, ohne dass neue Fakten hinzukommen\n\nDaraus entsteht ein Chamber Effect: eine Filterblase, die du dir selbst erschaffst. Mit Hilfe eines KI-Systems, das gelernt hat, dir zu gefallen.\n\n\n\n\n\n\nKey-pointDer Kern des Problems\n\n\n\nKlassische Echo Chambers entstehen durch Algorithmen, die dir ähnliche Inhalte zeigen. Bei Chatbots erzeugst du die Echo Chamber selbst: durch die Art, wie du fragst, und durch ein System, das darauf trainiert ist, zuzustimmen.",
-    "crumbs": [
-      "Materialien",
-      "Vertiefung",
-      "Confirmation Bias und KI"
-    ]
-  },
-  {
-    "objectID": "materialien.html",
-    "href": "materialien.html",
-    "title": "Materialien",
-    "section": "",
-    "text": "Diese Seite bietet einen Überblick über alle ergänzenden Materialien zum Workshop.",
-    "crumbs": [
-      "Materialien"
-    ]
-  },
-  {
-    "objectID": "materialien.html#handout",
-    "href": "materialien.html#handout",
-    "title": "Materialien",
-    "section": "Handout",
-    "text": "Handout\n\nHandout: Lateral Reading: Kompakte Zusammenfassung der Workshop-Methode zum Ausdrucken oder Nachschlagen.",
-    "crumbs": [
-      "Materialien"
-    ]
-  },
-  {
-    "objectID": "materialien.html#vertiefungsartikel",
-    "href": "materialien.html#vertiefungsartikel",
-    "title": "Materialien",
-    "section": "Vertiefungsartikel",
-    "text": "Vertiefungsartikel\nDiese Artikel vertiefen einzelne Aspekte, die im 40-Minuten-Workshop nicht vollständig behandelt werden können:\n\nVertiefung: Nicht verifizierbare Behauptungen und zeitliche Gültigkeit von Informationen.\nVertical vs. Lateral Reading: Warum wir die Quelle verlassen müssen. Die theoretische Grundlage der Workshop-Methode.\nConfirmation Bias und KI: Warum Chatbots uns recht geben und wie wir dagegen vorgehen können.",
-    "crumbs": [
-      "Materialien"
+      "Lateral Reading"
     ]
   },
   {
@@ -843,11 +566,11 @@
     ]
   },
   {
-    "objectID": "handout.html#rote-flaggen",
-    "href": "handout.html#rote-flaggen",
+    "objectID": "handout.html#lateral-reading-in-4-schritten",
+    "href": "handout.html#lateral-reading-in-4-schritten",
     "title": "Lateral Reading",
-    "section": "Rote Flaggen",
-    "text": "Rote Flaggen\n\nSehr präzise Zahlen (Spezifität ≠ Richtigkeit)\nDas Sprachmodell bestätigt genau das, was du vermutet hast\nRechtliche oder finanzielle Entscheidungen",
+    "section": "Lateral Reading in 4 Schritten",
+    "text": "Lateral Reading in 4 Schritten\n\n1. Suchbegriffe formulieren\n\nNicht “Stimmt das?”, sondern “[Thema] Schweiz Statistik/Gesetz”\n\n2. Suchergebnisse filtern\n\nPrimärquellen (.admin.ch, .edu) klicken. Blogs, Foren, AI-Zusammenfassungen überspringen.\n\n3. Zur Quelle gehen\n\nNicht die Google-Zusammenfassung. Die echte Seite öffnen. Keine Quelle = nicht verwendbar.\n\n4. Zwei Fragen stellen\n\nIst die Quelle zuverlässig? Steht da wirklich das, was behauptet wird?",
     "crumbs": [
       "Materialien",
       "Lateral Reading"
@@ -865,14 +588,25 @@
     ]
   },
   {
-    "objectID": "handout.html#red-flags-für-nicht-verifizierbarkeit",
-    "href": "handout.html#red-flags-für-nicht-verifizierbarkeit",
-    "title": "Lateral Reading",
-    "section": "Red Flags für Nicht-Verifizierbarkeit",
-    "text": "Red Flags für Nicht-Verifizierbarkeit\n\nSehr präzise Zahlen (Spezifität ≠ Richtigkeit)\nDas Sprachmodell bestätigt genau das, was du vermutet hast\nRechtliche oder finanzielle Entscheidungen",
+    "objectID": "workshop/index.html#kurz-check-in-1-min",
+    "href": "workshop/index.html#kurz-check-in-1-min",
+    "title": "Antworten von Sprachmodellen kritisch prüfen",
+    "section": "Kurz-Check-in (1 Min)",
+    "text": "Kurz-Check-in (1 Min)\n\nWie stark stimmst du zu: “Antworten von Sprachmodellen kann ich ohne weitere Prüfung verwenden”?\nWie sicher fühlst du dich darin, falsche Angaben von Sprachmodellen zu erkennen? (0–10)\n\nNotiere deine beiden Antworten kurz (Zettel oder Notiz-App). Du brauchst sie beim Check-out. Keine Abgabe.",
     "crumbs": [
-      "Materialien",
-      "Lateral Reading"
+      "Workshop",
+      "Antworten von Sprachmodellen kritisch prüfen"
+    ]
+  },
+  {
+    "objectID": "workshop/entscheidungsregel/index.html#kurz-check-out-1-min",
+    "href": "workshop/entscheidungsregel/index.html#kurz-check-out-1-min",
+    "title": "Teil 4: Die Entscheidungsregel",
+    "section": "Kurz-Check-out (1 Min)",
+    "text": "Kurz-Check-out (1 Min)\n\nWie stark stimmst du jetzt zu: “Antworten von Sprachmodellen kann ich ohne weitere Prüfung verwenden”?\nWie sicher fühlst du dich jetzt, falsche Angaben von Sprachmodellen zu erkennen? (0–10)\n\nHol deine Check-in-Notiz hervor und vergleiche deine eigenen Antworten. Kein Einsammeln; Teilen nur auf freiwilliger Basis.",
+    "crumbs": [
+      "Workshop",
+      "Teil 4: Die Entscheidungsregel"
     ]
   }
 ]

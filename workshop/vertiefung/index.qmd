@@ -63,7 +63,7 @@ Eine Information kann faktisch korrekt, aber veraltet sein. Das ist besonders re
 
 1. **Datum suchen.** "Letzte Aktualisierung", "Stand:", Impressum.
 2. **Versionierung prüfen.** Bei Gesetzen: "Fassung vom..."
-3. **Google-Zeitfilter nutzen.** Suche auf "Letztes Jahr" einschränken.
+3. **Zeitfilter der Suchmaschine nutzen.** Suche auf "Letztes Jahr" einschränken.
 :::
 
 ## Die Kernbotschaft

@@ -7,9 +7,9 @@ Lateral Reading heisst: Raus aus dem Sprachmodell, eigene Suche, Primärquellen 
 
 ## Die vier Schritte
 
-1. **Suchbegriffe formulieren.** Was tippst du bei Google ein?
+1. **Suchbegriffe formulieren.** Was tippst du in die Suchmaschine?
 2. **Suchergebnisse filtern.** Welche Quellen sind vertrauenswürdig?
-3. **Zur Quelle gehen.** Nicht die Google-Zusammenfassung, sondern die echte Seite.
+3. **Zur Quelle gehen.** Nicht die Zusammenfassung der Suchmaschine, sondern die echte Seite.
 4. **Zwei Prüffragen stellen.** Ist die Quelle zuverlässig? Steht da wirklich das, was behauptet wird?
 
 ## Runde 1: Gemeinsam {#runde-1}
@@ -26,7 +26,15 @@ Du willst das für einen Budgetantrag verwenden.
 
 ### Schritt 1: Suchbegriffe formulieren
 
-Wie würdest du suchen? Nicht das Sprachmodell fragen. Was tippst du bei Google ein?
+Wie würdest du suchen? Nicht das Sprachmodell fragen. Was tippst du in deine Suchmaschine ein?
+
+::: {.pro-tip}
+### Suchmaschine wählen
+
+- Datenschutzfreundlich: Startpage, DuckDuckGo, Qwant
+- Starke Filter/Ranking: Kagi (kostenpflichtig), Brave Search
+- Fallback, wenn du etwas nicht findest: Google
+:::
 
 ::: {.pro-tip}
 
@@ -50,7 +58,7 @@ Nicht: "Stimmt 78000?"
 
 ### Schritt 3: Zur Quelle gehen
 
-Wichtig: Nicht die Google-Zusammenfassung lesen. Zur echten Seite gehen und die Daten selbst finden.
+Wichtig: Nicht die Zusammenfassung der Suchmaschine lesen. Zur echten Seite gehen und die Daten selbst finden.
 
 ### Schritt 4: Zwei Prüffragen
 
