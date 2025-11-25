@@ -1,76 +1,36 @@
 ---
-title: "Handout: Lateral Reading"
-subtitle: "Antworten von Sprachmodellen verifizieren"
+title: "Lateral Reading"
+subtitle: "Kurzanleitung"
 format:
   html:
-    toc: true
+    toc: false
 ---
 
-## Warum Nachfragen beim Sprachmodell nicht hilft
-
-- Sprachmodelle haben keinen Zugang zu ihrem eigenen "Denkprozess"
-- "Bist du sicher?" generiert nur eine neue Antwort
-- Sprachmodelle tendieren dazu, deine Annahmen zu bestätigen
-- Überzeugend formuliert ≠ korrekt
-
-## Die Eine Frage
+## Die Entscheidung
 
 ::: {.callout-important appearance="minimal"}
 **Würde ich diese Information in einem formellen Dokument zitieren?**
 
-- **JA** = Extern verifizieren (Lateral Reading)
-- **NEIN** = Antwort vom Sprachmodell reicht
+- **JA** → Extern verifizieren
+- **NEIN** → Sprachmodell reicht
 :::
 
 ## Lateral Reading in 4 Schritten
 
-### 1. Suchbegriffe formulieren
+**1. Suchbegriffe formulieren**
+: Nicht "Stimmt das?", sondern "[Thema] Schweiz Statistik/Gesetz"
 
-| | |
-|---|---|
-| Nicht | "Stimmt das?" oder Sprachmodell nochmal fragen |
-| Sondern | "[Thema] Schweiz Statistik/Gesetz" |
+**2. Suchergebnisse filtern**
+: Primärquellen (.admin.ch, .edu) klicken. Blogs, Foren, AI-Zusammenfassungen überspringen.
 
-### 2. Suchergebnisse filtern
+**3. Zur Quelle gehen**
+: Nicht die Google-Zusammenfassung. Die echte Seite öffnen. Keine Quelle = nicht verwendbar.
 
-| Quelle | Bewertung |
-|--------|-----------|
-| Primärquellen: .admin.ch, .edu, offizielle Berichte | Klicken |
-| Wikipedia | Nur als Einstieg, nicht zitieren |
-| AI-generierte Zusammenfassungen, Blogs, Foren | Überspringen |
+**4. Zwei Fragen stellen**
+: Ist die Quelle zuverlässig? Steht da wirklich das, was behauptet wird?
 
-### 3. Zur Original-Quelle gehen
+## 🚩Red Flags
 
-- Google-Zusammenfassung reicht nicht
-- Website öffnen, echte Daten finden
-- Keine Quelle gefunden = Aussage vom Sprachmodell nicht verwendbar
-
-### 4. Zwei Prüffragen stellen
-
-| Frage | |
-|-------|---|
-| **Zuverlässig?** | Ist das eine Primärquelle oder offizielle Stelle? |
-| **Relevant?** | Steht da wirklich das, was das Sprachmodell behauptet? |
-
-Sprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch.
-
-## Wann besonders skeptisch sein
-
-::: {.callout-warning appearance="minimal"}
-### Rote Flaggen
-
-- **Spezifitätsfalle:** Je präziser die Zahlen, desto vertrauenswürdiger wirkt es. Aber Spezifität ≠ Richtigkeit.
+- Sehr präzise Zahlen (Spezifität ≠ Richtigkeit)
 - Das Sprachmodell bestätigt genau das, was du vermutet hast
-- Du hast eine Annahme in die Frage eingebaut
-- Es geht um rechtliche oder finanzielle Entscheidungen
-:::
-
-## Stärken und Schwächen von Sprachmodellen
-
-| Gut geeignet für | Nicht zuverlässig für |
-|----------------|------------------------------|
-| Erste Ideen sammeln | Spezifische Fakten |
-| Text umformulieren | Rechtliche Verbindlichkeit |
-| Konzepte erklären | Aktuelle Zahlen |
-| Strukturen vorschlagen | Interne Regelungen |
-| Brainstorming | Quellenangaben (oft erfunden!) |
+- Rechtliche oder finanzielle Entscheidungen

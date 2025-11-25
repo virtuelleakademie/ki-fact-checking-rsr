@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Handout: Lateral Reading – Fact-Checking für KI</title>
+<title>Lateral Reading – Fact-Checking für KI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -89,6 +89,18 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
+div.callout-reflect.callout {
+  border-left-color: #6f42c1;
+}
+div.callout-reflect.callout-style-default > .callout-header {
+  background-color: rgba(111, 66, 193, 0.13);
+}
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f0eb';
+  background-image: none;
+}
 div.callout-group.callout {
   border-left-color: #6f42c1;
 }
@@ -99,30 +111,6 @@ div.callout-group .callout-toggle::before {  background-image: url('data:image/s
 div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
   content: '\f0c0';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: #9A4665;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f007';
-  background-image: none;
-}
-div.callout-key-point.callout {
-  border-left-color: #9A4665;
-}
-div.callout-key-point.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-key-point .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-key-point.callout-style-default .callout-icon::before, div.callout-key-point.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f005';
   background-image: none;
 }
 div.callout-scenario.callout {
@@ -137,6 +125,18 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
   content: '\f075';
   background-image: none;
 }
+div.callout-pro-tip.callout {
+  border-left-color: #20c997;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgba(32, 201, 151, 0.13);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\e2ca';
+  background-image: none;
+}
 div.callout-demonstration.callout {
   border-left-color: #0d6efd;
 }
@@ -147,6 +147,30 @@ div.callout-demonstration .callout-toggle::before {  background-image: url('data
 div.callout-demonstration.callout-style-default .callout-icon::before, div.callout-demonstration.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
   content: '\f51b';
+  background-image: none;
+}
+div.callout-key-point.callout {
+  border-left-color: #9A4665;
+}
+div.callout-key-point.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-key-point .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-key-point.callout-style-default .callout-icon::before, div.callout-key-point.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f005';
+  background-image: none;
+}
+div.callout-prompt.callout {
+  border-left-color: #495057;
+}
+div.callout-prompt.callout-style-default > .callout-header {
+  background-color: rgba(73, 80, 87, 0.13);
+}
+div.callout-prompt .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-prompt.callout-style-default .callout-icon::before, div.callout-prompt.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f328';
   background-image: none;
 }
 div.callout-warning.callout {
@@ -173,30 +197,6 @@ div.callout-source-check.callout-style-default .callout-icon::before, div.callou
   content: '\f002';
   background-image: none;
 }
-div.callout-pro-tip.callout {
-  border-left-color: #20c997;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgba(32, 201, 151, 0.13);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\e2ca';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: #6f42c1;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgba(111, 66, 193, 0.13);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f0eb';
-  background-image: none;
-}
 div.callout-experiment.callout {
   border-left-color: #9A4665;
 }
@@ -209,28 +209,28 @@ div.callout-experiment.callout-style-default .callout-icon::before, div.callout-
   content: '\f0c3';
   background-image: none;
 }
-div.callout-prompt.callout {
-  border-left-color: #495057;
+div.callout-individual.callout {
+  border-left-color: #9A4665;
 }
-div.callout-prompt.callout-style-default > .callout-header {
-  background-color: rgba(73, 80, 87, 0.13);
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-prompt .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-prompt.callout-style-default .callout-icon::before, div.callout-prompt.callout-titled .callout-icon::before {
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
-  content: '\f328';
+  content: '\f007';
   background-image: none;
 }
 </style>
 
 
 <link rel="stylesheet" href="styles/styles.css">
-<meta property="og:title" content="Handout: Lateral Reading – Fact-Checking für KI">
-<meta property="og:description" content="Antworten von Sprachmodellen verifizieren">
+<meta property="og:title" content="Lateral Reading – Fact-Checking für KI">
+<meta property="og:description" content="Kurzanleitung">
 <meta property="og:site_name" content="Fact-Checking für KI">
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light">
+<body class="nav-sidebar docked nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -269,7 +269,7 @@ div.callout-prompt.callout-style-default .callout-icon::before, div.callout-prom
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./handout.html">Handout: Lateral Reading</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./handout.html">Lateral Reading</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -298,7 +298,7 @@ div.callout-prompt.callout-style-default .callout-icon::before, div.callout-prom
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./handout.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Handout: Lateral Reading</span></a>
+ <span class="menu-text">Lateral Reading</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -313,7 +313,7 @@ div.callout-prompt.callout-style-default .callout-icon::before, div.callout-prom
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./workshop/vertiefung/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Vertiefung</span></a>
+ <span class="menu-text">Ergänzende Materialien</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -335,32 +335,14 @@ div.callout-prompt.callout-style-default .callout-icon::before, div.callout-prom
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#warum-nachfragen-beim-sprachmodell-nicht-hilft" id="toc-warum-nachfragen-beim-sprachmodell-nicht-hilft" class="nav-link active" data-scroll-target="#warum-nachfragen-beim-sprachmodell-nicht-hilft">Warum Nachfragen beim Sprachmodell nicht hilft</a></li>
-  <li><a href="#die-eine-frage" id="toc-die-eine-frage" class="nav-link" data-scroll-target="#die-eine-frage">Die Eine Frage</a></li>
-  <li><a href="#lateral-reading-in-4-schritten" id="toc-lateral-reading-in-4-schritten" class="nav-link" data-scroll-target="#lateral-reading-in-4-schritten">Lateral Reading in 4 Schritten</a>
-  <ul class="collapse">
-  <li><a href="#suchbegriffe-formulieren" id="toc-suchbegriffe-formulieren" class="nav-link" data-scroll-target="#suchbegriffe-formulieren">1. Suchbegriffe formulieren</a></li>
-  <li><a href="#suchergebnisse-filtern" id="toc-suchergebnisse-filtern" class="nav-link" data-scroll-target="#suchergebnisse-filtern">2. Suchergebnisse filtern</a></li>
-  <li><a href="#zur-original-quelle-gehen" id="toc-zur-original-quelle-gehen" class="nav-link" data-scroll-target="#zur-original-quelle-gehen">3. Zur Original-Quelle gehen</a></li>
-  <li><a href="#zwei-prüffragen-stellen" id="toc-zwei-prüffragen-stellen" class="nav-link" data-scroll-target="#zwei-prüffragen-stellen">4. Zwei Prüffragen stellen</a></li>
-  </ul></li>
-  <li><a href="#wann-besonders-skeptisch-sein" id="toc-wann-besonders-skeptisch-sein" class="nav-link" data-scroll-target="#wann-besonders-skeptisch-sein">Wann besonders skeptisch sein</a></li>
-  <li><a href="#stärken-und-schwächen-von-sprachmodellen" id="toc-stärken-und-schwächen-von-sprachmodellen" class="nav-link" data-scroll-target="#stärken-und-schwächen-von-sprachmodellen">Stärken und Schwächen von Sprachmodellen</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Handout: Lateral Reading</h1>
-<p class="subtitle lead">Antworten von Sprachmodellen verifizieren</p>
+<h1 class="title">Lateral Reading</h1>
+<p class="subtitle lead">Kurzanleitung</p>
 </div>
 
 
@@ -377,17 +359,8 @@ div.callout-prompt.callout-style-default .callout-icon::before, div.callout-prom
 </header>
 
 
-<section id="warum-nachfragen-beim-sprachmodell-nicht-hilft" class="level2">
-<h2 class="anchored" data-anchor-id="warum-nachfragen-beim-sprachmodell-nicht-hilft">Warum Nachfragen beim Sprachmodell nicht hilft</h2>
-<ul>
-<li>Sprachmodelle haben keinen Zugang zu ihrem eigenen “Denkprozess”</li>
-<li>“Bist du sicher?” generiert nur eine neue Antwort</li>
-<li>Sprachmodelle tendieren dazu, deine Annahmen zu bestätigen</li>
-<li>Überzeugend formuliert ≠ korrekt</li>
-</ul>
-</section>
-<section id="die-eine-frage" class="level2">
-<h2 class="anchored" data-anchor-id="die-eine-frage">Die Eine Frage</h2>
+<section id="die-entscheidung" class="level2">
+<h2 class="anchored" data-anchor-id="die-entscheidung">Die Entscheidung</h2>
 <div class="callout callout-style-simple callout-important no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -396,8 +369,8 @@ div.callout-prompt.callout-style-default .callout-icon::before, div.callout-prom
 <div class="callout-body-container">
 <p><strong>Würde ich diese Information in einem formellen Dokument zitieren?</strong></p>
 <ul>
-<li><strong>JA</strong> = Extern verifizieren (Lateral Reading)</li>
-<li><strong>NEIN</strong> = Antwort vom Sprachmodell reicht</li>
+<li><strong>JA</strong> → Extern verifizieren</li>
+<li><strong>NEIN</strong> → Sprachmodell reicht</li>
 </ul>
 </div>
 </div>
@@ -405,134 +378,32 @@ div.callout-prompt.callout-style-default .callout-icon::before, div.callout-prom
 </section>
 <section id="lateral-reading-in-4-schritten" class="level2">
 <h2 class="anchored" data-anchor-id="lateral-reading-in-4-schritten">Lateral Reading in 4 Schritten</h2>
-<section id="suchbegriffe-formulieren" class="level3">
-<h3 class="anchored" data-anchor-id="suchbegriffe-formulieren">1. Suchbegriffe formulieren</h3>
-<table class="caption-top table">
-<tbody>
-<tr class="odd">
-<td>Nicht</td>
-<td>“Stimmt das?” oder Sprachmodell nochmal fragen</td>
-</tr>
-<tr class="even">
-<td>Sondern</td>
-<td>“[Thema] Schweiz Statistik/Gesetz”</td>
-</tr>
-</tbody>
-</table>
+<dl>
+<dt><strong>1. Suchbegriffe formulieren</strong></dt>
+<dd>
+Nicht “Stimmt das?”, sondern “[Thema] Schweiz Statistik/Gesetz”
+</dd>
+<dt><strong>2. Suchergebnisse filtern</strong></dt>
+<dd>
+Primärquellen (.admin.ch, .edu) klicken. Blogs, Foren, AI-Zusammenfassungen überspringen.
+</dd>
+<dt><strong>3. Zur Quelle gehen</strong></dt>
+<dd>
+Nicht die Google-Zusammenfassung. Die echte Seite öffnen. Keine Quelle = nicht verwendbar.
+</dd>
+<dt><strong>4. Zwei Fragen stellen</strong></dt>
+<dd>
+Ist die Quelle zuverlässig? Steht da wirklich das, was behauptet wird?
+</dd>
+</dl>
 </section>
-<section id="suchergebnisse-filtern" class="level3">
-<h3 class="anchored" data-anchor-id="suchergebnisse-filtern">2. Suchergebnisse filtern</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Quelle</th>
-<th>Bewertung</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Primärquellen: .admin.ch, .edu, offizielle Berichte</td>
-<td>Klicken</td>
-</tr>
-<tr class="even">
-<td>Wikipedia</td>
-<td>Nur als Einstieg, nicht zitieren</td>
-</tr>
-<tr class="odd">
-<td>AI-generierte Zusammenfassungen, Blogs, Foren</td>
-<td>Überspringen</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="zur-original-quelle-gehen" class="level3">
-<h3 class="anchored" data-anchor-id="zur-original-quelle-gehen">3. Zur Original-Quelle gehen</h3>
+<section id="red-flags" class="level2">
+<h2 class="anchored" data-anchor-id="red-flags">🚩Red Flags</h2>
 <ul>
-<li>Google-Zusammenfassung reicht nicht</li>
-<li>Website öffnen, echte Daten finden</li>
-<li>Keine Quelle gefunden = Aussage vom Sprachmodell nicht verwendbar</li>
-</ul>
-</section>
-<section id="zwei-prüffragen-stellen" class="level3">
-<h3 class="anchored" data-anchor-id="zwei-prüffragen-stellen">4. Zwei Prüffragen stellen</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 70%">
-<col style="width: 30%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Frage</th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Zuverlässig?</strong></td>
-<td>Ist das eine Primärquelle oder offizielle Stelle?</td>
-</tr>
-<tr class="even">
-<td><strong>Relevant?</strong></td>
-<td>Steht da wirklich das, was das Sprachmodell behauptet?</td>
-</tr>
-</tbody>
-</table>
-<p>Sprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch.</p>
-</section>
-</section>
-<section id="wann-besonders-skeptisch-sein" class="level2">
-<h2 class="anchored" data-anchor-id="wann-besonders-skeptisch-sein">Wann besonders skeptisch sein</h2>
-<div class="callout callout-style-simple callout-warning no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Warning</span>Rote Flaggen
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li><strong>Spezifitätsfalle:</strong> Je präziser die Zahlen, desto vertrauenswürdiger wirkt es. Aber Spezifität ≠ Richtigkeit.</li>
+<li>Sehr präzise Zahlen (Spezifität ≠ Richtigkeit)</li>
 <li>Das Sprachmodell bestätigt genau das, was du vermutet hast</li>
-<li>Du hast eine Annahme in die Frage eingebaut</li>
-<li>Es geht um rechtliche oder finanzielle Entscheidungen</li>
+<li>Rechtliche oder finanzielle Entscheidungen</li>
 </ul>
-</div>
-</div>
-</section>
-<section id="stärken-und-schwächen-von-sprachmodellen" class="level2">
-<h2 class="anchored" data-anchor-id="stärken-und-schwächen-von-sprachmodellen">Stärken und Schwächen von Sprachmodellen</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Gut geeignet für</th>
-<th>Nicht zuverlässig für</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Erste Ideen sammeln</td>
-<td>Spezifische Fakten</td>
-</tr>
-<tr class="even">
-<td>Text umformulieren</td>
-<td>Rechtliche Verbindlichkeit</td>
-</tr>
-<tr class="odd">
-<td>Konzepte erklären</td>
-<td>Aktuelle Zahlen</td>
-</tr>
-<tr class="even">
-<td>Strukturen vorschlagen</td>
-<td>Interne Regelungen</td>
-</tr>
-<tr class="odd">
-<td>Brainstorming</td>
-<td>Quellenangaben (oft erfunden!)</td>
-</tr>
-</tbody>
-</table>
 
 
 </section>
@@ -1010,8 +881,8 @@ document.addEventListener('DOMContentLoaded', function() {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./workshop/vertiefung/index.html" class="pagination-link" aria-label="Vertiefung">
-        <span class="nav-page-text">Vertiefung</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./workshop/vertiefung/index.html" class="pagination-link" aria-label="Ergänzende Materialien">
+        <span class="nav-page-text">Ergänzende Materialien</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

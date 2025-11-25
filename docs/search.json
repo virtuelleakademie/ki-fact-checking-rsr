@@ -2,12 +2,12 @@
   {
     "objectID": "handout.html",
     "href": "handout.html",
-    "title": "Handout: Lateral Reading",
+    "title": "Lateral Reading",
     "section": "",
-    "text": "Sprachmodelle haben keinen Zugang zu ihrem eigenen “Denkprozess”\n“Bist du sicher?” generiert nur eine neue Antwort\nSprachmodelle tendieren dazu, deine Annahmen zu bestätigen\nÜberzeugend formuliert ≠ korrekt",
+    "text": "Würde ich diese Information in einem formellen Dokument zitieren?\n\nJA → Extern verifizieren\nNEIN → Sprachmodell reicht",
     "crumbs": [
       "Materialien",
-      "Handout: Lateral Reading"
+      "Lateral Reading"
     ]
   },
   {
@@ -515,12 +515,12 @@
   {
     "objectID": "handout.html#lateral-reading-in-4-schritten",
     "href": "handout.html#lateral-reading-in-4-schritten",
-    "title": "Handout: Lateral Reading",
+    "title": "Lateral Reading",
     "section": "Lateral Reading in 4 Schritten",
-    "text": "Lateral Reading in 4 Schritten\n\n1. Suchbegriffe formulieren\n\n\n\nNicht\n“Stimmt das?” oder Sprachmodell nochmal fragen\n\n\nSondern\n“[Thema] Schweiz Statistik/Gesetz”\n\n\n\n\n\n2. Suchergebnisse filtern\n\n\n\nQuelle\nBewertung\n\n\n\n\nPrimärquellen: .admin.ch, .edu, offizielle Berichte\nKlicken\n\n\nWikipedia\nNur als Einstieg, nicht zitieren\n\n\nAI-generierte Zusammenfassungen, Blogs, Foren\nÜberspringen\n\n\n\n\n\n3. Zur Original-Quelle gehen\n\nGoogle-Zusammenfassung reicht nicht\nWebsite öffnen, echte Daten finden\nKeine Quelle gefunden = Aussage vom Sprachmodell nicht verwendbar\n\n\n\n4. Zwei Prüffragen stellen\n\n\n\n\n\n\n\nFrage\n\n\n\n\n\nZuverlässig?\nIst das eine Primärquelle oder offizielle Stelle?\n\n\nRelevant?\nSteht da wirklich das, was das Sprachmodell behauptet?\n\n\n\nSprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch.",
+    "text": "Lateral Reading in 4 Schritten\n\n1. Suchbegriffe formulieren\n\nNicht “Stimmt das?”, sondern “[Thema] Schweiz Statistik/Gesetz”\n\n2. Suchergebnisse filtern\n\nPrimärquellen (.admin.ch, .edu) klicken. Blogs, Foren, AI-Zusammenfassungen überspringen.\n\n3. Zur Quelle gehen\n\nNicht die Google-Zusammenfassung. Die echte Seite öffnen. Keine Quelle = nicht verwendbar.\n\n4. Zwei Fragen stellen\n\nIst die Quelle zuverlässig? Steht da wirklich das, was behauptet wird?",
     "crumbs": [
       "Materialien",
-      "Handout: Lateral Reading"
+      "Lateral Reading"
     ]
   },
   {
@@ -829,6 +829,50 @@
     "text": "Vertiefungsartikel\nDiese Artikel vertiefen einzelne Aspekte, die im 40-Minuten-Workshop nicht vollständig behandelt werden können:\n\nVertiefung: Nicht verifizierbare Behauptungen und zeitliche Gültigkeit von Informationen.\nVertical vs. Lateral Reading: Warum wir die Quelle verlassen müssen. Die theoretische Grundlage der Workshop-Methode.\nConfirmation Bias und KI: Warum Chatbots uns recht geben und wie wir dagegen vorgehen können.",
     "crumbs": [
       "Materialien"
+    ]
+  },
+  {
+    "objectID": "handout.html#die-entscheidung",
+    "href": "handout.html#die-entscheidung",
+    "title": "Lateral Reading",
+    "section": "",
+    "text": "Würde ich diese Information in einem formellen Dokument zitieren?\n\nJA → Extern verifizieren\nNEIN → Sprachmodell reicht",
+    "crumbs": [
+      "Materialien",
+      "Lateral Reading"
+    ]
+  },
+  {
+    "objectID": "handout.html#rote-flaggen",
+    "href": "handout.html#rote-flaggen",
+    "title": "Lateral Reading",
+    "section": "Rote Flaggen",
+    "text": "Rote Flaggen\n\nSehr präzise Zahlen (Spezifität ≠ Richtigkeit)\nDas Sprachmodell bestätigt genau das, was du vermutet hast\nRechtliche oder finanzielle Entscheidungen",
+    "crumbs": [
+      "Materialien",
+      "Lateral Reading"
+    ]
+  },
+  {
+    "objectID": "handout.html#red-flags",
+    "href": "handout.html#red-flags",
+    "title": "Lateral Reading",
+    "section": "🚩Red Flags",
+    "text": "🚩Red Flags\n\nSehr präzise Zahlen (Spezifität ≠ Richtigkeit)\nDas Sprachmodell bestätigt genau das, was du vermutet hast\nRechtliche oder finanzielle Entscheidungen",
+    "crumbs": [
+      "Materialien",
+      "Lateral Reading"
+    ]
+  },
+  {
+    "objectID": "handout.html#red-flags-für-nicht-verifizierbarkeit",
+    "href": "handout.html#red-flags-für-nicht-verifizierbarkeit",
+    "title": "Lateral Reading",
+    "section": "Red Flags für Nicht-Verifizierbarkeit",
+    "text": "Red Flags für Nicht-Verifizierbarkeit\n\nSehr präzise Zahlen (Spezifität ≠ Richtigkeit)\nDas Sprachmodell bestätigt genau das, was du vermutet hast\nRechtliche oder finanzielle Entscheidungen",
+    "crumbs": [
+      "Materialien",
+      "Lateral Reading"
     ]
   }
 ]
