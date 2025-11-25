@@ -435,14 +435,14 @@
     "href": "workshop/vertiefung/index.html",
     "title": "Vertiefung",
     "section": "",
-    "text": "Diese Materialien ergänzen den Workshop um Aspekte, die im 40-Minuten-Format nicht vollständig behandelt werden:"
+    "text": "Diese Materialien ergänzen den Workshop um zwei Aspekte, die im 40-Minuten-Format nicht vollständig behandelt werden:"
   },
   {
     "objectID": "workshop/vertiefung/index.html#wenn-keine-quelle-existiert",
     "href": "workshop/vertiefung/index.html#wenn-keine-quelle-existiert",
     "title": "Vertiefung",
     "section": "1. Wenn keine Quelle existiert",
-    "text": "1. Wenn keine Quelle existiert\nNicht jede Behauptung lässt sich verifizieren. Das ist keine Schwäche deiner Recherche — manchmal gibt es schlicht keine öffentlich zugängliche Quelle.\n\nTypische Fälle\n\n\n\n\n\n\n\n\nSituation\nBeispiel\nWarum nicht verifizierbar\n\n\n\n\nProprietäre Daten\n“Der Marktanteil von Software X beträgt 34%”\nMarktforschungsdaten sind oft kostenpflichtig oder geschätzt\n\n\nInterne Regelungen\n“Die Kündigungsfrist beträgt 3 Monate”\nGilt nur für deine Institution, nicht öffentlich\n\n\nZukunftsprognosen\n“Die Inflation wird 2026 bei 2% liegen”\nKeine Fakten, sondern Schätzungen\n\n\nErfahrungswerte\n“Die meisten Projekte brauchen 20% mehr Zeit als geplant”\nFaustregeln ohne definitive Quelle\n\n\nVeraltete Informationen\n“Das Formular findest du unter…”\nURLs und Prozesse ändern sich laufend\n\n\n\n\n\nÜbungsszenarien: Nicht verifizierbar\n\n\n\n\n\n\nScenarioSzenario A: Marktdaten\n\n\n\nDu fragst ein Sprachmodell: “Wie hoch ist der Marktanteil von Microsoft Teams vs. Slack in der Schweiz?”\nDas Sprachmodell antwortet: “Microsoft Teams hat in der Schweiz einen Marktanteil von ca. 65%, Slack liegt bei etwa 15%.”\nLateral Reading Versuch:\n\nSuche: “Microsoft Teams Marktanteil Schweiz Statistik”\nErgebnis: Keine offiziellen Schweizer Zahlen, nur globale Schätzungen von Analysefirmen\n\nFazit: Diese Zahlen sind nicht verifizierbar. Du kannst sie nicht in einem formellen Dokument verwenden.\n\n\n\n\n\n\n\n\nScenarioSzenario B: Best Practices\n\n\n\nDu fragst: “Wie lange sollte eine Teamsitzung maximal dauern?”\nDas Sprachmodell antwortet: “Studien zeigen, dass die optimale Meetingdauer bei 45-50 Minuten liegt.”\nLateral Reading Versuch:\n\nSuche: “optimale Meetingdauer Studie”\nErgebnis: Viele Blog-Artikel, aber keine definitive wissenschaftliche Quelle\n\nFazit: Es gibt keine “offizielle” Antwort. Das ist eine Faustregel, kein Fakt.\n\n\n\n\nWas tun bei nicht verifizierbaren Behauptungen?\n\n\n\n\n\n\nKey-pointDie Nicht-Verifizierbarkeit ist selbst eine Information\n\n\n\nWenn du nach 5 Minuten Recherche keine verlässliche Quelle findest:\n\nKennzeichne die Unsicherheit — “Laut Schätzungen…” oder “Es gibt keine offiziellen Zahlen, aber…”\nVerzichte auf die Behauptung — wenn Genauigkeit wichtig ist\nFrage intern nach — bei institutionsspezifischen Fragen\nNutze Ranges statt Punktwerte — “zwischen 40% und 70%” statt “genau 55%”"
+    "text": "1. Wenn keine Quelle existiert\nNicht jede Behauptung lässt sich verifizieren. Das ist keine Schwäche deiner Recherche — manchmal gibt es schlicht keine öffentlich zugängliche Quelle.\n\nTypische Fälle\n\n\n\nSituation\nBeispiel\n\n\n\n\nProprietäre Daten\n“Der Marktanteil von Software X beträgt 34%”\n\n\nInterne Regelungen\n“Die Kündigungsfrist beträgt 3 Monate”\n\n\nZukunftsprognosen\n“Die Inflation wird 2026 bei 2% liegen”\n\n\nErfahrungswerte\n“Die meisten Projekte brauchen 20% mehr Zeit”\n\n\n\n\n\nWas tun?\n\n\n\n\n\n\nKey-pointDie Nicht-Verifizierbarkeit ist selbst eine Information\n\n\n\nWenn du nach 5 Minuten Recherche keine verlässliche Quelle findest:\n\nKennzeichne die Unsicherheit — “Laut Schätzungen…” oder “Es gibt keine offiziellen Zahlen, aber…”\nVerzichte auf die Behauptung — wenn Genauigkeit wichtig ist\nFrage intern nach — bei institutionsspezifischen Fragen"
   },
   {
     "objectID": "workshop/vertiefung/index.html#quellen-jenseits-der-schweiz",
@@ -455,8 +455,8 @@
     "objectID": "workshop/vertiefung/index.html#zeitliche-gültigkeit-prüfen",
     "href": "workshop/vertiefung/index.html#zeitliche-gültigkeit-prüfen",
     "title": "Vertiefung",
-    "section": "3. Zeitliche Gültigkeit prüfen",
-    "text": "3. Zeitliche Gültigkeit prüfen\nEine Information kann faktisch korrekt, aber veraltet sein. Das ist besonders relevant bei:\n\nGesetzen und Verordnungen\nStatistiken und Kennzahlen\nTechnischen Dokumentationen\nInstitutionellen Prozessen\n\n\nWarnsignale für veraltete Informationen\n\n\n\n\n\n\n\nSignal\nBeispiel\n\n\n\n\nKein Datum sichtbar\nWebseite ohne Veröffentlichungs- oder Aktualisierungsdatum\n\n\nAlte Jahreszahlen\n“Stand 2019” bei sich schnell ändernden Themen\n\n\nInaktive Links\nVerweise führen ins Leere\n\n\nAlte Terminologie\nBegriffe, die nicht mehr verwendet werden\n\n\nWiderspruch zu anderen Quellen\nMehrere aktuelle Quellen sagen etwas anderes\n\n\n\n\n\nStrategien zur Aktualitätsprüfung\n\n\n\n\n\n\nPro-tipSo prüfst du die Aktualität\n\n\n\n\n\n\nDatum suchen — “Letzte Aktualisierung”, “Stand:”, Impressum\nVersionierung prüfen — Bei Gesetzen: “Fassung vom…”\nGoogle-Zeitfilter nutzen — Suche auf “Letztes Jahr” einschränken\nDirekt bei der Quelle prüfen — Offizielle Seite statt Google-Cache\n“Änderung” + Thema suchen — z.B. “Datenschutzgesetz Änderung 2024”\n\n\n\n\n\n\nÜbungsszenario: Zeitliche Gültigkeit\n\n\n\n\n\n\nScenarioSzenario: Veraltetes Gesetz\n\n\n\nDu fragst ein Sprachmodell: “Was ist die Aufbewahrungsfrist für Geschäftsdokumente in der Schweiz?”\nDas Sprachmodell antwortet: “Die gesetzliche Aufbewahrungsfrist beträgt 10 Jahre gemäss Art. 958f OR.”\nLateral Reading mit Zeitfokus:\n\nSuche: “Aufbewahrungsfrist OR 958f Schweiz”\nFinde: admin.ch — Obligationenrecht Art. 958f\nPrüfe das Datum: “Stand am 1. Januar 2024”\nPrüfe auf Änderungen: “OR Änderungen 2024 2025”\n\nFazit: Die 10-Jahre-Regel stimmt aktuell — aber bei Gesetzesänderungen könnte sie sich ändern. Immer das Datum notieren!\n\n\n\n\nBesonders änderungsanfällige Bereiche\n\n\n\n\n\n\n\n\nBereich\nTypische Änderungsfrequenz\nEmpfehlung\n\n\n\n\nSozialversicherungen\nJährlich (Beiträge, Grenzwerte)\nImmer aktuelles Jahr prüfen\n\n\nSteuersätze\nJährlich\nKantonale Unterschiede beachten\n\n\nSoftware-Dokumentation\nMit jedem Release\nVersionsnummer prüfen\n\n\nEU-Verordnungen\nUnregelmässig\nAuf “konsolidierte Fassung” achten\n\n\nInterne Prozesse\nLaufend\nIntranet-Datum prüfen, im Zweifel nachfragen"
+    "section": "2. Zeitliche Gültigkeit prüfen",
+    "text": "2. Zeitliche Gültigkeit prüfen\nEine Information kann faktisch korrekt, aber veraltet sein. Das ist besonders relevant bei:\n\nGesetzen und Verordnungen\nStatistiken und Kennzahlen\nSoftware-Dokumentation\nInstitutionellen Prozessen\n\n\nWarnsignale\n\n\n\n\n\n\n\nSignal\nBeispiel\n\n\n\n\nKein Datum sichtbar\nWebseite ohne Aktualisierungsdatum\n\n\nAlte Jahreszahlen\n“Stand 2019” bei sich schnell ändernden Themen\n\n\nInaktive Links\nVerweise führen ins Leere\n\n\n\n\n\nStrategien\n\n\n\n\n\n\nPro-tipSo prüfst du die Aktualität\n\n\n\n\n\n\nDatum suchen — “Letzte Aktualisierung”, “Stand:”, Impressum\nVersionierung prüfen — Bei Gesetzen: “Fassung vom…”\nGoogle-Zeitfilter nutzen — Suche auf “Letztes Jahr” einschränken"
   },
   {
     "objectID": "workshop/vertiefung/index.html#zusammenfassung",
@@ -470,7 +470,7 @@
     "href": "workshop/vertiefung/index.html#weiterführende-ressourcen",
     "title": "Vertiefung",
     "section": "Weiterführende Ressourcen",
-    "text": "Weiterführende Ressourcen\n\nZur Vertiefung\n\nStanford Civic Online Reasoning — Forschung und Unterrichtsmaterialien zu Lateral Reading\nSIFT-Methode — die englischsprachige Grundlage für Lateral Reading\nCorrectiv — deutschsprachiges Fact-Checking\nAFP Faktencheck — deutschsprachig, auch Schweizer Themen\n\n\n\nFür den Arbeitsalltag\n\nBei Unsicherheit: Lieber einmal mehr nachfragen als falsche Information weitergeben\nDokumentation: Notiere dir, wo du was verifiziert hast — spart Zeit bei Rückfragen\nTeamwissen: Teile gute Quellen mit Kolleginnen und Kollegen"
+    "text": "Weiterführende Ressourcen\n\nStanford Civic Online Reasoning — Forschung zu Lateral Reading\nSIFT-Methode — Englischsprachige Grundlage für Lateral Reading"
   },
   {
     "objectID": "handout.html#lateral-reading-in-4-schritten",
@@ -590,5 +590,12 @@
     "title": "Vertical vs. Lateral Reading",
     "section": "Weiterführend",
     "text": "Weiterführend\nDiese Konzepte stammen aus der Forschung zu Civic Online Reasoning der Stanford History Education Group. Mehr dazu:\n\nStanford History Education Group: Civic Online Reasoning\nSIFT-Methode von Mike Caulfield"
+  },
+  {
+    "objectID": "workshop/vertiefung/index.html#die-kernbotschaft",
+    "href": "workshop/vertiefung/index.html#die-kernbotschaft",
+    "title": "Vertiefung",
+    "section": "Die Kernbotschaft",
+    "text": "Die Kernbotschaft\n\n\n\n\n\n\nKey-pointSprachmodelle sind keine zuverlässigen Quellen\n\n\n\nDas Wichtigste aus diesem Workshop:\n\nSprachmodelle erfinden Fakten — auch wenn sie überzeugend klingen\nNachfragen hilft nicht — das Modell kann sich nicht selbst prüfen\nExterne Verifikation ist der einzige Weg — verlasse das Sprachmodell und suche selbst\nKeine Quelle = nicht verwendbar — wenn du es nicht verifizieren kannst, zitiere es nicht"
   }
 ]

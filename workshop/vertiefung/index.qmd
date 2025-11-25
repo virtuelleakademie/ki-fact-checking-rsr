@@ -1,13 +1,12 @@
 ---
 title: "Vertiefung"
-subtitle: "Ergänzende Materialien für komplexere Situationen"
+subtitle: "Ergänzende Materialien"
 ---
 
-Diese Materialien ergänzen den Workshop um Aspekte, die im 40-Minuten-Format nicht vollständig behandelt werden:
+Diese Materialien ergänzen den Workshop um zwei Aspekte, die im 40-Minuten-Format nicht vollständig behandelt werden:
 
 1. **Nicht verifizierbare Behauptungen** --- wenn keine Quelle existiert
-2. **Quellen jenseits der Schweiz** --- internationale und branchenspezifische Ressourcen
-3. **Zeitliche Gültigkeit** --- ist die Information noch aktuell?
+2. **Zeitliche Gültigkeit** --- ist die Information noch aktuell?
 
 ::: {.callout-note appearance="minimal"}
 ### Siehe auch
@@ -23,47 +22,14 @@ Nicht jede Behauptung lässt sich verifizieren. Das ist keine Schwäche deiner R
 
 ### Typische Fälle
 
-| Situation | Beispiel | Warum nicht verifizierbar |
-|-----------|----------|---------------------------|
-| **Proprietäre Daten** | "Der Marktanteil von Software X beträgt 34%" | Marktforschungsdaten sind oft kostenpflichtig oder geschätzt |
-| **Interne Regelungen** | "Die Kündigungsfrist beträgt 3 Monate" | Gilt nur für deine Institution, nicht öffentlich |
-| **Zukunftsprognosen** | "Die Inflation wird 2026 bei 2% liegen" | Keine Fakten, sondern Schätzungen |
-| **Erfahrungswerte** | "Die meisten Projekte brauchen 20% mehr Zeit als geplant" | Faustregeln ohne definitive Quelle |
-| **Veraltete Informationen** | "Das Formular findest du unter..." | URLs und Prozesse ändern sich laufend |
+| Situation | Beispiel |
+|-----------|----------|
+| **Proprietäre Daten** | "Der Marktanteil von Software X beträgt 34%" |
+| **Interne Regelungen** | "Die Kündigungsfrist beträgt 3 Monate" |
+| **Zukunftsprognosen** | "Die Inflation wird 2026 bei 2% liegen" |
+| **Erfahrungswerte** | "Die meisten Projekte brauchen 20% mehr Zeit" |
 
-### Übungsszenarien: Nicht verifizierbar
-
-::: {.scenario}
-### Szenario A: Marktdaten
-
-Du fragst ein Sprachmodell: *"Wie hoch ist der Marktanteil von Microsoft Teams vs. Slack in der Schweiz?"*
-
-Das Sprachmodell antwortet: *"Microsoft Teams hat in der Schweiz einen Marktanteil von ca. 65%, Slack liegt bei etwa 15%."*
-
-**Lateral Reading Versuch:**
-
-- Suche: "Microsoft Teams Marktanteil Schweiz Statistik"
-- Ergebnis: Keine offiziellen Schweizer Zahlen, nur globale Schätzungen von Analysefirmen
-
-**Fazit:** Diese Zahlen sind nicht verifizierbar. Du kannst sie nicht in einem formellen Dokument verwenden.
-:::
-
-::: {.scenario}
-### Szenario B: Best Practices
-
-Du fragst: *"Wie lange sollte eine Teamsitzung maximal dauern?"*
-
-Das Sprachmodell antwortet: *"Studien zeigen, dass die optimale Meetingdauer bei 45-50 Minuten liegt."*
-
-**Lateral Reading Versuch:**
-
-- Suche: "optimale Meetingdauer Studie"
-- Ergebnis: Viele Blog-Artikel, aber keine definitive wissenschaftliche Quelle
-
-**Fazit:** Es gibt keine "offizielle" Antwort. Das ist eine Faustregel, kein Fakt.
-:::
-
-### Was tun bei nicht verifizierbaren Behauptungen?
+### Was tun?
 
 ::: {.key-point}
 ### Die Nicht-Verifizierbarkeit ist selbst eine Information
@@ -73,88 +39,28 @@ Wenn du nach 5 Minuten Recherche keine verlässliche Quelle findest:
 1. **Kennzeichne die Unsicherheit** --- "Laut Schätzungen..." oder "Es gibt keine offiziellen Zahlen, aber..."
 2. **Verzichte auf die Behauptung** --- wenn Genauigkeit wichtig ist
 3. **Frage intern nach** --- bei institutionsspezifischen Fragen
-4. **Nutze Ranges statt Punktwerte** --- "zwischen 40% und 70%" statt "genau 55%"
 :::
 
 ---
 
-## 2. Quellen jenseits der Schweiz
-
-Der Workshop fokussiert auf Schweizer Quellen. Für internationale oder branchenspezifische Themen brauchst du andere Ressourcen.
-
-### Internationale Statistiken
-
-| Bereich | Primärquelle | URL |
-|---------|--------------|-----|
-| **EU-Statistiken** | Eurostat | [ec.europa.eu/eurostat](https://ec.europa.eu/eurostat) |
-| **Globale Wirtschaft** | Weltbank | [data.worldbank.org](https://data.worldbank.org) |
-| **Gesundheit** | WHO | [who.int/data](https://www.who.int/data) |
-| **Bildung international** | OECD | [data.oecd.org](https://data.oecd.org) |
-| **Arbeit & Soziales** | ILO | [ilostat.ilo.org](https://ilostat.ilo.org) |
-
-### Wissenschaftliche Quellen
-
-| Typ | Ressource | Hinweis |
-|-----|-----------|---------|
-| **Peer-reviewed Artikel** | [Google Scholar](https://scholar.google.com) | Nur als Einstieg, dann Original lesen |
-| **Open Access** | [PubMed](https://pubmed.ncbi.nlm.nih.gov) | Biomedizin, Gesundheit |
-| **Preprints** | [arXiv](https://arxiv.org) | Nicht peer-reviewed! Mit Vorsicht |
-| **Systematische Reviews** | [Cochrane Library](https://www.cochranelibrary.com) | Höchste Evidenzstufe |
-
-::: {.warning}
-### Vorsicht bei wissenschaftlichen Quellen
-
-- **Eine Studie ≠ Konsens** --- Einzelstudien können widerlegt werden
-- **Preprints** sind nicht begutachtet --- können fehlerhaft sein
-- **Ältere Metaanalysen** können durch neuere Daten überholt sein
-- **Impact Factor ≠ Qualität** --- auch renommierte Journals publizieren gelegentlich Fehler
-:::
-
-### Branchenspezifische Quellen
-
-| Branche | Typische Primärquellen |
-|---------|------------------------|
-| **IT & Software** | Offizielle Dokumentation (docs.microsoft.com, etc.), Herstellerseiten |
-| **Recht (EU)** | [EUR-Lex](https://eur-lex.europa.eu), nationale Gesetzesdatenbanken |
-| **Finanzen** | Zentralbanken (SNB, EZB), Finanzmarktaufsichten |
-| **Normen & Standards** | [ISO](https://www.iso.org), [SNV](https://www.snv.ch) (kostenpflichtig) |
-| **Datenschutz (EU)** | [EDPB](https://edpb.europa.eu) (Europäischer Datenschutzausschuss) |
-
-### Hierarchie der Quellen
-
-::: {.key-point}
-### Vom Zuverlässigsten zum Unzuverlässigsten
-
-1. **Primärquellen** --- Originaldaten, Gesetze, offizielle Berichte
-2. **Sekundärquellen** --- Peer-reviewed Analysen der Primärquellen
-3. **Tertiärquellen** --- Lehrbücher, Enzyklopädien, Zusammenfassungen
-4. **Graue Literatur** --- Whitepapers, Reports von Firmen/NGOs
-5. **Journalismus** --- kann gut recherchiert sein, aber verifiziere die Primärquelle
-6. **Blogs, Foren, Social Media** --- nie als alleinige Quelle verwenden
-:::
-
----
-
-## 3. Zeitliche Gültigkeit prüfen
+## 2. Zeitliche Gültigkeit prüfen
 
 Eine Information kann faktisch korrekt, aber veraltet sein. Das ist besonders relevant bei:
 
 - Gesetzen und Verordnungen
 - Statistiken und Kennzahlen
-- Technischen Dokumentationen
+- Software-Dokumentation
 - Institutionellen Prozessen
 
-### Warnsignale für veraltete Informationen
+### Warnsignale
 
 | Signal | Beispiel |
 |--------|----------|
-| **Kein Datum sichtbar** | Webseite ohne Veröffentlichungs- oder Aktualisierungsdatum |
+| **Kein Datum sichtbar** | Webseite ohne Aktualisierungsdatum |
 | **Alte Jahreszahlen** | "Stand 2019" bei sich schnell ändernden Themen |
 | **Inaktive Links** | Verweise führen ins Leere |
-| **Alte Terminologie** | Begriffe, die nicht mehr verwendet werden |
-| **Widerspruch zu anderen Quellen** | Mehrere aktuelle Quellen sagen etwas anderes |
 
-### Strategien zur Aktualitätsprüfung
+### Strategien
 
 ::: {.pro-tip}
 ### So prüfst du die Aktualität
@@ -162,75 +68,26 @@ Eine Information kann faktisch korrekt, aber veraltet sein. Das ist besonders re
 1. **Datum suchen** --- "Letzte Aktualisierung", "Stand:", Impressum
 2. **Versionierung prüfen** --- Bei Gesetzen: "Fassung vom..."
 3. **Google-Zeitfilter nutzen** --- Suche auf "Letztes Jahr" einschränken
-4. **Direkt bei der Quelle prüfen** --- Offizielle Seite statt Google-Cache
-5. **"Änderung" + Thema suchen** --- z.B. "Datenschutzgesetz Änderung 2024"
 :::
-
-### Übungsszenario: Zeitliche Gültigkeit
-
-::: {.scenario}
-### Szenario: Veraltetes Gesetz
-
-Du fragst ein Sprachmodell: *"Was ist die Aufbewahrungsfrist für Geschäftsdokumente in der Schweiz?"*
-
-Das Sprachmodell antwortet: *"Die gesetzliche Aufbewahrungsfrist beträgt 10 Jahre gemäss Art. 958f OR."*
-
-**Lateral Reading mit Zeitfokus:**
-
-1. **Suche:** "Aufbewahrungsfrist OR 958f Schweiz"
-2. **Finde:** admin.ch --- Obligationenrecht Art. 958f
-3. **Prüfe das Datum:** "Stand am 1. Januar 2024"
-4. **Prüfe auf Änderungen:** "OR Änderungen 2024 2025"
-
-**Fazit:** Die 10-Jahre-Regel stimmt aktuell --- aber bei Gesetzesänderungen könnte sie sich ändern. Immer das Datum notieren!
-:::
-
-### Besonders änderungsanfällige Bereiche
-
-| Bereich | Typische Änderungsfrequenz | Empfehlung |
-|---------|---------------------------|------------|
-| **Sozialversicherungen** | Jährlich (Beiträge, Grenzwerte) | Immer aktuelles Jahr prüfen |
-| **Steuersätze** | Jährlich | Kantonale Unterschiede beachten |
-| **Software-Dokumentation** | Mit jedem Release | Versionsnummer prüfen |
-| **EU-Verordnungen** | Unregelmässig | Auf "konsolidierte Fassung" achten |
-| **Interne Prozesse** | Laufend | Intranet-Datum prüfen, im Zweifel nachfragen |
 
 ---
 
-## Zusammenfassung
+## Die Kernbotschaft
 
 ::: {.key-point}
-### Drei zusätzliche Prüffragen
+### Sprachmodelle sind keine zuverlässigen Quellen
 
-Ergänze die Workshop-Entscheidungsregel um diese Fragen:
+Das Wichtigste aus diesem Workshop:
 
-1. **Existiert überhaupt eine verifizierbare Quelle?**
-   - Wenn nein: Unsicherheit kennzeichnen oder verzichten
-
-2. **Ist meine Quelle die richtige für diesen Kontext?**
-   - Schweizer Frage → Schweizer Quelle
-   - Internationale Frage → internationale Quelle
-   - Wissenschaftliche Frage → peer-reviewed Quelle
-
-3. **Ist die Information noch aktuell?**
-   - Datum prüfen
-   - Bei Gesetzen: "Fassung vom" beachten
-   - Im Zweifel: direkt bei der Quelle nachschauen
+- **Sprachmodelle erfinden Fakten** --- auch wenn sie überzeugend klingen
+- **Nachfragen hilft nicht** --- das Modell kann sich nicht selbst prüfen
+- **Externe Verifikation ist der einzige Weg** --- verlasse das Sprachmodell und suche selbst
+- **Keine Quelle = nicht verwendbar** --- wenn du es nicht verifizieren kannst, zitiere es nicht
 :::
 
 ---
 
 ## Weiterführende Ressourcen
 
-### Zur Vertiefung
-
-- [Stanford Civic Online Reasoning](https://cor.stanford.edu/) --- Forschung und Unterrichtsmaterialien zu Lateral Reading
-- [SIFT-Methode](https://hapgood.us/2019/06/19/sift-the-four-moves/) --- die englischsprachige Grundlage für Lateral Reading
-- [Correctiv](https://correctiv.org) --- deutschsprachiges Fact-Checking
-- [AFP Faktencheck](https://faktencheck.afp.com) --- deutschsprachig, auch Schweizer Themen
-
-### Für den Arbeitsalltag
-
-- **Bei Unsicherheit:** Lieber einmal mehr nachfragen als falsche Information weitergeben
-- **Dokumentation:** Notiere dir, wo du was verifiziert hast --- spart Zeit bei Rückfragen
-- **Teamwissen:** Teile gute Quellen mit Kolleginnen und Kollegen
+- [Stanford Civic Online Reasoning](https://cor.stanford.edu/) --- Forschung zu Lateral Reading
+- [SIFT-Methode](https://hapgood.us/2019/06/19/sift-the-four-moves/) --- Englischsprachige Grundlage für Lateral Reading

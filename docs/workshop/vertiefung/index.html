@@ -87,14 +87,36 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-group.callout {
-  border-left-color: purple;
+div.callout-key-point.callout {
+  border-left-color: #9A4665;
 }
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
+div.callout-key-point.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
 }
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+div.callout-key-point .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-key-point.callout-style-default .callout-icon::before, div.callout-key-point.callout-titled .callout-icon::before {
+  content: '';
+  background-image: none;
+}
+div.callout-source-check.callout {
+  border-left-color: forestgreen;
+}
+div.callout-source-check.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
+}
+div.callout-source-check .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-source-check.callout-style-default .callout-icon::before, div.callout-source-check.callout-titled .callout-icon::before {
+  content: '';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: forestgreen;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
   content: '';
   background-image: none;
 }
@@ -109,14 +131,25 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   content: '';
   background-image: none;
 }
-div.callout-pair.callout {
-  border-left-color: forestgreen;
+div.callout-warning.callout {
+  border-left-color: orange;
 }
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
+div.callout-warning.callout-style-default > .callout-header {
+  background-color: rgb(from orange r g b / 13%);
 }
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+div.callout-warning .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-warning.callout-style-default .callout-icon::before, div.callout-warning.callout-titled .callout-icon::before {
+  content: '!';
+  background-image: none;
+}
+div.callout-experiment.callout {
+  border-left-color: #9A4665;
+}
+div.callout-experiment.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-experiment .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-experiment.callout-style-default .callout-icon::before, div.callout-experiment.callout-titled .callout-icon::before {
   content: '';
   background-image: none;
 }
@@ -142,47 +175,14 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
   content: '';
   background-image: none;
 }
-div.callout-key-point.callout {
-  border-left-color: #9A4665;
+div.callout-group.callout {
+  border-left-color: purple;
 }
-div.callout-key-point.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
 }
-div.callout-key-point .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-key-point.callout-style-default .callout-icon::before, div.callout-key-point.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
-div.callout-source-check.callout {
-  border-left-color: forestgreen;
-}
-div.callout-source-check.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
-}
-div.callout-source-check .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-source-check.callout-style-default .callout-icon::before, div.callout-source-check.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
-div.callout-scenario.callout {
-  border-left-color: steelblue;
-}
-div.callout-scenario.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-scenario .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-scenario.callout-style-default .callout-icon::before, div.callout-scenario.callout-titled .callout-icon::before {
-  content: '';
-  background-image: none;
-}
-div.callout-experiment.callout {
-  border-left-color: #9A4665;
-}
-div.callout-experiment.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-experiment .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-experiment.callout-style-default .callout-icon::before, div.callout-experiment.callout-titled .callout-icon::before {
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
   content: '';
   background-image: none;
 }
@@ -197,22 +197,22 @@ div.callout-demonstration.callout-style-default .callout-icon::before, div.callo
   content: '';
   background-image: none;
 }
-div.callout-warning.callout {
-  border-left-color: orange;
+div.callout-scenario.callout {
+  border-left-color: steelblue;
 }
-div.callout-warning.callout-style-default > .callout-header {
-  background-color: rgb(from orange r g b / 13%);
+div.callout-scenario.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
 }
-div.callout-warning .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-warning.callout-style-default .callout-icon::before, div.callout-warning.callout-titled .callout-icon::before {
-  content: '!';
+div.callout-scenario .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-scenario.callout-style-default .callout-icon::before, div.callout-scenario.callout-titled .callout-icon::before {
+  content: '';
   background-image: none;
 }
 </style>
 
 
 <meta property="og:title" content="Vertiefung – Fact-Checking für KI">
-<meta property="og:description" content="Ergänzende Materialien für komplexere Situationen">
+<meta property="og:description" content="Ergänzende Materialien">
 <meta property="og:site_name" content="Fact-Checking für KI">
 </head>
 
@@ -253,6 +253,10 @@ div.callout-warning.callout-style-default .callout-icon::before, div.callout-war
     <a class="dropdown-item" href="../../workshop/vertiefung/index.html">
  <span class="dropdown-text">Vertiefung</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../workshop/vertiefung/vertical-lateral/index.html">
+ <span class="dropdown-text">Vertical vs.&nbsp;Lateral Reading</span></a>
+  </li>  
     </ul>
   </li>
 </ul>
@@ -275,29 +279,15 @@ div.callout-warning.callout-style-default .callout-icon::before, div.callout-war
   <li><a href="#wenn-keine-quelle-existiert" id="toc-wenn-keine-quelle-existiert" class="nav-link active" data-scroll-target="#wenn-keine-quelle-existiert">1. Wenn keine Quelle existiert</a>
   <ul class="collapse">
   <li><a href="#typische-fälle" id="toc-typische-fälle" class="nav-link" data-scroll-target="#typische-fälle">Typische Fälle</a></li>
-  <li><a href="#übungsszenarien-nicht-verifizierbar" id="toc-übungsszenarien-nicht-verifizierbar" class="nav-link" data-scroll-target="#übungsszenarien-nicht-verifizierbar">Übungsszenarien: Nicht verifizierbar</a></li>
-  <li><a href="#was-tun-bei-nicht-verifizierbaren-behauptungen" id="toc-was-tun-bei-nicht-verifizierbaren-behauptungen" class="nav-link" data-scroll-target="#was-tun-bei-nicht-verifizierbaren-behauptungen">Was tun bei nicht verifizierbaren Behauptungen?</a></li>
+  <li><a href="#was-tun" id="toc-was-tun" class="nav-link" data-scroll-target="#was-tun">Was tun?</a></li>
   </ul></li>
-  <li><a href="#quellen-jenseits-der-schweiz" id="toc-quellen-jenseits-der-schweiz" class="nav-link" data-scroll-target="#quellen-jenseits-der-schweiz">2. Quellen jenseits der Schweiz</a>
+  <li><a href="#zeitliche-gültigkeit-prüfen" id="toc-zeitliche-gültigkeit-prüfen" class="nav-link" data-scroll-target="#zeitliche-gültigkeit-prüfen">2. Zeitliche Gültigkeit prüfen</a>
   <ul class="collapse">
-  <li><a href="#internationale-statistiken" id="toc-internationale-statistiken" class="nav-link" data-scroll-target="#internationale-statistiken">Internationale Statistiken</a></li>
-  <li><a href="#wissenschaftliche-quellen" id="toc-wissenschaftliche-quellen" class="nav-link" data-scroll-target="#wissenschaftliche-quellen">Wissenschaftliche Quellen</a></li>
-  <li><a href="#branchenspezifische-quellen" id="toc-branchenspezifische-quellen" class="nav-link" data-scroll-target="#branchenspezifische-quellen">Branchenspezifische Quellen</a></li>
-  <li><a href="#hierarchie-der-quellen" id="toc-hierarchie-der-quellen" class="nav-link" data-scroll-target="#hierarchie-der-quellen">Hierarchie der Quellen</a></li>
+  <li><a href="#warnsignale" id="toc-warnsignale" class="nav-link" data-scroll-target="#warnsignale">Warnsignale</a></li>
+  <li><a href="#strategien" id="toc-strategien" class="nav-link" data-scroll-target="#strategien">Strategien</a></li>
   </ul></li>
-  <li><a href="#zeitliche-gültigkeit-prüfen" id="toc-zeitliche-gültigkeit-prüfen" class="nav-link" data-scroll-target="#zeitliche-gültigkeit-prüfen">3. Zeitliche Gültigkeit prüfen</a>
-  <ul class="collapse">
-  <li><a href="#warnsignale-für-veraltete-informationen" id="toc-warnsignale-für-veraltete-informationen" class="nav-link" data-scroll-target="#warnsignale-für-veraltete-informationen">Warnsignale für veraltete Informationen</a></li>
-  <li><a href="#strategien-zur-aktualitätsprüfung" id="toc-strategien-zur-aktualitätsprüfung" class="nav-link" data-scroll-target="#strategien-zur-aktualitätsprüfung">Strategien zur Aktualitätsprüfung</a></li>
-  <li><a href="#übungsszenario-zeitliche-gültigkeit" id="toc-übungsszenario-zeitliche-gültigkeit" class="nav-link" data-scroll-target="#übungsszenario-zeitliche-gültigkeit">Übungsszenario: Zeitliche Gültigkeit</a></li>
-  <li><a href="#besonders-änderungsanfällige-bereiche" id="toc-besonders-änderungsanfällige-bereiche" class="nav-link" data-scroll-target="#besonders-änderungsanfällige-bereiche">Besonders änderungsanfällige Bereiche</a></li>
-  </ul></li>
-  <li><a href="#zusammenfassung" id="toc-zusammenfassung" class="nav-link" data-scroll-target="#zusammenfassung">Zusammenfassung</a></li>
-  <li><a href="#weiterführende-ressourcen" id="toc-weiterführende-ressourcen" class="nav-link" data-scroll-target="#weiterführende-ressourcen">Weiterführende Ressourcen</a>
-  <ul class="collapse">
-  <li><a href="#zur-vertiefung" id="toc-zur-vertiefung" class="nav-link" data-scroll-target="#zur-vertiefung">Zur Vertiefung</a></li>
-  <li><a href="#für-den-arbeitsalltag" id="toc-für-den-arbeitsalltag" class="nav-link" data-scroll-target="#für-den-arbeitsalltag">Für den Arbeitsalltag</a></li>
-  </ul></li>
+  <li><a href="#die-kernbotschaft" id="toc-die-kernbotschaft" class="nav-link" data-scroll-target="#die-kernbotschaft">Die Kernbotschaft</a></li>
+  <li><a href="#weiterführende-ressourcen" id="toc-weiterführende-ressourcen" class="nav-link" data-scroll-target="#weiterführende-ressourcen">Weiterführende Ressourcen</a></li>
   </ul>
 </nav>
     </div>
@@ -307,7 +297,7 @@ div.callout-warning.callout-style-default .callout-icon::before, div.callout-war
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Vertiefung</h1>
-<p class="subtitle lead">Ergänzende Materialien für komplexere Situationen</p>
+<p class="subtitle lead">Ergänzende Materialien</p>
 </div>
 
 
@@ -324,10 +314,9 @@ div.callout-warning.callout-style-default .callout-icon::before, div.callout-war
 </header>
 
 
-<p>Diese Materialien ergänzen den Workshop um Aspekte, die im 40-Minuten-Format nicht vollständig behandelt werden:</p>
+<p>Diese Materialien ergänzen den Workshop um zwei Aspekte, die im 40-Minuten-Format nicht vollständig behandelt werden:</p>
 <ol type="1">
 <li><strong>Nicht verifizierbare Behauptungen</strong> — wenn keine Quelle existiert</li>
-<li><strong>Quellen jenseits der Schweiz</strong> — internationale und branchenspezifische Ressourcen</li>
 <li><strong>Zeitliche Gültigkeit</strong> — ist die Information noch aktuell?</li>
 </ol>
 <div class="callout callout-style-simple callout-note no-icon callout-titled">
@@ -350,92 +339,34 @@ div.callout-warning.callout-style-default .callout-icon::before, div.callout-war
 <section id="typische-fälle" class="level3">
 <h3 class="anchored" data-anchor-id="typische-fälle">Typische Fälle</h3>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 22%">
-<col style="width: 20%">
-<col style="width: 56%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Situation</th>
 <th>Beispiel</th>
-<th>Warum nicht verifizierbar</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><strong>Proprietäre Daten</strong></td>
 <td>“Der Marktanteil von Software X beträgt 34%”</td>
-<td>Marktforschungsdaten sind oft kostenpflichtig oder geschätzt</td>
 </tr>
 <tr class="even">
 <td><strong>Interne Regelungen</strong></td>
 <td>“Die Kündigungsfrist beträgt 3 Monate”</td>
-<td>Gilt nur für deine Institution, nicht öffentlich</td>
 </tr>
 <tr class="odd">
 <td><strong>Zukunftsprognosen</strong></td>
 <td>“Die Inflation wird 2026 bei 2% liegen”</td>
-<td>Keine Fakten, sondern Schätzungen</td>
 </tr>
 <tr class="even">
 <td><strong>Erfahrungswerte</strong></td>
-<td>“Die meisten Projekte brauchen 20% mehr Zeit als geplant”</td>
-<td>Faustregeln ohne definitive Quelle</td>
-</tr>
-<tr class="odd">
-<td><strong>Veraltete Informationen</strong></td>
-<td>“Das Formular findest du unter…”</td>
-<td>URLs und Prozesse ändern sich laufend</td>
+<td>“Die meisten Projekte brauchen 20% mehr Zeit”</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="übungsszenarien-nicht-verifizierbar" class="level3">
-<h3 class="anchored" data-anchor-id="übungsszenarien-nicht-verifizierbar">Übungsszenarien: Nicht verifizierbar</h3>
-<div class="callout callout-style-simple callout-scenario no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Scenario</span>Szenario A: Marktdaten
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Du fragst ein Sprachmodell: <em>“Wie hoch ist der Marktanteil von Microsoft Teams vs.&nbsp;Slack in der Schweiz?”</em></p>
-<p>Das Sprachmodell antwortet: <em>“Microsoft Teams hat in der Schweiz einen Marktanteil von ca. 65%, Slack liegt bei etwa 15%.”</em></p>
-<p><strong>Lateral Reading Versuch:</strong></p>
-<ul>
-<li>Suche: “Microsoft Teams Marktanteil Schweiz Statistik”</li>
-<li>Ergebnis: Keine offiziellen Schweizer Zahlen, nur globale Schätzungen von Analysefirmen</li>
-</ul>
-<p><strong>Fazit:</strong> Diese Zahlen sind nicht verifizierbar. Du kannst sie nicht in einem formellen Dokument verwenden.</p>
-</div>
-</div>
-<div class="callout callout-style-simple callout-scenario no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Scenario</span>Szenario B: Best Practices
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Du fragst: <em>“Wie lange sollte eine Teamsitzung maximal dauern?”</em></p>
-<p>Das Sprachmodell antwortet: <em>“Studien zeigen, dass die optimale Meetingdauer bei 45-50 Minuten liegt.”</em></p>
-<p><strong>Lateral Reading Versuch:</strong></p>
-<ul>
-<li>Suche: “optimale Meetingdauer Studie”</li>
-<li>Ergebnis: Viele Blog-Artikel, aber keine definitive wissenschaftliche Quelle</li>
-</ul>
-<p><strong>Fazit:</strong> Es gibt keine “offizielle” Antwort. Das ist eine Faustregel, kein Fakt.</p>
-</div>
-</div>
-</section>
-<section id="was-tun-bei-nicht-verifizierbaren-behauptungen" class="level3">
-<h3 class="anchored" data-anchor-id="was-tun-bei-nicht-verifizierbaren-behauptungen">Was tun bei nicht verifizierbaren Behauptungen?</h3>
+<section id="was-tun" class="level3">
+<h3 class="anchored" data-anchor-id="was-tun">Was tun?</h3>
 <div class="callout callout-style-simple callout-key-point no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -451,159 +382,6 @@ div.callout-warning.callout-style-default .callout-icon::before, div.callout-war
 <li><strong>Kennzeichne die Unsicherheit</strong> — “Laut Schätzungen…” oder “Es gibt keine offiziellen Zahlen, aber…”</li>
 <li><strong>Verzichte auf die Behauptung</strong> — wenn Genauigkeit wichtig ist</li>
 <li><strong>Frage intern nach</strong> — bei institutionsspezifischen Fragen</li>
-<li><strong>Nutze Ranges statt Punktwerte</strong> — “zwischen 40% und 70%” statt “genau 55%”</li>
-</ol>
-</div>
-</div>
-<hr>
-</section>
-</section>
-<section id="quellen-jenseits-der-schweiz" class="level2">
-<h2 class="anchored" data-anchor-id="quellen-jenseits-der-schweiz">2. Quellen jenseits der Schweiz</h2>
-<p>Der Workshop fokussiert auf Schweizer Quellen. Für internationale oder branchenspezifische Themen brauchst du andere Ressourcen.</p>
-<section id="internationale-statistiken" class="level3">
-<h3 class="anchored" data-anchor-id="internationale-statistiken">Internationale Statistiken</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Bereich</th>
-<th>Primärquelle</th>
-<th>URL</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>EU-Statistiken</strong></td>
-<td>Eurostat</td>
-<td><a href="https://ec.europa.eu/eurostat">ec.europa.eu/eurostat</a></td>
-</tr>
-<tr class="even">
-<td><strong>Globale Wirtschaft</strong></td>
-<td>Weltbank</td>
-<td><a href="https://data.worldbank.org">data.worldbank.org</a></td>
-</tr>
-<tr class="odd">
-<td><strong>Gesundheit</strong></td>
-<td>WHO</td>
-<td><a href="https://www.who.int/data">who.int/data</a></td>
-</tr>
-<tr class="even">
-<td><strong>Bildung international</strong></td>
-<td>OECD</td>
-<td><a href="https://data.oecd.org">data.oecd.org</a></td>
-</tr>
-<tr class="odd">
-<td><strong>Arbeit &amp; Soziales</strong></td>
-<td>ILO</td>
-<td><a href="https://ilostat.ilo.org">ilostat.ilo.org</a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="wissenschaftliche-quellen" class="level3">
-<h3 class="anchored" data-anchor-id="wissenschaftliche-quellen">Wissenschaftliche Quellen</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Typ</th>
-<th>Ressource</th>
-<th>Hinweis</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Peer-reviewed Artikel</strong></td>
-<td><a href="https://scholar.google.com">Google Scholar</a></td>
-<td>Nur als Einstieg, dann Original lesen</td>
-</tr>
-<tr class="even">
-<td><strong>Open Access</strong></td>
-<td><a href="https://pubmed.ncbi.nlm.nih.gov">PubMed</a></td>
-<td>Biomedizin, Gesundheit</td>
-</tr>
-<tr class="odd">
-<td><strong>Preprints</strong></td>
-<td><a href="https://arxiv.org">arXiv</a></td>
-<td>Nicht peer-reviewed! Mit Vorsicht</td>
-</tr>
-<tr class="even">
-<td><strong>Systematische Reviews</strong></td>
-<td><a href="https://www.cochranelibrary.com">Cochrane Library</a></td>
-<td>Höchste Evidenzstufe</td>
-</tr>
-</tbody>
-</table>
-<div class="callout callout-style-simple callout-warning no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Warning</span>Vorsicht bei wissenschaftlichen Quellen
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li><strong>Eine Studie ≠ Konsens</strong> — Einzelstudien können widerlegt werden</li>
-<li><strong>Preprints</strong> sind nicht begutachtet — können fehlerhaft sein</li>
-<li><strong>Ältere Metaanalysen</strong> können durch neuere Daten überholt sein</li>
-<li><strong>Impact Factor ≠ Qualität</strong> — auch renommierte Journals publizieren gelegentlich Fehler</li>
-</ul>
-</div>
-</div>
-</section>
-<section id="branchenspezifische-quellen" class="level3">
-<h3 class="anchored" data-anchor-id="branchenspezifische-quellen">Branchenspezifische Quellen</h3>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Branche</th>
-<th>Typische Primärquellen</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>IT &amp; Software</strong></td>
-<td>Offizielle Dokumentation (docs.microsoft.com, etc.), Herstellerseiten</td>
-</tr>
-<tr class="even">
-<td><strong>Recht (EU)</strong></td>
-<td><a href="https://eur-lex.europa.eu">EUR-Lex</a>, nationale Gesetzesdatenbanken</td>
-</tr>
-<tr class="odd">
-<td><strong>Finanzen</strong></td>
-<td>Zentralbanken (SNB, EZB), Finanzmarktaufsichten</td>
-</tr>
-<tr class="even">
-<td><strong>Normen &amp; Standards</strong></td>
-<td><a href="https://www.iso.org">ISO</a>, <a href="https://www.snv.ch">SNV</a> (kostenpflichtig)</td>
-</tr>
-<tr class="odd">
-<td><strong>Datenschutz (EU)</strong></td>
-<td><a href="https://edpb.europa.eu">EDPB</a> (Europäischer Datenschutzausschuss)</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="hierarchie-der-quellen" class="level3">
-<h3 class="anchored" data-anchor-id="hierarchie-der-quellen">Hierarchie der Quellen</h3>
-<div class="callout callout-style-simple callout-key-point no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Key-point</span>Vom Zuverlässigsten zum Unzuverlässigsten
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ol type="1">
-<li><strong>Primärquellen</strong> — Originaldaten, Gesetze, offizielle Berichte</li>
-<li><strong>Sekundärquellen</strong> — Peer-reviewed Analysen der Primärquellen</li>
-<li><strong>Tertiärquellen</strong> — Lehrbücher, Enzyklopädien, Zusammenfassungen</li>
-<li><strong>Graue Literatur</strong> — Whitepapers, Reports von Firmen/NGOs</li>
-<li><strong>Journalismus</strong> — kann gut recherchiert sein, aber verifiziere die Primärquelle</li>
-<li><strong>Blogs, Foren, Social Media</strong> — nie als alleinige Quelle verwenden</li>
 </ol>
 </div>
 </div>
@@ -611,16 +389,16 @@ div.callout-warning.callout-style-default .callout-icon::before, div.callout-war
 </section>
 </section>
 <section id="zeitliche-gültigkeit-prüfen" class="level2">
-<h2 class="anchored" data-anchor-id="zeitliche-gültigkeit-prüfen">3. Zeitliche Gültigkeit prüfen</h2>
+<h2 class="anchored" data-anchor-id="zeitliche-gültigkeit-prüfen">2. Zeitliche Gültigkeit prüfen</h2>
 <p>Eine Information kann faktisch korrekt, aber veraltet sein. Das ist besonders relevant bei:</p>
 <ul>
 <li>Gesetzen und Verordnungen</li>
 <li>Statistiken und Kennzahlen</li>
-<li>Technischen Dokumentationen</li>
+<li>Software-Dokumentation</li>
 <li>Institutionellen Prozessen</li>
 </ul>
-<section id="warnsignale-für-veraltete-informationen" class="level3">
-<h3 class="anchored" data-anchor-id="warnsignale-für-veraltete-informationen">Warnsignale für veraltete Informationen</h3>
+<section id="warnsignale" class="level3">
+<h3 class="anchored" data-anchor-id="warnsignale">Warnsignale</h3>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 44%">
@@ -635,7 +413,7 @@ div.callout-warning.callout-style-default .callout-icon::before, div.callout-war
 <tbody>
 <tr class="odd">
 <td><strong>Kein Datum sichtbar</strong></td>
-<td>Webseite ohne Veröffentlichungs- oder Aktualisierungsdatum</td>
+<td>Webseite ohne Aktualisierungsdatum</td>
 </tr>
 <tr class="even">
 <td><strong>Alte Jahreszahlen</strong></td>
@@ -645,21 +423,13 @@ div.callout-warning.callout-style-default .callout-icon::before, div.callout-war
 <td><strong>Inaktive Links</strong></td>
 <td>Verweise führen ins Leere</td>
 </tr>
-<tr class="even">
-<td><strong>Alte Terminologie</strong></td>
-<td>Begriffe, die nicht mehr verwendet werden</td>
-</tr>
-<tr class="odd">
-<td><strong>Widerspruch zu anderen Quellen</strong></td>
-<td>Mehrere aktuelle Quellen sagen etwas anderes</td>
-</tr>
 </tbody>
 </table>
 </section>
-<section id="strategien-zur-aktualitätsprüfung" class="level3">
-<h3 class="anchored" data-anchor-id="strategien-zur-aktualitätsprüfung">Strategien zur Aktualitätsprüfung</h3>
+<section id="strategien" class="level3">
+<h3 class="anchored" data-anchor-id="strategien">Strategien</h3>
 <div class="callout callout-style-simple callout-pro-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -668,146 +438,50 @@ div.callout-warning.callout-style-default .callout-icon::before, div.callout-war
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <ol type="1">
 <li><strong>Datum suchen</strong> — “Letzte Aktualisierung”, “Stand:”, Impressum</li>
 <li><strong>Versionierung prüfen</strong> — Bei Gesetzen: “Fassung vom…”</li>
 <li><strong>Google-Zeitfilter nutzen</strong> — Suche auf “Letztes Jahr” einschränken</li>
-<li><strong>Direkt bei der Quelle prüfen</strong> — Offizielle Seite statt Google-Cache</li>
-<li><strong>“Änderung” + Thema suchen</strong> — z.B. “Datenschutzgesetz Änderung 2024”</li>
 </ol>
 </div>
 </div>
 </div>
-</section>
-<section id="übungsszenario-zeitliche-gültigkeit" class="level3">
-<h3 class="anchored" data-anchor-id="übungsszenario-zeitliche-gültigkeit">Übungsszenario: Zeitliche Gültigkeit</h3>
-<div class="callout callout-style-simple callout-scenario no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Scenario</span>Szenario: Veraltetes Gesetz
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Du fragst ein Sprachmodell: <em>“Was ist die Aufbewahrungsfrist für Geschäftsdokumente in der Schweiz?”</em></p>
-<p>Das Sprachmodell antwortet: <em>“Die gesetzliche Aufbewahrungsfrist beträgt 10 Jahre gemäss Art. 958f OR.”</em></p>
-<p><strong>Lateral Reading mit Zeitfokus:</strong></p>
-<ol type="1">
-<li><strong>Suche:</strong> “Aufbewahrungsfrist OR 958f Schweiz”</li>
-<li><strong>Finde:</strong> admin.ch — Obligationenrecht Art. 958f</li>
-<li><strong>Prüfe das Datum:</strong> “Stand am 1. Januar 2024”</li>
-<li><strong>Prüfe auf Änderungen:</strong> “OR Änderungen 2024 2025”</li>
-</ol>
-<p><strong>Fazit:</strong> Die 10-Jahre-Regel stimmt aktuell — aber bei Gesetzesänderungen könnte sie sich ändern. Immer das Datum notieren!</p>
-</div>
-</div>
-</section>
-<section id="besonders-änderungsanfällige-bereiche" class="level3">
-<h3 class="anchored" data-anchor-id="besonders-änderungsanfällige-bereiche">Besonders änderungsanfällige Bereiche</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 18%">
-<col style="width: 56%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Bereich</th>
-<th>Typische Änderungsfrequenz</th>
-<th>Empfehlung</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Sozialversicherungen</strong></td>
-<td>Jährlich (Beiträge, Grenzwerte)</td>
-<td>Immer aktuelles Jahr prüfen</td>
-</tr>
-<tr class="even">
-<td><strong>Steuersätze</strong></td>
-<td>Jährlich</td>
-<td>Kantonale Unterschiede beachten</td>
-</tr>
-<tr class="odd">
-<td><strong>Software-Dokumentation</strong></td>
-<td>Mit jedem Release</td>
-<td>Versionsnummer prüfen</td>
-</tr>
-<tr class="even">
-<td><strong>EU-Verordnungen</strong></td>
-<td>Unregelmässig</td>
-<td>Auf “konsolidierte Fassung” achten</td>
-</tr>
-<tr class="odd">
-<td><strong>Interne Prozesse</strong></td>
-<td>Laufend</td>
-<td>Intranet-Datum prüfen, im Zweifel nachfragen</td>
-</tr>
-</tbody>
-</table>
 <hr>
 </section>
 </section>
-<section id="zusammenfassung" class="level2">
-<h2 class="anchored" data-anchor-id="zusammenfassung">Zusammenfassung</h2>
+<section id="die-kernbotschaft" class="level2">
+<h2 class="anchored" data-anchor-id="die-kernbotschaft">Die Kernbotschaft</h2>
 <div class="callout callout-style-simple callout-key-point no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Key-point</span>Drei zusätzliche Prüffragen
+<span class="screen-reader-only">Key-point</span>Sprachmodelle sind keine zuverlässigen Quellen
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Ergänze die Workshop-Entscheidungsregel um diese Fragen:</p>
-<ol type="1">
-<li><strong>Existiert überhaupt eine verifizierbare Quelle?</strong>
+<p>Das Wichtigste aus diesem Workshop:</p>
 <ul>
-<li>Wenn nein: Unsicherheit kennzeichnen oder verzichten</li>
-</ul></li>
-<li><strong>Ist meine Quelle die richtige für diesen Kontext?</strong>
-<ul>
-<li>Schweizer Frage → Schweizer Quelle</li>
-<li>Internationale Frage → internationale Quelle</li>
-<li>Wissenschaftliche Frage → peer-reviewed Quelle</li>
-</ul></li>
-<li><strong>Ist die Information noch aktuell?</strong>
-<ul>
-<li>Datum prüfen</li>
-<li>Bei Gesetzen: “Fassung vom” beachten</li>
-<li>Im Zweifel: direkt bei der Quelle nachschauen</li>
-</ul></li>
-</ol>
+<li><strong>Sprachmodelle erfinden Fakten</strong> — auch wenn sie überzeugend klingen</li>
+<li><strong>Nachfragen hilft nicht</strong> — das Modell kann sich nicht selbst prüfen</li>
+<li><strong>Externe Verifikation ist der einzige Weg</strong> — verlasse das Sprachmodell und suche selbst</li>
+<li><strong>Keine Quelle = nicht verwendbar</strong> — wenn du es nicht verifizieren kannst, zitiere es nicht</li>
+</ul>
 </div>
 </div>
 <hr>
 </section>
 <section id="weiterführende-ressourcen" class="level2">
 <h2 class="anchored" data-anchor-id="weiterführende-ressourcen">Weiterführende Ressourcen</h2>
-<section id="zur-vertiefung" class="level3">
-<h3 class="anchored" data-anchor-id="zur-vertiefung">Zur Vertiefung</h3>
 <ul>
-<li><a href="https://cor.stanford.edu/">Stanford Civic Online Reasoning</a> — Forschung und Unterrichtsmaterialien zu Lateral Reading</li>
-<li><a href="https://hapgood.us/2019/06/19/sift-the-four-moves/">SIFT-Methode</a> — die englischsprachige Grundlage für Lateral Reading</li>
-<li><a href="https://correctiv.org">Correctiv</a> — deutschsprachiges Fact-Checking</li>
-<li><a href="https://faktencheck.afp.com">AFP Faktencheck</a> — deutschsprachig, auch Schweizer Themen</li>
-</ul>
-</section>
-<section id="für-den-arbeitsalltag" class="level3">
-<h3 class="anchored" data-anchor-id="für-den-arbeitsalltag">Für den Arbeitsalltag</h3>
-<ul>
-<li><strong>Bei Unsicherheit:</strong> Lieber einmal mehr nachfragen als falsche Information weitergeben</li>
-<li><strong>Dokumentation:</strong> Notiere dir, wo du was verifiziert hast — spart Zeit bei Rückfragen</li>
-<li><strong>Teamwissen:</strong> Teile gute Quellen mit Kolleginnen und Kollegen</li>
+<li><a href="https://cor.stanford.edu/">Stanford Civic Online Reasoning</a> — Forschung zu Lateral Reading</li>
+<li><a href="https://hapgood.us/2019/06/19/sift-the-four-moves/">SIFT-Methode</a> — Englischsprachige Grundlage für Lateral Reading</li>
 </ul>
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
