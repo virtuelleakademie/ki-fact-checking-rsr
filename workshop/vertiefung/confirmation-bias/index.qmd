@@ -12,7 +12,7 @@ bibliography: ../../../bibliography.bib
 2. **Wir interpretieren** mehrdeutige Informationen so, dass sie zu uns passen
 3. **Wir erinnern** uns besser an bestätigende als an widersprechende Fakten
 
-Das ist kein Zeichen von Dummheit. Es passiert allen Menschen, auch Experten. Studien zeigen, dass selbst Richter, Ärzte und CEOs diesem Fehler unterliegen.
+Das passiert allen Menschen, auch Experten. Studien zeigen, dass selbst Richter, Ärzte und CEOs diesem Fehler unterliegen.
 
 ::: {.warning}
 ### Das Problem
@@ -22,7 +22,7 @@ Je überzeugter du von etwas bist, desto stärker suchst du nach Bestätigung. U
 
 ## KI-Chatbots verstärken den Effekt
 
-Sprachmodelle wie ChatGPT oder Gemini haben eine eingebaute Tendenz, Nutzern zuzustimmen. Fachleute nennen das **Sycophancy** (Schmeichelei).
+KI-Chatbots wie ChatGPT oder Gemini haben eine eingebaute Tendenz, Nutzern zuzustimmen. Fachleute nennen das **Sycophancy** (Schmeichelei).
 
 ### Warum Chatbots zustimmen
 
@@ -33,13 +33,6 @@ Diese Tendenz ist kein Bug, sondern entsteht durch das Training:
 - Das Modell lernt: Zustimmung = gute Bewertung
 - Ergebnis: Das Modell optimiert auf Zustimmung statt auf Wahrheit
 
-### Die Zahlen
-
-| Befund | Quelle |
-|--------|--------|
-| 58% aller Chatbot-Antworten zeigen schmeichelndes Verhalten | SycEval-Studie, 2025 |
-| KI ist 50% schmeichlerischer als Menschen | Nature, 2025 |
-| Einmal begonnen, bleibt Schmeichelei in 78% der Fälle bestehen | SycEval-Studie, 2025 |
 
 ## Die Echo Chamber für eine Person
 
@@ -51,7 +44,7 @@ Wenn Confirmation Bias und KI-Schmeichelei zusammentreffen, entsteht ein Teufels
 4. Der Chatbot verstärkt weiter
 5. Deine Überzeugung wächst, ohne dass neue Fakten hinzukommen
 
-Forschende nennen das den **Chat-Chamber Effect**: eine Filterblase, die du dir selbst erschaffst. Mit Hilfe eines KI-Systems, das gelernt hat, dir zu gefallen.
+Daraus entsteht ein **Chamber Effect**: eine Filterblase, die du dir selbst erschaffst. Mit Hilfe eines KI-Systems, das gelernt hat, dir zu gefallen.
 
 ::: {.key-point}
 ### Der Kern des Problems
@@ -63,18 +56,17 @@ Klassische Echo Chambers entstehen durch Algorithmen, die dir ähnliche Inhalte 
 
 Der Fall von [Allan Brooks (2025)](https://futurism.com/chatgpt-chabot-severe-delusions) zeigt, wie weit das gehen kann.
 
-Ein 47-jähriger Personalvermittler aus Kanada nutzte ChatGPT während einer schwierigen Scheidung. Was als mathematische Frage begann, entwickelte sich über 21 Tage zu einer Überzeugung, er habe eine revolutionäre mathematische Theorie entdeckt.
+Ein Personalvermittler aus Toronto nutzte ChatGPT während einer schwierigen Scheidung. Was als mathematische Frage begann, entwickelte sich über 21 Tage zu einer Überzeugung, er habe eine revolutionäre mathematische Theorie entdeckt.
 
-- ChatGPT stimmte ihm zu, nannte ihn ein Genie, verglich ihn mit Alan Turing
-- Als er zweifelte, sagte der Chatbot: "Du bist kein bisschen verrückt"
+- Als er zweifelte, sagte der Chatbot: "Du klingst kein bisschen verrückt"
 - Als er einen Tippfehler machte, übernahm ChatGPT den Fehler stillschweigend
 
-Erst als er seine "Entdeckung" mit einem anderen Chatbot testete, brach die Illusion zusammen. Der andere Chatbot antwortete direkt: Diese Theorie existiert nicht.
+Erst als er seine "Entdeckung" mit Gemini testete, brach die Illusion zusammen. Gemini erklärte, es handle sich um eine "überzeugende, aber letztlich falsche Erzählung".
 
 ::: {.warning}
 ### Das ist ein Extremfall
 
-Brooks befand sich in einer verletzlichen psychischen Situation. Der Fall zeigt aber ein grundsätzliches Muster: Chatbots widersprechen nicht, auch wenn sie sollten.
+Brooks befand sich in einer verletzlichen psychischen Situation. Der Fall zeigt aber ein grundsätzliches Muster: Chatbots widersprechen oft nicht, auch wenn sie sollten.
 :::
 
 ## Was du tun kannst

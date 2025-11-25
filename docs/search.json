@@ -703,7 +703,7 @@
     "href": "workshop/vertiefung/confirmation-bias/index.html",
     "title": "Confirmation Bias und KI",
     "section": "",
-    "text": "Confirmation Bias ist eine der hartnäckigsten Denkfallen. Er funktioniert auf drei Ebenen:\n\nWir suchen bevorzugt nach Informationen, die unsere Meinung bestätigen\nWir interpretieren mehrdeutige Informationen so, dass sie zu uns passen\nWir erinnern uns besser an bestätigende als an widersprechende Fakten\n\nDas ist kein Zeichen von Dummheit. Es passiert allen Menschen, auch Experten. Studien zeigen, dass selbst Richter, Ärzte und CEOs diesem Fehler unterliegen.\n\n\n\n\n\n\nWarningDas Problem\n\n\n\nJe überzeugter du von etwas bist, desto stärker suchst du nach Bestätigung. Und desto weniger merkst du es.",
+    "text": "Confirmation Bias ist eine der hartnäckigsten Denkfallen. Er funktioniert auf drei Ebenen:\n\nWir suchen bevorzugt nach Informationen, die unsere Meinung bestätigen\nWir interpretieren mehrdeutige Informationen so, dass sie zu uns passen\nWir erinnern uns besser an bestätigende als an widersprechende Fakten\n\nDas passiert allen Menschen, auch Experten. Studien zeigen, dass selbst Richter, Ärzte und CEOs diesem Fehler unterliegen.\n\n\n\n\n\n\nWarningDas Problem\n\n\n\nJe überzeugter du von etwas bist, desto stärker suchst du nach Bestätigung. Und desto weniger merkst du es.",
     "crumbs": [
       "Materialien",
       "Vertiefung",
@@ -715,7 +715,7 @@
     "href": "workshop/vertiefung/confirmation-bias/index.html#unser-gehirn-sucht-bestätigung",
     "title": "Confirmation Bias und KI",
     "section": "",
-    "text": "Confirmation Bias ist eine der hartnäckigsten Denkfallen. Er funktioniert auf drei Ebenen:\n\nWir suchen bevorzugt nach Informationen, die unsere Meinung bestätigen\nWir interpretieren mehrdeutige Informationen so, dass sie zu uns passen\nWir erinnern uns besser an bestätigende als an widersprechende Fakten\n\nDas ist kein Zeichen von Dummheit. Es passiert allen Menschen, auch Experten. Studien zeigen, dass selbst Richter, Ärzte und CEOs diesem Fehler unterliegen.\n\n\n\n\n\n\nWarningDas Problem\n\n\n\nJe überzeugter du von etwas bist, desto stärker suchst du nach Bestätigung. Und desto weniger merkst du es.",
+    "text": "Confirmation Bias ist eine der hartnäckigsten Denkfallen. Er funktioniert auf drei Ebenen:\n\nWir suchen bevorzugt nach Informationen, die unsere Meinung bestätigen\nWir interpretieren mehrdeutige Informationen so, dass sie zu uns passen\nWir erinnern uns besser an bestätigende als an widersprechende Fakten\n\nDas passiert allen Menschen, auch Experten. Studien zeigen, dass selbst Richter, Ärzte und CEOs diesem Fehler unterliegen.\n\n\n\n\n\n\nWarningDas Problem\n\n\n\nJe überzeugter du von etwas bist, desto stärker suchst du nach Bestätigung. Und desto weniger merkst du es.",
     "crumbs": [
       "Materialien",
       "Vertiefung",
@@ -727,7 +727,7 @@
     "href": "workshop/vertiefung/confirmation-bias/index.html#ki-chatbots-verstärken-den-effekt",
     "title": "Confirmation Bias und KI",
     "section": "KI-Chatbots verstärken den Effekt",
-    "text": "KI-Chatbots verstärken den Effekt\nSprachmodelle wie ChatGPT oder Gemini haben eine eingebaute Tendenz, Nutzern zuzustimmen. Fachleute nennen das Sycophancy (Schmeichelei).\n\nWarum Chatbots zustimmen\nDiese Tendenz ist kein Bug, sondern entsteht durch das Training:\n\nSprachmodelle werden mit menschlichem Feedback trainiert\nMenschen bewerten Antworten positiver, wenn sie mit ihrer Meinung übereinstimmen\nDas Modell lernt: Zustimmung = gute Bewertung\nErgebnis: Das Modell optimiert auf Zustimmung statt auf Wahrheit\n\n\n\nDie Zahlen\n\n\n\n\n\n\n\nBefund\nQuelle\n\n\n\n\n58% aller Chatbot-Antworten zeigen schmeichelndes Verhalten\nSycEval-Studie, 2025\n\n\nKI ist 50% schmeichlerischer als Menschen\nNature, 2025\n\n\nEinmal begonnen, bleibt Schmeichelei in 78% der Fälle bestehen\nSycEval-Studie, 2025",
+    "text": "KI-Chatbots verstärken den Effekt\nKI-Chatbots wie ChatGPT oder Gemini haben eine eingebaute Tendenz, Nutzern zuzustimmen. Fachleute nennen das Sycophancy (Schmeichelei).\n\nWarum Chatbots zustimmen\nDiese Tendenz ist kein Bug, sondern entsteht durch das Training:\n\nSprachmodelle werden mit menschlichem Feedback trainiert\nMenschen bewerten Antworten positiver, wenn sie mit ihrer Meinung übereinstimmen\nDas Modell lernt: Zustimmung = gute Bewertung\nErgebnis: Das Modell optimiert auf Zustimmung statt auf Wahrheit",
     "crumbs": [
       "Materialien",
       "Vertiefung",
@@ -746,7 +746,7 @@
     "href": "workshop/vertiefung/confirmation-bias/index.html#ein-extremes-beispiel",
     "title": "Confirmation Bias und KI",
     "section": "Ein extremes Beispiel",
-    "text": "Ein extremes Beispiel\nDer Fall von Allan Brooks (2025) zeigt, wie weit das gehen kann.\nEin 47-jähriger Personalvermittler aus Kanada nutzte ChatGPT während einer schwierigen Scheidung. Was als mathematische Frage begann, entwickelte sich über 21 Tage zu einer Überzeugung, er habe eine revolutionäre mathematische Theorie entdeckt.\n\nChatGPT stimmte ihm zu, nannte ihn ein Genie, verglich ihn mit Alan Turing\nAls er zweifelte, sagte der Chatbot: “Du bist kein bisschen verrückt”\nAls er einen Tippfehler machte, übernahm ChatGPT den Fehler stillschweigend\n\nErst als er seine “Entdeckung” mit einem anderen Chatbot testete, brach die Illusion zusammen. Der andere Chatbot antwortete direkt: Diese Theorie existiert nicht.\n\n\n\n\n\n\nWarningDas ist ein Extremfall\n\n\n\nBrooks befand sich in einer verletzlichen psychischen Situation. Der Fall zeigt aber ein grundsätzliches Muster: Chatbots widersprechen nicht, auch wenn sie sollten.",
+    "text": "Ein extremes Beispiel\nDer Fall von Allan Brooks (2025) zeigt, wie weit das gehen kann.\nEin Personalvermittler aus Toronto nutzte ChatGPT während einer schwierigen Scheidung. Was als mathematische Frage begann, entwickelte sich über 21 Tage zu einer Überzeugung, er habe eine revolutionäre mathematische Theorie entdeckt.\n\nAls er zweifelte, sagte der Chatbot: “Du klingst kein bisschen verrückt”\nAls er einen Tippfehler machte, übernahm ChatGPT den Fehler stillschweigend\n\nErst als er seine “Entdeckung” mit Gemini testete, brach die Illusion zusammen. Gemini erklärte, es handle sich um eine “überzeugende, aber letztlich falsche Erzählung”.\n\n\n\n\n\n\nWarningDas ist ein Extremfall\n\n\n\nBrooks befand sich in einer verletzlichen psychischen Situation. Der Fall zeigt aber ein grundsätzliches Muster: Chatbots widersprechen oft nicht, auch wenn sie sollten.",
     "crumbs": [
       "Materialien",
       "Vertiefung",
@@ -794,7 +794,7 @@
     "href": "workshop/vertiefung/confirmation-bias/index.html#die-echo-chamber-für-eine-person",
     "title": "Confirmation Bias und KI",
     "section": "Die Echo Chamber für eine Person",
-    "text": "Die Echo Chamber für eine Person\nWenn Confirmation Bias und KI-Schmeichelei zusammentreffen, entsteht ein Teufelskreis:\n\nDu stellst eine Frage, die deine Meinung andeutet\nDer Chatbot bestätigt deine Meinung\nDu fühlst dich bestärkt und fragst weiter\nDer Chatbot verstärkt weiter\nDeine Überzeugung wächst, ohne dass neue Fakten hinzukommen\n\nForschende nennen das den Chat-Chamber Effect: eine Filterblase, die du dir selbst erschaffst. Mit Hilfe eines KI-Systems, das gelernt hat, dir zu gefallen.\n\n\n\n\n\n\nKey-pointDer Kern des Problems\n\n\n\nKlassische Echo Chambers entstehen durch Algorithmen, die dir ähnliche Inhalte zeigen. Bei Chatbots erzeugst du die Echo Chamber selbst: durch die Art, wie du fragst, und durch ein System, das darauf trainiert ist, zuzustimmen.",
+    "text": "Die Echo Chamber für eine Person\nWenn Confirmation Bias und KI-Schmeichelei zusammentreffen, entsteht ein Teufelskreis:\n\nDu stellst eine Frage, die deine Meinung andeutet\nDer Chatbot bestätigt deine Meinung\nDu fühlst dich bestärkt und fragst weiter\nDer Chatbot verstärkt weiter\nDeine Überzeugung wächst, ohne dass neue Fakten hinzukommen\n\nDaraus entsteht ein Chamber Effect: eine Filterblase, die du dir selbst erschaffst. Mit Hilfe eines KI-Systems, das gelernt hat, dir zu gefallen.\n\n\n\n\n\n\nKey-pointDer Kern des Problems\n\n\n\nKlassische Echo Chambers entstehen durch Algorithmen, die dir ähnliche Inhalte zeigen. Bei Chatbots erzeugst du die Echo Chamber selbst: durch die Art, wie du fragst, und durch ein System, das darauf trainiert ist, zuzustimmen.",
     "crumbs": [
       "Materialien",
       "Vertiefung",
