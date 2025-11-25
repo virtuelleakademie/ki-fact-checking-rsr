@@ -11,7 +11,8 @@ Diese Materialien ergänzen den Workshop um zwei Aspekte, die im 40-Minuten-Form
 ::: {.callout-note appearance="minimal"}
 ### Siehe auch
 
-**[Vertical vs. Lateral Reading](vertical-lateral/index.qmd)** --- Warum wir die Quelle verlassen müssen: Die theoretische Grundlage der Workshop-Methode.
+- **[Vertical vs. Lateral Reading](vertical-lateral/index.qmd)** --- Warum wir die Quelle verlassen müssen: Die theoretische Grundlage der Workshop-Methode.
+- **[Bestätigungsfehler und KI](confirmation-bias/index.qmd)** --- Warum Chatbots uns recht geben und wie wir dagegen vorgehen können.
 :::
 
 ## 1. Wenn keine Quelle existiert

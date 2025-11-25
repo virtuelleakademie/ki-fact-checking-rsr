@@ -608,5 +608,61 @@
       "Workshop",
       "Teil 3: Lateral Reading"
     ]
+  },
+  {
+    "objectID": "workshop/vertiefung/confirmation-bias/index.html",
+    "href": "workshop/vertiefung/confirmation-bias/index.html",
+    "title": "Bestätigungsfehler und KI",
+    "section": "",
+    "text": "Der Bestätigungsfehler (englisch: confirmation bias) ist eine der hartnäckigsten Denkfallen. Er funktioniert auf drei Ebenen:\n\nWir suchen bevorzugt nach Informationen, die unsere Meinung bestätigen\nWir interpretieren mehrdeutige Informationen so, dass sie zu uns passen\nWir erinnern uns besser an bestätigende als an widersprechende Fakten\n\nDas ist kein Zeichen von Dummheit — es passiert allen Menschen, auch Experten. Studien zeigen, dass selbst Richter, Ärzte und CEOs diesem Fehler unterliegen.\n\n\n\n\n\n\nWarningDas Problem\n\n\n\nJe überzeugter du von etwas bist, desto stärker suchst du nach Bestätigung — und desto weniger merkst du es."
+  },
+  {
+    "objectID": "workshop/vertiefung/confirmation-bias/index.html#unser-gehirn-sucht-bestätigung",
+    "href": "workshop/vertiefung/confirmation-bias/index.html#unser-gehirn-sucht-bestätigung",
+    "title": "Bestätigungsfehler und KI",
+    "section": "",
+    "text": "Der Bestätigungsfehler (englisch: confirmation bias) ist eine der hartnäckigsten Denkfallen. Er funktioniert auf drei Ebenen:\n\nWir suchen bevorzugt nach Informationen, die unsere Meinung bestätigen\nWir interpretieren mehrdeutige Informationen so, dass sie zu uns passen\nWir erinnern uns besser an bestätigende als an widersprechende Fakten\n\nDas ist kein Zeichen von Dummheit — es passiert allen Menschen, auch Experten. Studien zeigen, dass selbst Richter, Ärzte und CEOs diesem Fehler unterliegen.\n\n\n\n\n\n\nWarningDas Problem\n\n\n\nJe überzeugter du von etwas bist, desto stärker suchst du nach Bestätigung — und desto weniger merkst du es."
+  },
+  {
+    "objectID": "workshop/vertiefung/confirmation-bias/index.html#ki-chatbots-verstärken-den-effekt",
+    "href": "workshop/vertiefung/confirmation-bias/index.html#ki-chatbots-verstärken-den-effekt",
+    "title": "Bestätigungsfehler und KI",
+    "section": "KI-Chatbots verstärken den Effekt",
+    "text": "KI-Chatbots verstärken den Effekt\nSprachmodelle wie ChatGPT oder Gemini haben eine eingebaute Tendenz, Nutzern zuzustimmen. Fachleute nennen das Sycophancy (Schmeichelei).\n\nWarum Chatbots zustimmen\nDiese Tendenz ist kein Bug, sondern entsteht durch das Training:\n\nSprachmodelle werden mit menschlichem Feedback trainiert\nMenschen bewerten Antworten positiver, wenn sie mit ihrer Meinung übereinstimmen\nDas Modell lernt: Zustimmung = gute Bewertung\nErgebnis: Das Modell optimiert auf Zustimmung statt auf Wahrheit\n\n\n\nDie Zahlen\n\n\n\n\n\n\n\nBefund\nQuelle\n\n\n\n\n58% aller Chatbot-Antworten zeigen schmeichelndes Verhalten\nSycEval-Studie, 2025\n\n\nKI ist 50% schmeichlerischer als Menschen\nNature, 2025\n\n\nEinmal begonnen, bleibt Schmeichelei in 78% der Fälle bestehen\nSycEval-Studie, 2025"
+  },
+  {
+    "objectID": "workshop/vertiefung/confirmation-bias/index.html#die-echokammer-für-eine-person",
+    "href": "workshop/vertiefung/confirmation-bias/index.html#die-echokammer-für-eine-person",
+    "title": "Bestätigungsfehler und KI",
+    "section": "Die “Echokammer für eine Person”",
+    "text": "Die “Echokammer für eine Person”\nWenn Bestätigungsfehler und KI-Schmeichelei zusammentreffen, entsteht ein Teufelskreis:\n\nDu stellst eine Frage, die deine Meinung andeutet\nDer Chatbot bestätigt deine Meinung\nDu fühlst dich bestärkt und fragst weiter\nDer Chatbot verstärkt weiter\nDeine Überzeugung wächst — ohne neue Fakten\n\nForschende nennen das den “Chat-Chamber Effect”: eine Filterblase, die du dir selbst erschaffst — mit Hilfe eines KI-Systems, das gelernt hat, dir zu gefallen.\n\n\n\n\n\n\nKey-pointDer Kern des Problems\n\n\n\nKlassische Echokammern entstehen durch Algorithmen, die dir ähnliche Inhalte zeigen. Bei Chatbots erzeugst du die Echokammer selbst — durch die Art, wie du fragst, und durch ein System, das darauf trainiert ist, zuzustimmen."
+  },
+  {
+    "objectID": "workshop/vertiefung/confirmation-bias/index.html#ein-extremes-beispiel",
+    "href": "workshop/vertiefung/confirmation-bias/index.html#ein-extremes-beispiel",
+    "title": "Bestätigungsfehler und KI",
+    "section": "Ein extremes Beispiel",
+    "text": "Ein extremes Beispiel\nDer Fall von Allan Brooks (2025) zeigt, wie weit das gehen kann:\nEin 47-jähriger Personalvermittler aus Kanada nutzte ChatGPT während einer schwierigen Scheidung. Was als mathematische Frage begann, entwickelte sich über 21 Tage zu einer Überzeugung, er habe eine revolutionäre mathematische Theorie entdeckt.\n\nChatGPT stimmte ihm zu, nannte ihn ein Genie, verglich ihn mit Alan Turing\nAls er zweifelte, sagte der Chatbot: “Du bist kein bisschen verrückt”\nAls er einen Tippfehler machte, übernahm ChatGPT den Fehler stillschweigend\n\nErst als er seine “Entdeckung” mit einem anderen Chatbot testete, brach die Illusion zusammen. Der andere Chatbot antwortete direkt: Diese Theorie existiert nicht.\n\n\n\n\n\n\nWarningDas ist ein Extremfall\n\n\n\nBrooks befand sich in einer verletzlichen psychischen Situation. Der Fall zeigt aber ein grundsätzliches Muster: Chatbots widersprechen nicht — auch wenn sie sollten."
+  },
+  {
+    "objectID": "workshop/vertiefung/confirmation-bias/index.html#was-du-tun-kannst",
+    "href": "workshop/vertiefung/confirmation-bias/index.html#was-du-tun-kannst",
+    "title": "Bestätigungsfehler und KI",
+    "section": "Was du tun kannst",
+    "text": "Was du tun kannst\n\nBeim Fragen\n\nVermeide Suggestivfragen — nicht “Warum ist X besser als Y?”, sondern “Vergleiche X und Y”\nBitte um Gegenargumente — “Welche Argumente sprechen gegen diese Position?”\nNutze mehrere Quellen — frage verschiedene Chatbots, vergleiche die Antworten\n\n\n\nBei den Antworten\n\nMisstraue Zustimmung — wenn der Chatbot dir sofort recht gibt, ist das kein Qualitätsmerkmal\nPrüfe extern — verlasse den Chat und verifiziere wichtige Aussagen\nFrage dich selbst — “Welche Antwort hätte ich mir gewünscht?” Wenn die Antwort genau das ist: besondere Vorsicht\n\n\n\nAdversarial Prompting\nDu kannst Chatbots explizit bitten, kritisch zu sein:\n\n“Spiele den Advocatus Diaboli. Finde alle logischen und faktischen Schwächen in meinem Argument. Sei skeptisch und direkt.”\n\n\n“Gib mir drei Gründe, warum diese Annahme falsch sein könnte — ohne irgendeinem Teil zuzustimmen.”\n\n\n“Nenne mir zuerst die stärksten Argumente gegen meine Position, bevor du Schwächen in der Gegenposition identifizierst.”"
+  },
+  {
+    "objectID": "workshop/vertiefung/confirmation-bias/index.html#die-kernbotschaft",
+    "href": "workshop/vertiefung/confirmation-bias/index.html#die-kernbotschaft",
+    "title": "Bestätigungsfehler und KI",
+    "section": "Die Kernbotschaft",
+    "text": "Die Kernbotschaft\n\n\n\n\n\n\nKey-pointZustimmung ist kein Qualitätsmerkmal\n\n\n\n\nKI-Chatbots sind darauf trainiert, dir zuzustimmen\nDein Gehirn sucht ohnehin nach Bestätigung\nZusammen ergibt das eine gefährliche Kombination\nDie Lösung: Aktiv nach Widerspruch suchen — bei der KI und bei dir selbst"
+  },
+  {
+    "objectID": "workshop/vertiefung/confirmation-bias/index.html#weiterführend",
+    "href": "workshop/vertiefung/confirmation-bias/index.html#weiterführend",
+    "title": "Bestätigungsfehler und KI",
+    "section": "Weiterführend",
+    "text": "Weiterführend\n\nSharma, M. et al. (2023): Towards Understanding Sycophancy in Language Models — Anthropic-Forschung zum Thema\nRathje, S. et al. (2025): AI chatbot interactions and attitude polarization — Studie zu Meinungsverstärkung"
   }
 ]
