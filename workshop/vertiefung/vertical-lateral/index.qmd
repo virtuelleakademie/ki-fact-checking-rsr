@@ -44,10 +44,10 @@ Bei **Lateral Reading** verlassen wir die Quelle und suchen extern nach Informat
 
 ### Der Prozess
 
-1. **Neuen Tab öffnen** --- die Quelle verlassen
-2. **Nach der Quelle suchen** --- nicht nach dem Inhalt, sondern nach der Organisation/Person dahinter
-3. **Unabhängige Einschätzungen finden** --- was sagen andere über diese Quelle?
-4. **Mehrere Perspektiven prüfen** --- nicht nur eine externe Quelle
+1. **Neuen Tab öffnen**: Die Quelle verlassen.
+2. **Nach der Quelle suchen**: Nicht nach dem Inhalt, sondern nach der Organisation oder Person dahinter.
+3. **Unabhängige Einschätzungen finden**: Was sagen andere über diese Quelle?
+4. **Mehrere Perspektiven prüfen**: Nicht nur eine externe Quelle.
 
 ### Wonach du suchst
 
@@ -70,7 +70,7 @@ Das ist, was wir in Teil 2 des Workshops getestet haben:
 - Nachfragen: "Kannst du das überprüfen?"
 - Eine Annahme einbauen und schauen, ob es widerspricht
 
-**Ergebnis:** Funktioniert nicht. Das Sprachmodell kann sich nicht selbst prüfen --- es generiert nur neue Antworten.
+**Ergebnis:** Funktioniert nicht. Das Sprachmodell kann sich nicht selbst prüfen. Es generiert nur neue Antworten.
 
 ### Lateral Reading bei Sprachmodellen
 

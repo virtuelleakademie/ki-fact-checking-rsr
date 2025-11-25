@@ -3,4 +3,4 @@ title: "Einstieg"
 subtitle: "Direkt ins Experiment"
 ---
 
-Öffne ein Sprachmodell deiner Wahl --- ChatGPT, Claude, oder Gemini.
+Öffne ein Sprachmodell deiner Wahl: ChatGPT, Claude, oder Gemini.

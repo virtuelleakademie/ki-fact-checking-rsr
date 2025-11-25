@@ -7,10 +7,10 @@ Lateral Reading heisst: Raus aus dem Sprachmodell, eigene Suche, Primärquellen 
 
 ## Die vier Schritte
 
-1. **Suchbegriffe formulieren** --- Was tippst du bei Google ein?
-2. **Suchergebnisse filtern** --- Welche Quellen sind vertrauenswürdig?
-3. **Zur Quelle gehen** --- Nicht die Google-Zusammenfassung, sondern die echte Seite
-4. **Zwei Prüffragen stellen** --- Ist die Quelle zuverlässig? Steht da wirklich das, was behauptet wird?
+1. **Suchbegriffe formulieren.** Was tippst du bei Google ein?
+2. **Suchergebnisse filtern.** Welche Quellen sind vertrauenswürdig?
+3. **Zur Quelle gehen.** Nicht die Google-Zusammenfassung, sondern die echte Seite.
+4. **Zwei Prüffragen stellen.** Ist die Quelle zuverlässig? Steht da wirklich das, was behauptet wird?
 
 ## Runde 1: Gemeinsam {#runde-1}
 
@@ -26,7 +26,7 @@ Du willst das für einen Budgetantrag verwenden.
 
 ### Schritt 1: Suchbegriffe formulieren
 
-Wie würdest du suchen? Nicht das Sprachmodell fragen --- was tippst du bei Google ein?
+Wie würdest du suchen? Nicht das Sprachmodell fragen. Was tippst du bei Google ein?
 
 ::: {.pro-tip}
 
@@ -43,10 +43,10 @@ Nicht: "Stimmt 78000?"
 
 | Quelle | Bewertung |
 |--------|-----------|
-| jobs.ch | Stellenanzeigen --- keine offizielle Statistik |
+| jobs.ch | Stellenanzeigen, keine offizielle Statistik |
 | Blogs, Foren | Überspringen |
-| bfs.admin.ch | Primärquelle --- klicken |
-| swissuniversities | Offizielle Quelle --- klicken |
+| bfs.admin.ch | Primärquelle, klicken |
+| swissuniversities | Offizielle Quelle, klicken |
 
 ### Schritt 3: Zur Quelle gehen
 
@@ -71,7 +71,7 @@ Sprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch oder
 
 ::: {.reflect}
 
-Oft: Die exakte Zahl existiert nicht in dieser Form. Das ist selbst eine wichtige Information --- die Zahl vom Sprachmodell ist nicht verifizierbar und somit nicht verwendbar für einen Budgetantrag.
+Oft: Die exakte Zahl existiert nicht in dieser Form. Das ist selbst eine wichtige Information. Die Zahl vom Sprachmodell ist nicht verifizierbar und somit nicht verwendbar für einen Budgetantrag.
 
 :::
 
@@ -156,7 +156,7 @@ Wie würdest du das verifizieren? *Tipp: IT-Services, swissuniversities Rahmenve
 
 ::: {.individual}
 
-Denk an etwas, das du diese Woche ein Sprachmodell fragen könntest --- oder schon gefragt hast.
+Denk an etwas, das du diese Woche ein Sprachmodell fragen könntest. Oder an etwas, das du schon gefragt hast.
 
 1. Formuliere eine konkrete Frage
 2. Frag das Sprachmodell

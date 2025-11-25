@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Bestätigungsfehler und KI – Fact-Checking für KI</title>
+<title>Confirmation Bias und KI – Fact-Checking für KI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -87,52 +87,40 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-pro-tip.callout {
-  border-left-color: #20c997;
+div.callout-source-check.callout {
+  border-left-color: #198754;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgba(32, 201, 151, 0.13);
+div.callout-source-check.callout-style-default > .callout-header {
+  background-color: rgba(25, 135, 84, 0.13);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+div.callout-source-check .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-source-check.callout-style-default .callout-icon::before, div.callout-source-check.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
-  content: '\e2ca';
+  content: '\f002';
   background-image: none;
 }
-div.callout-group.callout {
+div.callout-demonstration.callout {
+  border-left-color: #0d6efd;
+}
+div.callout-demonstration.callout-style-default > .callout-header {
+  background-color: rgba(13, 110, 253, 0.13);
+}
+div.callout-demonstration .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-demonstration.callout-style-default .callout-icon::before, div.callout-demonstration.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f51b';
+  background-image: none;
+}
+div.callout-reflect.callout {
   border-left-color: #6f42c1;
 }
-div.callout-group.callout-style-default > .callout-header {
+div.callout-reflect.callout-style-default > .callout-header {
   background-color: rgba(111, 66, 193, 0.13);
 }
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
-  content: '\f0c0';
-  background-image: none;
-}
-div.callout-key-point.callout {
-  border-left-color: #9A4665;
-}
-div.callout-key-point.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-key-point .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-key-point.callout-style-default .callout-icon::before, div.callout-key-point.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f005';
-  background-image: none;
-}
-div.callout-prompt.callout {
-  border-left-color: #495057;
-}
-div.callout-prompt.callout-style-default > .callout-header {
-  background-color: rgba(73, 80, 87, 0.13);
-}
-div.callout-prompt .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-prompt.callout-style-default .callout-icon::before, div.callout-prompt.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f328';
+  content: '\f0eb';
   background-image: none;
 }
 div.callout-warning.callout {
@@ -159,52 +147,40 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   content: '\f007';
   background-image: none;
 }
-div.callout-demonstration.callout {
-  border-left-color: #0d6efd;
-}
-div.callout-demonstration.callout-style-default > .callout-header {
-  background-color: rgba(13, 110, 253, 0.13);
-}
-div.callout-demonstration .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-demonstration.callout-style-default .callout-icon::before, div.callout-demonstration.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f51b';
-  background-image: none;
-}
-div.callout-experiment.callout {
-  border-left-color: #9A4665;
-}
-div.callout-experiment.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-experiment .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-experiment.callout-style-default .callout-icon::before, div.callout-experiment.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f0c3';
-  background-image: none;
-}
-div.callout-reflect.callout {
+div.callout-group.callout {
   border-left-color: #6f42c1;
 }
-div.callout-reflect.callout-style-default > .callout-header {
+div.callout-group.callout-style-default > .callout-header {
   background-color: rgba(111, 66, 193, 0.13);
 }
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
-  content: '\f0eb';
+  content: '\f0c0';
   background-image: none;
 }
-div.callout-source-check.callout {
-  border-left-color: #198754;
+div.callout-prompt.callout {
+  border-left-color: #495057;
 }
-div.callout-source-check.callout-style-default > .callout-header {
-  background-color: rgba(25, 135, 84, 0.13);
+div.callout-prompt.callout-style-default > .callout-header {
+  background-color: rgba(73, 80, 87, 0.13);
 }
-div.callout-source-check .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-source-check.callout-style-default .callout-icon::before, div.callout-source-check.callout-titled .callout-icon::before {
+div.callout-prompt .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-prompt.callout-style-default .callout-icon::before, div.callout-prompt.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
-  content: '\f002';
+  content: '\f328';
+  background-image: none;
+}
+div.callout-key-point.callout {
+  border-left-color: #9A4665;
+}
+div.callout-key-point.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-key-point .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-key-point.callout-style-default .callout-icon::before, div.callout-key-point.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f005';
   background-image: none;
 }
 div.callout-scenario.callout {
@@ -219,12 +195,36 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
   content: '\f075';
   background-image: none;
 }
+div.callout-experiment.callout {
+  border-left-color: #9A4665;
+}
+div.callout-experiment.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-experiment .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-experiment.callout-style-default .callout-icon::before, div.callout-experiment.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f0c3';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: #20c997;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgba(32, 201, 151, 0.13);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\e2ca';
+  background-image: none;
+}
 </style>
 
 
 <link rel="stylesheet" href="../../../styles/styles.css">
-<meta property="og:title" content="Bestätigungsfehler und KI – Fact-Checking für KI">
-<meta property="og:description" content="Warum Chatbots uns recht geben — und warum das gefährlich ist">
+<meta property="og:title" content="Confirmation Bias und KI – Fact-Checking für KI">
+<meta property="og:description" content="Warum Chatbots uns recht geben und warum das gefährlich ist">
 <meta property="og:site_name" content="Fact-Checking für KI">
 </head>
 
@@ -271,7 +271,7 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
   </li>  
         <li>
     <a class="dropdown-item" href="../../../workshop/vertiefung/confirmation-bias/index.html">
- <span class="dropdown-text">Bestätigungsfehler und KI</span></a>
+ <span class="dropdown-text">Confirmation Bias und KI</span></a>
   </li>  
     </ul>
   </li>
@@ -298,7 +298,7 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
   <li><a href="#warum-chatbots-zustimmen" id="toc-warum-chatbots-zustimmen" class="nav-link" data-scroll-target="#warum-chatbots-zustimmen">Warum Chatbots zustimmen</a></li>
   <li><a href="#die-zahlen" id="toc-die-zahlen" class="nav-link" data-scroll-target="#die-zahlen">Die Zahlen</a></li>
   </ul></li>
-  <li><a href="#die-echokammer-für-eine-person" id="toc-die-echokammer-für-eine-person" class="nav-link" data-scroll-target="#die-echokammer-für-eine-person">Die “Echokammer für eine Person”</a></li>
+  <li><a href="#die-echo-chamber-für-eine-person" id="toc-die-echo-chamber-für-eine-person" class="nav-link" data-scroll-target="#die-echo-chamber-für-eine-person">Die Echo Chamber für eine Person</a></li>
   <li><a href="#ein-extremes-beispiel" id="toc-ein-extremes-beispiel" class="nav-link" data-scroll-target="#ein-extremes-beispiel">Ein extremes Beispiel</a></li>
   <li><a href="#was-du-tun-kannst" id="toc-was-du-tun-kannst" class="nav-link" data-scroll-target="#was-du-tun-kannst">Was du tun kannst</a>
   <ul class="collapse">
@@ -316,8 +316,8 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Bestätigungsfehler und KI</h1>
-<p class="subtitle lead">Warum Chatbots uns recht geben — und warum das gefährlich ist</p>
+<h1 class="title">Confirmation Bias und KI</h1>
+<p class="subtitle lead">Warum Chatbots uns recht geben und warum das gefährlich ist</p>
 </div>
 
 
@@ -336,13 +336,13 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 
 <section id="unser-gehirn-sucht-bestätigung" class="level2">
 <h2 class="anchored" data-anchor-id="unser-gehirn-sucht-bestätigung">Unser Gehirn sucht Bestätigung</h2>
-<p>Der <strong>Bestätigungsfehler</strong> (englisch: <em>confirmation bias</em>) ist eine der hartnäckigsten Denkfallen. Er funktioniert auf drei Ebenen:</p>
+<p><strong>Confirmation Bias</strong> ist eine der hartnäckigsten Denkfallen. Er funktioniert auf drei Ebenen:</p>
 <ol type="1">
 <li><strong>Wir suchen</strong> bevorzugt nach Informationen, die unsere Meinung bestätigen</li>
 <li><strong>Wir interpretieren</strong> mehrdeutige Informationen so, dass sie zu uns passen</li>
 <li><strong>Wir erinnern</strong> uns besser an bestätigende als an widersprechende Fakten</li>
 </ol>
-<p>Das ist kein Zeichen von Dummheit — es passiert allen Menschen, auch Experten. Studien zeigen, dass selbst Richter, Ärzte und CEOs diesem Fehler unterliegen.</p>
+<p>Das ist kein Zeichen von Dummheit. Es passiert allen Menschen, auch Experten. Studien zeigen, dass selbst Richter, Ärzte und CEOs diesem Fehler unterliegen.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -353,7 +353,7 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Je überzeugter du von etwas bist, desto stärker suchst du nach Bestätigung — und desto weniger merkst du es.</p>
+<p>Je überzeugter du von etwas bist, desto stärker suchst du nach Bestätigung. Und desto weniger merkst du es.</p>
 </div>
 </div>
 </section>
@@ -400,17 +400,17 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 </table>
 </section>
 </section>
-<section id="die-echokammer-für-eine-person" class="level2">
-<h2 class="anchored" data-anchor-id="die-echokammer-für-eine-person">Die “Echokammer für eine Person”</h2>
-<p>Wenn Bestätigungsfehler und KI-Schmeichelei zusammentreffen, entsteht ein Teufelskreis:</p>
+<section id="die-echo-chamber-für-eine-person" class="level2">
+<h2 class="anchored" data-anchor-id="die-echo-chamber-für-eine-person">Die Echo Chamber für eine Person</h2>
+<p>Wenn Confirmation Bias und KI-Schmeichelei zusammentreffen, entsteht ein Teufelskreis:</p>
 <ol type="1">
 <li>Du stellst eine Frage, die deine Meinung andeutet</li>
 <li>Der Chatbot bestätigt deine Meinung</li>
 <li>Du fühlst dich bestärkt und fragst weiter</li>
 <li>Der Chatbot verstärkt weiter</li>
-<li>Deine Überzeugung wächst — ohne neue Fakten</li>
+<li>Deine Überzeugung wächst, ohne dass neue Fakten hinzukommen</li>
 </ol>
-<p>Forschende nennen das den <strong>“Chat-Chamber Effect”</strong>: eine Filterblase, die du dir selbst erschaffst — mit Hilfe eines KI-Systems, das gelernt hat, dir zu gefallen.</p>
+<p>Forschende nennen das den <strong>Chat-Chamber Effect</strong>: eine Filterblase, die du dir selbst erschaffst. Mit Hilfe eines KI-Systems, das gelernt hat, dir zu gefallen.</p>
 <div class="callout callout-style-default callout-key-point callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -421,13 +421,13 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Klassische Echokammern entstehen durch Algorithmen, die dir ähnliche Inhalte zeigen. Bei Chatbots erzeugst du die Echokammer selbst — durch die Art, wie du fragst, und durch ein System, das darauf trainiert ist, zuzustimmen.</p>
+<p>Klassische Echo Chambers entstehen durch Algorithmen, die dir ähnliche Inhalte zeigen. Bei Chatbots erzeugst du die Echo Chamber selbst: durch die Art, wie du fragst, und durch ein System, das darauf trainiert ist, zuzustimmen.</p>
 </div>
 </div>
 </section>
 <section id="ein-extremes-beispiel" class="level2">
 <h2 class="anchored" data-anchor-id="ein-extremes-beispiel">Ein extremes Beispiel</h2>
-<p>Der Fall von Allan Brooks (2025) zeigt, wie weit das gehen kann:</p>
+<p>Der Fall von Allan Brooks (2025) zeigt, wie weit das gehen kann.</p>
 <p>Ein 47-jähriger Personalvermittler aus Kanada nutzte ChatGPT während einer schwierigen Scheidung. Was als mathematische Frage begann, entwickelte sich über 21 Tage zu einer Überzeugung, er habe eine revolutionäre mathematische Theorie entdeckt.</p>
 <ul>
 <li>ChatGPT stimmte ihm zu, nannte ihn ein Genie, verglich ihn mit Alan Turing</li>
@@ -445,7 +445,7 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Brooks befand sich in einer verletzlichen psychischen Situation. Der Fall zeigt aber ein grundsätzliches Muster: Chatbots widersprechen nicht — auch wenn sie sollten.</p>
+<p>Brooks befand sich in einer verletzlichen psychischen Situation. Der Fall zeigt aber ein grundsätzliches Muster: Chatbots widersprechen nicht, auch wenn sie sollten.</p>
 </div>
 </div>
 </section>
@@ -454,17 +454,17 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 <section id="beim-fragen" class="level3">
 <h3 class="anchored" data-anchor-id="beim-fragen">Beim Fragen</h3>
 <ul>
-<li><strong>Vermeide Suggestivfragen</strong> — nicht “Warum ist X besser als Y?”, sondern “Vergleiche X und Y”</li>
-<li><strong>Bitte um Gegenargumente</strong> — “Welche Argumente sprechen gegen diese Position?”</li>
-<li><strong>Nutze mehrere Quellen</strong> — frage verschiedene Chatbots, vergleiche die Antworten</li>
+<li><strong>Vermeide Suggestivfragen.</strong> Nicht “Warum ist X besser als Y?”, sondern “Vergleiche X und Y”.</li>
+<li><strong>Bitte um Gegenargumente.</strong> “Welche Argumente sprechen gegen diese Position?”</li>
+<li><strong>Nutze mehrere Quellen.</strong> Frage verschiedene Chatbots, vergleiche die Antworten.</li>
 </ul>
 </section>
 <section id="bei-den-antworten" class="level3">
 <h3 class="anchored" data-anchor-id="bei-den-antworten">Bei den Antworten</h3>
 <ul>
-<li><strong>Misstraue Zustimmung</strong> — wenn der Chatbot dir sofort recht gibt, ist das kein Qualitätsmerkmal</li>
-<li><strong>Prüfe extern</strong> — verlasse den Chat und verifiziere wichtige Aussagen</li>
-<li><strong>Frage dich selbst</strong> — “Welche Antwort hätte ich mir gewünscht?” Wenn die Antwort genau das ist: besondere Vorsicht</li>
+<li><strong>Misstraue Zustimmung.</strong> Wenn der Chatbot dir sofort recht gibt, ist das kein Qualitätsmerkmal.</li>
+<li><strong>Prüfe extern.</strong> Verlasse den Chat und verifiziere wichtige Aussagen.</li>
+<li><strong>Frage dich selbst:</strong> “Welche Antwort hätte ich mir gewünscht?” Wenn die Antwort genau das ist, ist besondere Vorsicht geboten.</li>
 </ul>
 </section>
 <section id="adversarial-prompting" class="level3">
@@ -474,7 +474,7 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 <p>“Spiele den Advocatus Diaboli. Finde alle logischen und faktischen Schwächen in meinem Argument. Sei skeptisch und direkt.”</p>
 </blockquote>
 <blockquote class="blockquote">
-<p>“Gib mir drei Gründe, warum diese Annahme falsch sein könnte — ohne irgendeinem Teil zuzustimmen.”</p>
+<p>“Gib mir drei Gründe, warum diese Annahme falsch sein könnte. Stimme keinem Teil zu.”</p>
 </blockquote>
 <blockquote class="blockquote">
 <p>“Nenne mir zuerst die stärksten Argumente gegen meine Position, bevor du Schwächen in der Gegenposition identifizierst.”</p>
@@ -497,7 +497,7 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 <li>KI-Chatbots sind darauf trainiert, dir zuzustimmen</li>
 <li>Dein Gehirn sucht ohnehin nach Bestätigung</li>
 <li>Zusammen ergibt das eine gefährliche Kombination</li>
-<li>Die Lösung: Aktiv nach Widerspruch suchen — bei der KI und bei dir selbst</li>
+<li>Die Lösung: Aktiv nach Widerspruch suchen, bei der KI und bei dir selbst</li>
 </ul>
 </div>
 </div>
@@ -505,8 +505,8 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 <section id="weiterführend" class="level2">
 <h2 class="anchored" data-anchor-id="weiterführend">Weiterführend</h2>
 <ul>
-<li>Sharma, M. et al.&nbsp;(2023): <a href="https://arxiv.org/abs/2310.13548">Towards Understanding Sycophancy in Language Models</a> — Anthropic-Forschung zum Thema</li>
-<li>Rathje, S. et al.&nbsp;(2025): <a href="https://www.science.org/doi/10.1126/science.adq5769">AI chatbot interactions and attitude polarization</a> — Studie zu Meinungsverstärkung</li>
+<li>Sharma, M. et al.&nbsp;(2023): <a href="https://arxiv.org/abs/2310.13548">Towards Understanding Sycophancy in Language Models</a>. Anthropic-Forschung zum Thema.</li>
+<li>Rathje, S. et al.&nbsp;(2025): <a href="https://www.science.org/doi/10.1126/science.adq5769">AI chatbot interactions and attitude polarization</a>. Studie zu Meinungsverstärkung.</li>
 </ul>
 
 

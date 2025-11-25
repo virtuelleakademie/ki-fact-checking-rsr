@@ -43,7 +43,7 @@ website:
             href: workshop/vertiefung/index.qmd
           - text: "Vertical vs. Lateral Reading"
             href: workshop/vertiefung/vertical-lateral/index.qmd
-          - text: "Bestätigungsfehler und KI"
+          - text: "Confirmation Bias und KI"
             href: workshop/vertiefung/confirmation-bias/index.qmd
 
     tools:

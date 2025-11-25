@@ -31,11 +31,11 @@ subtitle: "Wann verifizieren?"
 
 Du hast heute drei Dinge erlebt:
 
-1. **Sprachmodelle können überzeugend falsch liegen** --- spezifische Zahlen, selbstbewusster Ton, trotzdem falsch
+1. **Sprachmodelle können überzeugend falsch liegen.** Spezifische Zahlen, selbstbewusster Ton, trotzdem falsch.
 
-2. **Nachfragen beim Sprachmodell ist keine echte Prüfung** --- es kann sich nicht selbst verifizieren und bestätigt tendenziell deine Annahmen
+2. **Nachfragen beim Sprachmodell ist keine echte Prüfung.** Es kann sich nicht selbst verifizieren und bestätigt tendenziell deine Annahmen.
 
-3. **Lateral Reading funktioniert** --- raus aus dem Sprachmodell, eigene Suche, Primärquellen finden
+3. **Lateral Reading funktioniert.** Raus aus dem Sprachmodell, eigene Suche, Primärquellen finden.
 
 ::: {.key-point}
 ### Nächster Schritt

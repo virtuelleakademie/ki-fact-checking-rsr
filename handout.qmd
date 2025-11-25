@@ -59,7 +59,7 @@ Sprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch.
 ::: {.callout-warning appearance="minimal"}
 ### Rote Flaggen
 
-- **Spezifitätsfalle:** Je präziser die Zahlen, desto vertrauenswürdiger wirkt es --- aber Spezifität ≠ Richtigkeit
+- **Spezifitätsfalle:** Je präziser die Zahlen, desto vertrauenswürdiger wirkt es. Aber Spezifität ≠ Richtigkeit.
 - Das Sprachmodell bestätigt genau das, was du vermutet hast
 - Du hast eine Annahme in die Frage eingebaut
 - Es geht um rechtliche oder finanzielle Entscheidungen
