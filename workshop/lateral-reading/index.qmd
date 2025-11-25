@@ -3,96 +3,66 @@ title: "Teil 3: Lateral Reading"
 subtitle: "Die Technik in drei Runden üben"
 ---
 
-**Dauer:** 19 Minuten
+**Dauer:** 22 Minuten (14:30--36:30)
 
 ---
 
-## Kurze Zusammenfassung (30 Sek)
-
-> Lateral Reading bedeutet: Weg von der KI, hin zu unabhängigen Quellen. Nicht die KI nochmal fragen. Nicht eine andere KI fragen. Sondern: **Originale Quellen suchen.**
->
-> Ihr habt das gerade bei mir gesehen. Jetzt übt ihr.
+**Ziel:** Die Technik praktisch anwenden -- von geführt bis selbständig.
 
 ---
 
-## Runde 1: Gemeinsam (6 Min) {#runde-1}
+## Runde 1: Gemeinsam (7 Min) {#runde-1}
 
-**Guided Practice – alle arbeiten am selben Beispiel**
+> Lateral Reading heisst: Raus aus dem Sprachmodell, eigene Suche, Primärquellen finden. Wir machen das jetzt gemeinsam.
 
-::: {.scenario}
-## Das Szenario
+**Szenario vorstellen:**
 
-Die KI sagt dir:
+> Das Sprachmodell sagt: "Das durchschnittliche Gehalt für Verwaltungsmitarbeitende an Schweizer Universitäten liegt bei CHF 78'000 brutto pro Jahr." Du willst das für einen Budgetantrag verwenden.
 
-> "Das durchschnittliche Gehalt für Verwaltungsmitarbeitende an Schweizer Universitäten liegt bei CHF 78'000 brutto pro Jahr."
+### Schritt 1: Suchbegriffe (1.5 Min)
 
-Du willst das für einen Budgetantrag verwenden. **Wie überprüfst du das?**
-:::
+> Wie würdest du suchen? Nicht das Sprachmodell fragen. Was tippst du bei Google ein?
 
-### Schritt für Schritt gemeinsam
+Teilnehmende machen Vorschläge.
 
-::: {.source-check}
-## Schritt 1: Suchbegriffe formulieren (1 Min)
+> Gute Begriffe: "Schweiz Universität Verwaltung Gehalt Statistik" oder "swissuniversities Lohnstruktur". Nicht: "Stimmt 78000?"
 
-```
-Nicht: "Stimmt das?"
-Nicht: "Ist 78000 korrekt?"
-Sondern: "Schweiz Universität Verwaltung Gehalt Statistik"
-```
-:::
+### Schritt 2: Suchergebnisse filtern (1.5 Min)
 
-::: {.source-check}
-## Schritt 2: Suchergebnisse filtern (1 Min)
+Am Projektor suchen und Ergebnisse bewerten:
 
-| Was du siehst | Bewertung |
-|---------------|-----------|
-| jobs.ch, indeed.ch | Stellenanzeigen – nützlich, aber nicht offiziell |
-| KI-generierte Zusammenfassung | Überspringen |
-| Wikipedia | Sekundärquelle – als Einstieg OK, aber nicht zitierbar |
-| BFS, swissuniversities | Primärquellen – das suchen wir |
-| Blog, News-Artikel | Können auf Primärquelle verweisen – Link folgen |
-:::
+> Was sehen wir hier? jobs.ch -- das sind Stellenanzeigen, nicht offizielle Statistik. Hier ein Blog -- überspringen. BFS -- das ist eine Primärquelle. swissuniversities -- auch gut.
 
-::: {.source-check}
-## Schritt 3: Zur Quelle gehen (2 Min)
+### Schritt 3: Zur Quelle gehen (2 Min)
 
-> Klicke niemals nur auf die Google-Zusammenfassung. Geh zur echten Website.
+> Wichtig: Nicht die Google-Zusammenfassung lesen. Zur echten Seite gehen.
 
-**Demonstriere:**
+BFS oder swissuniversities öffnen, navigieren, zeigen was man findet (oder nicht findet).
 
-- BFS-Website öffnen
-- Navigation zur richtigen Statistik
-- Die Zahl finden (oder feststellen, dass es diese spezifische Zahl nicht gibt)
-:::
+### Schritt 4: Ergebnis besprechen (2 Min)
 
-### Ergebnis (2 Min)
+> Was haben wir gefunden?
 
-> Wir haben jetzt gelernt: Die genaue Zahl gibt es in dieser Form nicht. Das bedeutet:
->
-> - Die KI hat wahrscheinlich kombiniert oder geschätzt
-> - Für einen Budgetantrag: **Nicht verwendbar**
-> - Du müsstest andere Kennzahlen nutzen oder direkt bei HR anfragen
->
-> **Wichtiger als die Zahl zu finden: Du weisst jetzt, DASS die KI-Zahl nicht verifizierbar ist.**
+Teilnehmende berichten.
+
+Typisches Ergebnis: Die exakte Zahl existiert nicht in dieser Form.
+
+> Das ist selbst eine wichtige Information. Die Zahl vom Sprachmodell ist nicht verifizierbar -- also nicht verwendbar für einen Budgetantrag.
 
 ---
 
-## Runde 2: Scaffolded Practice (7 Min) {#runde-2}
+## Runde 2: In Kleingruppen (8 Min) {#runde-2}
 
-::: {.individual}
-## Wähle ein Szenario
+> Wähle ein Szenario. Du hast 5 Minuten.
 
-Wähle das Szenario, das deinem Arbeitsbereich am nächsten kommt.
+{{< timer 5 >}}
 
-{{< timer 4 >}}
-:::
-
-### Die 6 Szenarien
+**6 Szenarien (projizieren oder austeilen):**
 
 ::: {.scenario}
 ### Szenario A: Rechtliches
 
-KI sagt: "Personaldossiers müssen in der Schweiz 10 Jahre nach Austritt aufbewahrt werden."
+Das Modell sagt: "Personaldossiers müssen in der Schweiz 10 Jahre nach Austritt aufbewahrt werden."
 
 **Deine Aufgabe:** Finde die offizielle rechtliche Grundlage.
 
@@ -102,7 +72,7 @@ KI sagt: "Personaldossiers müssen in der Schweiz 10 Jahre nach Austritt aufbewa
 ::: {.scenario}
 ### Szenario B: Statistik
 
-KI sagt: "Die Universität Bern hatte im HS 2023 genau 18'734 Studierende."
+Das Modell sagt: "Die Universität Bern hatte im HS 2023 genau 18'734 Studierende."
 
 **Deine Aufgabe:** Finde die offizielle Statistik.
 
@@ -112,7 +82,7 @@ KI sagt: "Die Universität Bern hatte im HS 2023 genau 18'734 Studierende."
 ::: {.scenario}
 ### Szenario C: Budget
 
-KI sagt: "Ein Team-Event mit 20 Personen in Bern kostet durchschnittlich CHF 90 pro Person."
+Das Modell sagt: "Ein Team-Event mit 20 Personen in Bern kostet durchschnittlich CHF 90 pro Person."
 
 **Deine Aufgabe:** Wie würdest du das überprüfen?
 
@@ -122,7 +92,7 @@ KI sagt: "Ein Team-Event mit 20 Personen in Bern kostet durchschnittlich CHF 90 
 ::: {.scenario}
 ### Szenario D: Prozess
 
-KI sagt: "Reisekostenabrechnungen müssen innerhalb von 30 Tagen nach Reiseende eingereicht werden."
+Das Modell sagt: "Reisekostenabrechnungen müssen innerhalb von 30 Tagen nach Reiseende eingereicht werden."
 
 **Deine Aufgabe:** Finde die offizielle Uni-Regelung.
 
@@ -132,7 +102,7 @@ KI sagt: "Reisekostenabrechnungen müssen innerhalb von 30 Tagen nach Reiseende 
 ::: {.scenario}
 ### Szenario E: Weiterbildung
 
-KI sagt: "Mitarbeitende haben Anspruch auf 5 Tage bezahlte Weiterbildung pro Jahr."
+Das Modell sagt: "Mitarbeitende haben Anspruch auf 5 Tage bezahlte Weiterbildung pro Jahr."
 
 **Deine Aufgabe:** Stimmt das für deine Institution?
 
@@ -142,7 +112,7 @@ KI sagt: "Mitarbeitende haben Anspruch auf 5 Tage bezahlte Weiterbildung pro Jah
 ::: {.scenario}
 ### Szenario F: Technisches
 
-KI sagt: "Microsoft 365 Lizenzen kosten Schweizer Unis durchschnittlich CHF 45 pro Nutzer/Jahr."
+Das Modell sagt: "Microsoft 365 Lizenzen kosten Schweizer Unis durchschnittlich CHF 45 pro Nutzer/Jahr."
 
 **Deine Aufgabe:** Wie würdest du das verifizieren?
 
@@ -151,54 +121,49 @@ KI sagt: "Microsoft 365 Lizenzen kosten Schweizer Unis durchschnittlich CHF 45 p
 
 ---
 
+**Während Teilnehmende arbeiten:**
+
+- Herumgehen, bei Suchbegriffen helfen falls nötig
+- Notieren, wer interessante Funde hat
+
 ### Auswertung (3 Min)
 
-::: {.group}
-## Ergebnisse teilen
+> Wer hat etwas gefunden? Oder etwas Interessantes entdeckt?
 
-> Wer hat etwas Interessantes gefunden?
-
-2–3 Teilnehmende teilen kurz:
+3--4 Teilnehmende berichten kurz:
 
 - Welches Szenario?
-- Welche Quelle gefunden?
-- War die KI richtig, falsch, oder unklar?
-:::
+- Was gefunden?
+- War das Modell richtig, falsch, oder nicht prüfbar?
 
 ---
 
-## Runde 3: Eigenes Beispiel (5 Min) {#runde-3}
+## Runde 3: Eigenes Beispiel (7 Min) {#runde-3}
 
-::: {.individual}
-## Dein eigener Anwendungsfall
+> Jetzt dein eigener Fall. Denk an etwas, das du diese Woche ein Sprachmodell fragen könntest -- oder schon gefragt hast.
 
-Denk an deine eigene Arbeit. Was könntest du diese Woche von einer KI erfragen?
+**Aufgabe (auf Projektor zeigen):**
 
-**3 Minuten:**
+1. Eine konkrete Frage formulieren
+2. Das Sprachmodell fragen
+3. Entscheiden: Braucht das Verifikation?
+4. Wenn ja: Welche Quelle würdest du nutzen?
 
-1. Überleg dir eine konkrete Frage
-2. Frag die KI
-3. Entscheide: Braucht das Verifikation?
-4. Wenn ja: Wo würdest du nachschauen?
-
-{{< timer 3 >}}
-:::
+{{< timer 4 >}}
 
 ---
 
-### Quick Share (2 Min)
+### Teilen
 
-::: {.group}
-## Freiwillige teilen
+> Wer möchte teilen?
 
-> Wer möchte sein Beispiel teilen?
+2--3 Freiwillige berichten.
 
-2 Freiwillige:
+**Bei jedem Beispiel fragen:**
 
-- Was war die Frage?
-- Braucht es Verifikation?
-- Welche Quelle würdest du nutzen?
-:::
+> Würdest du diese Information in einem formellen Dokument verwenden?
+
+Das bereitet Teil 4 vor.
 
 ---
 
@@ -206,6 +171,10 @@ Denk an deine eigene Arbeit. Was könntest du diese Woche von einer KI erfragen?
 
 ### Teilnehmende finden keine Quelle
 
-**Das ist selbst lehrreich:**
+Das ist selbst lehrreich:
 
-> Perfekt – du hast entdeckt: Es gibt keine offizielle Quelle dafür. Das bedeutet: Die KI-Antwort ist spekulativ. **Verwende das nicht für wichtige Entscheidungen.**
+> Du findest keine offizielle Quelle? Das ist wichtige Information. Die Aussage vom Sprachmodell ist nicht verifizierbar -- also nicht verwendbar für wichtige Entscheidungen.
+
+### Zeit wird knapp
+
+Kürze Runde 3 (eigenes Beispiel). Der Kern ist Runde 1 (gemeinsam) und Runde 2 (Szenarien).

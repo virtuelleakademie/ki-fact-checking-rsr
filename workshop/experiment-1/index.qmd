@@ -1,28 +1,20 @@
 ---
-title: "Teil 1: KI liegt falsch"
+title: "Teil 1: Das Sprachmodell liegt falsch"
 subtitle: "Gemeinsames Experiment"
 ---
 
-**Dauer:** 8 Minuten
+**Dauer:** 8 Minuten (0:30--8:30)
 
-**Ziel:** Gemeinsam erleben, dass KI überzeugend falsch sein kann.
-
----
-
-## Setup (1 Min)
-
-**Du am Projektor:**
-
-> Wir testen alle dieselbe Frage. Öffne eine KI deiner Wahl.
+**Ziel:** Gemeinsam erleben, dass Sprachmodelle überzeugend falsch sein können.
 
 ---
 
-## Das Experiment (4 Min)
+## Das Experiment (5 Min)
+
+> Alle stellen dieselbe Frage. Kopiere diesen Prompt:
 
 ::: {.experiment}
 ## Alle testen denselben Prompt
-
-Kopiere diesen Prompt in ChatGPT, Claude, oder Gemini:
 
 ```
 Wie hoch ist der Anteil der Studierenden an Schweizer Universitäten,
@@ -34,7 +26,7 @@ die ihr Bachelorstudium in der Regelstudienzeit abschliessen?
 
 ### Alternative Prompts
 
-Falls du andere Themen bevorzugst:
+Falls du andere Themen bevorzugst (vorher testen, einen auswählen):
 
 - "Wie hoch sind die durchschnittlichen IT-Kosten pro Studierenden an Schweizer Unis?"
 - "Wie viele Verwaltungsmitarbeitende hat die Universität Bern?"
@@ -52,66 +44,78 @@ Wähle die Frage, bei der:
 
 ---
 
-## Auswertung (3 Min)
+## Antworten sammeln
+
+> Wer möchte seine Antwort vorlesen?
 
 ::: {.group}
 ## Antworten teilen
 
-> Wer möchte seine Antwort vorlesen?
+3--4 Teilnehmende teilen ihre Antworten.
 
-3–4 Teilnehmende teilen (notiere Unterschiede sichtbar an der Tafel/Flipchart)
+Notiere die Zahlen sichtbar (Tafel/Flipchart).
 :::
 
 ---
 
-## Die Auflösung mit Lateral Reading Demonstration
+## Auswertung durch Lateral Reading (3 Min)
 
-**Du zeigst jetzt die echte Quelle am Projektor:**
-
-> Ich zeige euch jetzt, wie ich das prüfe. Achtet darauf, was ich tue.
+> Wir haben verschiedene Zahlen. Jetzt prüfen wir. Schau zu.
 
 ::: {.demonstration}
-## Live-Demonstration: Lateral Reading
+## Live-Demonstration am Projektor
 
-**Schritt 1: Suchbegriffe formulieren**
+**Schritt 1:** Neuen Browser-Tab öffnen (nicht das Sprachmodell fragen)
 
-> Ich gehe nicht zurück zur KI. Ich öffne einen neuen Tab und suche: "BFS Studiendauer Bachelor Schweiz".
+**Schritt 2:** Suchen: `BFS Studiendauer Bachelor Schweiz`
 
-**Schritt 2: Suchergebnisse filtern**
+**Schritt 3:** Suchergebnisse zeigen:
 
-> Ich schaue mir die Ergebnisse an, bevor ich klicke. Diese ersten Treffer sind KI-generierte Zusammenfassungen oder Blogs – die überspringe ich. Hier ist bfs.admin.ch – das Bundesamt für Statistik. Das ist eine Primärquelle.
+> Hier ist bfs.admin.ch -- das Bundesamt für Statistik. Das ist eine Primärquelle.
 
-**Schritt 3: Zur Quelle gehen**
+**Schritt 4:** Zur BFS-Seite navigieren, offizielle Statistik zeigen
 
-> Ich klicke nicht auf die Google-Zusammenfassung. Ich gehe zur echten Seite.
-
-Zeige die offizielle Statistik und vergleiche mit den KI-Antworten.
+**Schritt 5:** Mit den Antworten der Sprachmodelle vergleichen
 :::
 
 ---
 
-## Zusammenfassung
+## Beobachtungen sammeln
 
-> Schaut: Die KI gab uns [X%], [Y%] und [Z%]. Die offizielle BFS-Statistik sagt [korrekte Zahl].
->
-> Die KI war nicht einfach ungenau – sie klang aber völlig überzeugend. Das ist das Problem: **spezifisch und selbstbewusst bedeutet nicht richtig.**
+> Was siehst du?
+
+Teilnehmende berichten: Zahlen stimmen nicht überein, das Modell war spezifisch aber falsch, etc.
+
+---
+
+## Minimaler Frame
+
+*Erst nach den Berichten der Teilnehmenden:*
+
+> Die Antwort klang überzeugend. Spezifische Zahl, selbstsicher formuliert. Aber nicht richtig. Das ist das Muster: **Überzeugend heisst nicht korrekt.**
 
 ::: {.key-point}
 ## Kernbotschaft
 
-KI-Antworten können sehr spezifisch und selbstbewusst klingen – und trotzdem falsch sein. Überzeugend ist nicht gleich korrekt.
+Antworten von Sprachmodellen können sehr spezifisch und selbstbewusst klingen -- und trotzdem falsch sein.
 :::
 
 ---
 
 ## Troubleshooting
 
-### KI korrigiert sofort?
+### Alle Antworten sind gleich und korrekt?
 
-**Option 1:**
+Selten, aber möglich. Optionen:
 
-> Interessant! Heute hat sie korrigiert. Aber: Hat sie eine Web-Suche gemacht? Dann hat sie nicht "gewusst", sondern gegoogelt. Und kannst du dich darauf verlassen, dass sie IMMER korrigiert?
+**Option A:**
 
-**Option 2:**
+> Das Modell hat heute gut geantwortet. Aber schau: Hat es eine Quelle genannt? Woher weisst du, dass die Zahl stimmt -- ausser dass das Sprachmodell es sagt?
 
-Zeige Backup-Screenshot von einem klaren Fehler.
+**Option B:**
+
+Backup-Screenshot zeigen:
+
+> Letzte Woche sah das so aus...
+
+Dann weiter zu Teil 2 -- der Punkt "Sprachmodelle können sich nicht selbst prüfen" funktioniert unabhängig davon.

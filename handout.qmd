@@ -1,17 +1,17 @@
 ---
-title: "Quick Reference Card"
-subtitle: "KI-Antworten verifizieren"
+title: "Handout: Lateral Reading"
+subtitle: "Antworten von Sprachmodellen verifizieren"
 format:
   html:
     toc: true
 ---
 
-## Warum Verifikation nötig ist
+## Warum Nachfragen beim Sprachmodell nicht hilft
 
-- KI generiert plausible Antworten, keine geprüften Fakten
-- Selbst mit Web-Suche: kann Quellen falsch interpretieren
-- KI kann ihre eigenen Fehler nicht zuverlässig erkennen
-- KI ist trainiert, dir zuzustimmen – nicht zu korrigieren
+- Sprachmodelle haben keinen Zugang zu ihrem eigenen "Denkprozess"
+- "Bist du sicher?" generiert nur eine neue Antwort
+- Sprachmodelle tendieren dazu, deine Annahmen zu bestätigen
+- Überzeugend formuliert ≠ korrekt
 
 ---
 
@@ -21,7 +21,7 @@ format:
 **Würde ich diese Information in einem formellen Dokument zitieren?**
 
 - **JA** = Extern verifizieren (Lateral Reading)
-- **NEIN** = KI-Antwort reicht
+- **NEIN** = Antwort vom Sprachmodell reicht
 :::
 
 ---
@@ -32,21 +32,22 @@ format:
 
 | | |
 |---|---|
-| Nicht | "Stimmt das?" oder KI nochmal fragen |
+| Nicht | "Stimmt das?" oder Sprachmodell nochmal fragen |
 | Sondern | "[Thema] Schweiz Statistik/Gesetz" |
 
 ### 2. Suchergebnisse filtern
 
 | Quelle | Bewertung |
 |--------|-----------|
-| .gov, .ch, .edu, offizielle Berichte | Klicken |
-| Wikipedia | Nur als Einstieg |
-| KI-Zusammenfassungen, Blogs, Foren | Überspringen |
+| Primärquellen: .admin.ch, .edu, offizielle Berichte | Klicken |
+| Wikipedia | Nur als Einstieg, nicht zitieren |
+| AI-generierte Zusammenfassungen, Blogs, Foren | Überspringen |
 
 ### 3. Zur Original-Quelle gehen
 
-- Nicht nur Google-Zusammenfassung lesen
+- Google-Zusammenfassung reicht nicht
 - Website öffnen, echte Daten finden
+- Keine Quelle gefunden = Aussage vom Sprachmodell nicht verwendbar
 
 ---
 
@@ -77,17 +78,17 @@ format:
 ::: {.callout-warning appearance="minimal"}
 ### Rote Flaggen
 
-- Die KI bestätigt, was du ohnehin dachtest
-- Du hast die Frage mit einer Annahme formuliert
-- KI gibt sehr spezifische Zahlen ohne Quelle
-- Du hast lange an einem Thema mit der KI gearbeitet (starte eine frische Konversation für Realitätscheck)
+- Das Sprachmodell gibt sehr spezifische Zahlen ohne Quellenangabe
+- Das Sprachmodell bestätigt genau das, was du vermutet hast
+- Du hast eine Annahme in die Frage eingebaut
+- Es geht um rechtliche oder finanzielle Entscheidungen
 :::
 
 ---
 
-## KI-Stärken und -Schwächen
+## Stärken und Schwächen von Sprachmodellen
 
-| KI ist gut für | KI ist nicht zuverlässig für |
+| Gut geeignet für | Nicht zuverlässig für |
 |----------------|------------------------------|
 | Erste Ideen sammeln | Spezifische Fakten |
 | Text umformulieren | Rechtliche Verbindlichkeit |

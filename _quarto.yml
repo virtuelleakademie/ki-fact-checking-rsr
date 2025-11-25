@@ -14,7 +14,7 @@ project:
     - handout.qmd
 
 website:
-  title: "KI-Antworten kritisch prüfen: Lateral Reading Workshop"
+  title: "Fact-Checking für KI"
   site-url: https://virtuelleakademie.github.io/ki-fact-checking-rsr/
   favicon: /assets/robot.png
   open-graph: true
@@ -36,12 +36,12 @@ website:
         href: handout.qmd
         text: Handout
 
-    right:
-      - icon: file-slides
-        text: "Materialien"
-        menu:
-          - text: "Quick Reference Card (Handout)"
-            file: handout.qmd
+    # right:
+      # - icon: file-slides
+      #   text: "Materialien"
+      #   menu:
+      #     - text: "Quick Reference Card (Handout)"
+      #       file: handout.qmd
 
     tools:
       - icon: lightbulb-fill
@@ -55,16 +55,14 @@ website:
       background: light
       contents:
         - workshop/index.qmd
-        - section: "Ablauf"
-          contents:
-            - workshop/framing/index.qmd
-            - workshop/experiment-1/index.qmd
-            - workshop/experiment-2/index.qmd
-            - workshop/lateral-reading/index.qmd
-            - workshop/entscheidungsregel/index.qmd
-        - section: "Materialien"
-          contents:
-            - handout.qmd
+        # - section: "Ablauf"
+          # contents:
+        - workshop/framing/index.qmd
+        - workshop/experiment-1/index.qmd
+        - workshop/experiment-2/index.qmd
+        - workshop/lateral-reading/index.qmd
+        - workshop/entscheidungsregel/index.qmd
+        - handout.qmd
 
 page-footer:
     right:
@@ -95,8 +93,8 @@ editor:
   render-on-save: true
 
 filters:
-  - produnis/timer
-  - coatless-quarto/custom-callout
+  - timer
+  - custom-callout
 
 custom-callout:
   # Workshop activity types

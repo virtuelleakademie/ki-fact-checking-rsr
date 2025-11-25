@@ -20,22 +20,18 @@ about:
 
 ## Workshop: KI-Antworten im Büroalltag kritisch prüfen
 
-KI-Chatbots wie ChatGPT liefern überzeugende Antworten – aber nicht immer korrekte. In diesem 40-minütigen Workshop lernst du **Lateral Reading**: eine praktische Technik, um KI-Antworten schnell und zuverlässig zu verifizieren.
-
-### Für wen?
-
-Mitarbeitende in Verwaltung und Services, die KI-Tools im Arbeitsalltag nutzen möchten – ohne Vorkenntnisse.
+KI-Chatbots wie ChatGPT liefern Antworten die überzeugend sind, aber nicht immer korrekt. In diesem 40-minütigen Workshop lernst du **Lateral Reading**: eine praktische Technik, um KI-Antworten schnell und zuverlässig zu verifizieren.
 
 ### Was du lernst
 
 - Warum KI-Antworten externe Verifikation brauchen
 - Wie deine Fragestellung die KI-Antwort beeinflusst
 - Wie du in 2–5 Minuten Fakten unabhängig prüfst
-- Welche Quellen für deinen Arbeitsbereich relevant sind
+<!-- - Welche Quellen für deinen Arbeitsbereich relevant sind -->
 
 [Zum Workshop](workshop/index.qmd){.btn .btn-primary}
 
----
+
 
 ## Dozent
 

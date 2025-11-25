@@ -1,38 +1,38 @@
 ---
-title: "KI-Antworten im Büroalltag kritisch prüfen"
+title: "Antworten von Sprachmodellen kritisch prüfen"
 subtitle: "Ein 40-Minuten Workshop zu Lateral Reading"
 ---
 
 ## Überblick
 
-Dieser Workshop vermittelt eine praktische Technik zur Verifikation von KI-Antworten: **Lateral Reading**.
+Dieser Workshop vermittelt eine praktische Technik zur Verifikation von Antworten aus Large Language Models (LLMs) wie ChatGPT, Claude oder Gemini: **Lateral Reading**.
 
-Teilnehmende lernen, warum KI-Chatbots systematisch problematische Antworten liefern können – und wie sie in wenigen Minuten Fakten unabhängig prüfen können.
+Teilnehmende lernen durch eigene Experimente, warum Antworten von Sprachmodellen externe Verifikation brauchen -- und wie sie in wenigen Minuten Fakten unabhängig prüfen können.
 
 ## Lernziele
 
 Nach diesem Workshop können Teilnehmende:
 
-1. **Verstehen**, warum KI-Antworten externe Verifikation brauchen (nicht nur "manchmal falsch", sondern systemisch)
-2. **Erkennen**, wie die eigene Fragestellung die KI-Antwort beeinflusst
+1. **Erkennen**, wann Antworten von Sprachmodellen externe Verifikation brauchen
+2. **Verstehen**, warum Nachfragen beim Sprachmodell keine echte Prüfung ist
 3. **Lateral Reading anwenden**, um Fakten zu überprüfen
 4. **Vertrauenswürdige Quellen** für ihren Arbeitsbereich identifizieren
 
 ## Zeitplan
 
-| Zeit | Phase | Inhalt |
-|------|-------|--------|
-| 0:00–2:00 | [Framing](framing/index.qmd) | Warum KI-Antworten problematisch sind |
-| 2:00–10:00 | [Teil 1](experiment-1/index.qmd) | KI liegt falsch: Gemeinsames Experiment |
-| 10:00–18:00 | [Teil 2](experiment-2/index.qmd) | Warum KI dir zustimmt: Sycophancy |
-| 18:00–37:00 | [Teil 3](lateral-reading/index.qmd) | Lateral Reading in drei Runden |
-| 37:00–40:00 | [Teil 4](entscheidungsregel/index.qmd) | Die Entscheidungsregel |
+| Zeit | Phase | Dauer | Inhalt |
+|------|-------|-------|--------|
+| 0:00--0:30 | [Einstieg](framing/index.qmd) | 30 Sek | Direkt ins Experiment |
+| 0:30--8:30 | [Teil 1](experiment-1/index.qmd) | 8 Min | Das Sprachmodell liegt falsch |
+| 8:30--14:30 | [Teil 2](experiment-2/index.qmd) | 6 Min | Warum Nachfragen nicht hilft |
+| 14:30--36:30 | [Teil 3](lateral-reading/index.qmd) | 22 Min | Lateral Reading üben |
+| 36:30--40:00 | [Teil 4](entscheidungsregel/index.qmd) | 3.5 Min | Die Entscheidungsregel |
 
 **Gesamtdauer:** 40 Minuten
 
 ## Zielgruppe
 
-Mitarbeitende in Verwaltung und Services ohne spezifische KI-Vorkenntnisse.
+Mitarbeitende in Verwaltung und Services ohne spezifische Vorkenntnisse zu Large Language Models.
 
 ## Benötigte Materialien
 
@@ -40,40 +40,45 @@ Mitarbeitende in Verwaltung und Services ohne spezifische KI-Vorkenntnisse.
 
 - Alle Teilnehmenden haben Laptops/Tablets mit Internet
 - Projektor für Demonstrationen
-- Zugang zu mindestens einer KI (ChatGPT, Claude, oder Gemini)
+- Zugang zu mindestens einem Sprachmodell (ChatGPT, Claude, oder Gemini)
 
 ### Vorbereitet
 
 - Teil 1 Beispiel: 24 Stunden vorher testen und final auswählen
+- Teil 2 Experimente: Selbstprüfungs-Prompt und führenden Prompt vorher testen
 - Teil 3 Szenarien: 6 arbeitsbezogene Szenarien (siehe [Lateral Reading](lateral-reading/index.qmd))
 - [Handout: Quick-Reference-Karte](../handout.qmd)
-- Backup: Screenshots von 2–3 klaren KI-Fehlern
+- Backup: Screenshots von 2--3 klaren Fehlern von Sprachmodellen
 
 ## Vorbereitung: Checkliste
 
 ### 24 Stunden vorher
 
-**Teil 1 – Beispiel testen:**
+**Teil 1 -- Beispiel testen:**
 
 - [ ] Prompt bei ChatGPT, Claude, Gemini testen
-- [ ] Antworten notieren
-- [ ] Echte Quelle finden und Screenshot machen
-- [ ] Backup-Beispiel vorbereiten
+- [ ] Antworten notieren -- variieren sie? Sind sie falsch?
+- [ ] Offizielle Quelle finden (BFS etc.)
+- [ ] Backup-Prompt bereit haben
 
-**Teil 2 – Sycophancy-Experiment testen:**
+**Teil 2 -- Nachfragen-Experimente testen:**
 
-- [ ] Drei Framings mit verschiedenen KIs testen
-- [ ] Prüfen ob Unterschiede sichtbar sind
-- [ ] Alternative Themen bereit haben
+- [ ] Selbstprüfungs-Prompt testen ("Bist du sicher?")
+- [ ] Führenden Prompt testen (mit eingebauter Annahme)
+- [ ] Prüfen ob Effekte sichtbar sind
 
-**Teil 3 – Szenarien:**
+**Teil 3 -- Szenarien:**
 
 - [ ] 6 Szenarien ausdrucken oder Projektion vorbereiten
-- [ ] 2–3 Szenarien selbst durchspielen
+- [ ] 2--3 Szenarien selbst durchspielen
 - [ ] Quellen-URLs notieren
+
+**Backup:**
+
+- [ ] 2--3 Screenshots von klaren Fehlern aus früheren Tests
 
 ### 10 Minuten vor Workshop
 
 - [ ] Projektor testen
-- [ ] Tabs geöffnet: KI, BFS, admin.ch, Uni-Statistiken
+- [ ] Tabs geöffnet: ChatGPT/Claude/Gemini, BFS, admin.ch, Uni-Statistiken
 - [ ] Handouts bereit
