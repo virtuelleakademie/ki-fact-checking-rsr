@@ -77,6 +77,9 @@ format:
   html:
     theme:
       light: simplex
+    css: styles/styles.css
+    include-after-body: scripts/copy-prompt.js
+    code-copy: true
     toc: true
     link-external-icon: true
     link-external-newwindow: true
@@ -101,69 +104,82 @@ filters:
   - custom-callout
 
 custom-callout:
-  # Workshop activity types
+  # Activity types - what participants DO
   experiment:
-    title: "Experiment"
-    icon-symbol: ">"
+    title: "Deine Aufgabe"
+    icon-symbol: "fa-flask"
+    appearance: default
     collapse: false
     color: "#9A4665"
 
-  demonstration:
-    title: "Demonstration"
-    icon-symbol: ">"
-    collapse: false
-    color: "steelblue"
-
   individual:
     title: "Einzelarbeit"
-    icon-symbol: ">"
-    color: "steelblue"
-    collapse: false
-
-  pair:
-    title: "Partnerarbeit"
-    icon-symbol: ">"
-    color: "forestgreen"
+    icon-symbol: "fa-user"
+    appearance: default
+    color: "#9A4665"
     collapse: false
 
   group:
     title: "Gruppenarbeit"
-    icon-symbol: ">"
-    color: "purple"
+    icon-symbol: "fa-users"
+    appearance: default
+    color: "#6f42c1"
+    collapse: false
+
+  demonstration:
+    title: "Demonstration"
+    icon-symbol: "fa-chalkboard"
+    appearance: default
+    collapse: false
+    color: "#0d6efd"
+
+  # Content types - information for participants
+  scenario:
+    title: "Szenario"
+    icon-symbol: "fa-comment"
+    appearance: default
+    color: "#6c757d"
     collapse: false
 
   reflect:
     title: "Reflexion"
-    icon-symbol: ">"
-    color: "purple"
-    collapse: false
-
-  pro-tip:
-    title: "Tipp"
-    icon-symbol: ">"
-    color: "gold"
-    collapse: true
-
-  warning:
-    title: "Achtung"
-    icon-symbol: "!"
-    color: "orange"
+    icon-symbol: "fa-lightbulb"
+    appearance: default
+    color: "#6f42c1"
     collapse: false
 
   key-point:
     title: "Kernaussage"
-    icon-symbol: ">"
+    icon-symbol: "fa-star"
+    appearance: default
     collapse: false
     color: "#9A4665"
 
-  scenario:
-    title: "Szenario"
-    icon-symbol: ">"
-    color: "steelblue"
+  warning:
+    title: "Achtung"
+    icon-symbol: "fa-exclamation-circle"
+    appearance: default
+    color: "#fd7e14"
     collapse: false
+
+  pro-tip:
+    title: "Tipp"
+    icon-symbol: "fa-wand-magic-sparkles"
+    appearance: default
+    color: "#20c997"
+    collapse: true
 
   source-check:
     title: "Quellen-Check"
-    icon-symbol: ">"
-    color: "forestgreen"
+    icon-symbol: "fa-search"
+    appearance: default
+    color: "#198754"
+    collapse: false
+
+  # Copyable prompt for chatbot input
+  prompt:
+    title: "Prompt"
+    icon-symbol: "fa-clipboard"
+    appearance: default
+    color: "#495057"
     collapse: false

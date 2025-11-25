@@ -1,22 +1,31 @@
 ---
 title: "Teil 3: Lateral Reading"
-subtitle: "Die Technik in drei Runden üben"
+subtitle: "Die Technik in vier Schritten üben"
 ---
 
 Lateral Reading heisst: Raus aus dem Sprachmodell, eigene Suche, Primärquellen finden.
 
 ---
 
+## Die vier Schritte
+
+1. **Suchbegriffe formulieren** --- Was tippst du bei Google ein?
+2. **Suchergebnisse filtern** --- Welche Quellen sind vertrauenswürdig?
+3. **Zur Quelle gehen** --- Nicht die Google-Zusammenfassung, sondern die echte Seite
+4. **Zwei Prüffragen stellen** --- Ist die Quelle zuverlässig? Steht da wirklich das, was behauptet wird?
+
+---
+
 ## Runde 1: Gemeinsam {#runde-1}
 
 ::: {.scenario}
-### Das Szenario
 
 Das Sprachmodell sagt:
 
 > "Das durchschnittliche Gehalt für Verwaltungsmitarbeitende an Schweizer Universitäten liegt bei CHF 78'000 brutto pro Jahr."
 
 Du willst das für einen Budgetantrag verwenden.
+
 :::
 
 ### Schritt 1: Suchbegriffe formulieren
@@ -24,12 +33,14 @@ Du willst das für einen Budgetantrag verwenden.
 Wie würdest du suchen? Nicht das Sprachmodell fragen --- was tippst du bei Google ein?
 
 ::: {.pro-tip}
-### Gute Suchbegriffe
+
+Gute Suchbegriffe:
 
 - "Schweiz Universität Verwaltung Gehalt Statistik"
 - "swissuniversities Lohnstruktur"
 
 Nicht: "Stimmt 78000?"
+
 :::
 
 ### Schritt 2: Suchergebnisse filtern
@@ -55,83 +66,86 @@ Wenn du eine Quelle gefunden hast, stelle zwei Fragen:
 | **Steht da wirklich das, was das Sprachmodell behauptet?** | Unterstützt die Quelle tatsächlich die konkrete Aussage? |
 
 ::: {.warning}
+
 Sprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch oder übertreiben. Immer selbst nachlesen!
+
 :::
 
 ### Schritt 5: Ergebnis
 
 ::: {.reflect}
-### Was haben wir gefunden?
 
 Oft: Die exakte Zahl existiert nicht in dieser Form. Das ist selbst eine wichtige Information --- die Zahl vom Sprachmodell ist nicht verifizierbar und somit nicht verwendbar für einen Budgetantrag.
+
 :::
 
 ---
 
 ## Runde 2: In Kleingruppen {#runde-2}
 
-Wähle ein Szenario und versuche, die Behauptung zu verifizieren.
+::: {.experiment}
 
-{{< timer 5 >}}
+1. Wähle **ein Szenario** aus der Liste unten
+2. Versuche, die Behauptung mit den vier Schritten zu verifizieren
+3. Notiere: Ist die Behauptung richtig, falsch, oder nicht prüfbar?
 
-::: {.scenario}
+:::
+
+:::{.timer #LR-R2 seconds=300 starton=interaction}
+:::
+
+::: {.scenario collapse="true"}
 ### Szenario A: Rechtliches
 
-Das Modell sagt: "Personaldossiers müssen in der Schweiz 10 Jahre nach Austritt aufbewahrt werden."
+> "Personaldossiers müssen in der Schweiz 10 Jahre nach Austritt aufbewahrt werden."
 
-**Deine Aufgabe:** Finde die offizielle rechtliche Grundlage.
+Finde die offizielle rechtliche Grundlage. *Tipp: EDÖB, admin.ch, OR*
 
-**Tipp:** EDÖB, admin.ch, OR
 :::
 
-::: {.scenario}
+::: {.scenario collapse="true"}
 ### Szenario B: Statistik
 
-Das Modell sagt: "Die Universität Bern hatte im HS 2023 genau 18'734 Studierende."
+> "Die Universität Bern hatte im HS 2023 genau 18'734 Studierende."
 
-**Deine Aufgabe:** Finde die offizielle Statistik.
+Finde die offizielle Statistik. *Tipp: Uni Bern Website, BFS*
 
-**Tipp:** Uni Bern Website, BFS
 :::
 
-::: {.scenario}
+::: {.scenario collapse="true"}
 ### Szenario C: Budget
 
-Das Modell sagt: "Ein Team-Event mit 20 Personen in Bern kostet durchschnittlich CHF 90 pro Person."
+> "Ein Team-Event mit 20 Personen in Bern kostet durchschnittlich CHF 90 pro Person."
 
-**Deine Aufgabe:** Wie würdest du das überprüfen?
+Wie würdest du das überprüfen? *Tipp: Lokale Anbieter, frühere Events*
 
-**Tipp:** Lokale Anbieter, frühere Events, Vergleichsangebote
 :::
 
-::: {.scenario}
+::: {.scenario collapse="true"}
 ### Szenario D: Prozess
 
-Das Modell sagt: "Reisekostenabrechnungen müssen innerhalb von 30 Tagen nach Reiseende eingereicht werden."
+> "Reisekostenabrechnungen müssen innerhalb von 30 Tagen nach Reiseende eingereicht werden."
 
-**Deine Aufgabe:** Finde die offizielle Uni-Regelung.
+Finde die offizielle Uni-Regelung. *Tipp: Uni-Intranet, HR-Richtlinien*
 
-**Tipp:** Uni-Intranet, HR-Richtlinien
 :::
 
-::: {.scenario}
+::: {.scenario collapse="true"}
 ### Szenario E: Weiterbildung
 
-Das Modell sagt: "Mitarbeitende haben Anspruch auf 5 Tage bezahlte Weiterbildung pro Jahr."
+> "Mitarbeitende haben Anspruch auf 5 Tage bezahlte Weiterbildung pro Jahr."
 
-**Deine Aufgabe:** Stimmt das für deine Institution?
+Stimmt das für deine Institution? *Tipp: Personalreglement, GAV*
 
-**Tipp:** Personalreglement, GAV
 :::
 
-::: {.scenario}
+::: {.scenario collapse="true"}
 ### Szenario F: Technisches
 
-Das Modell sagt: "Microsoft 365 Lizenzen kosten Schweizer Unis durchschnittlich CHF 45 pro Nutzer/Jahr."
+> "Microsoft 365 Lizenzen kosten Schweizer Unis durchschnittlich CHF 45 pro Nutzer/Jahr."
 
-**Deine Aufgabe:** Wie würdest du das verifizieren?
+Wie würdest du das verifizieren? *Tipp: IT-Services, swissuniversities Rahmenverträge*
 
-**Tipp:** IT-Services, swissuniversities Rahmenverträge
 :::
 
 ---
@@ -139,11 +153,11 @@ Das Modell sagt: "Microsoft 365 Lizenzen kosten Schweizer Unis durchschnittlich 
 ### Auswertung
 
 ::: {.group}
-### Ergebnisse teilen
 
 - Welches Szenario hast du gewählt?
 - Was hast du gefunden?
 - War das Modell richtig, falsch, oder nicht prüfbar?
+
 :::
 
 ---
@@ -151,7 +165,6 @@ Das Modell sagt: "Microsoft 365 Lizenzen kosten Schweizer Unis durchschnittlich 
 ## Runde 3: Eigenes Beispiel {#runde-3}
 
 ::: {.individual}
-### Dein eigener Fall
 
 Denk an etwas, das du diese Woche ein Sprachmodell fragen könntest --- oder schon gefragt hast.
 
@@ -159,15 +172,17 @@ Denk an etwas, das du diese Woche ein Sprachmodell fragen könntest --- oder sch
 2. Frag das Sprachmodell
 3. Entscheide: Braucht das Verifikation?
 4. Wenn ja: Welche Quelle würdest du nutzen?
+
 :::
 
-{{< timer 4 >}}
+:::{.timer #LR-R3 seconds=240 starton=interaction}
+:::
 
 ---
 
 ::: {.group}
-### Teilen
 
 - Was war deine Frage?
 - Würdest du diese Information in einem formellen Dokument verwenden?
+
 :::

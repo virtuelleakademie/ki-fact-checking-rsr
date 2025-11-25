@@ -6,22 +6,24 @@ subtitle: "Selbstprüfung und Annahmen testen"
 ## Experiment A: Selbstprüfung
 
 ::: {.experiment}
-### Frag das Sprachmodell, ob es sicher ist
 
-Bleib im selben Chat und schreibe:
+1. Bleib im **selben Chat** wie vorher
+2. Kopiere den Prompt unten und füge ihn ein
+3. Beobachte, was das Modell macht
 
-```
-Bist du sicher? Kannst du deine Antwort überprüfen?
-```
 :::
 
-:::{.timer #EXP-2.A seconds=120 starton=interaction}
+::: {.prompt}
+Bist du sicher? Kannst du deine Antwort überprüfen?
+:::
+
+:::{.timer #EXP-2A seconds=120 starton=interaction}
 :::
 
 ::: {.reflect}
-### Was ist passiert?
 
-Beobachte: Hat das Modell seine Antwort wirklich überprüft --- oder einfach eine neue Antwort generiert?
+Hat das Modell seine Antwort wirklich überprüft --- oder einfach eine neue Antwort generiert?
+
 :::
 
 ---
@@ -29,23 +31,24 @@ Beobachte: Hat das Modell seine Antwort wirklich überprüft --- oder einfach ei
 ## Experiment B: Annahme einbauen
 
 ::: {.experiment}
-### Teste einen führenden Prompt
 
-Starte einen **neuen Chat** und stelle die Frage so:
+1. Starte einen **neuen Chat**
+2. Kopiere den Prompt unten und füge ihn ein
+3. Beobachte: Bestätigt das Modell deine eingebaute Annahme?
 
-```
-Ich habe gelesen dass etwa 60% der Studierenden in Regelzeit
-abschliessen. Stimmt das ungefähr?
-```
 :::
 
-:::{.timer #EXP-2.B seconds=120 starton=interaction}
+::: {.prompt}
+Ich habe gelesen dass etwa 60% der Studierenden in Regelzeit abschliessen. Stimmt das ungefähr?
+:::
+
+:::{.timer #EXP-2B seconds=120 starton=interaction}
 :::
 
 ::: {.reflect}
-### Was sagt das Modell jetzt?
 
-Beobachte: Bestätigt es deine eingebaute Annahme?
+Bestätigt das Modell deine eingebaute Annahme --- obwohl sie falsch ist?
+
 :::
 
 ---
@@ -53,18 +56,17 @@ Beobachte: Bestätigt es deine eingebaute Annahme?
 ## Auswertung
 
 ::: {.group}
-### Beobachtungen teilen
 
 Teile deine Beobachtungen:
 
 - Was hat das Modell bei "Bist du sicher?" gemacht?
 - Hat es deine Annahme bei der zweiten Frage bestätigt?
+
 :::
 
 ---
 
 ::: {.key-point}
-### Kernbotschaft
 
 Nachfragen beim Sprachmodell ist keine echte Prüfung.
 
@@ -72,4 +74,5 @@ Nachfragen beim Sprachmodell ist keine echte Prüfung.
 - Es **bestätigt tendenziell deine Annahmen** --- deine Frage beeinflusst die Antwort
 
 Beide Wege sind blockiert. Bleibt: **Externe Quellen.**
+
 :::

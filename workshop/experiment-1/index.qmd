@@ -6,14 +6,16 @@ subtitle: "Gemeinsames Experiment"
 ## Das Experiment
 
 ::: {.experiment}
-### Alle testen denselben Prompt
 
-Kopiere diesen Prompt in dein Sprachmodell:
+1. Öffne dein Sprachmodell (ChatGPT, Claude, Copilot, etc.)
+2. Kopiere den Prompt unten und füge ihn ein
+3. Sende die Anfrage ab
+4. Notiere dir die Zahl, die das Modell nennt
 
-```
-Wie hoch ist der Anteil der Studierenden an Schweizer Universitäten,
-die ihr Bachelorstudium in der Regelstudienzeit abschliessen?
-```
+:::
+
+::: {.prompt}
+Wie hoch ist der Anteil der Studierenden an Schweizer Universitäten, die ihr Bachelorstudium in der Regelstudienzeit abschliessen?
 :::
 
 :::{.timer #EXP-1 seconds=300 starton=interaction}
@@ -24,9 +26,10 @@ die ihr Bachelorstudium in der Regelstudienzeit abschliessen?
 ## Antworten teilen
 
 ::: {.group}
-### Antworten vergleichen
 
-Teile deine Antwort mit der Gruppe. Vergleicht die Zahlen.
+- Teile deine Antwort mit der Gruppe
+- Vergleicht die Zahlen: Sind sie gleich oder unterschiedlich?
+
 :::
 
 ---
@@ -34,12 +37,14 @@ Teile deine Antwort mit der Gruppe. Vergleicht die Zahlen.
 ## Auswertung: Die offizielle Quelle
 
 ::: {.demonstration}
-### Live-Check
+
+Wir prüfen jetzt gemeinsam die offizielle Quelle:
 
 1. Neuen Browser-Tab öffnen
 2. Suchen: `BFS Studiendauer Bachelor Schweiz`
 3. Zur BFS-Seite (bfs.admin.ch) navigieren
 4. Offizielle Statistik mit den Modell-Antworten vergleichen
+
 :::
 
 ---
@@ -47,25 +52,26 @@ Teile deine Antwort mit der Gruppe. Vergleicht die Zahlen.
 ## Beobachtung
 
 ::: {.reflect}
-### Was siehst du?
 
 - Stimmen die Zahlen der Sprachmodelle mit der offiziellen Quelle überein?
 - Hat das Modell eine Quelle genannt?
 - Wie sicher klang die Antwort?
+
 :::
 
 ---
 
 ::: {.key-point}
-### Kernbotschaft
 
 Antworten von Sprachmodellen können sehr spezifisch und selbstbewusst klingen --- und trotzdem falsch sein.
 
 **Überzeugend heisst nicht korrekt.**
+
 :::
 
 ::: {.warning}
 ### Die Spezifitätsfalle
 
 Je spezifischer eine Antwort klingt --- genaue Zahlen, Daten, Namen --- desto vertrauenswürdiger wirkt sie. Aber Spezifität ist kein Beweis für Richtigkeit. Sprachmodelle generieren oft sehr präzise klingende Details, die frei erfunden sind.
+
 :::

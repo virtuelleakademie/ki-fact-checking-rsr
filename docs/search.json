@@ -216,7 +216,7 @@
     "href": "workshop/experiment-2/index.html",
     "title": "Teil 2: Warum Nachfragen nicht hilft",
     "section": "",
-    "text": "ExperimentFrag das Sprachmodell, ob es sicher ist\n\n\n\nBleib im selben Chat und schreibe:\nBist du sicher? Kannst du deine Antwort überprüfen?\n\n\n                    \n                    \n                \n\n\n\n\n\n\nReflectWas ist passiert?\n\n\n\nBeobachte: Hat das Modell seine Antwort wirklich überprüft — oder einfach eine neue Antwort generiert?",
+    "text": "ExperimentDeine Aufgabe\n\n\n\n\nBleib im selben Chat wie vorher\nKopiere den Prompt unten und füge ihn ein\nBeobachte, was das Modell macht\n\n\n\n\n\n\n\n\n\nPromptPrompt\n\n\n\nBist du sicher? Kannst du deine Antwort überprüfen?\n\n\n                    \n                    \n                \n\n\n\n\n\n\nReflectReflexion\n\n\n\nHat das Modell seine Antwort wirklich überprüft — oder einfach eine neue Antwort generiert?",
     "crumbs": [
       "Workshop",
       "Teil 2: Warum Nachfragen nicht hilft"
@@ -227,7 +227,7 @@
     "href": "workshop/experiment-2/index.html#experiment-a-selbstprüfung",
     "title": "Teil 2: Warum Nachfragen nicht hilft",
     "section": "",
-    "text": "ExperimentFrag das Sprachmodell, ob es sicher ist\n\n\n\nBleib im selben Chat und schreibe:\nBist du sicher? Kannst du deine Antwort überprüfen?\n\n\n                    \n                    \n                \n\n\n\n\n\n\nReflectWas ist passiert?\n\n\n\nBeobachte: Hat das Modell seine Antwort wirklich überprüft — oder einfach eine neue Antwort generiert?",
+    "text": "ExperimentDeine Aufgabe\n\n\n\n\nBleib im selben Chat wie vorher\nKopiere den Prompt unten und füge ihn ein\nBeobachte, was das Modell macht\n\n\n\n\n\n\n\n\n\nPromptPrompt\n\n\n\nBist du sicher? Kannst du deine Antwort überprüfen?\n\n\n                    \n                    \n                \n\n\n\n\n\n\nReflectReflexion\n\n\n\nHat das Modell seine Antwort wirklich überprüft — oder einfach eine neue Antwort generiert?",
     "crumbs": [
       "Workshop",
       "Teil 2: Warum Nachfragen nicht hilft"
@@ -238,7 +238,7 @@
     "href": "workshop/experiment-2/index.html#experiment-b-annahme-einbauen",
     "title": "Teil 2: Warum Nachfragen nicht hilft",
     "section": "Experiment B: Annahme einbauen",
-    "text": "Experiment B: Annahme einbauen\n\n\n\n\n\n\nExperimentTeste einen führenden Prompt\n\n\n\nStarte einen neuen Chat und stelle die Frage so:\nIch habe gelesen dass etwa 60% der Studierenden in Regelzeit\nabschliessen. Stimmt das ungefähr?\n\n\n                    \n                    \n                \n\n\n\n\n\n\nReflectWas sagt das Modell jetzt?\n\n\n\nBeobachte: Bestätigt es deine eingebaute Annahme?",
+    "text": "Experiment B: Annahme einbauen\n\n\n\n\n\n\nExperimentDeine Aufgabe\n\n\n\n\nStarte einen neuen Chat\nKopiere den Prompt unten und füge ihn ein\nBeobachte: Bestätigt das Modell deine eingebaute Annahme?\n\n\n\n\n\n\n\n\n\nPromptPrompt\n\n\n\nIch habe gelesen dass etwa 60% der Studierenden in Regelzeit abschliessen. Stimmt das ungefähr?\n\n\n                    \n                    \n                \n\n\n\n\n\n\nReflectReflexion\n\n\n\nBestätigt das Modell deine eingebaute Annahme — obwohl sie falsch ist?",
     "crumbs": [
       "Workshop",
       "Teil 2: Warum Nachfragen nicht hilft"
@@ -249,7 +249,7 @@
     "href": "workshop/experiment-2/index.html#auswertung",
     "title": "Teil 2: Warum Nachfragen nicht hilft",
     "section": "Auswertung",
-    "text": "Auswertung\n\n\n\n\n\n\nGroupBeobachtungen teilen\n\n\n\nTeile deine Beobachtungen:\n\nWas hat das Modell bei “Bist du sicher?” gemacht?\nHat es deine Annahme bei der zweiten Frage bestätigt?\n\n\n\n\n\n\n\n\n\n\nKey-pointKernbotschaft\n\n\n\nNachfragen beim Sprachmodell ist keine echte Prüfung.\n\nEs kann sich nicht selbst verifizieren — es generiert nur neue Antworten\nEs bestätigt tendenziell deine Annahmen — deine Frage beeinflusst die Antwort\n\nBeide Wege sind blockiert. Bleibt: Externe Quellen.",
+    "text": "Auswertung\n\n\n\n\n\n\nGroupGruppenarbeit\n\n\n\nTeile deine Beobachtungen:\n\nWas hat das Modell bei “Bist du sicher?” gemacht?\nHat es deine Annahme bei der zweiten Frage bestätigt?\n\n\n\n\n\n\n\n\n\n\nKey-pointKernaussage\n\n\n\nNachfragen beim Sprachmodell ist keine echte Prüfung.\n\nEs kann sich nicht selbst verifizieren — es generiert nur neue Antworten\nEs bestätigt tendenziell deine Annahmen — deine Frage beeinflusst die Antwort\n\nBeide Wege sind blockiert. Bleibt: Externe Quellen.",
     "crumbs": [
       "Workshop",
       "Teil 2: Warum Nachfragen nicht hilft"
@@ -325,7 +325,7 @@
     "href": "workshop/experiment-1/index.html",
     "title": "Teil 1: Das Sprachmodell liegt falsch",
     "section": "",
-    "text": "ExperimentAlle testen denselben Prompt\n\n\n\nKopiere diesen Prompt in dein Sprachmodell:\nWie hoch ist der Anteil der Studierenden an Schweizer Universitäten,\ndie ihr Bachelorstudium in der Regelstudienzeit abschliessen?",
+    "text": "ExperimentDeine Aufgabe\n\n\n\n\nÖffne dein Sprachmodell (ChatGPT, Claude, Copilot, etc.)\nKopiere den Prompt unten und füge ihn ein\nSende die Anfrage ab\nNotiere dir die Zahl, die das Modell nennt\n\n\n\n\n\n\n\n\n\nPromptPrompt\n\n\n\nWie hoch ist der Anteil der Studierenden an Schweizer Universitäten, die ihr Bachelorstudium in der Regelstudienzeit abschliessen?",
     "crumbs": [
       "Workshop",
       "Teil 1: Das Sprachmodell liegt falsch"
@@ -336,7 +336,7 @@
     "href": "workshop/experiment-1/index.html#das-experiment",
     "title": "Teil 1: Das Sprachmodell liegt falsch",
     "section": "",
-    "text": "ExperimentAlle testen denselben Prompt\n\n\n\nKopiere diesen Prompt in dein Sprachmodell:\nWie hoch ist der Anteil der Studierenden an Schweizer Universitäten,\ndie ihr Bachelorstudium in der Regelstudienzeit abschliessen?",
+    "text": "ExperimentDeine Aufgabe\n\n\n\n\nÖffne dein Sprachmodell (ChatGPT, Claude, Copilot, etc.)\nKopiere den Prompt unten und füge ihn ein\nSende die Anfrage ab\nNotiere dir die Zahl, die das Modell nennt\n\n\n\n\n\n\n\n\n\nPromptPrompt\n\n\n\nWie hoch ist der Anteil der Studierenden an Schweizer Universitäten, die ihr Bachelorstudium in der Regelstudienzeit abschliessen?",
     "crumbs": [
       "Workshop",
       "Teil 1: Das Sprachmodell liegt falsch"
@@ -347,7 +347,7 @@
     "href": "workshop/experiment-1/index.html#antworten-teilen",
     "title": "Teil 1: Das Sprachmodell liegt falsch",
     "section": "Antworten teilen",
-    "text": "Antworten teilen\n\n\n\n\n\n\nGroupAntworten vergleichen\n\n\n\nTeile deine Antwort mit der Gruppe. Vergleicht die Zahlen.",
+    "text": "Antworten teilen\n\n\n\n\n\n\nGroupGruppenarbeit\n\n\n\n\nTeile deine Antwort mit der Gruppe\nVergleicht die Zahlen: Sind sie gleich oder unterschiedlich?",
     "crumbs": [
       "Workshop",
       "Teil 1: Das Sprachmodell liegt falsch"
@@ -358,7 +358,7 @@
     "href": "workshop/experiment-1/index.html#auswertung-die-offizielle-quelle",
     "title": "Teil 1: Das Sprachmodell liegt falsch",
     "section": "Auswertung: Die offizielle Quelle",
-    "text": "Auswertung: Die offizielle Quelle\n\n\n\n\n\n\nDemonstrationLive-Check\n\n\n\n\nNeuen Browser-Tab öffnen\nSuchen: BFS Studiendauer Bachelor Schweiz\nZur BFS-Seite (bfs.admin.ch) navigieren\nOffizielle Statistik mit den Modell-Antworten vergleichen",
+    "text": "Auswertung: Die offizielle Quelle\n\n\n\n\n\n\nDemonstrationDemonstration\n\n\n\nWir prüfen jetzt gemeinsam die offizielle Quelle:\n\nNeuen Browser-Tab öffnen\nSuchen: BFS Studiendauer Bachelor Schweiz\nZur BFS-Seite (bfs.admin.ch) navigieren\nOffizielle Statistik mit den Modell-Antworten vergleichen",
     "crumbs": [
       "Workshop",
       "Teil 1: Das Sprachmodell liegt falsch"
@@ -369,7 +369,7 @@
     "href": "workshop/experiment-1/index.html#beobachtung",
     "title": "Teil 1: Das Sprachmodell liegt falsch",
     "section": "Beobachtung",
-    "text": "Beobachtung\n\n\n\n\n\n\nReflectWas siehst du?\n\n\n\n\nStimmen die Zahlen der Sprachmodelle mit der offiziellen Quelle überein?\nHat das Modell eine Quelle genannt?\nWie sicher klang die Antwort?\n\n\n\n\n\n\n\n\n\n\nKey-pointKernbotschaft\n\n\n\nAntworten von Sprachmodellen können sehr spezifisch und selbstbewusst klingen — und trotzdem falsch sein.\nÜberzeugend heisst nicht korrekt.\n\n\n\n\n\n\n\n\nWarningDie Spezifitätsfalle\n\n\n\nJe spezifischer eine Antwort klingt — genaue Zahlen, Daten, Namen — desto vertrauenswürdiger wirkt sie. Aber Spezifität ist kein Beweis für Richtigkeit. Sprachmodelle generieren oft sehr präzise klingende Details, die frei erfunden sind.",
+    "text": "Beobachtung\n\n\n\n\n\n\nReflectReflexion\n\n\n\n\nStimmen die Zahlen der Sprachmodelle mit der offiziellen Quelle überein?\nHat das Modell eine Quelle genannt?\nWie sicher klang die Antwort?\n\n\n\n\n\n\n\n\n\n\nKey-pointKernaussage\n\n\n\nAntworten von Sprachmodellen können sehr spezifisch und selbstbewusst klingen — und trotzdem falsch sein.\nÜberzeugend heisst nicht korrekt.\n\n\n\n\n\n\n\n\nWarningDie Spezifitätsfalle\n\n\n\nJe spezifischer eine Antwort klingt — genaue Zahlen, Daten, Namen — desto vertrauenswürdiger wirkt sie. Aber Spezifität ist kein Beweis für Richtigkeit. Sprachmodelle generieren oft sehr präzise klingende Details, die frei erfunden sind.",
     "crumbs": [
       "Workshop",
       "Teil 1: Das Sprachmodell liegt falsch"
@@ -402,7 +402,7 @@
     "href": "workshop/lateral-reading/index.html#runde-1",
     "title": "Teil 3: Lateral Reading",
     "section": "Runde 1: Gemeinsam",
-    "text": "Runde 1: Gemeinsam\n\n\n\n\n\n\nScenarioDas Szenario\n\n\n\nDas Sprachmodell sagt:\n\n“Das durchschnittliche Gehalt für Verwaltungsmitarbeitende an Schweizer Universitäten liegt bei CHF 78’000 brutto pro Jahr.”\n\nDu willst das für einen Budgetantrag verwenden.\n\n\n\nSchritt 1: Suchbegriffe formulieren\nWie würdest du suchen? Nicht das Sprachmodell fragen — was tippst du bei Google ein?\n\n\n\n\n\n\nPro-tipGute Suchbegriffe\n\n\n\n\n\n\n“Schweiz Universität Verwaltung Gehalt Statistik”\n“swissuniversities Lohnstruktur”\n\nNicht: “Stimmt 78000?”\n\n\n\n\n\nSchritt 2: Suchergebnisse filtern\n\n\n\nQuelle\nBewertung\n\n\n\n\njobs.ch\nStellenanzeigen — keine offizielle Statistik\n\n\nBlogs, Foren\nÜberspringen\n\n\nbfs.admin.ch\nPrimärquelle — klicken\n\n\nswissuniversities\nOffizielle Quelle — klicken\n\n\n\n\n\nSchritt 3: Zur Quelle gehen\nWichtig: Nicht die Google-Zusammenfassung lesen. Zur echten Seite gehen und die Daten selbst finden.\n\n\nSchritt 4: Zwei Prüffragen\nWenn du eine Quelle gefunden hast, stelle zwei Fragen:\n\n\n\n\n\n\n\nFrage\nBedeutung\n\n\n\n\nIst die Quelle zuverlässig?\nIst das eine Primärquelle oder offizielle Stelle?\n\n\nSteht da wirklich das, was das Sprachmodell behauptet?\nUnterstützt die Quelle tatsächlich die konkrete Aussage?\n\n\n\n\n\n\n\n\n\nWarningAchtung\n\n\n\nSprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch oder übertreiben. Immer selbst nachlesen!\n\n\n\n\nSchritt 5: Ergebnis\n\n\n\n\n\n\nReflectWas haben wir gefunden?\n\n\n\nOft: Die exakte Zahl existiert nicht in dieser Form. Das ist selbst eine wichtige Information — die Zahl vom Sprachmodell ist nicht verifizierbar und somit nicht verwendbar für einen Budgetantrag.",
+    "text": "Runde 1: Gemeinsam\n\n\n\n\n\n\nScenarioSzenario\n\n\n\nDas Sprachmodell sagt:\n\n“Das durchschnittliche Gehalt für Verwaltungsmitarbeitende an Schweizer Universitäten liegt bei CHF 78’000 brutto pro Jahr.”\n\nDu willst das für einen Budgetantrag verwenden.\n\n\n\nSchritt 1: Suchbegriffe formulieren\nWie würdest du suchen? Nicht das Sprachmodell fragen — was tippst du bei Google ein?\n\n\n\n\n\n\nPro-tipTipp\n\n\n\n\n\nGute Suchbegriffe:\n\n“Schweiz Universität Verwaltung Gehalt Statistik”\n“swissuniversities Lohnstruktur”\n\nNicht: “Stimmt 78000?”\n\n\n\n\n\nSchritt 2: Suchergebnisse filtern\n\n\n\nQuelle\nBewertung\n\n\n\n\njobs.ch\nStellenanzeigen — keine offizielle Statistik\n\n\nBlogs, Foren\nÜberspringen\n\n\nbfs.admin.ch\nPrimärquelle — klicken\n\n\nswissuniversities\nOffizielle Quelle — klicken\n\n\n\n\n\nSchritt 3: Zur Quelle gehen\nWichtig: Nicht die Google-Zusammenfassung lesen. Zur echten Seite gehen und die Daten selbst finden.\n\n\nSchritt 4: Zwei Prüffragen\nWenn du eine Quelle gefunden hast, stelle zwei Fragen:\n\n\n\n\n\n\n\nFrage\nBedeutung\n\n\n\n\nIst die Quelle zuverlässig?\nIst das eine Primärquelle oder offizielle Stelle?\n\n\nSteht da wirklich das, was das Sprachmodell behauptet?\nUnterstützt die Quelle tatsächlich die konkrete Aussage?\n\n\n\n\n\n\n\n\n\nWarningAchtung\n\n\n\nSprachmodelle nennen manchmal echte Quellen, interpretieren sie aber falsch oder übertreiben. Immer selbst nachlesen!\n\n\n\n\nSchritt 5: Ergebnis\n\n\n\n\n\n\nReflectReflexion\n\n\n\nOft: Die exakte Zahl existiert nicht in dieser Form. Das ist selbst eine wichtige Information — die Zahl vom Sprachmodell ist nicht verifizierbar und somit nicht verwendbar für einen Budgetantrag.",
     "crumbs": [
       "Workshop",
       "Teil 3: Lateral Reading"
@@ -413,7 +413,7 @@
     "href": "workshop/lateral-reading/index.html#runde-2",
     "title": "Teil 3: Lateral Reading",
     "section": "Runde 2: In Kleingruppen",
-    "text": "Runde 2: In Kleingruppen\nWähle ein Szenario und versuche, die Behauptung zu verifizieren.\n{{&lt; timer 5 &gt;}}\n\n\n\n\n\n\nScenarioSzenario A: Rechtliches\n\n\n\nDas Modell sagt: “Personaldossiers müssen in der Schweiz 10 Jahre nach Austritt aufbewahrt werden.”\nDeine Aufgabe: Finde die offizielle rechtliche Grundlage.\nTipp: EDÖB, admin.ch, OR\n\n\n\n\n\n\n\n\nScenarioSzenario B: Statistik\n\n\n\nDas Modell sagt: “Die Universität Bern hatte im HS 2023 genau 18’734 Studierende.”\nDeine Aufgabe: Finde die offizielle Statistik.\nTipp: Uni Bern Website, BFS\n\n\n\n\n\n\n\n\nScenarioSzenario C: Budget\n\n\n\nDas Modell sagt: “Ein Team-Event mit 20 Personen in Bern kostet durchschnittlich CHF 90 pro Person.”\nDeine Aufgabe: Wie würdest du das überprüfen?\nTipp: Lokale Anbieter, frühere Events, Vergleichsangebote\n\n\n\n\n\n\n\n\nScenarioSzenario D: Prozess\n\n\n\nDas Modell sagt: “Reisekostenabrechnungen müssen innerhalb von 30 Tagen nach Reiseende eingereicht werden.”\nDeine Aufgabe: Finde die offizielle Uni-Regelung.\nTipp: Uni-Intranet, HR-Richtlinien\n\n\n\n\n\n\n\n\nScenarioSzenario E: Weiterbildung\n\n\n\nDas Modell sagt: “Mitarbeitende haben Anspruch auf 5 Tage bezahlte Weiterbildung pro Jahr.”\nDeine Aufgabe: Stimmt das für deine Institution?\nTipp: Personalreglement, GAV\n\n\n\n\n\n\n\n\nScenarioSzenario F: Technisches\n\n\n\nDas Modell sagt: “Microsoft 365 Lizenzen kosten Schweizer Unis durchschnittlich CHF 45 pro Nutzer/Jahr.”\nDeine Aufgabe: Wie würdest du das verifizieren?\nTipp: IT-Services, swissuniversities Rahmenverträge\n\n\n\n\nAuswertung\n\n\n\n\n\n\nGroupErgebnisse teilen\n\n\n\n\nWelches Szenario hast du gewählt?\nWas hast du gefunden?\nWar das Modell richtig, falsch, oder nicht prüfbar?",
+    "text": "Runde 2: In Kleingruppen\n\n\n\n\n\n\nExperimentDeine Aufgabe\n\n\n\n\nWähle ein Szenario aus der Liste unten\nVersuche, die Behauptung mit den vier Schritten zu verifizieren\nNotiere: Ist die Behauptung richtig, falsch, oder nicht prüfbar?\n\n\n\n                    \n                    \n                \n\n\n\n\n\n\nScenarioSzenario A: Rechtliches\n\n\n\n\n\n\n“Personaldossiers müssen in der Schweiz 10 Jahre nach Austritt aufbewahrt werden.”\n\nFinde die offizielle rechtliche Grundlage. Tipp: EDÖB, admin.ch, OR\n\n\n\n\n\n\n\n\n\nScenarioSzenario B: Statistik\n\n\n\n\n\n\n“Die Universität Bern hatte im HS 2023 genau 18’734 Studierende.”\n\nFinde die offizielle Statistik. Tipp: Uni Bern Website, BFS\n\n\n\n\n\n\n\n\n\nScenarioSzenario C: Budget\n\n\n\n\n\n\n“Ein Team-Event mit 20 Personen in Bern kostet durchschnittlich CHF 90 pro Person.”\n\nWie würdest du das überprüfen? Tipp: Lokale Anbieter, frühere Events\n\n\n\n\n\n\n\n\n\nScenarioSzenario D: Prozess\n\n\n\n\n\n\n“Reisekostenabrechnungen müssen innerhalb von 30 Tagen nach Reiseende eingereicht werden.”\n\nFinde die offizielle Uni-Regelung. Tipp: Uni-Intranet, HR-Richtlinien\n\n\n\n\n\n\n\n\n\nScenarioSzenario E: Weiterbildung\n\n\n\n\n\n\n“Mitarbeitende haben Anspruch auf 5 Tage bezahlte Weiterbildung pro Jahr.”\n\nStimmt das für deine Institution? Tipp: Personalreglement, GAV\n\n\n\n\n\n\n\n\n\nScenarioSzenario F: Technisches\n\n\n\n\n\n\n“Microsoft 365 Lizenzen kosten Schweizer Unis durchschnittlich CHF 45 pro Nutzer/Jahr.”\n\nWie würdest du das verifizieren? Tipp: IT-Services, swissuniversities Rahmenverträge\n\n\n\n\n\nAuswertung\n\n\n\n\n\n\nGroupGruppenarbeit\n\n\n\n\nWelches Szenario hast du gewählt?\nWas hast du gefunden?\nWar das Modell richtig, falsch, oder nicht prüfbar?",
     "crumbs": [
       "Workshop",
       "Teil 3: Lateral Reading"
@@ -424,7 +424,7 @@
     "href": "workshop/lateral-reading/index.html#runde-3",
     "title": "Teil 3: Lateral Reading",
     "section": "Runde 3: Eigenes Beispiel",
-    "text": "Runde 3: Eigenes Beispiel\n\n\n\n\n\n\nIndividualDein eigener Fall\n\n\n\nDenk an etwas, das du diese Woche ein Sprachmodell fragen könntest — oder schon gefragt hast.\n\nFormuliere eine konkrete Frage\nFrag das Sprachmodell\nEntscheide: Braucht das Verifikation?\nWenn ja: Welche Quelle würdest du nutzen?\n\n\n\n{{&lt; timer 4 &gt;}}\n\n\n\n\n\n\n\nGroupTeilen\n\n\n\n\nWas war deine Frage?\nWürdest du diese Information in einem formellen Dokument verwenden?",
+    "text": "Runde 3: Eigenes Beispiel\n\n\n\n\n\n\nIndividualEinzelarbeit\n\n\n\nDenk an etwas, das du diese Woche ein Sprachmodell fragen könntest — oder schon gefragt hast.\n\nFormuliere eine konkrete Frage\nFrag das Sprachmodell\nEntscheide: Braucht das Verifikation?\nWenn ja: Welche Quelle würdest du nutzen?\n\n\n\n                    \n                    \n                \n\n\n\n\n\n\n\nGroupGruppenarbeit\n\n\n\n\nWas war deine Frage?\nWürdest du diese Information in einem formellen Dokument verwenden?",
     "crumbs": [
       "Workshop",
       "Teil 3: Lateral Reading"
@@ -597,5 +597,16 @@
     "title": "Vertiefung",
     "section": "Die Kernbotschaft",
     "text": "Die Kernbotschaft\n\n\n\n\n\n\nKey-pointSprachmodelle sind keine zuverlässigen Quellen\n\n\n\nDas Wichtigste aus diesem Workshop:\n\nSprachmodelle erfinden Fakten — auch wenn sie überzeugend klingen\nNachfragen hilft nicht — das Modell kann sich nicht selbst prüfen\nExterne Verifikation ist der einzige Weg — verlasse das Sprachmodell und suche selbst\nKeine Quelle = nicht verwendbar — wenn du es nicht verifizieren kannst, zitiere es nicht"
+  },
+  {
+    "objectID": "workshop/lateral-reading/index.html#die-vier-schritte",
+    "href": "workshop/lateral-reading/index.html#die-vier-schritte",
+    "title": "Teil 3: Lateral Reading",
+    "section": "Die vier Schritte",
+    "text": "Die vier Schritte\n\nSuchbegriffe formulieren — Was tippst du bei Google ein?\nSuchergebnisse filtern — Welche Quellen sind vertrauenswürdig?\nZur Quelle gehen — Nicht die Google-Zusammenfassung, sondern die echte Seite\nZwei Prüffragen stellen — Ist die Quelle zuverlässig? Steht da wirklich das, was behauptet wird?",
+    "crumbs": [
+      "Workshop",
+      "Teil 3: Lateral Reading"
+    ]
   }
 ]
