@@ -49,6 +49,12 @@ Bei **Lateral Reading** verlassen wir die Quelle und suchen extern nach Informat
 3. **Unabhängige Einschätzungen finden**: Was sagen andere über diese Quelle?
 4. **Mehrere Perspektiven prüfen**: Nicht nur eine externe Quelle.
 
+::: {.pro-tip}
+### Wie erkenne ich unabhängige Quellen?
+
+Das ist selbst eine Form von Lateral Reading: Wenn du unsicher bist, ob eine externe Quelle unabhängig ist, recherchiere auch über sie.
+:::
+
 ### Wonach du suchst
 
 | Frage | Warum wichtig |
@@ -98,7 +104,19 @@ Das ist, was wir in Teil 3 des Workshops geübt haben:
 - Primärquellen finden
 - Selbst prüfen, ob die Quelle das sagt, was das Sprachmodell behauptet
 
-**Ergebnis:** Funktioniert. Nur externe Quellen können die Richtigkeit bestätigen.
+::: {.warning}
+### Was ist mit Sprachmodellen, die das Internet durchsuchen?
+
+Viele Chatbots können Websuchen durchführen und Quellen zitieren. Das verbessert die Situation, aber:
+
+- Die zitierten Quellen können selbst unzuverlässig sein
+- Links können auf Seiten verweisen, die etwas anderes sagen als behauptet
+- Die Zusammenfassung kann die Quelle falsch wiedergeben
+
+**Auch hier gilt:** Klicke auf die Quellen und prüfe selbst.
+:::
+
+**Fazit:** Bei Sprachmodellen gibt es kein Vertical Reading, das funktioniert. Es gibt nur Lateral Reading: die Aussage extern verifizieren.
 
 ## Wann eine Quelle vertrauenswürdig ist
 
@@ -114,14 +132,14 @@ Wenn du bei deiner Recherche auf eine Quelle stösst, prüfe:
 
 ### Hierarchie der Quellen
 
-| Vertrauenswürdigkeit | Quellentyp |
-|---------------------|------------|
-| Hoch | Primärquellen (Originaldaten, Gesetze, offizielle Statistiken) |
-| Hoch | Peer-reviewed wissenschaftliche Publikationen |
-| Mittel | Qualitätsjournalismus mit Redaktionsprozessen |
-| Mittel | Wikipedia (als Einstieg, nicht als Endquelle) |
-| Niedrig | Blogs, Foren, Social Media |
-| Sehr niedrig | Anonyme Quellen, AI-generierte Zusammenfassungen |
+| Vertrauenswürdigkeit | Quellentyp | Einschränkungen |
+|---------------------|------------|-----------------|
+| Oft hoch | Primärquellen (Originaldaten, Gesetze, offizielle Statistiken) | Können unvollständig oder selektiv sein |
+| Oft hoch | Peer-reviewed wissenschaftliche Publikationen | Qualität variiert nach Journal und Fachgebiet |
+| Mittel | Qualitätsjournalismus mit Redaktionsprozessen | Aktualitätsdruck kann zu Fehlern führen |
+| Mittel | Wikipedia (als Einstieg) | Qualität variiert nach Thema |
+| Niedrig | Blogs, Foren, Social Media | Einzelne Blogs können wertvoll sein |
+| Sehr niedrig | Anonyme Quellen, KI-generierte Zusammenfassungen | |
 
 ## Zusammenfassung
 
