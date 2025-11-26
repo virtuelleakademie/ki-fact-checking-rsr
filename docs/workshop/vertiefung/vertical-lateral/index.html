@@ -89,6 +89,42 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
+div.callout-source-check.callout {
+  border-left-color: #2A9D8F;
+}
+div.callout-source-check.callout-style-default > .callout-header {
+  background-color: rgba(42, 157, 143, 0.13);
+}
+div.callout-source-check .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-source-check.callout-style-default .callout-icon::before, div.callout-source-check.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f002';
+  background-image: none;
+}
+div.callout-prompt.callout {
+  border-left-color: #495057;
+}
+div.callout-prompt.callout-style-default > .callout-header {
+  background-color: rgba(73, 80, 87, 0.13);
+}
+div.callout-prompt .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-prompt.callout-style-default .callout-icon::before, div.callout-prompt.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f328';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: #9A4665;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f007';
+  background-image: none;
+}
 div.callout-reflect.callout {
   border-left-color: #6B5B95;
 }
@@ -99,6 +135,18 @@ div.callout-reflect .callout-toggle::before {  background-image: url('data:image
 div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
   content: '\f0eb';
+  background-image: none;
+}
+div.callout-group.callout {
+  border-left-color: #9A4665;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f0c0';
   background-image: none;
 }
 div.callout-experiment.callout {
@@ -137,28 +185,16 @@ div.callout-warning.callout-style-default .callout-icon::before, div.callout-war
   content: '\f06a';
   background-image: none;
 }
-div.callout-group.callout {
-  border-left-color: #9A4665;
+div.callout-pro-tip.callout {
+  border-left-color: #009B77;
 }
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgba(0, 155, 119, 0.13);
 }
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
-  content: '\f0c0';
-  background-image: none;
-}
-div.callout-individual.callout {
-  border-left-color: #9A4665;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f007';
+  content: '\e2ca';
   background-image: none;
 }
 div.callout-key-point.callout {
@@ -173,30 +209,6 @@ div.callout-key-point.callout-style-default .callout-icon::before, div.callout-k
   content: '\f005';
   background-image: none;
 }
-div.callout-pro-tip.callout {
-  border-left-color: #009B77;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgba(0, 155, 119, 0.13);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\e2ca';
-  background-image: none;
-}
-div.callout-prompt.callout {
-  border-left-color: #495057;
-}
-div.callout-prompt.callout-style-default > .callout-header {
-  background-color: rgba(73, 80, 87, 0.13);
-}
-div.callout-prompt .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-prompt.callout-style-default .callout-icon::before, div.callout-prompt.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f328';
-  background-image: none;
-}
 div.callout-scenario.callout {
   border-left-color: #6C757D;
 }
@@ -207,18 +219,6 @@ div.callout-scenario .callout-toggle::before {  background-image: url('data:imag
 div.callout-scenario.callout-style-default .callout-icon::before, div.callout-scenario.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
   content: '\f075';
-  background-image: none;
-}
-div.callout-source-check.callout {
-  border-left-color: #2A9D8F;
-}
-div.callout-source-check.callout-style-default > .callout-header {
-  background-color: rgba(42, 157, 143, 0.13);
-}
-div.callout-source-check .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-source-check.callout-style-default .callout-icon::before, div.callout-source-check.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f002';
   background-image: none;
 }
 </style>
@@ -470,6 +470,22 @@ div.callout-source-check.callout-style-default .callout-icon::before, div.callou
 <li><strong>Unabhängige Einschätzungen finden</strong>: Was sagen andere über diese Quelle?</li>
 <li><strong>Mehrere Perspektiven prüfen</strong>: Nicht nur eine externe Quelle.</li>
 </ol>
+<div class="callout callout-style-default callout-pro-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Pro-tip</span>Wie erkenne ich unabhängige Quellen?
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Das ist selbst eine Form von Lateral Reading: Wenn du unsicher bist, ob eine externe Quelle unabhängig ist, recherchiere auch über sie.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="wonach-du-suchst" class="level3">
 <h3 class="anchored" data-anchor-id="wonach-du-suchst">Wonach du suchst</h3>
@@ -539,7 +555,26 @@ div.callout-source-check.callout-style-default .callout-icon::before, div.callou
 <li>Primärquellen finden</li>
 <li>Selbst prüfen, ob die Quelle das sagt, was das Sprachmodell behauptet</li>
 </ul>
-<p><strong>Ergebnis:</strong> Funktioniert. Nur externe Quellen können die Richtigkeit bestätigen.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warnung</span>Was ist mit Sprachmodellen, die das Internet durchsuchen?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Viele Chatbots können Websuchen durchführen und Quellen zitieren. Das verbessert die Situation, aber:</p>
+<ul>
+<li>Die zitierten Quellen können selbst unzuverlässig sein</li>
+<li>Links können auf Seiten verweisen, die etwas anderes sagen als behauptet</li>
+<li>Die Zusammenfassung kann die Quelle falsch wiedergeben</li>
+</ul>
+<p><strong>Auch hier gilt:</strong> Klicke auf die Quellen und prüfe selbst.</p>
+</div>
+</div>
+<p><strong>Fazit:</strong> Bei Sprachmodellen gibt es kein Vertical Reading, das funktioniert. Es gibt nur Lateral Reading: die Aussage extern verifizieren.</p>
 </section>
 </section>
 <section id="wann-eine-quelle-vertrauenswürdig-ist" class="level2">
@@ -559,39 +594,47 @@ div.callout-source-check.callout-style-default .callout-icon::before, div.callou
 <h3 class="anchored" data-anchor-id="hierarchie-der-quellen">Hierarchie der Quellen</h3>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 63%">
-<col style="width: 36%">
+<col style="width: 42%">
+<col style="width: 24%">
+<col style="width: 34%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Vertrauenswürdigkeit</th>
 <th>Quellentyp</th>
+<th>Einschränkungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Hoch</td>
+<td>Oft hoch</td>
 <td>Primärquellen (Originaldaten, Gesetze, offizielle Statistiken)</td>
+<td>Können unvollständig oder selektiv sein</td>
 </tr>
 <tr class="even">
-<td>Hoch</td>
+<td>Oft hoch</td>
 <td>Peer-reviewed wissenschaftliche Publikationen</td>
+<td>Qualität variiert nach Journal und Fachgebiet</td>
 </tr>
 <tr class="odd">
 <td>Mittel</td>
 <td>Qualitätsjournalismus mit Redaktionsprozessen</td>
+<td>Aktualitätsdruck kann zu Fehlern führen</td>
 </tr>
 <tr class="even">
 <td>Mittel</td>
-<td>Wikipedia (als Einstieg, nicht als Endquelle)</td>
+<td>Wikipedia (als Einstieg)</td>
+<td>Qualität variiert nach Thema</td>
 </tr>
 <tr class="odd">
 <td>Niedrig</td>
 <td>Blogs, Foren, Social Media</td>
+<td>Einzelne Blogs können wertvoll sein</td>
 </tr>
 <tr class="even">
 <td>Sehr niedrig</td>
-<td>Anonyme Quellen, AI-generierte Zusammenfassungen</td>
+<td>Anonyme Quellen, KI-generierte Zusammenfassungen</td>
+<td></td>
 </tr>
 </tbody>
 </table>
