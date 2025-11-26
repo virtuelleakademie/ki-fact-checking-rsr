@@ -62,11 +62,24 @@ Bei **Lateral Reading** verlassen wir die Quelle und suchen extern nach Informat
 
 Sprachmodelle sind ein Sonderfall. Sie haben keine "About"-Seite und keine eigene Motivation. Aber das Prinzip von Vertical vs. Lateral Reading gilt trotzdem:
 
-### Vertical Reading bei Sprachmodellen: Ein Kategorienfehler
+### Vertical Reading bei Sprachmodellen
 
-Bei klassischen Quellen (Websites, Organisationen) ist Vertical Reading bloss ineffektiv: Die Quelle kontrolliert ihre Selbstdarstellung.
+Bei Sprachmodellen gibt es zwei Arten von Vertical Reading:
 
-Bei Sprachmodellen ist es ein **Kategorienfehler**. Fragen wie "Bist du sicher?" oder "Kannst du das überprüfen?" setzen voraus, dass das Modell seine Aussagen mit der Realität vergleichen kann. Das kann es nicht. Es generiert Text basierend auf dem Kontext, ohne Zugang zu einer externen Wahrheit.
+**1. Den generierten Text analysieren**
+
+Du könntest versuchen, die Antwort anhand interner Merkmale zu bewerten:
+
+- Ist der Text in sich konsistent?
+- Klingt er selbstsicher oder vorsichtig?
+- Werden Quellen genannt?
+- Wirkt die Argumentation schlüssig?
+
+Das ist dasselbe Problem wie bei klassischen Quellen: Diese Merkmale sagen nichts über die Richtigkeit aus. Ein Text kann konsistent, selbstsicher, mit Quellenangaben und schlüssiger Argumentation sein und trotzdem falsch.
+
+**2. Das Modell zur Selbstprüfung auffordern**
+
+Fragen wie "Bist du sicher?" oder "Kannst du das überprüfen?" sind ein **Kategorienfehler**. Sie setzen voraus, dass das Modell seine Aussagen mit der Realität vergleichen kann. Das kann es nicht.
 
 Was passiert, wenn du nachfragst:
 
@@ -74,7 +87,7 @@ Was passiert, wenn du nachfragst:
 - Es kann vorsichtiger klingen, Zahlen anpassen, oder bei seiner Aussage bleiben
 - Keines dieser Verhaltensweisen sagt dir, ob die ursprüngliche Antwort stimmt
 
-**Fazit:** Nachfragen beim Sprachmodell ist keine Verifikationsstrategie. Es ist mehr Textgenerierung.
+**Fazit:** Vertical Reading bei Sprachmodellen ist entweder unzuverlässig (Textanalyse) oder ein Kategorienfehler (Selbstprüfung). Beides ersetzt keine externe Verifikation.
 
 ### Lateral Reading bei Sprachmodellen
 
