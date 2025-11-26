@@ -38,20 +38,28 @@ Wie hoch ist der Anteil der Studierenden an Schweizer Universitäten, die ihr Ba
 
 ::: {.demonstration}
 
-Wir prüfen jetzt gemeinsam die offizielle Quelle:
+**Beobachte zuerst die Antwort des Sprachmodells:**
+
+Manche Modelle geben eine vorsichtige, qualifizierte Antwort:
+
+- Sie räumen ein, dass es keine exakte Zahl gibt
+- Sie geben eine Spanne statt Präzision
+- Sie erwähnen Einschränkungen und Variabilität
+
+**Die entscheidende Frage bleibt:** Wie weisst du, ob diese Antwort gut ist?
+
+Wir prüfen jetzt gemeinsam:
 
 1. Neuen Browser-Tab öffnen
 2. Suchen: `BFS Studiendauer Bachelor Schweiz`
 3. Zur BFS-Seite (bfs.admin.ch) navigieren
-4. Die Daten durchsuchen: Finden wir diese exakte Zahl?
-
-**Wichtige Beobachtung:** Die spezifische Zahl, die das Modell genannt hat, lässt sich in dieser genauen Form oft nicht finden. BFS hat verwandte Statistiken, aber nicht genau diese Formulierung oder diesen Wert.
+4. Die Behauptung überprüfen: Kannst du die genannten Zahlen (z.B. "25-30%") verifizieren?
 
 :::
 
 ::: {.key-point}
 
-**Das ist selbst eine wichtige Information:** Wenn eine Behauptung nicht verifizierbar ist, können wir sie nicht verwenden, egal wie spezifisch und überzeugend sie klingt.
+**Die zentrale Erkenntnis:** Auch wenn eine Antwort vorsichtig und qualifiziert klingt, kannst du ihre Qualität nicht beurteilen ohne externe Verifikation.
 
 :::
 
@@ -59,30 +67,34 @@ Wir prüfen jetzt gemeinsam die offizielle Quelle:
 
 ::: {.reflect}
 
-- Konntest du die genaue Zahl des Sprachmodells auf BFS verifizieren?
-- Hat das Modell eine Quelle genannt?
-- Wie sicher und präzise klang die Antwort?
+- Konntest du die Zahlen des Sprachmodells auf BFS verifizieren?
+- Klang die Antwort vorsichtig oder sehr sicher?
+- Hat das Modell Einschränkungen erwähnt?
 
 :::
 
 ::: {.key-point}
 
-**Drei wichtige Erkenntnisse:**
+**Vier wichtige Erkenntnisse:**
 
-1. **Spezifität täuscht Zuverlässigkeit vor.** Das Modell nennt eine genau Prozentzahlen. Das klingt überzeugend und wahr.
+1. **Du kannst die Qualität nicht ohne Verifikation beurteilen.** Eine vorsichtige Antwort kann genau so falsch sein wie eine überzeugend klingende.
 
-2. **Unverifizierbar = unbrauchbar.** Wenn du eine Behauptung nicht mit einer verlässlichen Quelle belegen kannst, darfst du sie nicht in formellen Dokumenten verwenden.
+2. **Spezifität täuscht Zuverlässigkeit vor.** Genaue Zahlen, Spannen oder Details klingen vertrauenswürdig, sind aber kein Beweis für Richtigkeit.
 
-3. **Nachfragen hilft nicht.** Das Modell kann seine eigenen Aussagen nicht überprüfen (das kommt in Teil 2).
+3. **Unverifizierbar = unbrauchbar.** Wenn du eine Behauptung nicht mit einer verlässlichen Quelle belegen kannst, darfst du sie nicht in formellen Dokumenten verwenden.
+
+4. **Nachfragen hilft nicht.** Das Modell kann seine eigenen Aussagen nicht überprüfen (das kommt in Teil 2).
+
+**Vertrauen ist gut, Verifikation ist besser.**
 
 :::
 
 ::: {.warning}
-### Die Spezifitätsfalle
+### Vorsicht vor scheinbar guten Antworten
 
-Je spezifischer eine Antwort klingt (genaue Zahlen, Daten, Namen), desto vertrauenswürdiger wirkt sie. Aber Spezifität ist kein Beweis für Richtigkeit.
+Auch qualifizierte, vorsichtig formulierte Antworten brauchen externe Verifikation. Du kannst nicht an der Formulierung erkennen, ob eine Antwort richtig ist.
 
-**Sprachmodelle generieren oft sehr präzise klingende Details, die sich nicht verifizieren lassen.**
+**Das einzige verlässliche Kriterium: Kannst du die Behauptung mit einer vertrauenswürdigen Quelle belegen?**
 
 :::
 
