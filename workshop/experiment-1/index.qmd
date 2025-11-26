@@ -18,6 +18,7 @@ subtitle: "Gemeinsames Experiment"
 2. Kopiere den Prompt unten und füge ihn ein
 3. Sende die Anfrage ab
 4. Notiere dir die Zahl, die das Modell nennt
+5. Falls du Zeit hast: öffne einen **neuen Chat** und wiederhole Schritte 2-4 (mindestens zweimal)
 
 :::
 
@@ -36,19 +37,15 @@ Wie hoch ist der Anteil der Studierenden an Schweizer Universitäten, die ihr Ba
 
 ## Auswertung
 
+::: {.key-point}
+
+**Die zentrale Erkenntnis:** Weder Variabilität noch Konsistenz sagen dir, ob eine Antwort stimmt. Das kannst du nur durch externe Verifikation herausfinden.
+
+:::
+
 ::: {.demonstration}
 
-**Beobachte zuerst die Antwort des Sprachmodells:**
-
-Manche Modelle geben eine vorsichtige, qualifizierte Antwort:
-
-- Sie räumen ein, dass es keine exakte Zahl gibt
-- Sie geben eine Spanne statt Präzision
-- Sie erwähnen Einschränkungen und Variabilität
-
-**Die entscheidende Frage bleibt:** Wie weisst du, ob diese Antwort gut ist?
-
-Wir prüfen jetzt gemeinsam:
+**Wir prüfen jetzt gemeinsam:**
 
 1. Neuen Browser-Tab öffnen
 2. Suchen: `BFS Studiendauer Bachelor Schweiz`
@@ -57,19 +54,22 @@ Wir prüfen jetzt gemeinsam:
 
 :::
 
-::: {.key-point}
+<details>
+<summary>Hintergrund: Warum variieren die Antworten?</summary>
 
-**Die zentrale Erkenntnis:** Auch wenn eine Antwort vorsichtig und qualifiziert klingt, kannst du ihre Qualität nicht beurteilen ohne externe Verifikation.
+Sprachmodelle sind stochastische Textgeneratoren: Jede Antwort wird neu "gewürfelt". Wenn verschiedene Durchläufe sehr unterschiedliche Zahlen liefern, zeigt das: Das Modell hat wenig Anhaltspunkte zu diesem Thema.
 
-:::
+Aber Vorsicht: Wenn das Modell immer dieselbe Zahl nennt, heisst das nicht, dass sie stimmt. Es heisst nur, dass das Modell stark darauf festgelegt ist, diese Antwort zu geben. **Konsistenz ist kein Beweis für Korrektheit.**
+
+</details>
 
 ## Beobachtung
 
 ::: {.reflect}
 
+- Wie stark variierten deine Antworten bei mehreren Durchläufen?
 - Konntest du die Zahlen des Sprachmodells auf BFS verifizieren?
 - Klang die Antwort vorsichtig oder sehr sicher?
-- Hat das Modell Einschränkungen erwähnt?
 
 :::
 
@@ -77,7 +77,7 @@ Wir prüfen jetzt gemeinsam:
 
 **Vier wichtige Erkenntnisse:**
 
-1. **Du kannst die Qualität nicht ohne Verifikation beurteilen.** Eine vorsichtige Antwort kann genau so falsch sein wie eine überzeugend klingende.
+1. **Variabilität zeigt Unsicherheit, aber Konsistenz beweist nichts.** Wenn das Modell bei jedem Durchlauf andere Zahlen nennt, ist es unsicher. Aber wenn es immer dieselbe Zahl nennt, heisst das nur, dass es stark darauf festgelegt ist: nicht, dass die Zahl stimmt.
 
 2. **Spezifität täuscht Zuverlässigkeit vor.** Genaue Zahlen, Spannen oder Details klingen vertrauenswürdig, sind aber kein Beweis für Richtigkeit.
 
