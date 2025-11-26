@@ -22,7 +22,7 @@ Je überzeugter du von etwas bist, desto stärker suchst du nach Bestätigung. U
 
 ## KI-Chatbots verstärken den Effekt
 
-KI-Chatbots wie ChatGPT oder Gemini haben eine eingebaute Tendenz, Nutzern zuzustimmen. Fachleute nennen das **Sycophancy**  [@sharmaUnderstandingSycophancyLanguage2023]. Einge passende deutsche Übersetzung wäre **Schmeichelei** oder **Anbiederung**.
+KI-Chatbots wie ChatGPT oder Gemini haben eine eingebaute Tendenz, Nutzern zuzustimmen. Fachleute nennen das **Sycophancy**  [@sharmaUnderstandingSycophancyLanguage2023]. Eine passende deutsche Übersetzung wäre **Schmeichelei** oder **Anbiederung**.
 
 ### Warum Chatbots zustimmen
 
@@ -34,7 +34,7 @@ Diese Tendenz ist kein Bug, sondern entsteht durch das Training:
 - Ergebnis: Das Modell optimiert auf Zustimmung statt auf Wahrheit
 
 
-## Die Echo Chamber für eine Person
+## Die epistemische Blase für eine Person
 
 Wenn Confirmation Bias und KI-Schmeichelei zusammentreffen, entsteht ein Teufelskreis:
 
@@ -44,12 +44,14 @@ Wenn Confirmation Bias und KI-Schmeichelei zusammentreffen, entsteht ein Teufels
 4. Der Chatbot verstärkt weiter
 5. Deine Überzeugung wächst, ohne dass neue Fakten hinzukommen
 
-Daraus entsteht ein **Chamber Effect**: eine Filterblase, die du dir selbst erschaffst. Mit Hilfe eines KI-Systems, das gelernt hat, dir zu gefallen.
+Daraus entsteht eine **epistemische Blase**: ein Informationsraum, in dem du nur noch bestätigende Perspektiven erreichst. Mit Hilfe eines KI-Systems, das gelernt hat, dir zu gefallen.
 
 ::: {.key-point}
 ### Der Kern des Problems
 
-Klassische [Echo Chambers](https://en.wikipedia.org/wiki/Echo_chamber_(media)) entstehen durch Algorithmen, die dir ähnliche Inhalte zeigen. Bei Chatbots erzeugst du die Echo Chamber selbst: durch die Art, wie du fragst, und durch ein System, das darauf trainiert ist, zuzustimmen.
+Klassische Filterblasen entstehen durch Algorithmen, die dir ähnliche Inhalte zeigen. Bei Chatbots erzeugst du die Blase selbst: durch die Art, wie du fragst, und durch ein System, das darauf trainiert ist, zuzustimmen.
+
+**Hinweis zur Begrifflichkeit:** Der Philosoph C. Thi Nguyen unterscheidet zwischen *Echo Chambers*, in denen man aktiv lernt, externen Quellen zu misstrauen, und *epistemischen Blasen*, in denen man gegenteilige Perspektiven nicht findet [@nguyenEchoChambersEpistemic2020]. Bei KI-Chatbots handelt es sich um Letzteres: Das System diskreditiert keine externen Quellen, es präsentiert sie einfach nicht.
 :::
 
 ## Ein extremes Beispiel
@@ -66,7 +68,7 @@ Erst als er seine "Entdeckung" mit Gemini testete, brach die Illusion zusammen. 
 ::: {.warning}
 ### Das ist ein Extremfall
 
-Brooks befand sich in einer verletzlichen psychischen Situation. Der Fall zeigt aber ein grundsätzliches Muster: Chatbots widersprechen oft nicht, auch wenn sie sollten.
+Brooks befand sich in einer verletzlichen psychischen Situation. Der Fall zeigt aber ein grundsätzliches Muster: Chatbots widersprechen oft nicht, auch wenn sie sollten. Bezeichnend ist, dass die Illusion sofort zerbrach, als Brooks eine zweite Quelle befragte: ein typisches Merkmal epistemischer Blasen.
 :::
 
 ## Was du tun kannst

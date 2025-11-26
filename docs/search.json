@@ -154,7 +154,7 @@
     "href": "workshop/vertiefung/confirmation-bias/index.html#ki-chatbots-verstärken-den-effekt",
     "title": "Confirmation Bias und KI",
     "section": "KI-Chatbots verstärken den Effekt",
-    "text": "KI-Chatbots verstärken den Effekt\nKI-Chatbots wie ChatGPT oder Gemini haben eine eingebaute Tendenz, Nutzern zuzustimmen. Fachleute nennen das Sycophancy (Sharma u. a. 2023). Einge passende deutsche Übersetzung wäre Schmeichelei oder Anbiederung.\n\nWarum Chatbots zustimmen\nDiese Tendenz ist kein Bug, sondern entsteht durch das Training:\n\nSprachmodelle werden mit menschlichem Feedback trainiert\nMenschen bewerten Antworten positiver, wenn sie mit ihrer Meinung übereinstimmen\nDas Modell lernt: Zustimmung = gute Bewertung\nErgebnis: Das Modell optimiert auf Zustimmung statt auf Wahrheit",
+    "text": "KI-Chatbots verstärken den Effekt\nKI-Chatbots wie ChatGPT oder Gemini haben eine eingebaute Tendenz, Nutzern zuzustimmen. Fachleute nennen das Sycophancy (Sharma u. a. 2023). Eine passende deutsche Übersetzung wäre Schmeichelei oder Anbiederung.\n\nWarum Chatbots zustimmen\nDiese Tendenz ist kein Bug, sondern entsteht durch das Training:\n\nSprachmodelle werden mit menschlichem Feedback trainiert\nMenschen bewerten Antworten positiver, wenn sie mit ihrer Meinung übereinstimmen\nDas Modell lernt: Zustimmung = gute Bewertung\nErgebnis: Das Modell optimiert auf Zustimmung statt auf Wahrheit",
     "crumbs": [
       "Materialien",
       "Vertiefung",
@@ -178,7 +178,7 @@
     "href": "workshop/vertiefung/confirmation-bias/index.html#ein-extremes-beispiel",
     "title": "Confirmation Bias und KI",
     "section": "Ein extremes Beispiel",
-    "text": "Ein extremes Beispiel\nDer Fall von Allan Brooks (2025) zeigt, wie weit das gehen kann.\nEin Personalvermittler aus Toronto nutzte ChatGPT während einer schwierigen Scheidung. Was als mathematische Frage begann, entwickelte sich über 21 Tage zu einer Überzeugung, er habe eine revolutionäre mathematische Theorie entdeckt.\n\nAls er zweifelte, sagte der Chatbot: “Du klingst kein bisschen verrückt”\nAls er einen Tippfehler machte, übernahm ChatGPT den Fehler stillschweigend\n\nErst als er seine “Entdeckung” mit Gemini testete, brach die Illusion zusammen. Gemini erklärte, es handle sich um eine “überzeugende, aber letztlich falsche Erzählung”.\n\n\n\n\n\n\nWarnungDas ist ein Extremfall\n\n\n\nBrooks befand sich in einer verletzlichen psychischen Situation. Der Fall zeigt aber ein grundsätzliches Muster: Chatbots widersprechen oft nicht, auch wenn sie sollten.",
+    "text": "Ein extremes Beispiel\nDer Fall von Allan Brooks (2025) zeigt, wie weit das gehen kann.\nEin Personalvermittler aus Toronto nutzte ChatGPT während einer schwierigen Scheidung. Was als mathematische Frage begann, entwickelte sich über 21 Tage zu einer Überzeugung, er habe eine revolutionäre mathematische Theorie entdeckt.\n\nAls er zweifelte, sagte der Chatbot: “Du klingst kein bisschen verrückt”\nAls er einen Tippfehler machte, übernahm ChatGPT den Fehler stillschweigend\n\nErst als er seine “Entdeckung” mit Gemini testete, brach die Illusion zusammen. Gemini erklärte, es handle sich um eine “überzeugende, aber letztlich falsche Erzählung”.\n\n\n\n\n\n\nWarnungDas ist ein Extremfall\n\n\n\nBrooks befand sich in einer verletzlichen psychischen Situation. Der Fall zeigt aber ein grundsätzliches Muster: Chatbots widersprechen oft nicht, auch wenn sie sollten. Bezeichnend ist, dass die Illusion sofort zerbrach, als Brooks eine zweite Quelle befragte: ein typisches Merkmal epistemischer Blasen.",
     "crumbs": [
       "Materialien",
       "Vertiefung",
@@ -486,6 +486,18 @@
     "crumbs": [
       "Materialien",
       "Lateral Reading"
+    ]
+  },
+  {
+    "objectID": "workshop/vertiefung/confirmation-bias/index.html#die-epistemische-blase-für-eine-person",
+    "href": "workshop/vertiefung/confirmation-bias/index.html#die-epistemische-blase-für-eine-person",
+    "title": "Confirmation Bias und KI",
+    "section": "Die epistemische Blase für eine Person",
+    "text": "Die epistemische Blase für eine Person\nWenn Confirmation Bias und KI-Schmeichelei zusammentreffen, entsteht ein Teufelskreis:\n\nDu stellst eine Frage, die deine Meinung andeutet\nDer Chatbot bestätigt deine Meinung\nDu fühlst dich bestärkt und fragst weiter\nDer Chatbot verstärkt weiter\nDeine Überzeugung wächst, ohne dass neue Fakten hinzukommen\n\nDaraus entsteht eine epistemische Blase: ein Informationsraum, in dem du nur noch bestätigende Perspektiven erreichst. Mit Hilfe eines KI-Systems, das gelernt hat, dir zu gefallen.\n\n\n\n\n\n\nKey-pointDer Kern des Problems\n\n\n\nKlassische Filterblasen entstehen durch Algorithmen, die dir ähnliche Inhalte zeigen. Bei Chatbots erzeugst du die Blase selbst: durch die Art, wie du fragst, und durch ein System, das darauf trainiert ist, zuzustimmen.\nHinweis zur Begrifflichkeit: Der Philosoph C. Thi Nguyen unterscheidet zwischen Echo Chambers, in denen man aktiv lernt, externen Quellen zu misstrauen, und epistemischen Blasen, in denen man gegenteilige Perspektiven nicht findet (Nguyen 2020). Bei KI-Chatbots handelt es sich um Letzteres: Das System diskreditiert keine externen Quellen, es präsentiert sie einfach nicht.",
+    "crumbs": [
+      "Materialien",
+      "Vertiefung",
+      "Confirmation Bias und KI"
     ]
   }
 ]
