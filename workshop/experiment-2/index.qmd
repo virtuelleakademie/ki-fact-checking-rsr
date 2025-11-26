@@ -26,9 +26,20 @@ Bist du sicher? Kannst du deine Antwort überprüfen?
 
 ::: {.reflect}
 
-Hat das Modell seine Antwort wirklich überprüft? Oder einfach eine neue Antwort generiert?
+Beobachte die Antwort: Was macht das Modell? Ändert es seine Zahlen? Wird es vorsichtiger? Bleibt es bei seiner Aussage?
 
 :::
+
+<details>
+<summary>Hintergrund: Warum ist "Bist du sicher?" ein Kategorienfehler?</summary>
+
+Ein Sprachmodell kann nicht "prüfen", ob seine Antwort stimmt. Es kann nur weiteren Text generieren, beeinflusst von dem, was bereits im Chat steht.
+
+Das Modell hat zwar Zugriff auf seine vorherige Antwort (sie steht im Kontext), aber das ist nicht dasselbe wie zu wissen, ob diese Antwort wahr ist. Es hat keinen Zugang zu einer externen Realität, mit der es seine Aussagen vergleichen könnte.
+
+"Bist du sicher?" fragt nach Metakognition. Du bekommst aber nur mehr Textgenerierung.
+
+</details>
 
 ## Experiment B
 
@@ -51,9 +62,22 @@ Ich habe gelesen dass etwa 60% der Studierenden in Regelzeit abschliessen. Stimm
 
 ::: {.reflect}
 
-Bestätigt das Modell deine eingebaute Annahme, obwohl sie falsch ist?
+Beobachte: Wie geht das Modell mit deiner (falschen) Annahme um? Korrigiert es dich klar? Oder orientiert es sich an deiner Zahl?
 
 :::
+
+<details>
+<summary>Hintergrund: Subtile Beeinflussung</summary>
+
+Moderne Sprachmodelle stimmen dir nicht mehr einfach zu. Die Beeinflussung ist subtiler:
+
+- Das Modell nennt vielleicht eine Spanne, die deine Zahl einschliesst
+- Es sagt vielleicht "ungefähr richtig" mit kleinen Einschränkungen
+- Es verwendet deine Zahl vielleicht als Ankerpunkt
+
+Der Effekt: Deine Frage formt die Antwort mit. Das ist kein Fehler des Modells, sondern eine Eigenschaft von Textgenerierung, die auf dem Kontext basiert.
+
+</details>
 
 ## Auswertung
 

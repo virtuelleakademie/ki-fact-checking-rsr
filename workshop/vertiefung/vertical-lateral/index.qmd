@@ -62,15 +62,19 @@ Bei **Lateral Reading** verlassen wir die Quelle und suchen extern nach Informat
 
 Sprachmodelle sind ein Sonderfall. Sie haben keine "About"-Seite und keine eigene Motivation. Aber das Prinzip von Vertical vs. Lateral Reading gilt trotzdem:
 
-### Vertical Reading bei Sprachmodellen
+### Vertical Reading bei Sprachmodellen: Ein Kategorienfehler
 
-Das ist, was wir in Teil 2 des Workshops getestet haben:
+Bei klassischen Quellen (Websites, Organisationen) ist Vertical Reading bloss ineffektiv: Die Quelle kontrolliert ihre Selbstdarstellung.
 
-- Das Sprachmodell fragen: "Bist du sicher?"
-- Nachfragen: "Kannst du das überprüfen?"
-- Eine Annahme einbauen und schauen, ob es widerspricht
+Bei Sprachmodellen ist es ein **Kategorienfehler**. Fragen wie "Bist du sicher?" oder "Kannst du das überprüfen?" setzen voraus, dass das Modell seine Aussagen mit der Realität vergleichen kann. Das kann es nicht. Es generiert Text basierend auf dem Kontext, ohne Zugang zu einer externen Wahrheit.
 
-**Ergebnis:** Funktioniert nicht. Das Sprachmodell kann sich nicht selbst prüfen. Es generiert nur neue Antworten.
+Was passiert, wenn du nachfragst:
+
+- Das Modell generiert neuen Text, beeinflusst von der bisherigen Konversation
+- Es kann vorsichtiger klingen, Zahlen anpassen, oder bei seiner Aussage bleiben
+- Keines dieser Verhaltensweisen sagt dir, ob die ursprüngliche Antwort stimmt
+
+**Fazit:** Nachfragen beim Sprachmodell ist keine Verifikationsstrategie. Es ist mehr Textgenerierung.
 
 ### Lateral Reading bei Sprachmodellen
 
