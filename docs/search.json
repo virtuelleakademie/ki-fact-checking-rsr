@@ -449,7 +449,7 @@
     "href": "handout.html",
     "title": "Lateral Reading",
     "section": "",
-    "text": "Würde ich diese Information in einem formellen Dokument zitieren?\n\nJA → Extern verifizieren\nNEIN → Sprachmodell reicht",
+    "text": "Key-pointDie Entscheidungsfrage\n\n\n\nWürde ich diese Information in einem formellen Dokument zitieren?\n\nJA → Extern verifizieren\nNEIN → Sprachmodell reicht",
     "crumbs": [
       "Materialien",
       "Lateral Reading"
@@ -460,7 +460,7 @@
     "href": "handout.html#die-entscheidung",
     "title": "Lateral Reading",
     "section": "",
-    "text": "Würde ich diese Information in einem formellen Dokument zitieren?\n\nJA → Extern verifizieren\nNEIN → Sprachmodell reicht",
+    "text": "Key-pointDie Entscheidungsfrage\n\n\n\nWürde ich diese Information in einem formellen Dokument zitieren?\n\nJA → Extern verifizieren\nNEIN → Sprachmodell reicht",
     "crumbs": [
       "Materialien",
       "Lateral Reading"
@@ -498,6 +498,17 @@
       "Materialien",
       "Vertiefung",
       "Confirmation Bias und KI"
+    ]
+  },
+  {
+    "objectID": "handout.html#mögliche-red-flags",
+    "href": "handout.html#mögliche-red-flags",
+    "title": "Lateral Reading",
+    "section": "🚩Mögliche Red Flags",
+    "text": "🚩Mögliche Red Flags\n\nSehr präzise Zahlen (Spezifität ≠ Richtigkeit)\nDas Sprachmodell bestätigt genau das, was du vermutet hast\nRechtliche oder finanzielle Entscheidungen",
+    "crumbs": [
+      "Materialien",
+      "Lateral Reading"
     ]
   }
 ]

@@ -8,7 +8,9 @@ format:
 
 ## Die Entscheidung
 
-::: {.callout-important appearance="minimal"}
+::: {.key-point}
+### Die Entscheidungsfrage
+
 **Würde ich diese Information in einem formellen Dokument zitieren?**
 
 - **JA** → Extern verifizieren
@@ -29,7 +31,7 @@ format:
 **4. Zwei Fragen stellen**
 : Ist die Quelle zuverlässig? Steht da wirklich das, was behauptet wird?
 
-## 🚩Red Flags
+## 🚩Mögliche Red Flags
 
 - Sehr präzise Zahlen (Spezifität ≠ Richtigkeit)
 - Das Sprachmodell bestätigt genau das, was du vermutet hast

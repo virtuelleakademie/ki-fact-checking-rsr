@@ -112,26 +112,26 @@ filters:
   - custom-callout
 
 custom-callout:
-  # Activity types - what participants DO
+  # Activity types - what participants DO (warm spectrum)
   experiment:
     title: "Deine Aufgabe"
     icon-symbol: "fa-flask"
     appearance: default
     collapse: false
-    color: "#9A4665"
+    color: "#9A4665"  # Raspberry (brand color)
 
   individual:
     title: "Einzelarbeit"
     icon-symbol: "fa-user"
     appearance: default
-    color: "#9A4665"
+    color: "#9A4665"  # Raspberry (unified activity)
     collapse: false
 
   group:
     title: "Gruppenarbeit"
     icon-symbol: "fa-users"
     appearance: default
-    color: "#6f42c1"
+    color: "#9A4665"  # Raspberry (unified activity)
     collapse: false
 
   demonstration:
@@ -139,21 +139,21 @@ custom-callout:
     icon-symbol: "fa-chalkboard"
     appearance: default
     collapse: false
-    color: "#0d6efd"
+    color: "#0F4C81"  # Classic Blue (instructor-led)
 
-  # Content types - information for participants
+  # Thinking types - reflection and insights
   scenario:
     title: "Szenario"
     icon-symbol: "fa-comment"
     appearance: default
-    color: "#6c757d"
+    color: "#6C757D"  # Ultimate Gray (neutral context)
     collapse: false
 
   reflect:
     title: "Reflexion"
     icon-symbol: "fa-lightbulb"
     appearance: default
-    color: "#6f42c1"
+    color: "#6B5B95"  # Ultra Violet (introspection)
     collapse: false
 
   key-point:
@@ -161,33 +161,35 @@ custom-callout:
     icon-symbol: "fa-star"
     appearance: default
     collapse: false
-    color: "#9A4665"
+    color: "#D4A03E"  # Amber/Gold (importance)
 
+  # Alert type
   warning:
     title: "Achtung"
     icon-symbol: "fa-exclamation-circle"
     appearance: default
-    color: "#fd7e14"
+    color: "#DD4124"  # Tangerine Tango (attention)
     collapse: false
 
+  # Guidance types - green family
   pro-tip:
     title: "Tipp"
     icon-symbol: "fa-wand-magic-sparkles"
     appearance: default
-    color: "#20c997"
+    color: "#009B77"  # Emerald (helpful)
     collapse: true
 
   source-check:
     title: "Quellen-Check"
     icon-symbol: "fa-search"
     appearance: default
-    color: "#198754"
+    color: "#2A9D8F"  # Teal (verification)
     collapse: false
 
-  # Copyable prompt for chatbot input
+  # Technical - copyable prompt for chatbot input
   prompt:
     title: "Prompt"
     icon-symbol: "fa-clipboard"
     appearance: default
-    color: "#495057"
+    color: "#495057"  # Charcoal (code-like)
     collapse: false

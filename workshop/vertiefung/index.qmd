@@ -7,7 +7,7 @@ Diese Materialien ergänzen den Workshop um zwei Aspekte, die im 40-Minuten-Form
 1. **Nicht verifizierbare Behauptungen**: Wenn keine Quelle existiert
 2. **Zeitliche Gültigkeit**: Ist die Information noch aktuell?
 
-::: {.callout-note appearance="minimal"}
+::: {.pro-tip}
 ### Siehe auch
 
 - **[Vertical vs. Lateral Reading](vertical-lateral/index.qmd)**: Warum wir die Quelle verlassen müssen. Die theoretische Grundlage der Workshop-Methode.
