@@ -7,7 +7,7 @@ subtitle: "Ein 40-Minuten Workshop zu Lateral Reading"
 
 Dieser Workshop vermittelt eine praktische Technik zur Verifikation von Antworten aus Large Language Models (LLMs) wie Copilot, ChatGPT, Claude oder Gemini: **Lateral Reading**.
 
-Du lernst durch eigene Experimente, warum Antworten von Sprachmodellen externe Verifikation brauchen und wie du in wenigen Minuten Fakten unabhängig prüfen kannst.
+Du lernst durch eigene Experimente, wann und wie du Antworten von Sprachmodellen extern verifizierst.
 
 ## Lernziele
 

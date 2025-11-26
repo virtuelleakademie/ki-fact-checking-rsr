@@ -41,7 +41,7 @@ KI-Chatbots wie ChatGPT liefern Antworten die überzeugend sind, aber nicht imme
 
 ### Was du lernst
 
-- Warum KI-Antworten externe Verifikation brauchen
+- Wann KI-Antworten externe Verifikation brauchen
 - Wie deine Fragestellung die KI-Antwort beeinflusst
 - Wie du in 2–5 Minuten Fakten unabhängig prüfst
 <!-- - Welche Quellen für deinen Arbeitsbereich relevant sind -->
