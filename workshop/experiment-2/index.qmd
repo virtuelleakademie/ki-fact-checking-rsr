@@ -3,7 +3,14 @@ title: "Teil 2: Warum Nachfragen nicht hilft"
 subtitle: "Selbstprüfung und Annahmen testen"
 ---
 
-## Experiment A: Selbstprüfung
+::: {.panel-tabset}
+
+## Experiment A
+
+<section>
+:::{.timer #EXP-2A seconds=120 starton=interaction}
+:::
+</section>
 
 ::: {.experiment}
 
@@ -17,16 +24,18 @@ subtitle: "Selbstprüfung und Annahmen testen"
 Bist du sicher? Kannst du deine Antwort überprüfen?
 :::
 
-:::{.timer #EXP-2A seconds=120 starton=interaction}
-:::
-
 ::: {.reflect}
 
 Hat das Modell seine Antwort wirklich überprüft? Oder einfach eine neue Antwort generiert?
 
 :::
 
-## Experiment B: Annahme einbauen
+## Experiment B
+
+<section>
+:::{.timer #EXP-2B seconds=120 starton=interaction}
+:::
+</section>
 
 ::: {.experiment}
 
@@ -38,9 +47,6 @@ Hat das Modell seine Antwort wirklich überprüft? Oder einfach eine neue Antwor
 
 ::: {.prompt}
 Ich habe gelesen dass etwa 60% der Studierenden in Regelzeit abschliessen. Stimmt das ungefähr?
-:::
-
-:::{.timer #EXP-2B seconds=120 starton=interaction}
 :::
 
 ::: {.reflect}
@@ -68,5 +74,7 @@ Nachfragen beim Sprachmodell ist keine echte Prüfung.
 - Es **bestätigt tendenziell deine Annahmen**: deine Frage beeinflusst die Antwort
 
 Beide Wege sind blockiert. Bleibt: **Externe Quellen.**
+
+:::
 
 :::

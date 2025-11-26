@@ -3,7 +3,14 @@ title: "Teil 1: Das Sprachmodell liegt falsch"
 subtitle: "Gemeinsames Experiment"
 ---
 
+::: {.panel-tabset}
+
 ## Das Experiment
+
+<section>
+:::{.timer #EXP-1 seconds=300 starton=interaction}
+:::
+</section>
 
 ::: {.experiment}
 
@@ -18,9 +25,6 @@ subtitle: "Gemeinsames Experiment"
 Wie hoch ist der Anteil der Studierenden an Schweizer Universitäten, die ihr Bachelorstudium in der Regelstudienzeit abschliessen?
 :::
 
-:::{.timer #EXP-1 seconds=300 starton=interaction}
-:::
-
 ## Antworten teilen
 
 ::: {.group}
@@ -30,16 +34,32 @@ Wie hoch ist der Anteil der Studierenden an Schweizer Universitäten, die ihr Ba
 
 :::
 
-## Auswertung: Die offizielle Quelle
+## Auswertung
 
 ::: {.demonstration}
 
-Wir prüfen jetzt gemeinsam die offizielle Quelle:
+**Beobachte zuerst die Antwort des Sprachmodells:**
+
+Manche Modelle geben eine vorsichtige, qualifizierte Antwort:
+
+- Sie räumen ein, dass es keine exakte Zahl gibt
+- Sie geben eine Spanne statt Präzision
+- Sie erwähnen Einschränkungen und Variabilität
+
+**Die entscheidende Frage bleibt:** Wie weisst du, ob diese Antwort gut ist?
+
+Wir prüfen jetzt gemeinsam:
 
 1. Neuen Browser-Tab öffnen
 2. Suchen: `BFS Studiendauer Bachelor Schweiz`
 3. Zur BFS-Seite (bfs.admin.ch) navigieren
-4. Offizielle Statistik mit den Modell-Antworten vergleichen
+4. Die Behauptung überprüfen: Kannst du die genannten Zahlen (z.B. "25-30%") verifizieren?
+
+:::
+
+::: {.key-point}
+
+**Die zentrale Erkenntnis:** Auch wenn eine Antwort vorsichtig und qualifiziert klingt, kannst du ihre Qualität nicht beurteilen ohne externe Verifikation.
 
 :::
 
@@ -47,23 +67,35 @@ Wir prüfen jetzt gemeinsam die offizielle Quelle:
 
 ::: {.reflect}
 
-- Stimmen die Zahlen der Sprachmodelle mit der offiziellen Quelle überein?
-- Hat das Modell eine Quelle genannt?
-- Wie sicher klang die Antwort?
+- Konntest du die Zahlen des Sprachmodells auf BFS verifizieren?
+- Klang die Antwort vorsichtig oder sehr sicher?
+- Hat das Modell Einschränkungen erwähnt?
 
 :::
 
 ::: {.key-point}
 
-Antworten von Sprachmodellen können sehr spezifisch und selbstbewusst klingen und trotzdem falsch sein.
+**Vier wichtige Erkenntnisse:**
 
-**Überzeugend heisst nicht korrekt.**
+1. **Du kannst die Qualität nicht ohne Verifikation beurteilen.** Eine vorsichtige Antwort kann genau so falsch sein wie eine überzeugend klingende.
+
+2. **Spezifität täuscht Zuverlässigkeit vor.** Genaue Zahlen, Spannen oder Details klingen vertrauenswürdig, sind aber kein Beweis für Richtigkeit.
+
+3. **Unverifizierbar = unbrauchbar.** Wenn du eine Behauptung nicht mit einer verlässlichen Quelle belegen kannst, darfst du sie nicht in formellen Dokumenten verwenden.
+
+4. **Nachfragen hilft nicht.** Das Modell kann seine eigenen Aussagen nicht überprüfen (das kommt in Teil 2).
+
+**Vertrauen ist gut, Verifikation ist besser.**
 
 :::
 
 ::: {.warning}
-### Die Spezifitätsfalle
+### Vorsicht vor scheinbar guten Antworten
 
-Je spezifischer eine Antwort klingt (genaue Zahlen, Daten, Namen), desto vertrauenswürdiger wirkt sie. Aber Spezifität ist kein Beweis für Richtigkeit. Sprachmodelle generieren oft sehr präzise klingende Details, die frei erfunden sind.
+Auch qualifizierte, vorsichtig formulierte Antworten brauchen externe Verifikation. Du kannst nicht an der Formulierung erkennen, ob eine Antwort richtig ist.
+
+**Das einzige verlässliche Kriterium: Kannst du die Behauptung mit einer vertrauenswürdigen Quelle belegen?**
+
+:::
 
 :::

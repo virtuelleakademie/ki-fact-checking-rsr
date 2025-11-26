@@ -89,6 +89,18 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
+div.callout-key-point.callout {
+  border-left-color: #9A4665;
+}
+div.callout-key-point.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-key-point .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-key-point.callout-style-default .callout-icon::before, div.callout-key-point.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f005';
+  background-image: none;
+}
 div.callout-prompt.callout {
   border-left-color: #495057;
 }
@@ -101,18 +113,6 @@ div.callout-prompt.callout-style-default .callout-icon::before, div.callout-prom
   content: '\f328';
   background-image: none;
 }
-div.callout-individual.callout {
-  border-left-color: #9A4665;
-}
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f007';
-  background-image: none;
-}
 div.callout-group.callout {
   border-left-color: #6f42c1;
 }
@@ -123,30 +123,6 @@ div.callout-group .callout-toggle::before {  background-image: url('data:image/s
 div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
   content: '\f0c0';
-  background-image: none;
-}
-div.callout-demonstration.callout {
-  border-left-color: #0d6efd;
-}
-div.callout-demonstration.callout-style-default > .callout-header {
-  background-color: rgba(13, 110, 253, 0.13);
-}
-div.callout-demonstration .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-demonstration.callout-style-default .callout-icon::before, div.callout-demonstration.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f51b';
-  background-image: none;
-}
-div.callout-key-point.callout {
-  border-left-color: #9A4665;
-}
-div.callout-key-point.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
-}
-div.callout-key-point .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-key-point.callout-style-default .callout-icon::before, div.callout-key-point.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f005';
   background-image: none;
 }
 div.callout-experiment.callout {
@@ -173,16 +149,40 @@ div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro
   content: '\e2ca';
   background-image: none;
 }
-div.callout-source-check.callout {
-  border-left-color: #198754;
+div.callout-scenario.callout {
+  border-left-color: #6c757d;
 }
-div.callout-source-check.callout-style-default > .callout-header {
-  background-color: rgba(25, 135, 84, 0.13);
+div.callout-scenario.callout-style-default > .callout-header {
+  background-color: rgba(108, 117, 125, 0.13);
 }
-div.callout-source-check .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-source-check.callout-style-default .callout-icon::before, div.callout-source-check.callout-titled .callout-icon::before {
+div.callout-scenario .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-scenario.callout-style-default .callout-icon::before, div.callout-scenario.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
-  content: '\f002';
+  content: '\f075';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: #9A4665;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f007';
+  background-image: none;
+}
+div.callout-demonstration.callout {
+  border-left-color: #0d6efd;
+}
+div.callout-demonstration.callout-style-default > .callout-header {
+  background-color: rgba(13, 110, 253, 0.13);
+}
+div.callout-demonstration .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-demonstration.callout-style-default .callout-icon::before, div.callout-demonstration.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f51b';
   background-image: none;
 }
 div.callout-reflect.callout {
@@ -197,6 +197,18 @@ div.callout-reflect.callout-style-default .callout-icon::before, div.callout-ref
   content: '\f0eb';
   background-image: none;
 }
+div.callout-source-check.callout {
+  border-left-color: #198754;
+}
+div.callout-source-check.callout-style-default > .callout-header {
+  background-color: rgba(25, 135, 84, 0.13);
+}
+div.callout-source-check .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-source-check.callout-style-default .callout-icon::before, div.callout-source-check.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f002';
+  background-image: none;
+}
 div.callout-warning.callout {
   border-left-color: #fd7e14;
 }
@@ -207,18 +219,6 @@ div.callout-warning .callout-toggle::before {  background-image: url('data:image
 div.callout-warning.callout-style-default .callout-icon::before, div.callout-warning.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
   content: '\f06a';
-  background-image: none;
-}
-div.callout-scenario.callout {
-  border-left-color: #6c757d;
-}
-div.callout-scenario.callout-style-default > .callout-header {
-  background-color: rgba(108, 117, 125, 0.13);
-}
-div.callout-scenario .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-scenario.callout-style-default .callout-icon::before, div.callout-scenario.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f075';
   background-image: none;
 }
 </style>
@@ -331,27 +331,8 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Auf dieser Seite</h2>
-   
-  <ul>
-  <li><a href="#die-vier-schritte" id="toc-die-vier-schritte" class="nav-link active" data-scroll-target="#die-vier-schritte">Die vier Schritte</a></li>
-  <li><a href="#runde-1" id="toc-runde-1" class="nav-link" data-scroll-target="#runde-1">Runde 1: Gemeinsam</a>
-  <ul class="collapse">
-  <li><a href="#schritt-1-suchbegriffe-formulieren" id="toc-schritt-1-suchbegriffe-formulieren" class="nav-link" data-scroll-target="#schritt-1-suchbegriffe-formulieren">Schritt 1: Suchbegriffe formulieren</a></li>
-  <li><a href="#schritt-2-suchergebnisse-filtern" id="toc-schritt-2-suchergebnisse-filtern" class="nav-link" data-scroll-target="#schritt-2-suchergebnisse-filtern">Schritt 2: Suchergebnisse filtern</a></li>
-  <li><a href="#schritt-3-zur-quelle-gehen" id="toc-schritt-3-zur-quelle-gehen" class="nav-link" data-scroll-target="#schritt-3-zur-quelle-gehen">Schritt 3: Zur Quelle gehen</a></li>
-  <li><a href="#schritt-4-zwei-prüffragen" id="toc-schritt-4-zwei-prüffragen" class="nav-link" data-scroll-target="#schritt-4-zwei-prüffragen">Schritt 4: Zwei Prüffragen</a></li>
-  <li><a href="#ergebnis" id="toc-ergebnis" class="nav-link" data-scroll-target="#ergebnis">Ergebnis</a></li>
-  </ul></li>
-  <li><a href="#runde-2" id="toc-runde-2" class="nav-link" data-scroll-target="#runde-2">Runde 2: In Kleingruppen</a>
-  <ul class="collapse">
-  <li><a href="#auswertung" id="toc-auswertung" class="nav-link" data-scroll-target="#auswertung">Auswertung</a></li>
-  </ul></li>
-  <li><a href="#runde-3" id="toc-runde-3" class="nav-link" data-scroll-target="#runde-3">Runde 3: Eigenes Beispiel</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -377,17 +358,20 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 
 
 <p>Lateral Reading heisst: Raus aus dem Sprachmodell, eigene Suche, Primärquellen finden.</p>
-<section id="die-vier-schritte" class="level2">
-<h2 class="anchored" data-anchor-id="die-vier-schritte">Die vier Schritte</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Schritte</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Runde 1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Runde 2</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Runde 3</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <ol type="1">
 <li><strong>Suchbegriffe formulieren.</strong> Was tippst du in die Suchmaschine?</li>
 <li><strong>Suchergebnisse filtern.</strong> Welche Quellen sind vertrauenswürdig?</li>
 <li><strong>Zur Quelle gehen.</strong> Nicht die Zusammenfassung der Suchmaschine, sondern die echte Seite.</li>
 <li><strong>Zwei Prüffragen stellen.</strong> Ist die Quelle zuverlässig? Steht da wirklich das, was behauptet wird?</li>
 </ol>
-</section>
-<section id="runde-1" class="level2">
-<h2 class="anchored" data-anchor-id="runde-1">Runde 1: Gemeinsam</h2>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<section id="gemeinsam" class="level3">
+<h3 class="anchored" data-anchor-id="gemeinsam">Gemeinsam</h3>
 <div class="callout callout-style-default callout-scenario callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -405,6 +389,7 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 <p>Du willst das für einen Budgetantrag verwenden.</p>
 </div>
 </div>
+</section>
 <section id="schritt-1-suchbegriffe-formulieren" class="level3">
 <h3 class="anchored" data-anchor-id="schritt-1-suchbegriffe-formulieren">Schritt 1: Suchbegriffe formulieren</h3>
 <p>Wie würdest du suchen? Nicht das Sprachmodell fragen. Was tippst du in deine Suchmaschine ein?</p>
@@ -538,9 +523,19 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 </div>
 </div>
 </section>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<section id="in-kleingruppen" class="level3">
+<h3 class="anchored" data-anchor-id="in-kleingruppen">In Kleingruppen</h3>
+<section>
+                    <div id="LR-R2"></div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function () {
+                            initializeTimer("LR-R2", 300, "interaction");
+                        });
+                    </script>
+                
 </section>
-<section id="runde-2" class="level2">
-<h2 class="anchored" data-anchor-id="runde-2">Runde 2: In Kleingruppen</h2>
 <div class="callout callout-style-default callout-experiment callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -558,13 +553,6 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 </ol>
 </div>
 </div>
-                    <div id="LR-R2"></div>
-                    <script>
-                        document.addEventListener("DOMContentLoaded", function () {
-                            initializeTimer("LR-R2", 300, "interaction");
-                        });
-                    </script>
-                
 <div class="callout callout-style-default callout-scenario callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -578,9 +566,9 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 <div id="callout-7" class="callout-7-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <blockquote class="blockquote">
-<p>“Personaldossiers müssen in der Schweiz 10 Jahre nach Austritt aufbewahrt werden.”</p>
+<p>“In der Schweiz müssen Arbeitsverträge für befristete Stellen mindestens 14 Tage vor Ablauf verlängert werden, sonst gelten sie als gekündigt.”</p>
 </blockquote>
-<p>Finde die offizielle rechtliche Grundlage. <em>Tipp: EDÖB, admin.ch, OR</em></p>
+<p>Finde die offizielle rechtliche Grundlage. <em>Tipp: OR (Obligationenrecht), Arbeitsrecht Schweiz, GAV</em></p>
 </div>
 </div>
 </div>
@@ -679,6 +667,7 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 </div>
 </div>
 </div>
+</section>
 <section id="auswertung" class="level3">
 <h3 class="anchored" data-anchor-id="auswertung">Auswertung</h3>
 <div class="callout callout-style-default callout-group callout-titled">
@@ -699,9 +688,19 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 </div>
 </div>
 </section>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<section id="eigenes-beispiel" class="level3">
+<h3 class="anchored" data-anchor-id="eigenes-beispiel">Eigenes Beispiel</h3>
+<section>
+                    <div id="LR-R3"></div>
+                    <script>
+                        document.addEventListener("DOMContentLoaded", function () {
+                            initializeTimer("LR-R3", 240, "interaction");
+                        });
+                    </script>
+                
 </section>
-<section id="runde-3" class="level2">
-<h2 class="anchored" data-anchor-id="runde-3">Runde 3: Eigenes Beispiel</h2>
 <div class="callout callout-style-default callout-individual callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -721,13 +720,6 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 </ol>
 </div>
 </div>
-                    <div id="LR-R3"></div>
-                    <script>
-                        document.addEventListener("DOMContentLoaded", function () {
-                            initializeTimer("LR-R3", 240, "interaction");
-                        });
-                    </script>
-                
 <div class="callout callout-style-default callout-group callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -744,9 +736,12 @@ div.callout-scenario.callout-style-default .callout-icon::before, div.callout-sc
 </ul>
 </div>
 </div>
-
-
 </section>
+</div>
+</div>
+</div>
+
+
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Zurück nach oben</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
 <script>

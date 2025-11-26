@@ -5,14 +5,18 @@ subtitle: "Die Technik in vier Schritten üben"
 
 Lateral Reading heisst: Raus aus dem Sprachmodell, eigene Suche, Primärquellen finden.
 
-## Die vier Schritte
+::: {.panel-tabset}
+
+## Schritte
 
 1. **Suchbegriffe formulieren.** Was tippst du in die Suchmaschine?
 2. **Suchergebnisse filtern.** Welche Quellen sind vertrauenswürdig?
 3. **Zur Quelle gehen.** Nicht die Zusammenfassung der Suchmaschine, sondern die echte Seite.
 4. **Zwei Prüffragen stellen.** Ist die Quelle zuverlässig? Steht da wirklich das, was behauptet wird?
 
-## Runde 1: Gemeinsam {#runde-1}
+## Runde 1
+
+### Gemeinsam
 
 ::: {.scenario}
 
@@ -83,7 +87,14 @@ Oft: Die exakte Zahl existiert nicht in dieser Form. Das ist selbst eine wichtig
 
 :::
 
-## Runde 2: In Kleingruppen {#runde-2}
+## Runde 2
+
+### In Kleingruppen
+
+<section>
+:::{.timer #LR-R2 seconds=300 starton=interaction}
+:::
+</section>
 
 ::: {.experiment}
 
@@ -93,15 +104,12 @@ Oft: Die exakte Zahl existiert nicht in dieser Form. Das ist selbst eine wichtig
 
 :::
 
-:::{.timer #LR-R2 seconds=300 starton=interaction}
-:::
-
 ::: {.scenario collapse="true"}
 ### Szenario A: Rechtliches
 
-> "Personaldossiers müssen in der Schweiz 10 Jahre nach Austritt aufbewahrt werden."
+> "In der Schweiz müssen Arbeitsverträge für befristete Stellen mindestens 14 Tage vor Ablauf verlängert werden, sonst gelten sie als gekündigt."
 
-Finde die offizielle rechtliche Grundlage. *Tipp: EDÖB, admin.ch, OR*
+Finde die offizielle rechtliche Grundlage. *Tipp: OR (Obligationenrecht), Arbeitsrecht Schweiz, GAV*
 
 :::
 
@@ -160,7 +168,14 @@ Wie würdest du das verifizieren? *Tipp: IT-Services, swissuniversities Rahmenve
 
 :::
 
-## Runde 3: Eigenes Beispiel {#runde-3}
+## Runde 3
+
+### Eigenes Beispiel
+
+<section>
+:::{.timer #LR-R3 seconds=240 starton=interaction}
+:::
+</section>
 
 ::: {.individual}
 
@@ -173,12 +188,11 @@ Denk an etwas, das du diese Woche ein Sprachmodell fragen könntest. Oder an etw
 
 :::
 
-:::{.timer #LR-R3 seconds=240 starton=interaction}
-:::
-
 ::: {.group}
 
 - Was war deine Frage?
 - Würdest du diese Information in einem formellen Dokument verwenden?
+
+:::
 
 :::
