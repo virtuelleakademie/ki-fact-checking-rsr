@@ -162,11 +162,11 @@
     ]
   },
   {
-    "objectID": "workshop/vertiefung/confirmation-bias/index.html#die-echo-chamber-für-eine-person",
-    "href": "workshop/vertiefung/confirmation-bias/index.html#die-echo-chamber-für-eine-person",
+    "objectID": "workshop/vertiefung/confirmation-bias/index.html#die-epistemische-blase-für-eine-person",
+    "href": "workshop/vertiefung/confirmation-bias/index.html#die-epistemische-blase-für-eine-person",
     "title": "Confirmation Bias und KI",
-    "section": "Die Echo Chamber für eine Person",
-    "text": "Die Echo Chamber für eine Person\nWenn Confirmation Bias und KI-Schmeichelei zusammentreffen, entsteht ein Teufelskreis:\n\nDu stellst eine Frage, die deine Meinung andeutet\nDer Chatbot bestätigt deine Meinung\nDu fühlst dich bestärkt und fragst weiter\nDer Chatbot verstärkt weiter\nDeine Überzeugung wächst, ohne dass neue Fakten hinzukommen\n\nDaraus entsteht ein Chamber Effect: eine Filterblase, die du dir selbst erschaffst. Mit Hilfe eines KI-Systems, das gelernt hat, dir zu gefallen.\n\n\n\n\n\n\nKey-pointDer Kern des Problems\n\n\n\nKlassische Echo Chambers entstehen durch Algorithmen, die dir ähnliche Inhalte zeigen. Bei Chatbots erzeugst du die Echo Chamber selbst: durch die Art, wie du fragst, und durch ein System, das darauf trainiert ist, zuzustimmen.",
+    "section": "Die epistemische Blase für eine Person",
+    "text": "Die epistemische Blase für eine Person\nWenn Confirmation Bias und KI-Schmeichelei zusammentreffen, entsteht ein Teufelskreis:\n\nDu stellst eine Frage, die deine Meinung andeutet\nDer Chatbot bestätigt deine Meinung\nDu fühlst dich bestärkt und fragst weiter\nDer Chatbot verstärkt weiter\nDeine Überzeugung wächst, ohne dass neue Fakten hinzukommen\n\nDaraus entsteht eine epistemische Blase: ein Informationsraum, in dem du nur noch bestätigende Perspektiven erreichst. Mit Hilfe eines KI-Systems, das gelernt hat, dir zu gefallen.\n\n\n\n\n\n\nKey-pointDer Kern des Problems\n\n\n\nKlassische Filterblasen entstehen durch Algorithmen, die dir ähnliche Inhalte zeigen. Bei Chatbots erzeugst du die Blase selbst: durch die Art, wie du fragst, und durch ein System, das darauf trainiert ist, zuzustimmen.\nHinweis zur Begrifflichkeit: Der Philosoph C. Thi Nguyen unterscheidet zwischen Echo Chambers, in denen man aktiv lernt, externen Quellen zu misstrauen, und epistemischen Blasen, in denen man gegenteilige Perspektiven nicht findet (Nguyen 2020). Bei KI-Chatbots handelt es sich um Letzteres: Das System diskreditiert keine externen Quellen, es präsentiert sie einfach nicht.",
     "crumbs": [
       "Materialien",
       "Vertiefung",
@@ -475,29 +475,6 @@
     "crumbs": [
       "Materialien",
       "Lateral Reading"
-    ]
-  },
-  {
-    "objectID": "handout.html#red-flags",
-    "href": "handout.html#red-flags",
-    "title": "Lateral Reading",
-    "section": "🚩Red Flags",
-    "text": "🚩Red Flags\n\nSehr präzise Zahlen (Spezifität ≠ Richtigkeit)\nDas Sprachmodell bestätigt genau das, was du vermutet hast\nRechtliche oder finanzielle Entscheidungen",
-    "crumbs": [
-      "Materialien",
-      "Lateral Reading"
-    ]
-  },
-  {
-    "objectID": "workshop/vertiefung/confirmation-bias/index.html#die-epistemische-blase-für-eine-person",
-    "href": "workshop/vertiefung/confirmation-bias/index.html#die-epistemische-blase-für-eine-person",
-    "title": "Confirmation Bias und KI",
-    "section": "Die epistemische Blase für eine Person",
-    "text": "Die epistemische Blase für eine Person\nWenn Confirmation Bias und KI-Schmeichelei zusammentreffen, entsteht ein Teufelskreis:\n\nDu stellst eine Frage, die deine Meinung andeutet\nDer Chatbot bestätigt deine Meinung\nDu fühlst dich bestärkt und fragst weiter\nDer Chatbot verstärkt weiter\nDeine Überzeugung wächst, ohne dass neue Fakten hinzukommen\n\nDaraus entsteht eine epistemische Blase: ein Informationsraum, in dem du nur noch bestätigende Perspektiven erreichst. Mit Hilfe eines KI-Systems, das gelernt hat, dir zu gefallen.\n\n\n\n\n\n\nKey-pointDer Kern des Problems\n\n\n\nKlassische Filterblasen entstehen durch Algorithmen, die dir ähnliche Inhalte zeigen. Bei Chatbots erzeugst du die Blase selbst: durch die Art, wie du fragst, und durch ein System, das darauf trainiert ist, zuzustimmen.\nHinweis zur Begrifflichkeit: Der Philosoph C. Thi Nguyen unterscheidet zwischen Echo Chambers, in denen man aktiv lernt, externen Quellen zu misstrauen, und epistemischen Blasen, in denen man gegenteilige Perspektiven nicht findet (Nguyen 2020). Bei KI-Chatbots handelt es sich um Letzteres: Das System diskreditiert keine externen Quellen, es präsentiert sie einfach nicht.",
-    "crumbs": [
-      "Materialien",
-      "Vertiefung",
-      "Confirmation Bias und KI"
     ]
   },
   {
