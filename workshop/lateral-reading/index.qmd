@@ -107,9 +107,9 @@ Oft: Die exakte Zahl existiert nicht in dieser Form. Das ist selbst eine wichtig
 ::: {.scenario collapse="true"}
 ### Szenario A: Rechtliches
 
-> "Personaldossiers müssen in der Schweiz 10 Jahre nach Austritt aufbewahrt werden."
+> "In der Schweiz müssen Arbeitsverträge für befristete Stellen mindestens 14 Tage vor Ablauf verlängert werden, sonst gelten sie als gekündigt."
 
-Finde die offizielle rechtliche Grundlage. *Tipp: EDÖB, admin.ch, OR*
+Finde die offizielle rechtliche Grundlage. *Tipp: OR (Obligationenrecht), Arbeitsrecht Schweiz, GAV*
 
 :::
 

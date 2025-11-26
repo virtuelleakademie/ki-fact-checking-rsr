@@ -43,7 +43,15 @@ Wir prüfen jetzt gemeinsam die offizielle Quelle:
 1. Neuen Browser-Tab öffnen
 2. Suchen: `BFS Studiendauer Bachelor Schweiz`
 3. Zur BFS-Seite (bfs.admin.ch) navigieren
-4. Offizielle Statistik mit den Modell-Antworten vergleichen
+4. Die Daten durchsuchen: Finden wir diese exakte Zahl?
+
+**Wichtige Beobachtung:** Die spezifische Zahl, die das Modell genannt hat, lässt sich in dieser genauen Form oft nicht finden. BFS hat verwandte Statistiken, aber nicht genau diese Formulierung oder diesen Wert.
+
+:::
+
+::: {.key-point}
+
+**Das ist selbst eine wichtige Information:** Wenn eine Behauptung nicht verifizierbar ist, können wir sie nicht verwenden, egal wie spezifisch und überzeugend sie klingt.
 
 :::
 
@@ -51,24 +59,30 @@ Wir prüfen jetzt gemeinsam die offizielle Quelle:
 
 ::: {.reflect}
 
-- Stimmen die Zahlen der Sprachmodelle mit der offiziellen Quelle überein?
+- Konntest du die genaue Zahl des Sprachmodells auf BFS verifizieren?
 - Hat das Modell eine Quelle genannt?
-- Wie sicher klang die Antwort?
+- Wie sicher und präzise klang die Antwort?
 
 :::
 
 ::: {.key-point}
 
-Antworten von Sprachmodellen können sehr spezifisch und selbstbewusst klingen und trotzdem falsch sein.
+**Drei wichtige Erkenntnisse:**
 
-**Überzeugend heisst nicht korrekt.**
+1. **Spezifität täuscht Zuverlässigkeit vor.** Das Modell nennt eine genau Prozentzahlen. Das klingt überzeugend und wahr.
+
+2. **Unverifizierbar = unbrauchbar.** Wenn du eine Behauptung nicht mit einer verlässlichen Quelle belegen kannst, darfst du sie nicht in formellen Dokumenten verwenden.
+
+3. **Nachfragen hilft nicht.** Das Modell kann seine eigenen Aussagen nicht überprüfen (das kommt in Teil 2).
 
 :::
 
 ::: {.warning}
 ### Die Spezifitätsfalle
 
-Je spezifischer eine Antwort klingt (genaue Zahlen, Daten, Namen), desto vertrauenswürdiger wirkt sie. Aber Spezifität ist kein Beweis für Richtigkeit. Sprachmodelle generieren oft sehr präzise klingende Details, die frei erfunden sind.
+Je spezifischer eine Antwort klingt (genaue Zahlen, Daten, Namen), desto vertrauenswürdiger wirkt sie. Aber Spezifität ist kein Beweis für Richtigkeit.
+
+**Sprachmodelle generieren oft sehr präzise klingende Details, die sich nicht verifizieren lassen.**
 
 :::
 
