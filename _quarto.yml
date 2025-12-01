@@ -82,7 +82,8 @@ lang: de
 format:
   html:
     theme:
-      light: simplex
+      - simplex
+      - styles/custom.scss
     css:
       - styles/styles.css
       - _extensions/quarto-ext/fontawesome/assets/css/all.css
@@ -93,7 +94,6 @@ format:
     link-external-newwindow: true
     anchor-sections: true
     smooth-scroll: true
-    linkcolor: "#9A4665"
 
 comments:
   hypothesis:

@@ -26,7 +26,6 @@
     color: white;
     border: none;
     padding: 0.3rem 0.6rem;
-    border-radius: 4px;
     cursor: pointer;
     font-size: 0.8rem;
     transition: background-color 0.2s ease;
@@ -79,7 +78,6 @@
 
 .callout.callout-experiment > .callout-body {
     background-color: rgba(154, 70, 101, 0.05);
-    border-radius: 6px;
 }
 
 .callout.callout-reflect .callout-icon {
@@ -89,7 +87,6 @@
 
 .callout.callout-reflect > .callout-body {
     background-color: rgba(111, 66, 193, 0.05);
-    border-radius: 6px;
 }
 
 .callout.callout-warning .callout-icon {
@@ -99,7 +96,6 @@
 
 .callout.callout-warning > .callout-body {
     background-color: rgba(253, 126, 20, 0.06);
-    border-radius: 6px;
 }
 
 /* Tables: striped, readable, left-aligned */
