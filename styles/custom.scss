@@ -5,11 +5,11 @@
 // =============================================================================
 
 // Typography
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800&display=swap');
 
-$font-family-sans-serif: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$font-family-sans-serif: "Urbanist", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 $font-family-monospace: "JetBrains Mono", "Fira Code", monospace;
-$headings-font-family: "Nunito", sans-serif;
+$headings-font-family: "Urbanist", sans-serif;
 
 // Font sizes
 $font-size-base: 1rem;
@@ -521,6 +521,60 @@ li::marker {
 .page-footer a:hover {
   color: $color-text;
   text-decoration-color: $color-text;
+}
+
+// =============================================================================
+// TIMER - Clean minimal styling
+// =============================================================================
+
+.base-timer {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.base-timer__svg {
+  stroke: $color-black;
+}
+
+// =============================================================================
+// TABSETS - HKB-style minimal tabs
+// =============================================================================
+
+.nav-tabs {
+  border-bottom: $border;
+  gap: 0;
+}
+
+.nav-tabs .nav-link {
+  border: none !important;
+  border-bottom: 3px solid transparent !important;
+  background: none !important;
+  color: $color-text-secondary;
+  font-weight: $font-weight-medium;
+  padding: $spacing-sm $spacing-md;
+  margin-bottom: -2px;
+  @include transition-default;
+}
+
+.nav-tabs .nav-link:hover {
+  color: $color-text;
+  border-bottom-color: $color-grey-300 !important;
+}
+
+.nav-tabs .nav-link.active {
+  color: $color-text !important;
+  border-bottom-color: $color-black !important;
+  font-weight: $font-weight-semibold;
+  background: none !important;
+}
+
+.tab-content {
+  border: none !important;
+  padding: $spacing-lg 0;
+}
+
+.tab-pane {
+  border: none !important;
 }
 
 // =============================================================================
