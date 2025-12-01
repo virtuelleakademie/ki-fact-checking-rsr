@@ -47,8 +47,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-312284284d2e78bed43c04f61ca87d1a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
 <link href="site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
-<script src="site_libs/quarto-contrib/qrcodejs-v1.0.0/qrcode.js"></script>
 <link href="site_libs/quarto-contrib/bootstrap-icons-1.13.1/bootstrap-icons.css" rel="stylesheet">
+<script src="site_libs/quarto-contrib/qrcodejs-v1.0.0/qrcode.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -88,42 +88,6 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 <style>
-div.callout-pro-tip.callout {
-  border-left-color: #009B77;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgba(0, 155, 119, 0.13);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\e2ca';
-  background-image: none;
-}
-div.callout-scenario.callout {
-  border-left-color: #6C757D;
-}
-div.callout-scenario.callout-style-default > .callout-header {
-  background-color: rgba(108, 117, 125, 0.13);
-}
-div.callout-scenario .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-scenario.callout-style-default .callout-icon::before, div.callout-scenario.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f075';
-  background-image: none;
-}
-div.callout-warning.callout {
-  border-left-color: #DD4124;
-}
-div.callout-warning.callout-style-default > .callout-header {
-  background-color: rgba(221, 65, 36, 0.13);
-}
-div.callout-warning .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-warning.callout-style-default .callout-icon::before, div.callout-warning.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f06a';
-  background-image: none;
-}
 div.callout-reflect.callout {
   border-left-color: #6B5B95;
 }
@@ -134,18 +98,6 @@ div.callout-reflect .callout-toggle::before {  background-image: url('data:image
 div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
   content: '\f0eb';
-  background-image: none;
-}
-div.callout-prompt.callout {
-  border-left-color: #495057;
-}
-div.callout-prompt.callout-style-default > .callout-header {
-  background-color: rgba(73, 80, 87, 0.13);
-}
-div.callout-prompt .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-prompt.callout-style-default .callout-icon::before, div.callout-prompt.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f328';
   background-image: none;
 }
 div.callout-key-point.callout {
@@ -160,16 +112,16 @@ div.callout-key-point.callout-style-default .callout-icon::before, div.callout-k
   content: '\f005';
   background-image: none;
 }
-div.callout-individual.callout {
-  border-left-color: #9A4665;
+div.callout-scenario.callout {
+  border-left-color: #6C757D;
 }
-div.callout-individual.callout-style-default > .callout-header {
-  background-color: rgba(154, 70, 101, 0.13);
+div.callout-scenario.callout-style-default > .callout-header {
+  background-color: rgba(108, 117, 125, 0.13);
 }
-div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+div.callout-scenario .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-scenario.callout-style-default .callout-icon::before, div.callout-scenario.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
-  content: '\f007';
+  content: '\f075';
   background-image: none;
 }
 div.callout-group.callout {
@@ -184,18 +136,6 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   content: '\f0c0';
   background-image: none;
 }
-div.callout-source-check.callout {
-  border-left-color: #2A9D8F;
-}
-div.callout-source-check.callout-style-default > .callout-header {
-  background-color: rgba(42, 157, 143, 0.13);
-}
-div.callout-source-check .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-source-check.callout-style-default .callout-icon::before, div.callout-source-check.callout-titled .callout-icon::before {
-  font-family: 'Font Awesome 6 Free';
-  content: '\f002';
-  background-image: none;
-}
 div.callout-experiment.callout {
   border-left-color: #9A4665;
 }
@@ -206,6 +146,18 @@ div.callout-experiment .callout-toggle::before {  background-image: url('data:im
 div.callout-experiment.callout-style-default .callout-icon::before, div.callout-experiment.callout-titled .callout-icon::before {
   font-family: 'Font Awesome 6 Free';
   content: '\f0c3';
+  background-image: none;
+}
+div.callout-individual.callout {
+  border-left-color: #9A4665;
+}
+div.callout-individual.callout-style-default > .callout-header {
+  background-color: rgba(154, 70, 101, 0.13);
+}
+div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f007';
   background-image: none;
 }
 div.callout-demonstration.callout {
@@ -220,6 +172,54 @@ div.callout-demonstration.callout-style-default .callout-icon::before, div.callo
   content: '\f51b';
   background-image: none;
 }
+div.callout-source-check.callout {
+  border-left-color: #2A9D8F;
+}
+div.callout-source-check.callout-style-default > .callout-header {
+  background-color: rgba(42, 157, 143, 0.13);
+}
+div.callout-source-check .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-source-check.callout-style-default .callout-icon::before, div.callout-source-check.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f002';
+  background-image: none;
+}
+div.callout-prompt.callout {
+  border-left-color: #495057;
+}
+div.callout-prompt.callout-style-default > .callout-header {
+  background-color: rgba(73, 80, 87, 0.13);
+}
+div.callout-prompt .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-prompt.callout-style-default .callout-icon::before, div.callout-prompt.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f328';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: #009B77;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgba(0, 155, 119, 0.13);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\e2ca';
+  background-image: none;
+}
+div.callout-warning.callout {
+  border-left-color: #DD4124;
+}
+div.callout-warning.callout-style-default > .callout-header {
+  background-color: rgba(221, 65, 36, 0.13);
+}
+div.callout-warning .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-warning.callout-style-default .callout-icon::before, div.callout-warning.callout-titled .callout-icon::before {
+  font-family: 'Font Awesome 6 Free';
+  content: '\f06a';
+  background-image: none;
+}
 </style>
 
 
@@ -230,7 +230,7 @@ div.callout-demonstration.callout-style-default .callout-icon::before, div.callo
 <meta property="og:site_name" content="Fact-Checking für KI">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -269,32 +269,27 @@ div.callout-demonstration.callout-style-default .callout-icon::before, div.callo
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-    </div>
+    
 <!-- main -->
-<div class="quarto-about-marquee page-columns page-full">
+<div class="quarto-about-marquee">
   <div class="about-image-container">
   </div>
-  <div class="about-contents page-columns page-full">
+  <div class="about-contents">
     <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">KI in unserer Alltagsarbeit</h1>
 </div>
 <div class="quarto-title-meta">
   </div>
-</header> <main class="content page-columns page-full" id="quarto-document-content">
+</header> <main class="content" id="quarto-document-content">
 <p><i class="bi-calendar-event " style="" role="img" aria-hidden="true"></i> 26. November 2025</p>
 <p><i class="bi-clock " style="" role="img" aria-hidden="true"></i> 15:00–18:00 Uhr</p>
 <p><i class="bi-map " style="" role="img" aria-hidden="true"></i> Marzili, Brückenstrasse 73, 3005 Bern</p>
-
-<div class="no-row-height column-margin column-container"><div class="">
-<p><i class="bi-link " style="" role="img" aria-hidden="true"></i> <a href="https://kutt.it/Gr2xvH">kutt.it/Gr2xvH</a></p>
-<p><br></p>
-<div id="qrcode" class="qrcode"></div>
-<script type="text/javascript">
-var qrcode = new QRCode("qrcode", {"colorDark":"#000000","colorLight":"#ffffff","height":"100","text":"https://virtuelleakademie.github.io/ki-fact-checking-rsr/","width":"100"});
-</script>
-</div></div><section id="workshop-ki-antworten-kritisch-prüfen" class="level2">
+<!-- ::: {.column-margin}
+ [kutt.it/Gr2xvH](https://kutt.it/Gr2xvH)
+<br> 
+::: -->
+<section id="workshop-ki-antworten-kritisch-prüfen" class="level2">
 <h2 data-anchor-id="workshop-ki-antworten-kritisch-prüfen">Workshop: KI-Antworten kritisch prüfen</h2>
 <p>KI-Chatbots wie ChatGPT liefern Antworten die überzeugend sind, aber nicht immer korrekt. In diesem 40-minütigen Workshop lernst du <strong>Lateral Reading</strong>: eine praktische Technik, um KI-Antworten schnell und zuverlässig zu verifizieren.</p>
 <p><i class="bi-link " style="" role="img" aria-hidden="true"></i> <a href="https://virtuelleakademie.github.io/ki-fact-checking-rsr/">virtuelleakademie.github.io/ki-fact-checking-rsr/</a></p>
