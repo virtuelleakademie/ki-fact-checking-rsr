@@ -70,32 +70,56 @@
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-/* Callouts: subtle backgrounds and icon accents */
-.callout.callout-experiment .callout-icon {
-    background-color: rgba(154, 70, 101, 0.12);
-    color: #9A4665;
-}
+/* Callouts: Magenta for actions, Gold for insights
+   NOTE: Keep colors in sync with _brand.yml and custom.scss
+   - Gold: #D4A03E (insight callouts)
+   - Magenta: #A3195B (action callouts)
+*/
 
-.callout.callout-experiment > .callout-body {
-    background-color: rgba(154, 70, 101, 0.05);
-}
-
-.callout.callout-reflect .callout-icon {
-    background-color: rgba(111, 66, 193, 0.12);
-    color: #6f42c1;
-}
-
-.callout.callout-reflect > .callout-body {
-    background-color: rgba(111, 66, 193, 0.05);
-}
-
+/* Magenta callouts (experiment, individual, group, warning) */
+.callout.callout-experiment .callout-icon,
+.callout.callout-individual .callout-icon,
+.callout.callout-group .callout-icon,
 .callout.callout-warning .callout-icon {
-    background-color: rgba(253, 126, 20, 0.15);
-    color: #fd7e14;
+    background-color: rgba(163, 25, 91, 0.12);
+    color: #A3195B;
 }
 
+.callout.callout-experiment > .callout-body,
+.callout.callout-individual > .callout-body,
+.callout.callout-group > .callout-body,
 .callout.callout-warning > .callout-body {
-    background-color: rgba(253, 126, 20, 0.06);
+    background-color: rgba(163, 25, 91, 0.05);
+}
+
+/* Gold callouts (reflect, key-point, pro-tip, source-check) */
+.callout.callout-reflect .callout-icon,
+.callout.callout-key-point .callout-icon,
+.callout.callout-pro-tip .callout-icon,
+.callout.callout-source-check .callout-icon {
+    background-color: rgba(212, 160, 62, 0.15);
+    color: #D4A03E;
+}
+
+.callout.callout-reflect > .callout-body,
+.callout.callout-key-point > .callout-body,
+.callout.callout-pro-tip > .callout-body,
+.callout.callout-source-check > .callout-body {
+    background-color: rgba(212, 160, 62, 0.06);
+}
+
+/* Neutral callouts (demonstration, scenario, prompt) */
+.callout.callout-demonstration .callout-icon,
+.callout.callout-scenario .callout-icon,
+.callout.callout-prompt .callout-icon {
+    background-color: rgba(51, 51, 51, 0.10);
+    color: #333333;
+}
+
+.callout.callout-demonstration > .callout-body,
+.callout.callout-scenario > .callout-body,
+.callout.callout-prompt > .callout-body {
+    background-color: rgba(51, 51, 51, 0.03);
 }
 
 /* Tables: striped, readable, left-aligned */

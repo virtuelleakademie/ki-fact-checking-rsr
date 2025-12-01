@@ -112,26 +112,26 @@ filters:
   - custom-callout
 
 custom-callout:
-  # Activity types - what participants DO (warm spectrum)
+  # Activity types - what participants DO (Magenta)
   experiment:
     title: "Deine Aufgabe"
     icon-symbol: "fa-flask"
     appearance: default
     collapse: false
-    color: "#9A4665"  # Raspberry (brand color)
+    color: "#A3195B"  # Deep Magenta (action)
 
   individual:
     title: "Einzelarbeit"
     icon-symbol: "fa-user"
     appearance: default
-    color: "#9A4665"  # Raspberry (unified activity)
+    color: "#A3195B"  # Deep Magenta (action)
     collapse: false
 
   group:
     title: "Gruppenarbeit"
     icon-symbol: "fa-users"
     appearance: default
-    color: "#9A4665"  # Raspberry (unified activity)
+    color: "#A3195B"  # Deep Magenta (action)
     collapse: false
 
   demonstration:
@@ -139,21 +139,21 @@ custom-callout:
     icon-symbol: "fa-chalkboard"
     appearance: default
     collapse: false
-    color: "#0F4C81"  # Classic Blue (instructor-led)
+    color: "#333333"  # Dark grey (instructor-led, neutral)
 
-  # Thinking types - reflection and insights
+  # Thinking types - reflection and insights (Gold)
   scenario:
     title: "Szenario"
     icon-symbol: "fa-comment"
     appearance: default
-    color: "#6C757D"  # Ultimate Gray (neutral context)
+    color: "#666666"  # Medium grey (neutral context)
     collapse: false
 
   reflect:
     title: "Reflexion"
     icon-symbol: "fa-lightbulb"
     appearance: default
-    color: "#6B5B95"  # Ultra Violet (introspection)
+    color: "#D4A03E"  # Warm Gold (insight)
     collapse: false
 
   key-point:
@@ -161,29 +161,29 @@ custom-callout:
     icon-symbol: "fa-star"
     appearance: default
     collapse: false
-    color: "#D4A03E"  # Amber/Gold (importance)
+    color: "#D4A03E"  # Warm Gold (importance)
 
   # Alert type
   warning:
     title: "Achtung"
     icon-symbol: "fa-exclamation-circle"
     appearance: default
-    color: "#DD4124"  # Tangerine Tango (attention)
+    color: "#A3195B"  # Deep Magenta (attention)
     collapse: false
 
-  # Guidance types - green family
+  # Guidance types (Gold)
   pro-tip:
     title: "Tipp"
     icon-symbol: "fa-wand-magic-sparkles"
     appearance: default
-    color: "#009B77"  # Emerald (helpful)
+    color: "#D4A03E"  # Warm Gold (helpful)
     collapse: true
 
   source-check:
     title: "Quellen-Check"
     icon-symbol: "fa-search"
     appearance: default
-    color: "#2A9D8F"  # Teal (verification)
+    color: "#D4A03E"  # Warm Gold (verification)
     collapse: false
 
   # Technical - copyable prompt for chatbot input
@@ -191,5 +191,5 @@ custom-callout:
     title: "Prompt"
     icon-symbol: "fa-clipboard"
     appearance: default
-    color: "#495057"  # Charcoal (code-like)
+    color: "#333333"  # Dark grey (code-like)
     collapse: false
